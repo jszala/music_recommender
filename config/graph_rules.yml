@@ -1,0 +1,16 @@
+{
+  "format_version": 1,
+  "include_primary_recording_artists": true,
+  "excluded_attributes": ["executive"],
+  "eligible_relationships": {
+    "628a9658-f54c-4142-b0c0-95f031b544da": "performer",
+    "59054b12-01ac-43ee-a618-285fd397e461": "instrument",
+    "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa": "vocal",
+    "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0": "producer",
+    "3e3102e1-1896-4f50-b5b2-dd9824e46efe": "mix",
+    "5dcc52af-7064-4051-8d62-7d80f4c3c907": "engineer",
+    "ca8d6d99-b847-439c-b0ec-33d8a1b942bc": "audio",
+    "0cd6aa63-c297-42ed-8725-c16d31913a98": "sound",
+    "a01ee869-80a8-45ef-9447-c59e91aa7926": "recording"
+  }
+}

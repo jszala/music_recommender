@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "purpose": "Hand-inspected public Milestone 1 fixture; not a representative sample",
+  "sources": [
+    {
+      "recording_id": "beaf49d4-c864-4141-9ce0-162e16778d87",
+      "source_url": "https://musicbrainz.org/recording/beaf49d4-c864-4141-9ce0-162e16778d87",
+      "query": "https://musicbrainz.org/ws/2/recording/beaf49d4-c864-4141-9ce0-162e16778d87?inc=artist-credits+artist-rels+work-rels+work-level-rels&fmt=json",
+      "retrieved_at": "2026-10-06T13:55:35.966044+00:00",
+      "snapshot_file": "beaf49d4-c864-4141-9ce0-162e16778d87.json",
+      "sha256": "bcb017a84103766d4c4e97e019de8812d4372e089cc6b72f1ddecf7a8ab7e4c8"
+    },
+    {
+      "recording_id": "76a0136f-d130-4a63-81e9-f7a438a86442",
+      "source_url": "https://musicbrainz.org/recording/76a0136f-d130-4a63-81e9-f7a438a86442",
+      "query": "https://musicbrainz.org/ws/2/recording/76a0136f-d130-4a63-81e9-f7a438a86442?inc=artist-credits+artist-rels+work-rels+work-level-rels&fmt=json",
+      "retrieved_at": "2026-10-06T13:55:37.406308+00:00",
+      "snapshot_file": "76a0136f-d130-4a63-81e9-f7a438a86442.json",
+      "sha256": "e124fe84c13ea8ad007d3681cd944edced05c58f9d4bb9e45e07bb59af48b5fe"
+    },
+    {
+      "recording_id": "863288d1-0fb0-410f-ac45-98e0bd62eac1",
+      "source_url": "https://musicbrainz.org/recording/863288d1-0fb0-410f-ac45-98e0bd62eac1",
+      "query": "https://musicbrainz.org/ws/2/recording/863288d1-0fb0-410f-ac45-98e0bd62eac1?inc=artist-credits+artist-rels+work-rels+work-level-rels&fmt=json",
+      "retrieved_at": "2026-10-06T13:55:38.778995+00:00",
+      "snapshot_file": "863288d1-0fb0-410f-ac45-98e0bd62eac1.json",
+      "sha256": "ec8d344190ac0b38632be4e7518d16ecf42718c7de982009e0f924ccccf4439d"
+    },
+    {
+      "recording_id": "21ddde6c-90f4-469e-bdd0-1f438d011917",
+      "source_url": "https://musicbrainz.org/recording/21ddde6c-90f4-469e-bdd0-1f438d011917",
+      "query": "https://musicbrainz.org/ws/2/recording/21ddde6c-90f4-469e-bdd0-1f438d011917?inc=artist-credits+artist-rels+work-rels+work-level-rels&fmt=json",
+      "retrieved_at": "2026-10-06T13:55:40.269131+00:00",
+      "snapshot_file": "21ddde6c-90f4-469e-bdd0-1f438d011917.json",
+      "sha256": "0f497b10a5b1b22ac798f3d028e670a19297466fe38f543ed260d142b4257c12"
+    }
+  ],
+  "seed_artist_ids": [
+    "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
+  ],
+  "inspection": {
+    "reviewer": "Codex implementation agent; independent human review pending",
+    "method": "Read every primary artist and artist-target relationship in each response; compare with linked recording/track credit pages; separately inspect work-level artist relationships.",
+    "notes": [
+      "Get Back: two dated instrument/lead-vocal credit rows preserve dates; eight distinct eligible artists.",
+      "Don’t Let Me Down: Beatles and Billy Preston are separate primary artist IDs; seven eligible artists.",
+      "While My Guitar Gently Weeps: guest Eric Clapton is an eligible instrumentalist, Ken Scott engineer, George Martin producer; eight eligible artists.",
+      "Tears in Heaven: eleven eligible artists; Ed Cherney has recording and mix roles. Will Jennings occurs only in work-level writer credits and is excluded.",
+      "No album-level performer credit or group membership was promoted to a recording credit. No response was trimmed to force the planned counts."
+    ]
+  }
+}

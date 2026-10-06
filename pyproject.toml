@@ -1,0 +1,9 @@
+[project]
+name = "music-credit-recommender"
+version = "0.1.0"
+description = "An explainable recording-credit graph fixture for a single-person case study"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.setuptools]
+packages = ["src"]
