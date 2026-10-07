@@ -1,7 +1,7 @@
 # Decision log
 
-These decisions implement Milestone 1 of `plan.md` and the approved fixture plan.
-Research results remain pending. Later milestones are not implemented here.
+These decisions cover Milestones 1–2 of `plan.md` and the approved favorites input.
+Research results remain pending; matching and evaluation remain later milestones.
 
 ## D-001: Recording co-credits define an edge
 
@@ -157,3 +157,39 @@ Evidence or assumption: The user requested verified credits. Planning arithmetic
 Consequence: A small offline demo is reproducible but deliberately selected and unsuitable for performance claims.
 
 How to check it: Manually inspect the snapshot against recording pages, compare counts and scores with independent expectations, and run tests without network access.
+
+## D-010: Fix a favorites-based pilot before fetching
+
+Date: 2026-10-06
+Status: accepted
+
+Question: Which seeds and collection bounds should the first real-data sample use?
+
+Options considered: Extend the Beatles fixture; hand-pick well-connected favorites; use the three most frequent exact artist-text entries in the local favorites.
+
+Choice: Use Unknown Mortal Orchestra (`e2305342-0bde-4a2c-aed0-4b88694834de`), Cate Le Bon (`f2393e49-b791-46da-a6d7-1e9e60743405`), and Kendrick Lamar (`381086ea-f511-4aba-bdf9-71c753dc5077`). Agent inspection of the artist pages confirmed group/person identity and discography; independent human identity review remains pending. Store the selection locally, with its source hash and identity-check notes. No individual favorite song is matched. Fetch the first browse page of at most eight primary-credit recordings per seed in MusicBrainz's returned order. Do not filter live recordings, mixes, or collaborations to improve the result. Select up to two nonseed intermediaries per seed by distinct shared seed-recording count, descending, breaking ties by MBID. Expand that fixed frontier once, in MBID order, with up to six previously uncollected recordings per intermediary, chosen by ascending MBID from eligible recording relationships plus one first browse page (limit six). Maximum depth is two artist edges; there is no recursive frontier. At most 60 recording lookups, nine artist lookups, and nine browse calls before retries; cap all HTTP attempts at 100. Use 1.1 seconds between request starts, a 20-second timeout, a 16 MiB response bound, and at most one retry for transient errors.
+
+Evidence or assumption: The three names are most frequent in the observed private input; frequency is a sampling rule, not a preference-strength estimate. IDs were inspected at https://musicbrainz.org/artist/e2305342-0bde-4a2c-aed0-4b88694834de, https://musicbrainz.org/artist/f2393e49-b791-46da-a6d7-1e9e60743405, and https://musicbrainz.org/artist/381086ea-f511-4aba-bdf9-71c753dc5077 before collection. No API sample has yet been inspected when this decision is written.
+
+Consequence: Initial results depend on MusicBrainz ordering, recording versions, and intermediary selection. Prolific producers may dominate. The sample cannot estimate recall or comprehensive favorites coverage. Report sparse or disappointing coverage before changing bounds or considering a dump.
+
+How to check it: Freeze seeds, parameters, frontier evidence, browse totals/offsets, selected and omitted IDs, retrieval timestamps, and failures in the manifest. Compare seed-only and expanded graph reachability, then inspect several paths and excluded credits with the user.
+
+## D-011: Relationship-aware collection and immutable offline snapshots
+
+Date: 2026-10-06
+Status: accepted
+
+Question: How can a small API sample discover two-hop evidence reproducibly?
+
+Options considered: Primary-credit browse only; full dump; explicitly fetch artist recording relationships and recording-level credits using a bounded local cache.
+
+Choice: Browse supplies primary-credit recordings; artist lookups explicitly include `recording-rels` to find eligible performance/production recordings for selected intermediaries. Artist relationship lists have no paging interface; record returned counts without claiming completeness. Recording lookups include `artist-credits+artist-rels+work-rels+work-level-rels`, so work-artist exclusions can be inspected separately. Release credits and group membership are never promoted. Cache raw response text in version-1 URL-keyed JSON envelopes with timestamps, hashes, status, and attempt history, including failures. Reuse successful and failed responses; retry cached failures only when explicitly requested. Offline runs never use network. Save frozen recording snapshots, rule configuration, source hashes, collection coverage, diagnostics, both rankings, and a review sheet under ignored `data/private/`. Refuse to overwrite a saved sample. Keep contact information in ignored local metadata and require a real contact email or URL for live HTTP requests. Serialize collection per cache directory and persist request timing across runs.
+
+Evidence or assumption: MusicBrainz documents artist credits and relationships separately, browse limits, and identification/rate constraints at https://musicbrainz.org/doc/MusicBrainz_API and https://musicbrainz.org/doc/MusicBrainz_API/Rate_Limiting. A cache freezes a retrieval, not the whole changing database.
+
+Consequence: Offline reruns preserve observed data and scores; failures and truncation remain visible. The Linux collector uses only Python's standard library. Users must coordinate other applications sharing the same IP. Graph artist entities, including engineers/producers, remain candidates under D-002; inspect them before considering new candidate rules.
+
+How to check it: Test with synthetic API responses: production-only intermediary expansion, bounded pages and frontier, retry/rate/budget behavior, corrupt-cache rejection, failure preservation, and network-disabled replay. Verify frozen-source hashes and contribution sums. Mark human source review pending until actually performed.
+
+Pilot observation on 2026-10-06: The fixed bounds yielded 60 recordings and 85 additional reachable candidates in 78 API attempts without collection failures. Nine identified recording-page review attempts remained within the same 100-attempt cap, but all returned browser verification; page inspection and independent human review remain pending. Offline replay used zero requests and reproduced both rankings. See `reports/results.md` for recording-version inflation, technical candidates, and first-page coverage; no collection or modeling rule was changed in response to these findings.

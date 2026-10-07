@@ -2,6 +2,7 @@
 
 from dataclasses import dataclass
 from itertools import combinations
+import hashlib
 import json
 from pathlib import Path
 
@@ -18,13 +19,38 @@ def load_rules(path: Path = ROOT / "config" / "graph_rules.yml") -> dict:
     return rules
 
 
-def load_fixture(directory: Path = DEFAULT_FIXTURE) -> tuple[list[dict], dict]:
+def load_dataset(directory: Path = DEFAULT_FIXTURE) -> tuple[list[dict], dict]:
     manifest = json.loads((directory / "manifest.json").read_text(encoding="utf-8"))
     if manifest["format_version"] != 1:
-        raise ValueError("Unsupported fixture version")
-    records = [json.loads((directory / s["snapshot_file"]).read_text(encoding="utf-8"))
-               for s in manifest["sources"]]
+        raise ValueError("Unsupported dataset version")
+    records = []
+    for source in manifest["sources"]:
+        path = (directory / source["snapshot_file"]).resolve()
+        if not path.is_relative_to(directory.resolve()):
+            raise ValueError("Snapshot path escapes dataset directory")
+        data = path.read_bytes()
+        if "sha256" in source and hashlib.sha256(data).hexdigest() != source["sha256"]:
+            raise ValueError(f"Snapshot checksum mismatch: {path.name}")
+        record = json.loads(data)
+        if record["id"] != source["recording_id"]:
+            raise ValueError(f"Snapshot recording ID mismatch: {path.name}")
+        records.append(record)
     return records, manifest
+
+
+def load_fixture(directory: Path = DEFAULT_FIXTURE) -> tuple[list[dict], dict]:
+    return load_dataset(directory)
+
+
+def relationship_exclusion(relation: dict, rules: dict, level: str = "recording") -> str | None:
+    if level != "recording":
+        return f"{level}-level credit"
+    if ({a.casefold() for a in relation.get("attributes", [])}
+            & {a.casefold() for a in rules["excluded_attributes"]}):
+        return "excluded executive attribute"
+    if relation.get("type-id") not in rules["eligible_relationships"]:
+        return "relationship type outside allowlist"
+    return None
 
 
 @dataclass
@@ -43,6 +69,8 @@ class Graph:
         evidence_count = sum(len(e) for n in self.adjacency.values() for e in n.values()) // 2
         return {
             "artists": len(self.artists), "recordings": len(self.recordings),
+            "eligible_artist_recording_credits": sum(len(c) for c in self.credits.values()),
+            "eligible_role_credits": sum(len(c) for artists in self.credits.values() for c in artists.values()),
             "edges": edges, "edge_contributions": evidence_count,
             "exclusions": len(self.exclusions),
             "artist_degrees": {a: len(self.adjacency[a]) for a in sorted(self.artists)},
@@ -71,13 +99,7 @@ def build_graph(records: list[dict], rules: dict | None = None) -> Graph:
             "attribute_values": relation.get("attribute-values", {}),
             "begin": relation.get("begin"), "end": relation.get("end"),
         }
-        reason = None
-        if level != "recording":
-            reason = f"{level}-level credit"
-        elif set(a.casefold() for a in attributes) & set(rules["excluded_attributes"]):
-            reason = "excluded executive attribute"
-        elif not primary and relation.get("type-id") not in rules["eligible_relationships"]:
-            reason = "relationship type outside allowlist"
+        reason = None if primary else relationship_exclusion(relation, rules, level)
         if reason:
             exclusion = {"recording_id": rid, "artist": artist, "credit": credit,
                          "level": level, "work_id": work_id, "reason": reason,
@@ -93,6 +115,8 @@ def build_graph(records: list[dict], rules: dict | None = None) -> Graph:
         rid = record["id"]
         metadata = {"id": rid, "title": record["title"],
                     "disambiguation": record.get("disambiguation", ""),
+                    "length_ms": record.get("length"),
+                    "first_release_date": record.get("first-release-date"),
                     "source_url": f"https://musicbrainz.org/recording/{rid}"}
         if rid in recordings and recordings[rid] != metadata:
             raise ValueError(f"Conflicting metadata for recording {rid}")

@@ -5,7 +5,7 @@ from itertools import product
 import json
 from pathlib import Path
 
-from .build_graph import DEFAULT_FIXTURE, Graph, build_graph, load_fixture
+from .build_graph import DEFAULT_FIXTURE, Graph, build_graph, load_dataset
 
 
 def recommend(graph: Graph, seeds: list[str], method: str = "two-hop") -> list[dict]:
@@ -82,12 +82,14 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--method", choices=["direct", "two-hop"], default="two-hop")
     parser.add_argument("--format", choices=["text", "json"], default="text")
-    parser.add_argument("--fixture", type=Path, default=DEFAULT_FIXTURE)
+    datasets = parser.add_mutually_exclusive_group()
+    datasets.add_argument("--fixture", type=Path, dest="dataset", default=DEFAULT_FIXTURE)
+    datasets.add_argument("--sample", type=Path, dest="dataset", help="Frozen real-data sample directory")
     parser.add_argument("--seed", action="append", help="MusicBrainz artist ID; repeat for several seeds")
     args = parser.parse_args()
     try:
-        records, manifest = load_fixture(args.fixture)
-        graph = build_graph(records)
+        records, manifest = load_dataset(args.dataset)
+        graph = build_graph(records, manifest.get("graph_rules"))
         seeds = manifest["seed_artist_ids"] if args.seed is None else args.seed
         rows = recommend(graph, seeds, args.method)
     except (ValueError, KeyError, OSError) as error:
@@ -100,7 +102,7 @@ def main() -> None:
                           "recommendations": rows}, ensure_ascii=False, indent=2))
         return
     stats = graph.stats()
-    print(f"Fixture: {stats['artists']} artists, {stats['recordings']} recordings, "
+    print(f"Dataset: {stats['artists']} artists, {stats['recordings']} recordings, "
           f"{stats['edges']} edges, {stats['edge_contributions']} recording-backed edge contributions")
     print("Seeds: " + ", ".join(graph.artists[s]["name"] for s in sorted(set(seeds))))
     print(f"Method: {args.method}. Scores are evidence counts, not probabilities.\n")

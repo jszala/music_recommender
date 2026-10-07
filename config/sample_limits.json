@@ -1,0 +1,12 @@
+{
+  "format_version": 1,
+  "seed_recordings": 8,
+  "intermediaries_per_seed": 2,
+  "expansion_recordings": 6,
+  "expansion_depth": 1,
+  "max_requests": 100,
+  "min_interval_seconds": 1.1,
+  "timeout_seconds": 20,
+  "max_response_bytes": 16777216,
+  "retries": 1
+}
