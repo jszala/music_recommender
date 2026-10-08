@@ -1,6 +1,6 @@
 [project]
 name = "music-credit-recommender"
-version = "0.2.0"
+version = "0.3.0"
 description = "Explainable recording matching and contributor-based song recommendations for a single-person case study"
 requires-python = ">=3.12"
 dependencies = []

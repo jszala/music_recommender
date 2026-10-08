@@ -231,7 +231,7 @@ class CollectionTests(unittest.TestCase):
         collector.run()
         self.assertEqual(len(collector.report()["recommendations"]), 2)
         self.assertNotIn("candidate_lookup", collector.client.stats["by_operation"])
-        self.assertEqual(collector.state["stop_reason"], "target_reached")
+        self.assertEqual(collector.state["stop_reason"], "routes_exhausted")
         self.assertEqual(collector.report()["selection_summary"]["repeated_observed_musicians"], 0)
         self.assertEqual(collector.report()["selection_summary"]["repeated_explanatory_contributors"], 1)
         for source in collector.state["sources"].values():
@@ -324,7 +324,7 @@ class CollectionTests(unittest.TestCase):
         for ordering in (candidates, list(reversed(candidates))):
             self.assertEqual(choose_seed_candidate(favorite(), ordering, MatchRules())["id"], identifier(200))
 
-    def test_representative_choice_still_rejects_explicit_metadata_conflicts(self):
+    def test_representative_choice_accepts_version_duration_preferences(self):
         base = QuickTransport()
         def transport(request, timeout):
             if "query=" in request.full_url:
@@ -332,24 +332,27 @@ class CollectionTests(unittest.TestCase):
                 return Response({"recordings": rows, "count": 3, "offset": 0})
             return base(request, timeout)
         collector = self.collection(transport)
+        collector.match()
+        self.assertEqual(collector.state["matching_outcomes"][0]["status"], "accepted")
+        self.assertEqual(collector.client.stats["attempts"], 2)
+
+    def test_capped_page_can_match_and_empty_search_gets_one_fallback(self):
+        collector = self.collection(QuickTransport(search_mode="capped"))
+        collector.match()
+        self.assertEqual(collector.state["matching_outcomes"][0]["status"], "accepted")
+        self.assertTrue(collector.state["matching_outcomes"][0]["search_truncated"])
+        self.assertEqual(collector.client.stats["attempts"], 2)
+        collector = self.collection(QuickTransport(search_mode="none"))
         collector.run()
-        self.assertEqual(collector.state["matching_outcomes"][0]["status"], "no_plausible_match")
-        self.assertEqual(collector.client.stats["attempts"], 1)
+        self.assertEqual(collector.state["matching_outcomes"][0]["status"], "no_compatible_candidate")
+        self.assertEqual(collector.client.stats["attempts"], 2)
+        self.assertEqual(collector.state["stop_reason"], "no_accepted_seeds")
 
-    def test_capped_and_empty_searches_do_not_fetch_details(self):
-        for mode, status in (("capped", "search_capped"), ("none", "no_plausible_match")):
-            with self.subTest(mode=mode):
-                collector = self.collection(QuickTransport(search_mode=mode))
-                collector.run()
-                self.assertEqual(collector.state["matching_outcomes"][0]["status"], status)
-                self.assertEqual(collector.client.stats["attempts"], 1)
-                self.assertEqual(collector.state["stop_reason"], "no_accepted_seeds")
-
-    def test_known_recording_id_skips_search_and_checks_album(self):
+    def test_known_recording_id_skips_search_and_album_is_a_preference(self):
         collector = self.collection(QuickTransport(), [favorite(recording_mbid=identifier(100), album_text="Wrong album")])
-        collector.run()
+        collector.match()
         self.assertNotIn("seed_search", collector.client.stats["by_operation"])
-        self.assertEqual(collector.state["matching_outcomes"][0]["status"], "no_confident_match")
+        self.assertEqual(collector.state["matching_outcomes"][0]["status"], "accepted")
 
     def test_full_input_excludes_artists_even_when_their_seed_does_not_match(self):
         collector = self.collection(QuickTransport(), [favorite(), favorite(n=700, act=2, line=2)])

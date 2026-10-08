@@ -22,10 +22,13 @@ from .collect_song_graph import balanced_frontier
 from .credits import SONGWRITING_IDS, extract_credits
 from .fetch_musicbrainz import API, FetchError, digest, json_bytes, mbid, utc_now
 from .library_job import atomic_json, read_json
-from .match_recordings import (MATCH_INCLUDES, MatchRules, candidate_checks,
-                               load_input, normalize, qualifies, search_query)
+from .match_recordings import MATCH_INCLUDES, load_input, normalize
+from .seed_matching import (POLICY, choose_candidate, compatible, core_response_valid,
+                            credit_diagnostics, identity_checks, main_artist_key, matching_allocation,
+                            seed_query, title_keys, version_notice)
 from .recommend_songs import load_weights, recommendation_report, write_song_review
 from .song_policy import build_registry, candidate_eligibility, registry_digest
+from .source_songs import assignment_evidence, source_song_groups
 
 
 BROWSE_INCLUDES = "artist-credits+artist-rels+work-rels+work-level-rels"
@@ -99,6 +102,7 @@ class FreshClient:
         self.deadline, self.max_requests = deadline, max_requests
         self.opener, self.clock, self.monotonic, self.sleep = opener, clock, monotonic, sleep
         self.contact = contact
+        self.request_context = {}
         self.memo, self.events, self.last_source = {}, [], None
         self.stats = {"attempts": 0, "by_operation": {}, "within_run_reuses": 0,
                       "pacing_seconds": 0.0, "transport_seconds": 0.0}
@@ -146,7 +150,7 @@ class FreshClient:
                     operations = self.stats["by_operation"]
                     operations[operation] = operations.get(operation, 0) + 1
                     self.events.append({"query": url, "operation": operation, "outcome": "in_progress",
-                                        "started_at": self.clock()})
+                                        "started_at": self.clock(), **self.request_context})
                     # Charge and persist before transport, including a subsequently killed request.
                     self.save_stats()
                     gate["last_sent_at"] = self.clock()
@@ -219,7 +223,7 @@ class FreshClient:
 
 
 def valid_record(record, *, releases=False):
-    if (not isinstance(record, dict) or not record.get("title")
+    if (not core_response_valid(record) or not record.get("title")
             or not isinstance(record.get("artist-credit"), list) or not record["artist-credit"]
             or not isinstance(record.get("relations"), list)
             or (releases and not isinstance(record.get("releases"), list))):
@@ -239,31 +243,23 @@ def valid_record(record, *, releases=False):
         return False
 
 
-def plausible(track, record, rules):
-    """Reject only explicit metadata conflicts; absent search metadata stays uncertain."""
-    if not isinstance(record, dict) or not record.get("title"):
-        return False
-    checks = candidate_checks(track, record, rules)
-    return (checks["title_exact"] and checks["combined_artist_exact"] and checks["audio_only"]
-            and not checks["unresolved_version_markers"]
-            and (checks["duration_difference_ms"] is None or checks["duration_within_tolerance"]))
+def plausible(track, record, rules=None):
+    """Fast-mode compatibility; historical matching helpers remain unchanged."""
+    return compatible(track, record)
 
 
-def choose_seed_candidate(track, candidates, rules):
-    """Choose one plausible version using album context, duration, then a stable ID."""
-    def priority(record):
-        checks = candidate_checks(track, record, rules)
-        difference = checks["duration_difference_ms"]
-        return (not checks["album_observed"], difference is None,
-                abs(difference) if difference is not None else math.inf, record["id"])
-    return min(candidates, key=priority)
+def choose_seed_candidate(track, candidates, rules=None):
+    return choose_candidate(track, candidates)
+
+
+class MatchingStageEnded(Exception):
+    """End matching without ending collection or spending discovery's reserve."""
 
 
 class QuickCollection:
     def __init__(self, directory, tracks, metadata, sampled, config, client, state):
         self.directory, self.tracks, self.metadata = Path(directory), tracks, metadata
         self.sampled, self.config, self.client, self.state = sampled, config, client, state
-        self.rules = MatchRules(max_search_pages=1, max_recordings_per_song=1)
         self.known_favorites = {t["recording_mbid"] for t in tracks if t.get("recording_mbid")}
         self.seen, self.queued = set(), set()
 
@@ -298,60 +294,105 @@ class QuickCollection:
         return recommendation_report(list(self.state["records"].values()), self.favorites(), registry=self.registry(),
                                      excluded_ids=self.known_favorites, limit=self.config["limit"],
                                      weights=self.config["role_weights"], saturation_k=self.config["saturation_k"],
-                                     contributor_policy="penalized")
+                                     contributor_policy="penalized", seed_balancing=True, deduplicate_works=True)
+
+    def failed_match_status(self):
+        error = self.client.events[-1].get("error", "") if self.client.events else ""
+        return "invalid_response" if error and error.startswith(("ValueError:", "JSONDecodeError:")) else "provider_failure"
+
+    def matching_fetch(self, endpoint, operation, *, row=None, **params):
+        url = API + endpoint + "?" + urlencode(sorted({"fmt": "json", **params}.items()))
+        allocation = matching_allocation(self.client.max_requests)
+        if url not in self.client.memo:
+            if self.client.stats["attempts"] >= self.client.max_requests:
+                raise CollectionStopped("request_budget")
+            if self.client.stats["attempts"] >= allocation["matching_attempt_limit"]:
+                raise MatchingStageEnded()
+        if row is not None:
+            row.setdefault("queries", []).append(params["query"])
+            row["query_count"] = len(row["queries"])
+            row["fallback_used"] = operation == "seed_search_fallback"
+            self.save()
+        return self.fetch(endpoint, operation, **params)
+
+    def match_one(self, index, *, fallback=False):
+        track = self.sampled[index]["source_row"]
+        row = self.state["matching_outcomes"][index]
+        row.update(status="in_progress", raw_title=track["song_text"], raw_artist=track["artist_text"],
+                   normalized_title=title_keys(track["song_text"]), normalized_artist=main_artist_key(track["artist_text"]),
+                   fallback_used=row.get("fallback_used", False))
+        self.save()
+        rid = track.get("recording_mbid")
+        if not rid:
+            query = seed_query(track, fallback=fallback)
+            body = self.matching_fetch("recording", "seed_search_fallback" if fallback else "seed_search",
+                                       row=row, query=query, limit=25, offset=0)
+            if body is None:
+                row["status"] = self.failed_match_status()
+                self.save()
+                return False
+            rows, count = body.get("recordings"), body.get("count")
+            if (not isinstance(rows, list) or type(count) is not int or count < len(rows)
+                    or len(rows) > 25 or body.get("offset", 0) != 0):
+                row["status"] = "invalid_response"
+                self.save()
+                return False
+            row["search_truncated"] = row.get("search_truncated", False) or count > len(rows)
+            row.setdefault("search_pages", []).append({"query": query, "reported_total": count,
+                "returned": len(rows), "source": self.client.last_source, "alternatives": rows})
+            alternatives = {r["id"]: r for r in rows if compatible(track, r)}
+            row["plausible_candidates"] = len(alternatives)
+            if not alternatives:
+                row["status"] = "invalid_response" if rows and not any(core_response_valid(r) for r in rows) else "no_compatible_candidate"
+                self.save()
+                return row["status"] == "no_compatible_candidate" and not fallback
+            rid = choose_candidate(track, alternatives.values())["id"]
+            row["alternative_recording_ids"] = sorted(alternatives)
+            row["selection_reason"] = "full_identity_version_then_album_then_duration_then_recording_id"
+        else:
+            row.update(selection_reason="supplied_recording_id", supplied_recording_id=rid, query_count=0)
+        row["chosen_recording_id"] = rid
+        self.save()
+        record = self.state["records"].get(rid)
+        if record is None:
+            record = self.matching_fetch(f"recording/{rid}", "seed_lookup", inc=MATCH_INCLUDES)
+        if record is None:
+            row["status"] = self.failed_match_status()
+        elif not core_response_valid(record) or record["id"] != rid:
+            row["status"] = "invalid_response"
+        else:
+            row["checks"] = identity_checks(track, record)
+            row["normalized_artist"] = row["checks"]["normalized_artist"]
+            row["status"] = "accepted" if compatible(track, record) else "no_compatible_candidate"
+            if row["status"] == "accepted":
+                row.update(recording_id=rid, credit_coverage=credit_diagnostics(record),
+                           representative_version_notice=version_notice(track, record))
+                if rid not in self.state["records"]:
+                    self.freeze(record)
+        self.save()
+        return False
 
     def match(self):
-        for index, sampled in enumerate(self.sampled):
-            track = sampled["source_row"]
-            row = self.state["matching_outcomes"][index]
-            row["status"] = "in_progress"
-            self.save()
-            rid = track.get("recording_mbid")
-            if not rid:
-                body = self.fetch("recording", "seed_search", query=search_query(track), limit=25, offset=0)
-                if body is None:
-                    row["status"] = "search_failed"
-                    self.save()
-                    continue
-                rows, count = body.get("recordings"), body.get("count")
-                if (not isinstance(rows, list) or type(count) is not int or count < len(rows)
-                        or len(rows) > 25 or body.get("offset", 0) != 0):
-                    row["status"] = "invalid_search_response"
-                    self.save()
-                    continue
-                if count > len(rows):
-                    row["status"] = "search_capped"
-                    self.save()
-                    continue
-                try:
-                    alternatives = {mbid(r["id"]): r for r in rows if plausible(track, r, self.rules)}
-                except (KeyError, TypeError, ValueError):
-                    row["status"] = "invalid_search_response"
-                    self.save()
-                    continue
-                row["plausible_candidates"] = len(alternatives)
-                if not alternatives:
-                    row["status"] = "no_plausible_match"
-                    self.save()
-                    continue
-                rid = choose_seed_candidate(track, alternatives.values(), self.rules)["id"]
-                row["alternative_recording_ids"] = sorted(alternatives)
-                row["selection_reason"] = "album_context_then_duration_then_recording_id"
-            else:
-                row["selection_reason"] = "supplied_recording_id"
-            row["chosen_recording_id"] = rid
-            self.save()
-            record = self.fetch(f"recording/{rid}", "seed_lookup", inc=MATCH_INCLUDES)
-            if record is None:
-                row["status"] = "lookup_failed"
-            elif not valid_record(record, releases=True) or record["id"] != rid:
-                row["status"] = "invalid_recording_response"
-            else:
-                row["checks"] = candidate_checks(track, record, self.rules)
-                row["status"] = "accepted" if qualifies(row["checks"]) else "no_confident_match"
-                if row["status"] == "accepted":
-                    row["recording_id"] = rid
-                    self.freeze(record)
+        fallbacks = []
+        try:
+            for index in range(len(self.sampled)):
+                if self.match_one(index):
+                    fallbacks.append(index)
+            for index in fallbacks:
+                self.state["matching_outcomes"][index]["fallback_pending"] = True
+                self.save()
+                self.match_one(index, fallback=True)
+                self.state["matching_outcomes"][index]["fallback_pending"] = False
+        except MatchingStageEnded:
+            for row in self.state["matching_outcomes"]:
+                if row["status"] in {"not_attempted", "in_progress"}:
+                    row.update(status="stage_budget", stopping_reason="matching_stage_budget")
+            for index in fallbacks:
+                row = self.state["matching_outcomes"][index]
+                if row["status"] == "no_compatible_candidate":
+                    row["fallback_not_attempted_reason"] = "matching_stage_budget"
+        finally:
+            self.state["matching_attempts"] = self.client.stats["attempts"]
             self.save()
 
     def consider(self, record):
@@ -413,13 +454,59 @@ class QuickCollection:
         if self.state["discovery"]["admitted_candidates"] >= 100:
             self.state["stop_reason"] = "candidate_limit"
             return True
-        if self.report()["selection_summary"]["returned"] >= self.config["limit"]:
+        summary = self.report()["selection_summary"]
+        if summary["returned"] >= self.config["limit"] and summary["source_coverage_shortfall"] == 0:
             self.state["stop_reason"] = "target_reached"
             return True
         return False
 
+    def advance_route(self, route):
+        """Advance one shared contributor route; perform at most one HTTP attempt."""
+        aid, phase = route["artist_id"], route["phase"]
+        allowed = load_rules()["eligible_relationships"]
+        if phase == "artist":
+            artist = self.fetch(f"artist/{aid}", "contributor_lookup", inc="recording-rels+work-rels")
+            if artist is not None and artist.get("id") == aid and isinstance(artist.get("relations"), list):
+                for relation in artist["relations"]:
+                    if not isinstance(relation, dict) or any(a.casefold() == "executive" for a in relation.get("attributes", [])):
+                        continue
+                    target, kind = relation.get("target-type"), relation.get("type-id")
+                    try:
+                        if target == "recording" and kind in allowed:
+                            rid = mbid(relation.get("recording", {}).get("id"))
+                            if rid not in self.queued and rid not in self.state["records"]:
+                                route["pending"].append(rid)
+                                self.queued.add(rid)
+                        elif target == "work" and kind in SONGWRITING_IDS:
+                            route["work_ids"].append(mbid(relation.get("work", {}).get("id")))
+                    except (ValueError, TypeError, AttributeError):
+                        continue
+            route["pending"].sort()
+            route["work_ids"] = sorted(set(route["work_ids"]))
+            route["phase"] = "browse"
+        elif phase == "browse":
+            self.browse(route)
+            route["phase"] = "work"
+        elif phase == "work":
+            if route["work_ids"]:
+                self.browse(route, work=route["work_ids"][0])
+            route["phase"] = "lookup"
+        else:
+            while route["pending"] and (route["pending"][0] in self.seen or route["pending"][0] in self.state["records"]):
+                route["pending"].pop(0)
+            if route["pending"]:
+                rid = route["pending"].pop(0)
+                record = self.fetch(f"recording/{rid}", "candidate_lookup", inc=MATCH_INCLUDES)
+                if record is not None and record.get("id") == rid:
+                    self.consider(record)
+                else:
+                    self.seen.add(rid)
+            else:
+                route["exhausted"] = True
+
     def discover(self):
         training, frontier = set(self.favorites()), {}
+        mapping, groups = source_song_groups(list(self.state["records"].values()), training)
         for rid in sorted(training):
             for credit in extract_credits(self.state["records"][rid]):
                 if credit["category"]:
@@ -428,69 +515,49 @@ class QuickCollection:
         order = balanced_frontier(frontier, self.state["records"], training)
         discovery = self.state["discovery"]
         discovery["contributor_queue"] = order
-        routes = deque({"artist_id": aid, "phase": "artist", "pending": [], "work_ids": [],
-                        "pages": [], "exhausted": False} for aid in order)
-        discovery["routes"] = list(routes)
-        allowed = load_rules()["eligible_relationships"]
-        while routes:
-            self.client.remaining()
-            route = routes.popleft()
-            aid = route["artist_id"]
-            phase = route["phase"]
-            if phase == "artist":
-                artist = self.fetch(f"artist/{aid}", "contributor_lookup", inc="recording-rels+work-rels")
-                if artist is not None and artist.get("id") == aid and isinstance(artist.get("relations"), list):
-                    for relation in artist["relations"]:
-                        if not isinstance(relation, dict) or any(a.casefold() == "executive" for a in relation.get("attributes", [])):
-                            continue
-                        target, kind = relation.get("target-type"), relation.get("type-id")
-                        if target == "recording" and kind in allowed:
-                            rid = relation.get("recording", {}).get("id")
-                            try:
-                                rid = mbid(rid)
-                            except (ValueError, TypeError, AttributeError):
-                                continue
-                            if rid not in self.queued and rid not in self.state["records"]:
-                                route["pending"].append(rid)
-                                self.queued.add(rid)
-                        elif target == "work" and kind in SONGWRITING_IDS:
-                            wid = relation.get("work", {}).get("id")
-                            try:
-                                route["work_ids"].append(mbid(wid))
-                            except (ValueError, TypeError, AttributeError):
-                                pass
-                route["pending"].sort()
-                route["work_ids"] = sorted(set(route["work_ids"]))
-                route["phase"] = "browse"
-            elif phase == "browse":
-                self.browse(route)
-                route["phase"] = "work"
-            elif phase == "work":
-                if route["work_ids"]:
-                    self.browse(route, work=route["work_ids"][0])
-                route["phase"] = "lookup"
+        routes = {aid: {"artist_id": aid, "phase": "artist", "pending": [], "work_ids": [],
+                       "pages": [], "exhausted": False,
+                       "beneficiary_source_groups": sorted({mapping[rid] for rid in frontier[aid]["recording_ids"]})}
+                  for aid in order}
+        discovery["routes"] = list(routes.values())
+        seeds = []
+        for group, description in sorted(groups.items()):
+            contributors = [aid for aid in order if group in routes[aid]["beneficiary_source_groups"]]
+            seeds.append(description | {"contributors": contributors, "status": "unexplored"})
+        discovery["per_seed"] = seeds
+        discovery["count_interpretation"] = "Per-seed connections overlap; sponsored attempts sum to the global discovery attempt total."
+        active = deque(seeds)
+        while active:
+            seed = active.popleft()
+            before = self.client.stats["attempts"]
+            seed["status"] = "active"
+            # Reused evidence and zero-request transitions do not consume this seed's turn.
+            while seed["contributors"]:
+                self.client.remaining()
+                aid = seed["contributors"][0]
+                route = routes[aid]
+                if route["exhausted"]:
+                    seed["contributors"].pop(0)
+                    continue
+                self.client.request_context = {"sponsor_source_group": seed["source_group_id"],
+                                               "beneficiary_source_groups": route["beneficiary_source_groups"]}
+                try:
+                    old_phase = route["phase"]
+                    self.advance_route(route)
+                finally:
+                    self.client.request_context = {}
+                if old_phase == "lookup" and not route["exhausted"]:
+                    seed["contributors"].append(seed["contributors"].pop(0))
+                self.save()
+                if self.should_stop():
+                    return
+                if self.client.stats["attempts"] > before:
+                    break
+            if seed["contributors"]:
+                active.append(seed)
             else:
-                while route["pending"] and (route["pending"][0] in self.seen or route["pending"][0] in self.state["records"]):
-                    route["pending"].pop(0)
-                if route["pending"]:
-                    rid = route["pending"].pop(0)
-                    record = self.fetch(f"recording/{rid}", "candidate_lookup", inc=MATCH_INCLUDES)
-                    if record is not None and record.get("id") == rid:
-                        self.consider(record)
-                    else:
-                        self.seen.add(rid)
-                else:
-                    route["exhausted"] = True
+                seed.update(status="exhausted", exhaustion_reason="routes_exhausted")
             self.save()
-            if self.should_stop():
-                return
-            if not route["exhausted"]:
-                # Obtain a batch and one fallback before spending on another contributor.
-                # New routes follow balanced_frontier; further fallbacks alternate routes.
-                if phase in {"artist", "browse", "work"}:
-                    routes.appendleft(route)
-                else:
-                    routes.append(route)
         self.state["stop_reason"] = "routes_exhausted"
 
     def run(self):
@@ -500,12 +567,20 @@ class QuickCollection:
             self.match()
             self.state["stage_timings"][phase] = time.monotonic() - started
             phase, started = "discovery", time.monotonic()
-            if self.favorites():
+            if self.config.get("matching_only"):
+                self.state["stop_reason"] = "matching_complete"
+            elif self.favorites():
                 self.discover()
             else:
                 self.state["stop_reason"] = "no_accepted_seeds"
         except CollectionStopped as stop:
             self.state["stop_reason"] = stop.reason
+            for row in self.state["matching_outcomes"]:
+                if row["status"] in {"not_attempted", "in_progress"}:
+                    row.update(status="global_budget" if stop.reason == "request_budget" else "interrupted",
+                               stopping_reason=stop.reason)
+                elif row["status"] == "no_compatible_candidate" and row.get("query_count") == 1:
+                    row["fallback_not_attempted_reason"] = stop.reason
         finally:
             self.state["stage_timings"][phase] = time.monotonic() - started
             self.save()
@@ -546,7 +621,8 @@ def supervise_collection(target, args, *, deadline):
 
 def recommend_from_likes(input_path, *, random_seed, seed_count=8, limit=15, max_requests=35,
                          runtime_limit_seconds=55, contact, output_directory=None,
-                         _pacing_directory=PACING_DIRECTORY, _opener=open_fresh):
+                         _pacing_directory=PACING_DIRECTORY, _opener=open_fresh,
+                         _sampled_seeds=None, _matching_only=False):
     """Return a fresh recommendation run; output_directory must be new when supplied."""
     started = time.monotonic()
     for name, value in (("seed_count", seed_count), ("limit", limit), ("max_requests", max_requests)):
@@ -559,10 +635,15 @@ def recommend_from_likes(input_path, *, random_seed, seed_count=8, limit=15, max
     input_path = Path(input_path)
     tracks, metadata = load_input(input_path)
     sampled, sampling_summary = sample_likes(tracks, random_seed=random_seed, seed_count=seed_count)
+    if _sampled_seeds is not None:
+        sampled = _sampled_seeds
     weights = load_weights()
     config = {"random_seed": random_seed, "seed_count": seed_count, "limit": limit,
               "max_requests": max_requests, "runtime_limit_seconds": runtime_limit_seconds,
-              "seed_matching_policy": "representative_recording",
+              "seed_matching_policy": POLICY, "matching_only": _matching_only,
+              "selection_policy": "source_balanced_greedy_v1", "min_seed_groups": 3, "max_per_seed": 2,
+              "deduplicate_known_works": True,
+              **matching_allocation(max_requests),
               "role_weights": weights["role_weights"], "saturation_k": weights["saturation_k"]}
     directory = Path(output_directory) if output_directory is not None else ROOT / "data/private/quick_runs" / uuid4().hex
     directory.mkdir(parents=True, exist_ok=False)
@@ -573,7 +654,11 @@ def recommend_from_likes(input_path, *, random_seed, seed_count=8, limit=15, max
     (directory / "inputs/favorites.json").write_bytes(raw)
     state = {"records": {}, "sources": {}, "failures": [], "stage_timings": {},
              "matching_outcomes": [{"source_lines": s["source_row"]["source_lines"],
-                                     "status": "not_attempted", "recording_id": None} for s in sampled],
+                                     "status": "not_attempted", "recording_id": None,
+                                     "raw_title": s["source_row"]["song_text"], "raw_artist": s["source_row"]["artist_text"],
+                                     "normalized_title": title_keys(s["source_row"]["song_text"]),
+                                     "normalized_artist": main_artist_key(s["source_row"]["artist_text"]),
+                                     "query_count": 0, "fallback_used": False} for s in sampled],
              "discovery": {"contributor_queue": [], "routes": [], "exclusions": [],
                            "examined_recordings": 0, "admitted_candidates": 0}, "stop_reason": "collection_running"}
     atomic_json(directory / "checkpoint.json", state)
@@ -597,8 +682,10 @@ def recommend_from_likes(input_path, *, random_seed, seed_count=8, limit=15, max
     elif exitcode != 0:
         state["stop_reason"] = "worker_failed"
     for row in state["matching_outcomes"]:
-        if row["status"] == "in_progress":
-            row["status"] = "interrupted"
+        if row["status"] in {"in_progress", "not_attempted"}:
+            row.update(status="interrupted", stopping_reason=state["stop_reason"])
+        if row["status"] == "no_compatible_candidate" and row.get("query_count") == 1:
+            row.setdefault("fallback_not_attempted_reason", state["stop_reason"])
     records = list(state["records"].values())
     favorites = sorted({r["recording_id"] for r in state["matching_outcomes"] if r["status"] == "accepted"})
     registry = build_registry(records, favorites, names=metadata["submitted_artists"], input_sha256=metadata["input_sha256"])
@@ -606,16 +693,39 @@ def recommend_from_likes(input_path, *, random_seed, seed_count=8, limit=15, max
     report = recommendation_report(records, favorites, registry=registry, limit=limit,
                                    excluded_ids={t["recording_mbid"] for t in tracks if t.get("recording_mbid")},
                                    weights=config["role_weights"], saturation_k=config["saturation_k"],
-                                   contributor_policy="penalized")
+                                   contributor_policy="penalized", seed_balancing=True, deduplicate_works=True)
     scoring_seconds = time.monotonic() - score_started
     matching_counts = dict(Counter(r["status"] for r in state["matching_outcomes"]))
     discovery = state["discovery"]
+    if discovery.get("per_seed"):
+        from .recommend_songs import score_song_candidates
+        mapping, groups = source_song_groups(records, favorites)
+        scored = score_song_candidates(records, favorites, weights=config["role_weights"], saturation_k=config["saturation_k"])
+        assignments = {r["recording"]["id"]: assignment_evidence(r, mapping) for r in scored}
+        for seed in discovery["per_seed"]:
+            group = seed["source_group_id"]
+            events = [e for e in requests["events"] if e.get("sponsor_source_group") == group]
+            connected = [rid for rid, evidence in assignments.items() if group in evidence]
+            eligible = [rid for rid in connected if candidate_eligibility(state["records"][rid], registry)["eligible"]]
+            routes = [r for r in discovery["routes"] if group in r["beneficiary_source_groups"]]
+            seed.update(attempts_sponsored=len(events), operations=dict(Counter(e["operation"] for e in events)),
+                        contributors_explored=sum(r["phase"] != "artist" for r in routes),
+                        candidates_connected=len(connected), candidates_eligible=len(eligible),
+                        candidates_selected=report["selection_summary"]["recommendations_per_source"].get(group, 0),
+                        unexplored_routes=sum(r["phase"] == "artist" for r in routes),
+                        unexhausted_routes=sum(not r["exhausted"] for r in routes), paused=False)
+            if seed["status"] != "exhausted":
+                seed["stopping_reason"] = state["stop_reason"]
     result = report | {"format_version": 1, "kind": "quick_recommendation_run", "created_at": utc_now(),
                        "output_directory": str(directory.resolve()), "input_sha256": metadata["input_sha256"],
                        "configuration": config, "fresh_api_data": True, "sampled_seeds": sampled,
                        "sampling_summary": sampling_summary, "matching_outcomes": state["matching_outcomes"],
                        "matching_summary": {"sampled": len(sampled), "accepted_recordings": len(favorites),
-                                            "outcomes": matching_counts},
+                                            "accepted_sampled_rows": matching_counts.get("accepted", 0),
+                                            "match_rate": matching_counts.get("accepted", 0) / len(sampled) if sampled else None,
+                                            "seeds_with_additional_credits": sum(r.get("credit_coverage", {}).get("additional_contributor_credits_observed", False) for r in state["matching_outcomes"]),
+                                            "matching_attempts": state.get("matching_attempts", requests["attempts"]),
+                                            **matching_allocation(max_requests), "outcomes": matching_counts},
                        "favorite_recording_ids": favorites, "requests": requests,
                        "stop_reason": state["stop_reason"], "failures": state["failures"],
                        "candidate_coverage": discovery | {"explored_routes": sum(r["phase"] != "artist" for r in discovery["routes"]),
@@ -653,7 +763,7 @@ def write_run_diagnostics(path, result):
     coverage, requests = result["candidate_coverage"], result["requests"]
     lines = ["", "## Live run diagnostics", "",
              f"Stopped because: {result['stop_reason']}. Fresh responses; no Apple requests.",
-             f"Matched {result['matching_summary']['accepted_recordings']} recordings from {len(result['sampled_seeds'])} sampled artists.",
+             f"Matched {result['matching_summary']['accepted_sampled_rows']}/{len(result['sampled_seeds'])} sampled rows ({result['matching_summary']['match_rate']:.1%}); {result['matching_summary']['accepted_recordings']} distinct recordings; {result['matching_summary']['seeds_with_additional_credits']} rows with additional eligible credits.",
              f"HTTP attempts: {requests['attempts']}/{result['configuration']['max_requests']}.",
              f"Candidates admitted: {coverage['admitted_candidates']}/100; unexplored contributor routes: {coverage['unexplored_routes']}; unexhausted routes: {coverage['unexhausted_routes']}.",
              "Coverage is partial. All submitted artist names remain excluded.", "",

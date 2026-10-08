@@ -9,6 +9,7 @@ from pathlib import Path
 from .apple_music import country_code, validate_availability
 from .build_graph import DEFAULT_FIXTURE, ROOT, load_dataset
 from .credits import credit_coverage, extract_credits
+from .source_songs import assignment_evidence, known_work_ids, source_song_groups
 from .song_policy import build_registry, candidate_eligibility, registry_digest, registry_for, validate_registry
 
 
@@ -130,7 +131,9 @@ def contributor_evidence(row: dict) -> list[dict]:
 
 def select_song_list(rows: list[dict], records: list[dict], registry: dict, *, limit: int = 10,
                      diversity: str = "none", availability: dict | None = None, country: str = "DE",
-                     contributor_policy: str = "strict") -> dict:
+                     contributor_policy: str = "strict", seed_balancing: bool = False,
+                     min_seed_groups: int = 3, max_per_seed: int = 2,
+                     deduplicate_works: bool = False, favorite_ids: list[str] | None = None) -> dict:
     if type(limit) is not int or limit < 1:
         raise ValueError("Recommendation limit must be positive")
     if diversity not in {"none", "contributors"}:
@@ -139,7 +142,18 @@ def select_song_list(rows: list[dict], records: list[dict], registry: dict, *, l
         raise ValueError("Unknown contributor policy")
     if contributor_policy == "penalized":
         diversity = "contributors"
+    if any(type(n) is not int or n < 1 for n in (min_seed_groups, max_per_seed)):
+        raise ValueError("Source targets and assignment caps must be positive integers")
+    if type(seed_balancing) is not bool or type(deduplicate_works) is not bool:
+        raise ValueError("Selection policy switches must be booleans")
     validate_registry(registry)
+    favorites = (favorite_ids if favorite_ids is not None else
+                 sorted({c["favorite_recording_id"] for row in rows for c in row["contributions"]}))
+    source_mapping, source_groups = source_song_groups(records, favorites)
+    assigned, selected_works = defaultdict(int), set()
+    source_policy = {"enabled": seed_balancing, "min_seed_groups": min_seed_groups,
+                     "effective_min_seed_groups": min(min_seed_groups, limit), "max_per_seed": max_per_seed,
+                     "deduplicate_known_works": deduplicate_works, "algorithm": "deterministic_greedy"}
     by_id = {r["id"]: r for r in records}
     available = validate_availability(availability, records, country=country) if availability is not None else None
     pending, skipped, selected = [], [], []
@@ -148,6 +162,8 @@ def select_song_list(rows: list[dict], records: list[dict], registry: dict, *, l
         rid = row["recording"]["id"]
         policy = candidate_eligibility(by_id[rid], registry)
         candidate = row | {"eligibility": policy, "contributor_evidence": contributor_evidence(row)}
+        if seed_balancing:
+            candidate["source_assignment_evidence"] = assignment_evidence(row, source_mapping)
         if not policy["eligible"] or row["score"] <= 0:
             skipped.append({"recording_id": rid, "reason": policy["reason"] if not policy["eligible"] else "nonpositive_score",
                             "eligibility": policy})
@@ -170,12 +186,17 @@ def select_song_list(rows: list[dict], records: list[dict], registry: dict, *, l
             conflicts = used & {m["artist"]["id"] for m in policy["musicians"]}
             contributor_conflicts = {e["contributor"]["id"] for e in row["contributor_evidence"]
                                      if exposures[e["contributor"]["id"]]}
-            reason = ("musician_already_selected" if conflicts else
+            work_conflicts = known_work_ids(by_id[rid]) & selected_works if deduplicate_works else set()
+            assignments = {g: value for g, value in row.get("source_assignment_evidence", {}).items()
+                           if assigned[g] < max_per_seed}
+            reason = ("known_work_already_selected" if work_conflicts else
+                      "source_assignment_cap" if seed_balancing and not assignments else
+                      "musician_already_selected" if conflicts else
                       "familiar_collaboration_limit" if collaborations and policy["familiar_collaboration"] else
                       "contributor_already_selected" if contributor_conflicts and contributor_policy == "strict" else None)
             if reason:
                 skipped.append({"recording_id": rid, "reason": reason, "conflicting_musician_ids": sorted(conflicts),
-                                "conflicting_contributor_ids": sorted(contributor_conflicts)})
+                                "conflicting_contributor_ids": sorted(contributor_conflicts), "conflicting_work_ids": sorted(work_conflicts)})
                 continue
             adjustments = []
             for evidence in row["contributor_evidence"]:
@@ -183,14 +204,29 @@ def select_song_list(rows: list[dict], records: list[dict], registry: dict, *, l
                 multiplier = 1 / (1 + count) if diversity == "contributors" else 1.0
                 adjustments.append(evidence | {"previous_selected_appearances": count, "multiplier": multiplier,
                                                "selection_value": evidence["value"] * multiplier})
-            feasible.append(row | {"selection_score": sum(a["selection_value"] for a in adjustments),
-                                   "selection_adjustments": adjustments})
+            candidate = row | {"selection_score": sum(a["selection_value"] for a in adjustments),
+                               "selection_adjustments": adjustments}
+            if seed_balancing:
+                group = min(assignments, key=lambda g: (assigned[g], -assignments[g], g))
+                candidate["primary_seed_song"] = source_groups[group] | {
+                    "assigned_seed_evidence": assignments[group], "previous_assignments": assigned[group],
+                    "assignment_reason": "fewest_prior_assignments_then_stronger_source_evidence_then_stable_id"}
+            feasible.append(candidate)
         if not feasible:
             pending = []
             break
-        feasible.sort(key=lambda r: (-r["selection_score"], -r["score"], r["recording"]["title"].casefold(), r["recording"]["id"]))
+        feasible.sort(key=lambda r: (
+            r["primary_seed_song"]["previous_assignments"] if seed_balancing else 0,
+            -r["selection_score"], -r["score"],
+            -r["primary_seed_song"]["assigned_seed_evidence"] if seed_balancing else 0,
+            r["recording"]["title"].casefold(), r["recording"]["id"],
+            r["primary_seed_song"]["source_group_id"] if seed_balancing else ""))
         chosen = feasible[0]
         selected.append(chosen | {"selection_rank": len(selected) + 1})
+        if seed_balancing:
+            assigned[chosen["primary_seed_song"]["source_group_id"]] += 1
+        if deduplicate_works:
+            selected_works.update(known_work_ids(by_id[chosen["recording"]["id"]]))
         used.update(m["artist"]["id"] for m in chosen["eligibility"]["musicians"])
         collaborations += int(chosen["eligibility"]["familiar_collaboration"])
         for evidence in chosen["contributor_evidence"]:
@@ -201,11 +237,15 @@ def select_song_list(rows: list[dict], records: list[dict], registry: dict, *, l
         conflicts = used & {m["artist"]["id"] for m in policy["musicians"]}
         contributor_conflicts = {e["contributor"]["id"] for e in row["contributor_evidence"]
                                  if exposures[e["contributor"]["id"]]}
-        reason = ("musician_already_selected" if conflicts else
+        work_conflicts = known_work_ids(by_id[row["recording"]["id"]]) & selected_works if deduplicate_works else set()
+        assignments = {g: value for g, value in row.get("source_assignment_evidence", {}).items() if assigned[g] < max_per_seed}
+        reason = ("known_work_already_selected" if work_conflicts else
+                  "source_assignment_cap" if seed_balancing and not assignments else
+                  "musician_already_selected" if conflicts else
                   "familiar_collaboration_limit" if collaborations and policy["familiar_collaboration"] else
                   "contributor_already_selected" if contributor_conflicts and contributor_policy == "strict" else "requested_limit_reached")
         skipped.append({"recording_id": row["recording"]["id"], "reason": reason,
-                        "conflicting_musician_ids": sorted(conflicts), "conflicting_contributor_ids": sorted(contributor_conflicts)})
+                        "conflicting_musician_ids": sorted(conflicts), "conflicting_contributor_ids": sorted(contributor_conflicts), "conflicting_work_ids": sorted(work_conflicts)})
     evidence_totals = defaultdict(float)
     for row in selected:
         for item in row["contributor_evidence"]:
@@ -220,12 +260,20 @@ def select_song_list(rows: list[dict], records: list[dict], registry: dict, *, l
             "candidate_count": len(rows), "eligible_positive_candidates": eligible_count,
             "policy": "D-020" if contributor_policy == "strict" else "D-025",
             "policy_sha256": registry_digest(registry), "diversity": diversity,
-            "contributor_policy": contributor_policy,
+            "contributor_policy": contributor_policy, "source_policy": source_policy,
             "availability_summary": {"applied": available is not None,
                                      "country": country_code(country) if available is not None else None,
                                      "eligible_before_filter": eligible_count, "eligible_after_filter": available_count,
                                      "excluded": eligible_count - available_count},
-            "selection_summary": {"requested": limit, "returned": len(selected), "shortfall": max(0, limit - len(selected)),
+            "selection_summary": {"configured_source_target": min_seed_groups if seed_balancing else None,
+                                  "effective_source_target": min(min_seed_groups, limit) if seed_balancing else None,
+                                  "represented_source_groups": sum(n > 0 for n in assigned.values()),
+                                  "recommendations_per_source": {g: n for g, n in sorted(assigned.items()) if n},
+                                  "source_coverage_shortfall": max(0, min(min_seed_groups, limit) - sum(n > 0 for n in assigned.values())) if seed_balancing else None,
+                                  "known_work_exclusions": sum(r["reason"] == "known_work_already_selected" for r in skipped),
+                                  "selected_unknown_work_identity": sum(not known_work_ids(by_id[r["recording"]["id"]]) for r in selected),
+                                  "largest_assigned_seed_share": max(assigned.values(), default=0) / len(selected) if selected and seed_balancing else None,
+                                  "requested": limit, "returned": len(selected), "shortfall": max(0, limit - len(selected)),
                                   "familiar_collaborations": collaborations, "max_familiar_collaborations": 1,
                                   "distinct_observed_musicians": len(musician_counts), "repeated_observed_musicians": repeated,
                                   "unique_explanatory_contributors": len(evidence_totals),
@@ -233,7 +281,8 @@ def select_song_list(rows: list[dict], records: list[dict], registry: dict, *, l
                                   "repeated_explanatory_contributors": repeated_contributors,
                                   "largest_contributor_evidence_share": max(evidence_totals.values(), default=0) / total if total else None},
             "artist_registry_scope": registry["scope"], "submitted_artist_name_count": len(registry["submitted_names"]),
-            "selection_limitations": ["Greedy selection may not maximize list size or total score.",
+            "selection_limitations": ["Greedy selection may not maximize source coverage, list size, or total score; no assignment repair is performed.",
+                                      "Composition uniqueness covers observed work IDs only; unknown identities remain unresolved.",
                                       "Musician uniqueness covers observed credits; primary credits are performance proxies.",
                                       "Soft contributor diversity is redundant under the hard contributor cap." if contributor_policy == "strict"
                                       else "Repeated explanatory contributors receive a diminishing selection contribution.",
@@ -244,7 +293,9 @@ def recommendation_report(records: list[dict], favorite_ids: list[str], *, regis
                           weights: dict | None = None, saturation_k: float | None = 5.0,
                           excluded_ids: set[str] | None = None, limit: int = 10, diversity: str = "none",
                           availability: dict | None = None, country: str = "DE",
-                          contributor_policy: str = "strict") -> dict:
+                          contributor_policy: str = "strict", seed_balancing: bool = False,
+                          min_seed_groups: int = 3, max_per_seed: int = 2,
+                          deduplicate_works: bool = False) -> dict:
     rows = score_song_candidates(records, favorite_ids, weights=weights, saturation_k=saturation_k, excluded_ids=excluded_ids)
     registry = build_registry(records, favorite_ids) if registry is None else registry
     # A supplied registry cannot accidentally omit the active favorite artists.
@@ -252,7 +303,9 @@ def recommendation_report(records: list[dict], favorite_ids: list[str], *, regis
     if required - {a["id"] for a in registry["submitted_artists"]}:
         raise ValueError("Artist registry omits favorite artists")
     return select_song_list(rows, records, registry, limit=limit, diversity=diversity,
-                            availability=availability, country=country, contributor_policy=contributor_policy)
+                            availability=availability, country=country, contributor_policy=contributor_policy,
+                            seed_balancing=seed_balancing, min_seed_groups=min_seed_groups, max_per_seed=max_per_seed,
+                            deduplicate_works=deduplicate_works, favorite_ids=favorite_ids)
 
 
 def recommend_songs(records: list[dict], favorite_ids: list[str], **kwargs) -> list[dict]:
@@ -269,6 +322,11 @@ def write_song_review(path: Path, report: dict) -> None:
              f"Artist exclusions: {report['artist_registry_scope']}, {report['submitted_artist_name_count']} submitted names.",
              f"List diversity: {report['diversity']}. Policy fingerprint: {report['policy_sha256']}.", "",
              "Favorite matches and listening usefulness remain subject to review. Uniqueness covers observed performance credits.", ""]
+    if report.get("interpretation"):
+        lines += [report["interpretation"], ""]
+    if report.get("source_policy", {}).get("enabled"):
+        lines += [f"Assigned source groups: {summary['represented_source_groups']}/{summary['effective_source_target']} target; at most {report['source_policy']['max_per_seed']} results each; coverage shortfall {summary['source_coverage_shortfall']}.",
+                  f"Known-work duplicate exclusions: {summary['known_work_exclusions']}; selected songs with unknown work identity: {summary['selected_unknown_work_identity']}.", ""]
     counts = defaultdict(int)
     for skipped in report["skipped_candidates"]:
         counts[skipped["reason"]] += 1
@@ -284,6 +342,9 @@ def write_song_review(path: Path, report: dict) -> None:
                   f"[Recording source]({recording['source_url']}); version: {recording['disambiguation'] or 'unspecified'}.",
                   f"Base affinity: {row['score']:.6f}; selection score: {row['selection_score']:.6f}; eligibility: {row['eligibility']['reason']}.", "",
                   "Observed musicians:", ""]
+        if row.get("primary_seed_song"):
+            primary = row["primary_seed_song"]
+            lines[-2:-2] = [f"Assigned source song: {', '.join(primary['titles'])}. Assignment: {primary['assignment_reason']}.", ""]
         if row.get("apple_availability"):
             status = row["apple_availability"]
             track = status["match"]

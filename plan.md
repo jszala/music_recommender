@@ -1,5 +1,41 @@
 # Music-credit song recommendations: implementation plan
 
+## Next requested experiment: different seed songs and ten tracks
+
+The user now requests fresh discovery from different favorite-song seeds with the
+current model, targeting a ten-track recommendation list. Follow
+[the new handover](reports/different_seeds_ten_track_handover.md). This supersedes
+the earlier fifteen-track live goal and five-track follow-up goal for the next
+experiment; the historical results below are unchanged. No new seeding experiment
+has been run. The existing two-per-source cap requires at least five productive
+source groups to reach ten.
+
+## Interview MVP checkpoint, 2026-10-08
+
+The user authorized a one-week interview MVP. Representative matching, simple
+per-source discovery rounds, greedy source balancing, observed-work deduplication,
+a public offline demo, frozen equal-weight comparisons, and CI are implemented.
+The main entry point is `python3 -B -m src.demo`; historical workflows remain
+available behind the README links.
+
+Measured checkpoints: [matching](reports/mvp_matching_audit.md) accepted 73/100
+fixed rows, missing the 90% target. [Fresh recommendation runs](reports/mvp_results.md)
+returned 5/3/3 songs in 38.1–38.8 seconds, with three represented source groups
+per list. Equal and current weights selected identical lists on those pools.
+The public example returns five songs across three groups. The listener reported
+all eight panel songs familiar and enjoyable; save intention was not collected.
+The panel therefore shows enjoyment but zero new-to-listener discovery. The report
+records the bulk assessment without claiming a verified blinded session.
+The novelty follow-up excludes eight explicitly known recording IDs from the first
+saved pool, with protocol and exclusions frozen before selection. It returned four
+of five requested songs across three groups without new requests; ratings remain
+pending. A fixed ten-identity sample and all nine unresolved matching cases are
+prepared for human inspection. The five-minute interview walkthrough is available
+in [the presentation notes](reports/interview_walkthrough.md).
+Adaptive pauses, assignment repair, artist holdout, a database import, and paid
+hosting are deferred. Historical milestones below retain their original scope
+and observations; the original full-library API job remains cancelled.
+
 ## Purpose
 
 Build a small, explainable data science portfolio project that tests this question:
@@ -386,26 +422,20 @@ transport tests pass. Benchmark fresh runs against the under-60-second target an
 report counts and shortfalls without claiming recommendation-quality improvements.
 See [the benchmark report](reports/quick_recommendation_benchmark.md).
 
-## Milestone 4e: Simplify matching and balance recommendations across seed songs
+## Milestone 4e: Interview MVP matching and source diversity
 
-Status: planned; implementation and new benchmarks have not started. Detailed
-handoff: [simpler matching and seed diversity](reports/fast_matching_and_seed_diversity_plan.md).
+Implemented under D-027 with the user's simpler-first scope. Fast-mode matching
+uses normalized song/main-artist identity, bounded deferred fallback searches,
+and the 20/15 default matching/discovery allocation. Credit coverage remains
+separate from matching. Per-source request rounds feed an opt-in greedy selector
+with at most two assignments per source group and known-work uniqueness.
+Historical conservative matching and strict selection keep their defaults.
 
-- Fix fast-mode matching first, targeting at least 90% of sampled songs matched.
-  Use normalized song/main-artist identity; album, duration, and release versions
-  guide representative-recording choice. Allow compatible results from capped
-  search pages and a bounded fallback query. Keep historical matching conservative.
-- At the default 35-attempt limit, allow at most 20 matching attempts and reserve
-  at least 15 for discovery. Keep the 55-second runtime budget, fresh responses,
-  request accounting/pacing, and separate Apple checking.
-- Separate accepted identities from observed contributor coverage. Explore seeds
-  in request rounds; deduplicate shared routes and retain per-seed diagnostics.
-- Select one result per productive seed before second appearances, at most two
-  per source-song group, targeting at least three represented groups. Deduplicate
-  known compositions and preserve performer/familiar-artist rules and base scores.
-- Measure matching on at least 100 fixed distinct sampled rows, then repeat the
-  three random-seed 3/4/5 recommendation runs. Report match/coverage shortfalls,
-  complete runtimes, and test results without claiming recommendation quality.
+The original [detailed handoff](reports/fast_matching_and_seed_diversity_plan.md)
+is retained as historical intent. Adaptive scheduling and assignment repair from
+that document are deferred by the current authorization. Targets and observations
+are distinguished in [MVP results](reports/mvp_results.md). The 90% matching and
+15-song targets were missed; listener usefulness remains pending.
 
 ## Milestone 5: Evaluate honestly
 
@@ -497,6 +527,13 @@ flowchart LR
 Do not put an unmeasured result or a hand-picked fixture result in the opening paragraph. Until evaluation is complete, label the result “pending.”
 
 ## Final review
+
+2026-10-08 checkpoint: the different-favorite-song experiment is complete, with
+4/10, 3/10, and 4/10 delivered recordings and no ten-song success. Read
+[the aggregate report](reports/different_seed_results.md). Current priorities are
+blank listener reviews and independent identity inspection, then separately
+declared song-format and retrieval-capacity experiments. Scoring was held fixed;
+all failures and shortfalls were retained.
 
 Before calling the project recruiter-ready, check:
 

@@ -2,9 +2,12 @@
 
 Date: 2026-10-08
 
-Status: planned. This document records the requested follow-up; its changes have
-not been implemented or benchmarked. Start with matching, measure it, then change
-discovery and selection. Do not describe the targets below as achieved results.
+Status: historical handoff. The user-authorized interview MVP has implemented
+representative matching, per-source request rounds, greedy source balancing, and
+known-work deduplication. Measurements are in [MVP results](mvp_results.md) and
+[the matching audit](mvp_matching_audit.md); the 90% matching target was missed.
+Adaptive pauses and assignment repair remain deferred. The detailed proposals
+below preserve the original scope and must not be read as achieved results.
 
 ## 1. Objective and user priorities
 

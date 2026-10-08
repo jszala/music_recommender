@@ -41,10 +41,23 @@ def run_experiments(input_path, *, random_seeds, seed_counts=(8, 10), repeats=1,
                                  contact=contact, output_directory=directory / f"run_{run_id:03d}")
                 elapsed = time.monotonic() - started
                 ids = [row["recording"]["id"] for row in result["recommendations"]]
+                matching = result["matching_summary"]
+                selection = result.get("selection_summary", {})
                 row = {"run_id": run_id, "random_seed": seed, "seed_count": count, "repeat": repeat,
                        "elapsed_seconds": elapsed, "engine_elapsed_seconds": result["elapsed_seconds"],
                        "requests": result["requests"]["attempts"],
-                       "accepted_seeds": result["matching_summary"]["accepted_recordings"],
+                       "accepted_seeds": matching["accepted_recordings"],
+                       "sampled_rows": matching.get("sampled"),
+                       "accepted_sampled_rows": matching.get("accepted_sampled_rows"),
+                       "match_rate": matching.get("match_rate"),
+                       "distinct_accepted_recordings": matching["accepted_recordings"],
+                       "seeds_with_additional_credits": matching.get("seeds_with_additional_credits"),
+                       "source_groups_represented": selection.get("represented_source_groups"),
+                       "largest_assigned_seed_share": selection.get("largest_assigned_seed_share"),
+                       "source_coverage_shortfall": selection.get("source_coverage_shortfall"),
+                       "known_work_exclusions": selection.get("known_work_exclusions"),
+                       "requests_by_operation": result["requests"].get("by_operation", {}),
+                       "per_seed_discovery": result["candidate_coverage"].get("per_seed", []),
                        "candidates": result["candidate_coverage"]["admitted_candidates"],
                        "recommendations": len(ids), "stop_reason": result["stop_reason"],
                        "runtime_target_met": elapsed < 60,
@@ -68,7 +81,7 @@ def run_experiments(input_path, *, random_seeds, seed_counts=(8, 10), repeats=1,
                                  for left, right in combinations(rows, 2)],
                "interpretation": "Runtime and coverage diagnostics, not identity precision or listening quality."}
     atomic_json(directory / "summary.json", summary)
-    fields = [key for key in rows[0] if key not in {"recommendation_ids", "output_directory"}]
+    fields = [key for key in rows[0] if key not in {"recommendation_ids", "output_directory", "requests_by_operation", "per_seed_discovery"}]
     with (directory / "summary.csv").open("x", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
         writer.writeheader()

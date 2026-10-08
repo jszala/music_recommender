@@ -4,6 +4,27 @@ Research result: **pending**. This report verifies a deliberately selected publi
 fixture; it does not measure artist recovery, Recall@K, or listener preference.
 The eventual study concerns one person's selected favorites, following D-008.
 
+## Interview MVP, 2026-10-08
+
+The public offline demo returns five source-backed songs across three source
+groups. The fixed matching audit accepted 73/100 rows, below the 90% target;
+18 HTTP 503 failures and nine no-compatible outcomes remain visible.
+Three fresh recommendation runs returned 5/3/3 songs in 38.1–38.8 seconds,
+with three represented groups each and 35 attempts per run. Equal and current
+weights selected identical lists on all three frozen candidate pools.
+The listener reported all eight panel songs familiar and enjoyable: 8/8 liked,
+0/8 previously unfamiliar. Save intention was not collected, and the bulk report
+does not claim a verified blinded session or a difference between weighting methods.
+The first saved pool supplied four of five requested follow-up songs after the
+eight explicitly known IDs were excluded; scores stayed fixed, no new provider
+requests were made, and follow-up ratings remain pending. Ten accepted identities
+and all nine no-compatible cases are prepared for independent human inspection.
+
+See [MVP results](mvp_results.md), [the matching audit](mvp_matching_audit.md),
+and [the public readable list](mvp_demo.md). The sections below retain historical
+counts and observations. Independent human identity auditing and broader listening
+usefulness remain unmeasured; discovery novelty was not achieved in the reviewed panel.
+
 ## Milestone 4d: Fresh bounded live recommendations, 2026-10-08
 
 The callable engine, sequential experiment runner, and separate selected-song

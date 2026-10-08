@@ -545,3 +545,143 @@ How to check it: Tests verify one chosen lookup for multiple alternatives,
 album/duration preference, response-order independence, and continued rejection of
 explicit artist/version/duration conflicts. The complete offline suite now passes
 184 tests. Earlier snapshots and benchmark counts are preserved as historical evidence.
+
+
+## D-027: Interview MVP with representative matching and source-balanced lists
+
+Date: 2026-10-08
+Status: accepted for the user-authorized one-week MVP
+
+Use normalized base-song title and main credited artist for fast-mode identity.
+Release context and duration choose a representative recording; missing credits
+remain coverage diagnostics. Keep bounded fresh searches, a deferred distinct
+fallback, 20 matching attempts out of 35 by default, and the existing deadline.
+Historical conservative matching remains unchanged.
+
+Matching checkpoint before diversity implementation: 73/100 frozen rows accepted,
+18 HTTP 503 failures, and nine no-compatible outcomes. The 90% target was missed;
+see reports/mvp_matching_audit.md. Codex metadata inspection found no obvious
+unrelated main artist/song among accepted rows; independent human audit is pending.
+
+Use simple deterministic per-source request rounds and greedy selection. Prefer
+first source appearances, cap each group at two assignments, and exclude overlapping
+known works. Keep base credit scores, full-input exclusions, performer constraints,
+and explanatory-contributor penalties. Adaptive pauses and assignment repair are
+deferred. A public frozen example uses the same scorer/selector and is explicitly
+illustrative; fresh live runs never reuse its responses. Compare equal and current
+role weights on fixed candidate pools; listener review remains pending until rated.
+
+Observed implementation checks: 211 offline tests pass in a clean public file
+copy without private inputs. Both demo methods return five results across three
+groups, with deterministic JSON. Fresh seed-3/4/5 runs return 5/3/3 songs in
+38.1–38.8 seconds, each with three groups and 35 attempts. Equal and current
+weights select identical live lists. The eight-item listening panel is pending.
+The database import, paid hosting, adaptive pauses, and assignment repair remain
+deferred. See reports/mvp_results.md and reports/interview_notes.md.
+
+## D-028: Record reported enjoyment and familiarity; make save intention optional
+
+Date: 2026-10-08
+Status: accepted at the user's request
+
+The listener reported that all eight songs in the predetermined live panel were
+familiar and enjoyable. Record `familiar=yes` and `enjoyment=like` for each item.
+The user does not currently want save intention evaluated, so leave `would_save`
+blank. Familiarity and enjoyment determine review completion; a supplied save
+rating must still be valid and has its own denominator. No collected save ratings
+produce null save results, rather than zero positive responses.
+
+Preserve the frozen panel and method key, retain the source statement privately,
+and describe this as a bulk user report without claiming verified blinding.
+The observations are 8/8 liked, 8/8 familiar, and 0/8 previously unfamiliar.
+Identical method lists prevent a preference comparison of the role weights.
+Absence from submitted favorites is insufficient evidence of unfamiliarity.
+Keep this result visible when proposing a follow-up with explicit known-song
+exclusions; do not tune weights to the eight positive labels.
+
+Validation: 212 offline tests passed. The review regression covers blank or absent
+save-intention fields, a partial save-rating denominator, and invalid supplied
+values. The recorded panel summary is complete with eight familiarity/enjoyment
+ratings and zero collected save-intention ratings.
+
+## D-029: Follow up on familiarity using fixed candidates and explicit exclusions
+
+Date: 2026-10-08
+Status: accepted when the user asked to continue the proposed next steps
+
+Use the first predetermined saved candidate pool (`run_001`, random seed 3) for
+one five-song follow-up with the current role weights. Exclude the eight recording
+IDs explicitly reported familiar in the completed original panel. Keep favorites,
+credit scoring, artist exclusions, contributor penalties, source balancing, and
+composition constraints fixed. Use no new provider requests or replacement pool.
+If the pool supplies fewer than five feasible songs, expose that shortfall.
+
+Save a protocol containing the dataset and prior-review hashes, exclusion IDs,
+weights, and selection constraints before selecting the follow-up. Exclusions are
+exact recording IDs; another version or composition may still be familiar. Do not
+infer that a different result is unfamiliar. Prepare blank familiarity/enjoyment
+ratings; save intention remains optional. Preserve all original observations.
+This adaptive follow-up describes one listener's experience after reporting known
+songs; it does not replace the original evaluation or establish generalization.
+
+Prepare a fixed random sample of ten accepted matching identities and all nine
+no-compatible cases for human inspection. Keep independent human judgments blank
+until supplied. Finish a five-minute interview walkthrough and repeat public
+checks without private inputs; do not import a database or publish a service.
+
+Outcome: the fixed pool returned four of five requested songs across three source
+groups (assignments 2/1/1), with zero new provider requests. All four follow-up
+ratings and the ten human identity judgments remain blank. The original review
+hashes are unchanged. All 215 offline tests passed in a clean copy without private
+files; both public methods returned five songs across three groups, and repeated
+CLI JSON was byte-identical. See reports/mvp_results.md and the interview walkthrough.
+
+## D-030: Test genuinely different favorite-song seeds; target ten tracks
+
+Date: 2026-10-08
+Status: performed on 2026-10-08; ten-song goal not achieved
+
+The user clarified that the next experiment must start from different favorite
+songs, rather than rerank an existing candidate pool. The new recommendation-list
+goal is ten tracks. Test fresh seed-song cohorts with the current role weights,
+scorer, eligibility, selection, and request/runtime protections. Use explicit
+`limit=10` for the next experiments; historical outputs and callable defaults are
+not changed by this documentation task.
+
+Under the current two-per-source cap, ten tracks require at least five productive
+source groups. Record seed identity changes and recommendation artist/composition
+overlap separately from listening novelty. Do not promise ten unfamiliar songs,
+silently relax constraints, or add a history filter and describe it as a seed-only
+improvement. The exact-ID follow-up remains a historical observation.
+
+See [the handover](reports/different_seeds_ten_track_handover.md) for a bounded
+three-cohort protocol, verified interfaces, private evidence locations, and checks.
+
+Outcome: predeclared sampling integers 6/9/10 used 30 different normalized
+favorite-song identities and returned 4/10, 3/10, and 4/10 recordings. All runs
+hit 35 charged attempts in under 39 seconds. Productive sources were 3/2/3;
+no scoring or policy relaxation was applied. One recording repeats an earlier
+result; missing work identities prevent a complete composition-novelty claim.
+Run 1 includes a livestream and continuous mix, exposing a song-format limitation.
+Seven recordings in the predetermined first-two-run review remain unrated.
+See [aggregate results](reports/different_seed_results.md).
+
+## D-031: Freeze cohort experiments and review actual full exports
+
+Date: 2026-10-08
+Status: implemented for the authorized different-seed experiment
+
+Freeze input, implementation, references, ordered metadata-only cohorts, limits,
+and first-two-run listening membership before provider calls. Validate exported
+samples/configuration and refuse existing run directories. Retain every failure
+and short list; never choose replacement cohorts after observing outcomes.
+
+Create reviews from every selected recording in actual exports, with explicit
+requested length and shortfalls, without reranking or introducing a weight
+comparison. Bind exported hashes and membership; familiarity/enjoyment start
+blank, save intention stays optional, and previous ratings are not copied.
+Keep five-track legacy comparison callers unchanged. New weights and hard
+history/format filters require separate declared experiments.
+
+Validation: seven added regressions; 222 offline tests passed. All three saved
+lists replay exactly and historical reference hashes remain unchanged.
