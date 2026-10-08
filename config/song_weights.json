@@ -1,0 +1,6 @@
+{
+  "format_version": 1,
+  "status": "provisional fixed baseline; not tuned or preference-validated",
+  "role_weights": {"musician": 1.0, "songwriter": 1.0, "producer": 1.0, "staff": 0.25},
+  "saturation_k": 5.0
+}

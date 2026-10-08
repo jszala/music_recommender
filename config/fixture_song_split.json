@@ -1,0 +1,7 @@
+{
+  "format_version": 1,
+  "purpose": "Public fixture demonstration; not a listener-preference evaluation",
+  "training_recording_ids": ["863288d1-0fb0-410f-ac45-98e0bd62eac1"],
+  "heldout_recording_ids": ["21ddde6c-90f4-469e-bdd0-1f438d011917"],
+  "established_equivalent_groups": []
+}

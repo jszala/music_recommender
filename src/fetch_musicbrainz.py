@@ -88,20 +88,27 @@ class FetchError(Exception):
 class MusicBrainzClient:
     """URL-addressed raw-response cache. Offline mode never calls the transport."""
 
+    api = API
+    query_defaults = {"fmt": "json"}
+    requires_contact = True
+
     def __init__(self, cache_dir: Path, limits: Limits, *, contact: str | None = None,
                  offline: bool = False, retry_failures: bool = False,
-                 opener=urlopen, clock=time.time, sleep=time.sleep):
+                 opener=urlopen, clock=time.time, sleep=time.sleep, before_attempt=None):
         if offline and retry_failures:
             raise ValueError("Cannot retry failures offline")
-        if not offline and (not contact or not re.fullmatch(
+        if not offline and self.requires_contact and (not contact or not re.fullmatch(
                 r"(?:[^\s@()]+@[^\s@()]+\.[^\s@()]+|https?://[^\s()]+)", contact)):
             raise ValueError("Live collection needs a contact email or URL")
         self.cache_dir, self.limits = cache_dir, limits
         self.offline, self.retry_failures = offline, retry_failures
-        self.user_agent = f"music-credit-recommender/0.2.0 ({contact})" if contact else None
+        self.user_agent = (f"music-credit-recommender/0.2.0 ({contact})" if contact else
+                           "music-credit-recommender/0.2.0" if not offline else None)
         self.opener, self.clock, self.sleep = opener, clock, sleep
         self.network_attempts = 0
+        self.request_budget = None
         self.events = []
+        self.before_attempt = before_attempt
         self._lock = None
 
     def __enter__(self):
@@ -130,8 +137,8 @@ class MusicBrainzClient:
 
     def get(self, endpoint: str, **params) -> dict:
         if self._lock is None:
-            raise RuntimeError("Use MusicBrainzClient as a context manager")
-        url = API + endpoint + "?" + urlencode(sorted({"fmt": "json", **params}.items()))
+            raise RuntimeError(f"Use {type(self).__name__} as a context manager")
+        url = self.api + endpoint + "?" + urlencode(sorted({**self.query_defaults, **params}.items()))
         path = self.cache_dir / (digest(url.encode()) + ".json")
         if path.exists():
             try:
@@ -151,17 +158,22 @@ class MusicBrainzClient:
             raise FetchError(f"Offline cache miss: {url}")
         attempts, not_before = [], 0
         for attempt in range(self.limits.retries + 1):
-            if self.network_attempts >= self.limits.max_requests:
+            if self.network_attempts >= (self.limits.max_requests if self.request_budget is None else self.request_budget):
                 if attempts:
                     self.events.append(self._event(envelope, path, "network"))
                 self.events.append({"query": url, "mode": "budget", "error": "request budget exhausted"})
                 raise FetchError("Request budget exhausted")
             self._pace(not_before)
+            if self.before_attempt is not None:
+                self.before_attempt(url, attempt)
             self.network_attempts += 1
             text, status, error, transient = "", None, None, False
             started_at = utc_now()
             try:
                 request = Request(url, headers={"User-Agent": self.user_agent, "Accept": "application/json"})
+                # Record the actual send boundary, after request preparation, so a slow
+                # preparation cannot shorten the interval before the following request.
+                (self.cache_dir / ".last_request").write_text(str(self.clock()))
                 with self.opener(request, timeout=self.limits.timeout_seconds) as response:
                     status = response.status
                     raw = response.read(self.limits.max_response_bytes + 1)

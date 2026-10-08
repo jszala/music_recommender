@@ -1,0 +1,12 @@
+{
+  "format_version": 1,
+  "search_page_size": 25,
+  "max_search_pages": 2,
+  "max_recordings_per_song": 4,
+  "duration_tolerance_ms": 2000,
+  "max_requests": 120,
+  "min_interval_seconds": 1.1,
+  "timeout_seconds": 20,
+  "max_response_bytes": 16777216,
+  "retries": 1
+}

@@ -1,8 +1,49 @@
-# Milestones 1–2 results
+# Implementation results and limitations
 
 Research result: **pending**. This report verifies a deliberately selected public
 fixture; it does not measure artist recovery, Recall@K, or listener preference.
 The eventual study concerns one person's selected favorites, following D-008.
+
+## Milestone 4c: API scale-up cancelled as impractical
+
+The full-library workflow is implemented under D-023. **152 offline tests pass**,
+including a synthetic job across multiple provider tranches and a fresh zero-network
+replay with identical matching decisions, consolidated profiles, recording snapshots,
+four scoring reports, selected order, and playlist preparation. Interruption,
+persistent budgets, conflicting snapshots, discovery breadth/paging/refill, operational
+retries, Apple raw-response reuse, expanded-dataset binding, and partial-stage reporting
+are covered. Existing scoring and hard selection constraints remain in force.
+
+The user cancelled full-list collection and its queued continuation on 2026-10-07.
+**The MusicBrainz public API approach is not feasible for the intended full-library
+matching, broad contributor discovery, and repeated experiments.** Rate-limited
+serial collection with several requests per row and neighborhood expansion takes
+hours; transient failures add retries. Resumability and caching preserve work but
+do not remove the cost of discovering new evidence. Small bounded API pilots remain useful.
+
+The discontinued run imported the frozen 20-row pilot. The first additional
+100 rows required 320 HTTP attempts and about 435 seconds. The observed remaining
+matching estimate at that checkpoint was about 87 minutes, before discovery and
+Apple collection. This timing sample does not estimate matching precision or acceptance
+coverage. An additional 2–4 hours for the complete pipeline was estimated before
+cancellation; this was a projection, not a measured completed runtime.
+
+Final retained outcomes: **538 checkpointed rows**, comprising 187 accepted rows
+(187 distinct recordings, 156 resolved primary-artist IDs), 342 unresolved rows,
+and nine operational failures caused by HTTP 503 responses. Of the unresolved rows,
+94 had literal searches with no result, 14 were ambiguous, and 234 had no confident
+match. One additional row was interrupted and 777 were unattempted. **1,663 new
+MusicBrainz HTTP attempts** remain charged, including the interrupted send; the
+56 historical pilot attempts are recorded separately. Discovery and Apple each
+made zero new attempts. No expanded graph, full-profile batch, or complete live
+offline verification was produced.
+
+[The cancellation report](full_library_run.md) records final partial coverage.
+Both processes are stopped; completed row checkpoints and frozen responses remain
+in `data/private/full_library_2026-10-07/`, and provider caches and earlier pilot
+artifacts are preserved. Full-list completion remains outstanding. The next backend
+should evaluate downloaded MusicBrainz data and local indexes under D-024;
+download/import and backend adaptation have not been implemented or benchmarked.
 
 ## Verified graph
 
@@ -282,3 +323,261 @@ whether the first-page/selected-frontier coverage is adequate for the next step.
 No dump, role weights, degree penalty, song matching, holdout evaluation, or recall
 numbers were added in Milestone 2. The implementation supports traceable real
 records; the milestone's human-review component remains open.
+
+## Discussion after the pilot: song recommendations and recording versions
+
+On 2026-10-07 the user clarified that the intended outputs are songs, with every
+credit contributing to some extent. Recording staff should have lower impact than
+songwriters, producers, and central musicians; the role definitions and numerical
+weights are pending. Many favorites from one artist should have saturated influence.
+The user subsequently clarified that all musicians have the same base weight;
+songwriting adds a separate contribution, and no central-musician category is used.
+These are future requirements recorded in [D-012](../DECISIONS.md#d-012-recommend-songs-using-credits-with-bounded-preference-impact).
+The reported pilot continues to use artist candidates and equal unit weights.
+
+Recording-version inflation remains an explicit open problem, recorded in
+[D-013](../DECISIONS.md#d-013-recording-identity-and-version-evidence-remain-an-open-problem).
+The same recording on a compilation or deluxe edition, and a remaster without a
+new performance, mix, or edit, should not supply independent track evidence.
+Live recordings and remixes should remain distinct candidates; original/mono mixes
+can themselves matter to preference. MusicBrainz recording IDs provide an initial
+deduplication boundary, but cross-ID duplicates and ambiguous version metadata
+remain unresolved. Candidate identity and independence of evidence need separate
+rules; collapsing titles or all recordings of one work would lose meaningful
+differences. No version grouping, role weighting, or saturation has been implemented.
+
+## Milestone 3 implementation and song-ranking foundation, 2026-10-07
+
+The previous discussion paragraph records the state before this implementation.
+Conservative recording matching, a credit audit, bounded contributor-based song
+collection, additive role scoring, artist saturation, and fixed recording-split
+evaluation tools are now implemented. The original fixture and artist pilot remain
+historical baselines. Full-favorites matching, independently reviewed identity
+precision, the approximately 100-match audit, and listening-quality evaluation are
+still pending; the tools do not complete those human/research requirements.
+
+### Initial 20-song matching batch
+
+The D-014 review selection supplied the input. D-015 fixed literal search, two
+25-result pages, at most four recording lookups per song, a 2-second duration
+allowance, and a 120-attempt cap before collection. Automatic acceptance also
+requires exact normalized title/combined artist, an observed matching album release,
+one qualifying recording, resolved version markers, complete declared search, and
+inspection of returned exact alternatives. Human decisions require source-bound
+reviewer/evidence fields; ambiguous cases are never forced into the profile.
+
+| Diagnostic | Count |
+|---|---:|
+| Favorite rows processed | 20 |
+| Rule-accepted distinct recordings | 9 |
+| Rows needing review | 4 |
+| Literal queries returning no results | 7 |
+| Candidate recording snapshots fetched | 32 |
+| HTTP attempts / collection failures | 56 / 0 |
+| Offline replay HTTP attempts | 0 |
+| Independently human-reviewed rows | 0 |
+
+The mixed 5+15 selection is a workflow audit, not a representative sample for
+precision or library coverage. Zero literal results do not establish that the song
+is absent from MusicBrainz; aliases, source spelling, combined artist text, and
+version titles remain possible causes. Three review rows had exact alternatives
+beyond the lookup cap; one search also exceeded the page cap. Every review row
+lacked a candidate with all required acceptance evidence. Collection complete under
+its limits does not mean every identity is resolved.
+
+Among the nine rule-accepted recordings, all have primary-artist musician-category
+proxies, but only two have detailed performer credits. Four have observed songwriting
+credits, two have producer credits, and two have staff credits. An arranger and a
+phonographic-copyright credit remain unmapped and preserved. Missing roles are not
+evidence that nobody performed those roles. This sparse coverage limits the intended
+sound/contributor signal even when recording identity is reliable.
+
+The ignored directory `data/private/recording_matches_2026-10-07/` contains exact
+snapshots, hashes, query history, alternatives, check results, source rows, a deduplicated
+recording profile, credit audit, review sheet, and source-bound manual-review template.
+Offline replay reproduced the sample fingerprint and matching/profile/audit outputs.
+
+### Bounded song graph and scoring
+
+D-017 fixes contributor selection and candidate bounds. Collection starts at the
+nine rule-accepted recordings, selects six contributors by distinct favorite evidence,
+and uses recording relationships, paginated primary-credit browse, and eligible
+songwriting-work relationships. It produced 36 additional recording candidates in
+56 HTTP attempts without collection failures. Offline replay used zero requests.
+The 45-recording graph has observed songwriting on 19 recordings, production on 17,
+and staff credits on 15. All 36 candidates have positive shared-credit scores,
+which reflects frontier-based collection and is not preference-quality evidence.
+
+D-016 records provisional category weights: musician 1, songwriter 1, producer 1,
+staff 0.25. Each distinct category contributes once per contributor/recording;
+musician and songwriter add, while repeated instruments and duplicated rows do not.
+Shared-contributor products are bounded as `x/(1+x)`, averaged within primary
+favorite-artist groups, and multiplied by `n/(n+5)`. This bounds each group's total
+influence. The equal-role and unsaturated comparators use the same graph and favorites.
+No weight, saturation parameter, or sampling rule was tuned to these results.
+
+`data/private/song_graph_2026-10-07/` stores the graph, all three ranking JSON files,
+and `SONG_REVIEW.md` with ten suggestions and their source paths for user review.
+Favorite recording IDs are excluded. Cross-ID audio equivalence, unknown-role mapping,
+release-level credits, contributor-degree penalties, and final-list diversity remain
+open. Separate live/remix IDs remain available; titles or shared works are not merged.
+
+The evaluator compares the three methods on declared recording splits, groups only
+explicitly established equivalent identities, rejects training/held-out overlap,
+and reports overall and reachable denominators separately. Research mode requires
+collection provenance bound to training favorite IDs. Only the public fixture
+demonstration has been run; its output is labeled `demonstration_diagnostics` and is
+not a saved-favorites evaluation result.
+
+Validation: 76 offline tests pass, including matching ambiguity, truncation, failures,
+review binding, credit scope, songwriting/engineering discovery, pagination, additive
+role arithmetic, saturation bounds, duplicate invariance, contribution sums, snapshot
+hashes, and evaluation leakage. Both real collections replay from cache; all saved
+song-ranking contribution sums and per-artist influence bounds were checked. Personal
+inputs, downloaded data, and generated review/ranking artifacts remain ignored by Git.
+
+## Historical D-018/D-019 discovery-policy implementation, 2026-10-07
+
+The first user review identified familiar acts dominating the song list: nine of
+the ten highest-ranked songs carried one input act's primary credit, and all ten
+carried an input artist's credit. Artist saturation had bounded each favorite
+artist's contribution to an individual candidate, but did not constrain list
+membership; collection still allocated contributor slots by raw favorite counts.
+
+D-018/D-019 now exclude submitted acts, permit at most one supported familiar-artist
+collaboration across the list, and use each observed musician once. Production,
+engineering, writing, and artwork alone do not consume musician appearances.
+Distinct credited aliases and side projects remain eligible; canonical aliases
+retain the same musician identity. Private, source-bound override evidence handles
+the user's explicitly identified related performer. Group membership does not
+create inferred recording credits. Joint credits without detailed familiar
+performance evidence or reviewed collaboration evidence remain pending review.
+
+The full-input registry preserves all 425 submitted normalized artist names and
+their original source lines, including unmatched favorites. Six primary-artist
+IDs are backed by the nine automatically accepted recording snapshots. This is
+not independently audited resolution of all input acts; differently named or
+ambiguous identities among unmatched rows remain a coverage limitation.
+
+Applying these rules to the original graph selects eight songs and reports a
+shortfall of two. The broader collection in
+`data/private/song_graph_discovery_2026-10-07/` explores all twelve eligible
+contributors by balanced favorite-artist allocation, admits 44 eligible candidates
+alongside the same nine favorites, and uses 117 of 120 permitted HTTP attempts with
+zero failures. Per-contributor audit entries record 255 familiar-act exclusions
+and 17 collaboration-review exclusions; these are route occurrences and may repeat
+recording IDs across contributors, not counts of distinct songs.
+
+The weighted, equal, no-saturation, and contributor-diversity methods each return
+ten songs with one familiar collaboration and zero repeated observed musicians.
+The weighted list contains 31 distinct observed musicians. Its largest explanatory
+contributor supplies about 21.9% of base-score evidence, compared with about 64.0%
+on the eight-song old-graph list under the same hard rules. The pools differ, so
+this is a collection/concentration diagnostic, not a controlled preference result.
+The optional contributor-diversity method swaps two positions and retains the same
+weighted-list membership; it remains opt-in rather than being presented as a
+quality improvement.
+
+Each `recommendations_*.json` retains base affinities, apportioned contributor
+evidence, selection adjustments, observed musician sets, eligibility, and skipped
+candidates. `SONG_REVIEW_weighted.md` and the corresponding comparison review files
+provide source links for listening and credit inspection. Independent identity
+and listening review remain pending.
+
+Offline replay reproduces the sample fingerprint, snapshots, source hashes,
+registry checksum, collection selections, and resulting recommendations with
+zero network requests. The CLI agrees with the Python API. Evaluation now rejects
+overlapping primary-artist holdouts and requires training-only registry provenance
+in research mode; raw ranking metrics and constrained-list metrics are separate.
+Only the public fixture evaluation has run, with its demonstration label.
+
+Validation: 100 offline tests pass. New cases cover full-input exclusions through
+a partial matching batch, source-bound registries and overrides, canonical alias
+identity, side projects, the global collaboration allowance, group/member-only
+credits, sampled and ambiguous performances, session/vocal/guest uniqueness,
+recurring nonperforming staff, deterministic shortfalls, contributor diversity,
+balanced collection, rejection refill, and training-only evaluation provenance.
+The final selected list independently counts repeated musicians and rejects any
+policy invariant violation. `git diff --check` passes; private source and generated
+artifacts remain ignored.
+
+## Milestone 4b: contributor uniqueness and automatic Apple lookup, 2026-10-07
+
+D-020 now limits every shared explanatory contributor to one selected song per
+batch. Selecting a song reserves all its connecting contributor IDs, across roles
+and favorites. Nonconnecting staff are unaffected. Existing musician uniqueness,
+unfamiliar-act exclusions, and the single global collaboration allowance remain.
+Base affinity scores and weights are unchanged; the old soft-diversity option is
+accepted but redundant under the hard cap.
+
+The new Apple checker queries the complete eligible candidate pool using free
+German (`DE`) song searches. A candidate needs compatible artist/title/version
+metadata, a known duration within the fixed two-second tolerance, and an explicit
+boolean `isStreamable=true`. Studio remasters and alternate album appearances are
+permitted. Unresolved matches are skipped automatically, without requiring manual
+availability confirmation. No developer membership was purchased or required.
+
+The first bounded run made 60 HTTP attempts, saved partial results, and exited with
+status 2 because one query exceeded the request budget. A second bounded run reused
+the saved responses and made one new request, completing the pool without failures.
+The completed snapshot is in `data/private/apple_availability_complete_2026-10-07/`:
+
+| Automatic check result | Candidate recordings |
+| --- | ---: |
+| Qualifying API-indicated streaming match | 15 |
+| No confident metadata match | 26 |
+| Search-result cap reached | 3 |
+| Total eligible pool | 44 |
+
+The 29 excluded candidates are not established as absent from Apple Music. Search
+coverage, credited-artist formatting, version context, missing metadata, and the
+conservative duration rule can prevent a match. A capped search cannot establish
+that the inspected release is the only compatible identity. The public streaming
+flag is observed in live responses but absent from Apple's documented response-key
+table; missing or nonboolean flags fail closed. No guaranteed playback or independently
+audited audio identity is claimed. [Apple search API](https://performance-partners.apple.com/search-api).
+
+All four methods use the same constraints and availability snapshot:
+
+| Method | Strict graph-only batch | Apple-filtered batch | Apple-filtered shortfall |
+| --- | ---: | ---: | ---: |
+| Weighted saturation | 7 | 2 | 8 |
+| Equal weights | 7 | 3 | 7 |
+| Weighted without saturation | 7 | 2 | 8 |
+| Weighted contributor diversity | 7 | 2 | 8 |
+
+The weighted batch contains H. Hawkline's **Plastic Man** and Sega Bodega's
+**Adulter8**. It has ten distinct observed musicians, four distinct explanatory
+contributors, zero repeated musicians or explanatory contributors, and one familiar
+collaboration. Its skipped-candidate counts are 29 availability exclusions, nine
+musician conflicts, and four further familiar-collaboration conflicts. These reasons
+use a deterministic precedence, so a candidate can also conflict with another rule.
+The equal-weight batch contains Feel Good, Rainy Summer, and Herbie. Greedy selection
+can return fewer songs than another ordering; no scores or hard constraints were
+changed to fill the list.
+
+Artifacts are in `data/private/apple_batch_complete_2026-10-07/`: four recommendation
+JSON files, corresponding source-linked Markdown reviews, `playlist_preparation.json`,
+and `verification.json`. The playlist file preserves batch order, iTunes IDs,
+listening URLs, and lookup dates. Verified Apple Music catalog IDs remain null;
+no playlist has been created in an Apple account.
+
+Validation: **129 offline tests pass**, including conservative matching, remaster
+suffixes, incompatible versions, duration boundaries, explicit/clean ambiguity,
+misleading results, true/false/missing streaming flags, cache corruption, partial
+budgets, complete CLI replay, country/dataset binding, contributor conflicts across
+roles/favorites, multiple connectors, batch resets, replacement selection, and
+available equivalent appearances in evaluation. All four real selected lists and
+their exact metadata matches reproduce from cache with zero network requests;
+the real ranking CLI agrees with the Python API. Independent checks confirm score
+contribution sums, performer uniqueness, contributor uniqueness, and the collaboration
+allowance. Evaluation retains raw graph reachability and adds availability-reachable
+denominators; no private favorites holdout or listening-quality study has been run.
+
+The initial timestamp audit found that request preparation could shorten logged
+send spacing by about 20 milliseconds despite the pacing marker. The shared client
+now records its send boundary after preparing the request. A regression simulates
+slow preparation, and two further bounded live probes observed 3.100916 seconds
+between logged sends. Source responses and generated private artifacts remain
+ignored by Git. This result motivates broader candidate coverage before expecting
+ten-song batches, while preserving the accepted scoring and hard policies.

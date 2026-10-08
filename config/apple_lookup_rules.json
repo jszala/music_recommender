@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "search_limit": 50,
+  "max_queries_per_candidate": 2,
+  "duration_tolerance_ms": 2000,
+  "max_requests": 60,
+  "min_interval_seconds": 3.1,
+  "timeout_seconds": 20,
+  "max_response_bytes": 16777216,
+  "retries": 1
+}

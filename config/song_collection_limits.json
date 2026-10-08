@@ -1,0 +1,14 @@
+{
+  "format_version": 1,
+  "contributors": 12,
+  "recordings_per_contributor": 6,
+  "browse_page_size": 25,
+  "max_browse_pages": 2,
+  "works_per_contributor": 2,
+  "candidate_lookups_per_contributor": 18,
+  "max_requests": 120,
+  "min_interval_seconds": 1.1,
+  "timeout_seconds": 20,
+  "max_response_bytes": 16777216,
+  "retries": 1
+}

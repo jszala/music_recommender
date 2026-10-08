@@ -1,0 +1,16 @@
+{
+  "format_version": 1,
+  "matching": {"tranche_attempts": 120, "total_attempts": 16000},
+  "discovery": {"tranche_attempts": 120, "total_attempts": 6000},
+  "apple": {"tranche_attempts": 60, "total_attempts": 2000},
+  "discovery_rules": {
+    "candidate_target": 500,
+    "minimum_routes": 100,
+    "recordings_per_contributor": 6,
+    "candidate_lookups_per_contributor": 18,
+    "browse_page_size": 50,
+    "max_browse_pages": 4,
+    "works_per_contributor": 2
+  },
+  "requested_songs": 10
+}
