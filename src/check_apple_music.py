@@ -6,15 +6,56 @@ from pathlib import Path
 
 from .apple_music import AppleClient, collect_availability, country_code, load_apple_rules
 from .build_graph import ROOT, load_dataset
-from .fetch_musicbrainz import FetchError
+from .fetch_musicbrainz import FetchError, digest, save_json
 from .recommend_songs import load_weights, profile_favorites, score_song_candidates
 from .song_policy import candidate_eligibility, registry_for
 
 
+def check_recommendation_run(recommendations_path: Path, *, output: Path, country="DE",
+                             rules_path=ROOT / "config/apple_lookup_rules.json",
+                             cache=ROOT / "data/cache/apple_itunes", offline=False,
+                             retry_failures=False, _client_options=None) -> dict:
+    """Annotate the selected list, preserving its original membership and order."""
+    recommendations_path = Path(recommendations_path)
+    raw = recommendations_path.read_bytes()
+    run = json.loads(raw)
+    if run.get("format_version") != 1 or run.get("kind") != "quick_recommendation_run":
+        raise ValueError("Expected an exported quick recommendation run")
+    directory = recommendations_path.parent
+    records, manifest = load_dataset(directory)
+    favorites = profile_favorites(directory / "profile.json", manifest)
+    if run.get("input_sha256") != manifest.get("input_sha256") or sorted(run.get("favorite_recording_ids", [])) != favorites:
+        raise ValueError("Recommendation run does not match its dataset")
+    by_id = {record["id"]: record for record in records}
+    candidate_ids = []
+    for row in run["recommendations"]:
+        recording = row["recording"]
+        rid = recording["id"]
+        if rid not in by_id or rid in favorites or recording["title"] != by_id[rid]["title"]:
+            raise ValueError("Recommendation recording does not match its snapshot")
+        candidate_ids.append(rid)
+    rules = load_apple_rules(Path(rules_path))
+    with AppleClient(Path(cache), rules, offline=offline, retry_failures=retry_failures,
+                     **(_client_options or {})) as client:
+        availability = collect_availability(client, records, candidate_ids, rules=rules, output=Path(output),
+                                            country=country, favorite_ids=favorites)
+    index = {row["recording_id"]: row for row in availability["recordings"]}
+    annotated = {"format_version": 1, "kind": "separate Apple recommendation check",
+                 "source_recommendations_sha256": digest(raw), "country": country_code(country),
+                 "original_order_preserved": True, "summary": availability["summary"],
+                 "recommendations": [row | {"apple_availability": index[row["recording"]["id"]],
+                     "availability_label": "API-indicated streaming match" if index[row["recording"]["id"]]["reason"] == "available"
+                     else "No confident Apple match; catalog absence is not established"} for row in run["recommendations"]]}
+    save_json(Path(output) / "recommendation_check.json", annotated)
+    return annotated
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--dataset", type=Path, required=True)
-    parser.add_argument("--profile", type=Path, required=True)
+    source = parser.add_mutually_exclusive_group(required=True)
+    source.add_argument("--dataset", type=Path)
+    source.add_argument("--recommendations", type=Path, help="Check only an exported quick run's selected songs")
+    parser.add_argument("--profile", type=Path)
     parser.add_argument("--input", type=Path)
     parser.add_argument("--country", default="DE", type=country_code)
     parser.add_argument("--rules", type=Path, default=ROOT / "config/apple_lookup_rules.json")
@@ -24,6 +65,16 @@ def main() -> None:
     parser.add_argument("--retry-failures", action="store_true")
     args = parser.parse_args()
     try:
+        if args.recommendations:
+            report = check_recommendation_run(args.recommendations, output=args.output, country=args.country,
+                rules_path=args.rules, cache=args.cache, offline=args.offline, retry_failures=args.retry_failures)
+            print(json.dumps(report["summary"], indent=2))
+            print(f"Saved {args.output / 'recommendation_check.json'}")
+            if {"request_failure", "budget_exhausted"} & report["summary"]["reason_counts"].keys():
+                raise SystemExit(2)
+            return
+        if args.profile is None:
+            raise ValueError("--profile is required with --dataset")
         records, manifest = load_dataset(args.dataset)
         favorites = profile_favorites(args.profile, manifest)
         profile = json.loads(args.profile.read_bytes())

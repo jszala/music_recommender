@@ -12,7 +12,8 @@ The input is the locally converted favorites list, as
 approved in D-008. The implemented Milestone 1–2 artist graph and rankings remain
 historical baselines; subsequent milestones retain recordings as preference inputs
 and recommendation candidates. This plan was revised on 2026-10-07 following the
-user's clarifications in D-012/D-013, D-018, and D-020/D-021.
+user's clarifications in D-012/D-013, D-018, and D-020/D-021, then on 2026-10-08
+for the fresh bounded prototype in D-025.
 
 All musicians have the same base weight. A contributor who is also credited as a
 songwriter receives a separate, additive songwriting contribution. Do not infer
@@ -310,12 +311,10 @@ coverage is in [the cancellation report](reports/full_library_run.md).
 The historical API implementation and validation sequence is in
 [the full-library implementation plan](reports/full_library_implementation_plan.md).
 
-Next direction: assess a downloaded MusicBrainz database and local indexes, adapt
-retrieval to preserve recording/work credit scope and source provenance, and validate
-local matching against the frozen API evidence before another full-list run. Local
-import, collector adaptation, and runtime benchmarking remain unimplemented. Preserve
-the existing matching criteria, scoring, and hard selection constraints; Apple
-availability remains a separate provider stage. The objectives below remain outstanding.
+Downloaded MusicBrainz data and local indexes were considered after cancellation
+and remain deferred. The active direction is Milestone 4d below. Do not restart
+the cancelled full-list experiment or change its evidence. The original full-library
+objectives below remain outstanding.
 
 - Account for every one of the 1,316 supplied rows with resumable, source-bound
   matching. Reuse the pilot/cache, preserve uncertain outcomes, and merge all
@@ -337,6 +336,76 @@ accepted favorite feeds scoring, and the broader graph and available batch repla
 offline. Return up to ten songs with exact exclusion and shortfall counts. Missing
 identities and credits do not prevent automatic processing, but remain visible;
 independent precision and listening-quality evaluation remain later requirements.
+
+## Milestone 4d: Fast live recommendations and seed experiments
+
+Implementation: `src.quick_recommend.recommend_from_likes` and
+`src.benchmark_recommendations.run_experiments`, under D-025. The input is the
+existing parsed favorites JSON. Website and deployment work remain deferred.
+
+- Start each run with fresh MusicBrainz responses. Defaults: random seed supplied
+  by the caller, 8 artist groups, up to 15 recommendations, 35 HTTP attempts,
+  and a 55-second per-run budget.
+- Normalize credited-artist text, deduplicate identical artist/title/album/duration
+  rows, weight artist groups 1/2/3 for 1/2–10/>10 songs, sample without replacement,
+  and choose one song uniformly per sampled artist. Stable ordering reproduces
+  sampling with the same random seed; weights do not change credit scores.
+- Allow one 25-result search page and one detail lookup per seed. Reject capped
+  searches without replacement. Under D-026, choose one plausible version by album
+  context, known/closest duration, then stable recording ID; preserve alternatives
+  and the choice reason. Existing detail checks still apply. Supplied recording MBIDs
+  skip search; preserve existing identity checks.
+- Expand contributors once in an order balanced across accepted favorite artists.
+  Use one artist-relationship lookup, one artist browse page, and at most one
+  songwriting-work route per contributor. Ingest recording and nested work credits
+  from supported browse responses; bound individual fallbacks by the same budgets.
+- Deduplicate requests and recordings within a run, admit at most 100 candidates,
+  and stop once a compatible list reaches the requested size or collection ends.
+  Preserve full-input familiar-act exclusions, favorite exclusions, observed performer
+  uniqueness, and the existing familiar-collaboration allowance.
+- In this prototype, permit repeated explanatory producers/writers/engineers with
+  the existing `1 / (1 + previous selected appearances)` adjustment. Export unchanged
+  base scores and adjusted selection scores. Existing workflows remain strict.
+- Use a cancellable process, a collection deadline five seconds before the total
+  budget, and request timeouts of at most five seconds or remaining collection time.
+  Preserve completed snapshots, charge attempts before sending, disable automatic
+  retries, honor provider backoff, and retain 1.1-second spacing between fresh runs.
+- Export ordered recommendations, explanations, sampling/matching outcomes, partial
+  coverage, request counts by operation, stage timings, elapsed time, and stopping
+  reasons to JSON and a readable review. Empty and shorter lists are valid outcomes.
+- Run a sequential grid of random seeds, seed counts, and repeat counts with fresh
+  evidence each time. Export individual runs and CSV/JSON runtime, coverage, and
+  recording-ID overlap summaries. The deadline applies per run, not to the batch.
+- Extend the separate Apple checker to check only selected songs in an exported
+  run, preserving all songs and their order. Missing matches mean no confident Apple
+  match, not established absence; the initial list has no Apple requests or filter.
+
+**Completion check:** The existing offline suite and targeted sampling, batching,
+matching, policy, request-budget/pacing, separate Apple, and genuinely stalled
+transport tests pass. Benchmark fresh runs against the under-60-second target and
+report counts and shortfalls without claiming recommendation-quality improvements.
+See [the benchmark report](reports/quick_recommendation_benchmark.md).
+
+## Milestone 4e: Simplify matching and balance recommendations across seed songs
+
+Status: planned; implementation and new benchmarks have not started. Detailed
+handoff: [simpler matching and seed diversity](reports/fast_matching_and_seed_diversity_plan.md).
+
+- Fix fast-mode matching first, targeting at least 90% of sampled songs matched.
+  Use normalized song/main-artist identity; album, duration, and release versions
+  guide representative-recording choice. Allow compatible results from capped
+  search pages and a bounded fallback query. Keep historical matching conservative.
+- At the default 35-attempt limit, allow at most 20 matching attempts and reserve
+  at least 15 for discovery. Keep the 55-second runtime budget, fresh responses,
+  request accounting/pacing, and separate Apple checking.
+- Separate accepted identities from observed contributor coverage. Explore seeds
+  in request rounds; deduplicate shared routes and retain per-seed diagnostics.
+- Select one result per productive seed before second appearances, at most two
+  per source-song group, targeting at least three represented groups. Deduplicate
+  known compositions and preserve performer/familiar-artist rules and base scores.
+- Measure matching on at least 100 fixed distinct sampled rows, then repeat the
+  three random-seed 3/4/5 recommendation runs. Report match/coverage shortfalls,
+  complete runtimes, and test results without claiming recommendation quality.
 
 ## Milestone 5: Evaluate honestly
 

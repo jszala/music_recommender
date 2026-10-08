@@ -458,3 +458,90 @@ cancelled, and [the coverage report](reports/full_library_run.md) separates save
 outcomes, failures, interrupted work, and unattempted rows. No full-library recommendation
 result or complete live offline replay is claimed. Milestone 4c remains incomplete
 until the revised backend completes the original coverage and validation requirements.
+
+## D-025: Fresh bounded recommendations before availability checking
+
+Date: 2026-10-08
+Status: implemented; runtime and coverage verification recorded in the benchmark report
+
+Question: Can the portfolio prototype return an explainable list quickly using
+fresh public API evidence and support reproducible seed experiments?
+
+Choice: Keep the cancelled full-library experiment and its evidence. Defer a local
+MusicBrainz dump. Provide a callable engine and sequential experiment runner over
+the existing parsed favorites JSON. Sample eight artist groups by default, using
+weights 1/2/3 for 1/2–10/>10 distinct songs and one uniformly chosen song per group.
+Use stable ordering and a supplied random-number seed. These weights affect sampling
+only. Each run starts with an empty response store and gets 35 HTTP attempts, a
+55-second budget, at most 100 admitted candidates, and up to 15 recommendations.
+
+Matching: One 25-result search page and one detail lookup per seed. Only uncapped,
+unambiguous search results reach lookup; supplied recording MBIDs bypass searching.
+Keep D-015 identity checks and skip unsuccessful seeds without replacement.
+Discovery: One balanced contributor expansion round, one artist-relationship lookup
+and artist browse page per contributor, and at most one songwriting-work route.
+Use supported batched recording/work credits; individual lookups are bounded fallback.
+Deduplicate requests and recordings within each run; save evidence and unexplored
+coverage rather than claiming exhaustive discovery.
+
+Selection: Keep existing base credit scores, complete-input familiar-act exclusions,
+favorite-recording exclusions, observed performer uniqueness, and the one familiar
+collaboration allowance. In this prototype, replace D-020's explanatory-contributor
+cap with the existing diminishing contribution multiplier
+`1 / (1 + previous selected appearances)`. Both base and selection scores remain
+visible. D-020 remains the default in all historical workflows.
+
+Availability: The user explicitly chose recommendations before Apple checking.
+The standalone checker accepts a finished recommendation run and annotates only
+selected songs, preserving membership, order, and the original export. Unknown
+matches mean no confident Apple match; they do not establish catalog absence.
+This separate operation has its own budget and does not supply recommendation scores.
+
+Runtime: Charge every attempt before transport, disable retries, enforce request
+timeouts no longer than five seconds or remaining collection time, respect backoff,
+and preserve 1.1-second pacing across runs. A process supervisor ends collection
+five seconds before the overall deadline, terminating stalled transport and using
+completed snapshots for scoring/export. Under-60-second behavior must be measured;
+the deadline does not guarantee 15 recommendations or better listening quality.
+
+How to check it: Offline tests exercise sampling, identity ambiguity/caps/IDs,
+full-input exclusions, nested work-credit batching, bounded fallback/deduplication,
+soft penalties and strict compatibility, request accounting and spacing, budget
+exhaustion, empty results, separately ordered Apple checks, and genuinely stalled
+transport. Benchmark sequential fresh runs and preserve their JSON/CSV summaries;
+see [the measured report](reports/quick_recommendation_benchmark.md). Identical
+sampling seeds reproduce input selection; live API changes and deadlines can change
+the list. Website development, deployment, identity auditing, and preference-quality
+evaluation remain later work.
+
+## D-026: Choose one plausible seed recording instead of rejecting version alternatives
+
+Date: 2026-10-08
+Status: implemented in the quick prototype at the user's request
+
+Question: Should several versions of a liked song prevent that song from supplying
+recommendation evidence?
+
+Choice: For the quick prototype, choose one recording from an uncapped set of
+plausible candidates. Prefer exact album context, then a known/closest duration,
+then recording ID as a deterministic tie-break. Save all alternative IDs, the chosen
+ID, and the choice reason. Fetch only the chosen detail record, preserving the
+one-search/one-lookup ceiling and the overall request/runtime budgets. Do not
+refill a failed seed. Supplied recording IDs still bypass search.
+
+Scope: This changes D-025's initial uniqueness requirement only. Existing detailed
+artist/title/album/duration/version checks remain, and historical matching commands
+keep their conservative ambiguity policy. This representative recording is a
+practical input choice, not proof of the precise audio version originally liked.
+Album edition suffixes, punctuation, remaster wording, and sparse contributor
+credits remain distinct issues; see [the saved-run audit](reports/seed_matching_failures.md).
+
+Evidence: Three of the six rejected seeds in the audited run had multiple plausible
+recordings, two failed only exact album equality, and one search returned no results.
+Returned candidates were not devoid of metadata. Some lacked duration; one fetched
+recording had no contributor relationships beyond primary artist credit.
+
+How to check it: Tests verify one chosen lookup for multiple alternatives,
+album/duration preference, response-order independence, and continued rejection of
+explicit artist/version/duration conflicts. The complete offline suite now passes
+184 tests. Earlier snapshots and benchmark counts are preserved as historical evidence.

@@ -129,11 +129,16 @@ def contributor_evidence(row: dict) -> list[dict]:
 
 
 def select_song_list(rows: list[dict], records: list[dict], registry: dict, *, limit: int = 10,
-                     diversity: str = "none", availability: dict | None = None, country: str = "DE") -> dict:
+                     diversity: str = "none", availability: dict | None = None, country: str = "DE",
+                     contributor_policy: str = "strict") -> dict:
     if type(limit) is not int or limit < 1:
         raise ValueError("Recommendation limit must be positive")
     if diversity not in {"none", "contributors"}:
         raise ValueError("Unknown list diversity method")
+    if contributor_policy not in {"strict", "penalized"}:
+        raise ValueError("Unknown contributor policy")
+    if contributor_policy == "penalized":
+        diversity = "contributors"
     validate_registry(registry)
     by_id = {r["id"]: r for r in records}
     available = validate_availability(availability, records, country=country) if availability is not None else None
@@ -167,7 +172,7 @@ def select_song_list(rows: list[dict], records: list[dict], registry: dict, *, l
                                      if exposures[e["contributor"]["id"]]}
             reason = ("musician_already_selected" if conflicts else
                       "familiar_collaboration_limit" if collaborations and policy["familiar_collaboration"] else
-                      "contributor_already_selected" if contributor_conflicts else None)
+                      "contributor_already_selected" if contributor_conflicts and contributor_policy == "strict" else None)
             if reason:
                 skipped.append({"recording_id": rid, "reason": reason, "conflicting_musician_ids": sorted(conflicts),
                                 "conflicting_contributor_ids": sorted(contributor_conflicts)})
@@ -198,7 +203,7 @@ def select_song_list(rows: list[dict], records: list[dict], registry: dict, *, l
                                  if exposures[e["contributor"]["id"]]}
         reason = ("musician_already_selected" if conflicts else
                   "familiar_collaboration_limit" if collaborations and policy["familiar_collaboration"] else
-                  "contributor_already_selected" if contributor_conflicts else "requested_limit_reached")
+                  "contributor_already_selected" if contributor_conflicts and contributor_policy == "strict" else "requested_limit_reached")
         skipped.append({"recording_id": row["recording"]["id"], "reason": reason,
                         "conflicting_musician_ids": sorted(conflicts), "conflicting_contributor_ids": sorted(contributor_conflicts)})
     evidence_totals = defaultdict(float)
@@ -209,11 +214,13 @@ def select_song_list(rows: list[dict], records: list[dict], registry: dict, *, l
     musician_counts = Counter(m["artist"]["id"] for row in selected for m in row["eligibility"]["musicians"])
     repeated = sum(count > 1 for count in musician_counts.values())
     repeated_contributors = sum(count > 1 for count in exposures.values())
-    if repeated or collaborations > 1 or repeated_contributors:
+    if repeated or collaborations > 1 or (repeated_contributors and contributor_policy == "strict"):
         raise ValueError("Selected list violates musician, contributor, or collaboration constraints")
     return {"recommendations": selected, "skipped_candidates": sorted(skipped, key=lambda r: r["recording_id"]),
             "candidate_count": len(rows), "eligible_positive_candidates": eligible_count,
-            "policy": "D-020", "policy_sha256": registry_digest(registry), "diversity": diversity,
+            "policy": "D-020" if contributor_policy == "strict" else "D-025",
+            "policy_sha256": registry_digest(registry), "diversity": diversity,
+            "contributor_policy": contributor_policy,
             "availability_summary": {"applied": available is not None,
                                      "country": country_code(country) if available is not None else None,
                                      "eligible_before_filter": eligible_count, "eligible_after_filter": available_count,
@@ -222,20 +229,22 @@ def select_song_list(rows: list[dict], records: list[dict], registry: dict, *, l
                                   "familiar_collaborations": collaborations, "max_familiar_collaborations": 1,
                                   "distinct_observed_musicians": len(musician_counts), "repeated_observed_musicians": repeated,
                                   "unique_explanatory_contributors": len(evidence_totals),
-                                  "max_songs_per_explanatory_contributor": 1,
+                                  "max_songs_per_explanatory_contributor": 1 if contributor_policy == "strict" else None,
                                   "repeated_explanatory_contributors": repeated_contributors,
                                   "largest_contributor_evidence_share": max(evidence_totals.values(), default=0) / total if total else None},
             "artist_registry_scope": registry["scope"], "submitted_artist_name_count": len(registry["submitted_names"]),
             "selection_limitations": ["Greedy selection may not maximize list size or total score.",
                                       "Musician uniqueness covers observed credits; primary credits are performance proxies.",
-                                      "Soft contributor diversity is redundant under the hard contributor cap.",
+                                      "Soft contributor diversity is redundant under the hard contributor cap." if contributor_policy == "strict"
+                                      else "Repeated explanatory contributors receive a diminishing selection contribution.",
                                       "Apple availability, when applied, is an API indication rather than guaranteed playback."]}
 
 
 def recommendation_report(records: list[dict], favorite_ids: list[str], *, registry: dict | None = None,
                           weights: dict | None = None, saturation_k: float | None = 5.0,
                           excluded_ids: set[str] | None = None, limit: int = 10, diversity: str = "none",
-                          availability: dict | None = None, country: str = "DE") -> dict:
+                          availability: dict | None = None, country: str = "DE",
+                          contributor_policy: str = "strict") -> dict:
     rows = score_song_candidates(records, favorite_ids, weights=weights, saturation_k=saturation_k, excluded_ids=excluded_ids)
     registry = build_registry(records, favorite_ids) if registry is None else registry
     # A supplied registry cannot accidentally omit the active favorite artists.
@@ -243,7 +252,7 @@ def recommendation_report(records: list[dict], favorite_ids: list[str], *, regis
     if required - {a["id"] for a in registry["submitted_artists"]}:
         raise ValueError("Artist registry omits favorite artists")
     return select_song_list(rows, records, registry, limit=limit, diversity=diversity,
-                            availability=availability, country=country)
+                            availability=availability, country=country, contributor_policy=contributor_policy)
 
 
 def recommend_songs(records: list[dict], favorite_ids: list[str], **kwargs) -> list[dict]:
@@ -256,7 +265,7 @@ def write_song_review(path: Path, report: dict) -> None:
     lines = ["# Song suggestions under the discovery policy", "",
              f"Selected {summary['returned']} of {summary['requested']} requested songs; shortfall {summary['shortfall']}.",
              f"Familiar collaborations: {summary['familiar_collaborations']}/1; repeated observed musicians: {summary['repeated_observed_musicians']}.",
-             f"Shared contributors: at most one song each; repeated connectors: {summary['repeated_explanatory_contributors']}.",
+             f"Shared contributors: {'at most one song each' if report.get('contributor_policy', 'strict') == 'strict' else 'reuse allowed with diminishing contributions'}; repeated connectors: {summary['repeated_explanatory_contributors']}.",
              f"Artist exclusions: {report['artist_registry_scope']}, {report['submitted_artist_name_count']} submitted names.",
              f"List diversity: {report['diversity']}. Policy fingerprint: {report['policy_sha256']}.", "",
              "Favorite matches and listening usefulness remain subject to review. Uniqueness covers observed performance credits.", ""]

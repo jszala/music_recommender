@@ -20,6 +20,136 @@ was cancelled at the user's request on 2026-10-07, including its queued continua
 The [cancellation and coverage report](reports/full_library_run.md) records the retained
 partial results. A full-library recommendation list has not been produced.
 
+## Fast live recommendations and seed experiments
+
+The next prototype samples the complete parsed favorites list and requests fresh
+MusicBrainz evidence for a small recommendation run. It implements
+[D-025](DECISIONS.md#d-025-fresh-bounded-recommendations-before-availability-checking).
+Defaults are **8 sampled artists, up to 15 songs, 35 HTTP attempts, and a 55-second
+runtime budget**. Shorter and empty lists are valid results with explicit reasons.
+Apple checking is a separate optional operation; it does not affect this list.
+
+Run one experiment from the existing private favorites JSON:
+
+```bash
+python3 -B -m src.quick_recommend --random-seed 1 --contact-file data/private/musicbrainz_contact.txt --output data/private/quick_seed_1
+```
+
+The input defaults to `data/private/favorites.json`. Override it with `--input`.
+The contact file must contain a MusicBrainz contact email or URL. Output directories
+must be new. This command does not resume the cancelled full-library job.
+
+The same engine is callable from Python. Because collection uses a cancellable
+process, call it under the usual main guard in a script:
+
+```python
+from pathlib import Path
+from src.quick_recommend import recommend_from_likes
+
+if __name__ == "__main__":
+    result = recommend_from_likes(
+        "data/private/favorites.json",
+        random_seed=1,
+        seed_count=8,
+        limit=15,
+        max_requests=35,
+        runtime_limit_seconds=55,
+        contact=Path("data/private/musicbrainz_contact.txt").read_text().strip(),
+    )
+    print(result["output_directory"])
+    print(result["selection_summary"])
+```
+
+`random_seed` controls sampling. The engine groups normalized credited-artist text,
+deduplicates identical artist/title/album/duration entries, and assigns weights 1
+for one distinct song, 2 for 2–10, and 3 for more than 10. It samples artist groups
+without replacement and chooses one song uniformly within each selected group.
+Artist weights affect sampling only; existing credit scores remain unchanged.
+
+Each selected song gets at most one search page of 25 results and one detail
+lookup. An uncapped search may contain several plausible recordings: choose one
+by matching album context first, then known/closest duration, then recording ID
+for a stable tie-break. The chosen ID, alternative IDs, and reason are recorded.
+Existing artist/title/version/album/duration detail checks still apply. Capped,
+failed, and unsuccessful matches are skipped without refilling the sample. A track's
+optional `recording_mbid` skips searching but still requires the detail identity
+checks. This D-026 representative-version rule replaces the initial ambiguity
+rejection in this prototype; historical matching commands remain conservative.
+
+One contributor expansion round follows an order balanced across accepted favorite
+artists. Each contributor gets at most one artist-relationship lookup, one artist
+browse page, and one songwriting-work browse route. Supported browse responses
+include recording and nested work credits; missing credit fields use individual
+lookups within the same budget. A route supplies its batch and one fallback before
+the next contributor starts; additional fallbacks alternate between routes.
+Requests and recordings are deduplicated within the run. Collection stops when
+selection can supply the requested list, 100 candidates have been admitted, a budget
+ends, or the routes are exhausted. Evidence and unexplored routes stay visible.
+See [MusicBrainz browse capabilities](https://musicbrainz.org/doc/MusicBrainz_API#Browse).
+
+Artist exclusions use the **complete input**, including unmatched favorites.
+Accepted or supplied favorite recording IDs are excluded. Observed performers
+remain unique across the selected list, with the existing one familiar-collaboration
+allowance. Explanatory producers, writers, and engineers may repeat in this mode:
+their selection contribution is multiplied by `1 / (1 + previous appearances)`
+using the existing diversity adjustment. Base and adjusted scores are both exported.
+Historical ranking and collection commands retain their strict contributor policy.
+
+Every run starts with an empty response store. Saved response bodies, timestamps,
+queries, and hashes support auditing and offline tests; later live runs do not
+reuse them. The shared pacing gate preserves at least 1.1 seconds between attempts
+across consecutive runs. Every attempt is charged before transport, automatic
+retries are disabled, and provider backoff is respected within the deadline.
+Individual requests get at most five seconds or the remaining collection time.
+Collection ends five seconds before the overall budget, and the supervisor terminates
+a stalled worker. Completed snapshots remain available for final scoring and exports.
+For test-sized budgets below 20 seconds, one quarter of the budget is reserved.
+
+Each private output directory contains:
+
+- `recommendations.json`: ordered songs and explanations, base/selection scores,
+  sampled source rows, matching outcomes, partial coverage, requests by operation,
+  stage timings, elapsed time, and the stopping reason.
+- `SONG_REVIEW.md`: readable listening list, source links, and run diagnostics.
+- `manifest.json`, `profile.json`, and `recordings/`: compatible frozen credit
+  snapshots and full-input exclusion provenance.
+- `responses/`, `requests.json`, `checkpoint.json`, and `inputs/favorites.json`:
+  response evidence, charged attempts, completed collection state, and frozen input.
+
+Compare seeds, sample sizes, and repeated fresh runs sequentially:
+
+```bash
+python3 -B -m src.benchmark_recommendations --random-seeds 1 2 --seed-counts 8 10 --repeats 2 --contact-file data/private/musicbrainz_contact.txt --output data/private/quick_experiments
+```
+
+This example runs eight separate experiments. The runtime budget applies to **each
+run**, not the entire batch. Each run has its own output directory and fresh
+responses. `summary.csv` and `summary.json` report complete call runtimes, requests,
+accepted seeds, candidates, recommendations, stopping reasons, and recording-ID
+Jaccard overlap. Two empty lists have undefined overlap rather than perfect overlap.
+`progress.json` preserves finished runs if a later run is interrupted.
+The same input and random seed guarantee the same sample; identical input and API
+responses guarantee deterministic ranking. Live changes and deadlines can change
+the final list. Runtime and list overlap do not measure recommendation quality.
+
+Check only a finished run's selected songs separately:
+
+```bash
+python3 -B -m src.check_apple_music --recommendations data/private/quick_seed_1/recommendations.json --country DE --output data/private/quick_seed_1_apple
+```
+
+`recommendation_check.json` preserves every recommendation and its original order,
+adding availability evidence. `availability.json` contains the selected-song checks.
+The original list and ranking remain unchanged. Missing matches mean **no confident
+Apple match**, not proven unavailability. This optional operation has its own request
+limits and is outside the recommendation runtime budget. Use a new `--cache` path
+if fresh Apple responses are wanted; Apple's standalone checker retains its existing
+cache and offline support.
+
+Measured runtime and coverage are recorded in
+[the prototype benchmark report](reports/quick_recommendation_benchmark.md).
+Website development and deployment remain later work.
+
 ## Full-library collection: public API approach discontinued
 
 The first additional 100 rows took about 435 seconds and 320 HTTP attempts.
@@ -36,10 +166,10 @@ HTTP 503 failures make this approach impractical for the project's intended scal
 and iteration speed. Caching and checkpoints preserve progress but do not remove
 the cost of fetching new neighborhoods. Bounded API pilots remain useful.
 
-The next full-library approach should use a downloaded MusicBrainz database with
-local indexes for matching and credit exploration. Importing the dump and adapting
-the collector remain future work; this backend has not been implemented or benchmarked.
-Apple availability checks remain a separate stage. See [D-024](DECISIONS.md#d-024-discontinue-public-api-full-library-collection).
+A downloaded database was considered after cancellation and remains deferred.
+The active direction is the small, fresh API workflow above rather than another
+full-list run. Apple availability checks remain a separate stage. See
+[D-024](DECISIONS.md#d-024-discontinue-public-api-full-library-collection) and D-025.
 
 Both collection processes are stopped. Completed row checkpoints, frozen responses,
 and caches are preserved in the ignored private job directory. Inspect the cancelled
@@ -523,6 +653,9 @@ musical contribution. D-012–D-019 of [DECISIONS.md](DECISIONS.md) record the d
 identity policy, scoring assumptions, and bounded collection. D-020/D-021 add the
 shared-contributor cap and automatic free Apple checks. No predictive-quality
 claim is made from the fixture or these convenience samples.
+The D-025 prototype separately permits penalized contributor reuse and returns its
+initial list before optional Apple checking. Its small sample and bounded first
+pages can miss useful recommendations; the runtime target does not guarantee 15 songs.
 
 ## Contribution and tools
 

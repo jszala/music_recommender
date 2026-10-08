@@ -4,6 +4,53 @@ Research result: **pending**. This report verifies a deliberately selected publi
 fixture; it does not measure artist recovery, Recall@K, or listener preference.
 The eventual study concerns one person's selected favorites, following D-008.
 
+## Milestone 4d: Fresh bounded live recommendations, 2026-10-08
+
+The callable engine, sequential experiment runner, and separate selected-song
+Apple checker are implemented under D-025. Defaults are eight sampled artist groups,
+up to 15 recommendations, 35 fresh MusicBrainz HTTP attempts, and a 55-second budget.
+Artist groups use deduplicated favorites and sampling weights 1/2/3 for 1/2–10/>10
+songs. Existing credit scoring is unchanged. Full-input familiar-act exclusions,
+observed performer uniqueness, and the familiar-collaboration allowance remain in
+force; this mode permits repeated explanatory contributors with the existing
+diminishing contribution adjustment. Historical workflows retain strict selection.
+
+The initial complete offline suite passed **181 tests**, including new sampling, conservative
+single-page matching, supplied-ID matching, nested-work browse ingestion, bounded
+fallback/deduplication, 100-candidate stopping, policy, request-accounting, pacing,
+backoff, budget-exhaustion, and genuinely stalled-transport checks. Completed
+snapshots survive worker cancellation. The Apple checker annotates only selected
+songs in original order and leaves the initial export unchanged; missing matches
+do not establish unavailability.
+
+Four fresh live experiments returned 6, 4, 3, and 4 recommendations in 38.15, 41.05,
+38.55, and 38.78 seconds. All stayed under 60 seconds and stopped at 35 attempts;
+none reached the requested 15 songs. The runs accepted 2–4 seed recordings and
+admitted 5–46 candidates. Two runs each recorded one non-retried HTTP 503 search
+failure. No Apple requests were made. These measure bounded runtime and partial
+coverage, not recommendation-quality improvements. Details, operation counts,
+shortfalls, and private output locations are in
+[the prototype benchmark report](quick_recommendation_benchmark.md).
+After the final transport and missing-work-credit safeguards, a further fresh run
+returned six songs in 38.07 seconds with 35 attempts, two accepted seeds, and 39
+admitted candidates. It also met the runtime target and stopped at the request budget.
+
+The subsequent user-directed D-026 change chooses one representative recording
+when several plausible versions remain, preferring album context, known/closest
+duration, then recording ID. Alternatives and the chosen ID remain visible; the
+one-search/one-detail ceiling and existing detail checks still apply. The suite now
+passes **184 tests**. [The saved-run matching audit](seed_matching_failures.md)
+distinguishes version alternatives, album-only rejection, an empty query result,
+missing duration, and sparse contributor credits.
+One fresh D-026 run finished in 40.51 seconds with 35 attempts and three
+recommendations. Kevin Morby's previously ambiguous seed was accepted; Dean Blunt
+and PinkPantheress searches failed operationally, leaving two accepted seeds in
+total. Exact album and remaster-title issues remain distinct from version choice.
+
+The cancelled full-library experiment and its original evidence remain preserved.
+Website/deployment, full-list matching, identity auditing, and listening-quality
+evaluation remain later work.
+
 ## Milestone 4c: API scale-up cancelled as impractical
 
 The full-library workflow is implemented under D-023. **152 offline tests pass**,
