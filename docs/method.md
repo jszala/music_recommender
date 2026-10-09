@@ -1,6 +1,12 @@
-# Production-credit method
+# Contributor-credit recommendation method
 
-This exploratory data science method is an offline work in progress. The question is whether connections through creative contributors yield useful recommendations, and how that behavior differs from listening-behavior recommendations. The latter comparison is future work. Equal/current weights compare versions of this credit method.
+The method explores whether connections through creative contributors yield useful
+music recommendations. It uses explicit metadata features and fixed scoring
+heuristics, with separate stages for recording identity, candidate collection,
+affinity, and list selection. Equal/current weights compare versions of the same
+credit method; comparison with listening-behavior recommendations is future work.
+The [case study](case_study.md) discusses findings and tradeoffs, and the
+[architecture](architecture.md) maps the implementation.
 
 ## Data and matching
 
@@ -10,6 +16,25 @@ Live tooling normalizes title/main-artist text to find compatible representative
 
 Recording relationships supply performance, production, and engineering; linked works supply songwriting. Primary artist credit is a disclosed performance proxy. Group members and missing contributors are not inferred. Multiple roles in one category contribute one category weight. [Credit extraction](../src/credits.py) retains source, scope, relationship ID, attributes, and observed work identities.
 
+These boundaries prevent a composition credit from being silently treated as a
+performance credit, or missing metadata from becoming an inferred collaborator.
+The familiar-act registry uses the full submitted input in live runs, including
+acts whose songs were not sampled for collection.
+
+## Candidate collection
+
+The offline fixture supplies a frozen candidate pool. The fast live collector
+instead samples artist groups and explores shared-contributor routes under request
+and runtime limits. Its defaults are eight sampled groups, 35 charged transport
+attempts, and a 55-second engine budget. Matching receives at most 20 attempts;
+remaining capacity supports discovery across source groups. Failed attempts are
+charged, and partial results retain their stopping reason.
+
+Retrieval is not exhaustive. Candidate coverage depends on provider responses,
+credit availability, explored routes, and remaining capacity. A sampling random
+seed alone cannot reproduce a live pool. See [research tools](research_tools.md)
+for sampling details and provider behavior.
+
 ## Base affinity
 
 [The scorer](../src/recommend_songs.py) uses [fixed weights](../config/song_weights.json): musician 1, songwriter 1, producer 1, staff 0.25. Each contributor receives one weight per distinct eligible category. These are provisional assumptions, not learned importance. The equal baseline assigns 1 to each category and shares every other policy.
@@ -18,7 +43,12 @@ Multiply shared contributors’ favorite/candidate weights and sum to x. Pair af
 
 Average affinities within each favorite-artist group and multiply by **n/(n+5)**, where n counts distinct favorites in the group. More favorites have increasing but diminishing influence; constant 5 is provisional. With one favorite per group, all factors are 1/6 and do not distinguish counts in the public illustration. Sum group contributions for the base score. Multi-artist favorites can contribute to multiple credited-artist groups, as the evidence discloses.
 
-## Checked example
+The bounded pair affinity limits the marginal effect of dense credits, while
+artist influence limits how strongly many favorites from one act dominate the
+score. These are explicit design assumptions. Their usefulness needs separate
+ablation and listener evidence; inspectable arithmetic does not validate them.
+
+## Worked example
 
 The [TWELVE snapshot](../data/demo/recordings/08d4b15e-5945-45f6-9ed2-d5490c53de4c.json) records Sega Bodega as producer, engineer, and composer of the linked [work](https://musicbrainz.org/work/855c0c20-a402-488e-8bbc-6df42eb00563): producer + staff + songwriter = **1 + 0.25 + 1 = 2.25**.
 
@@ -43,23 +73,36 @@ Hard policies exclude favorite recording IDs, submitted familiar acts, repeated 
 
 Exact-ID exclusions in the historical follow-up were a separate adaptive experiment, not an implicit listening-history filter in the demo. No weights, exclusions, format policy, or historical scores changed for visual polish.
 
-## README demonstration
+Artist groups used in affinity aggregation differ from source-song groups used in
+selection. A source-song group combines favorites with equal nonempty observed
+work-ID sets, falling back to recording identity when work evidence is missing.
+Balancing assigns each selected result to one supported source group; it does not
+change the base affinity or discard the result's other connections.
 
-The [README](../README.md) shows the complete 4/3/4 outputs of the three recent
-runs, with their original per-run ranks. [Saved public reports](../data/recommendations/README.md)
+These are the demo and fast-live policies. The declared-split evaluator retains
+strict contributor reuse and other selection defaults; its variants must be
+labeled by policy when compared with these paths.
+
+## Reproduction boundaries
+
+The [README](../README.md) introduces the complete runnable fixture through
+`python3 -B -m src.demo`. This recomputes scoring and selection from the 39 frozen
+snapshots and three illustrative favorites. The equal method uses the same pool
+and policies with equal role weights.
+
+The separate [saved public reports](../data/recommendations/README.md) contain the
+complete 4/3/4 outputs of three later runs, with their original per-run ranks, and
 retain every credit path and adjustment. Nineteen unmodified snapshots contain the
 11 candidates and eight matched favorites needed to reproduce all displayed base
 scores with the existing scorer. Unused sampled likes, full candidate pools, and
 the personal familiar-act registry stay private; the entire historical selection
 process is not reproduced from this reduced context.
 
-[The Markdown renderer](../src/readme_demo.py) only formats those saved reports.
-It does not score, filter, merge, rerank, or fetch data. There is no separate web
-application, screenshot, cover-art placeholder, or GitHub Pages deployment. Missing
-art is omitted. Title links point to MusicBrainz; Apple links are labeled DE-region
-searches. [Recording evidence](recommendations.md) keeps durations, versions, all
-roles, source links, and arithmetic outside the main list.
+[The Markdown renderer](../src/readme_demo.py) formats those saved reports and
+checks the supporting documents with `--check-docs`. It does not perform fresh
+scoring or selection. Title links point to MusicBrainz; Apple links are labeled
+DE-region searches. [Recording evidence](recommendations.md) keeps durations,
+versions, all roles, source links, and arithmetic alongside the saved lists.
 
-The separate [constructed fixture](../data/demo/README.md) retains full offline
-scoring/selection and the worked example above through `src.demo`. A later API can
-serve the same recommendation report; [the roadmap](../ROADMAP.md) describes that work.
+New provider calls are new observations. A later API can serve the same
+recommendation report; [the roadmap](../ROADMAP.md) describes that work.

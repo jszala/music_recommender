@@ -1,4 +1,4 @@
-"""Render the three saved recommendation lists as ordinary GitHub Markdown."""
+"""Render saved recommendation reports and verify their supporting documentation."""
 
 import argparse
 import hashlib
@@ -116,17 +116,29 @@ def render_details(reports):
     return "\n".join(lines).rstrip()
 
 
+def check_documents(reports, *, list_path=DEFAULT_RUNS / "README.md",
+                    evidence_path=ROOT / "docs/recommendations.md"):
+    document = Path(list_path).read_text(encoding="utf-8")
+    if document.count(START) != 1 or document.count(END) != 1:
+        raise ValueError("Saved-results document needs one recommendation marker pair")
+    if document.index(START) >= document.index(END):
+        raise ValueError("Saved-results recommendation markers are out of order")
+    if document.split(START, 1)[1].split(END, 1)[0].strip() != render_list(reports):
+        raise ValueError("Saved-results list differs from the saved recommendations")
+    if Path(evidence_path).read_text(encoding="utf-8").strip() != render_details(reports):
+        raise ValueError("Recommendation evidence differs from the saved reports")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--format", choices=("markdown", "json", "details"), default="markdown")
-    parser.add_argument("--check-readme", action="store_true")
+    parser.add_argument("--check-docs", action="store_true",
+                        help="Verify the saved-results list and complete credit evidence")
     args = parser.parse_args()
     try:
         reports = load_runs()
-        if args.check_readme:
-            readme = (ROOT / "README.md").read_text(encoding="utf-8")
-            if readme.split(START, 1)[1].split(END, 1)[0].strip() != render_list(reports):
-                raise ValueError("README list differs from the saved recommendations")
+        if args.check_docs:
+            check_documents(reports)
             return
         print(json.dumps(reports, ensure_ascii=False, indent=2) if args.format == "json" else
               render_details(reports) if args.format == "details" else render_list(reports))

@@ -18,9 +18,11 @@ Run `python3 -B -m src.demo` from the repository root. `--method equal` changes
 only role weights; scorer, saturation, candidate snapshots, and hard selection
 policies remain shared with the weighted run and live prototype.
 
-The main [README example](../../README.md) shows all 11 saved results from three
-recent runs. This smaller constructed fixture is retained for scoring/selection
-reproduction and the checked Shygirl/Sega Bodega example in [the method](../../docs/method.md).
+This is the runnable example introduced in the [README](../../README.md), with
+the Shygirl/Sega Bodega calculation explained in [the method](../../docs/method.md#worked-example).
+The separate [saved historical results](../recommendations/README.md) retain all
+11 recordings returned by three later live runs; their reduced public context
+does not reproduce full historical selection.
 
 The weighted example returns five songs assigned 2/2/1 across source groups.
 The candidate pool is bounded and selected for exposition. This result verifies

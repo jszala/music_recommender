@@ -89,6 +89,8 @@ data/recommendations/run_003/recordings/68c4be84-238a-4864-b4c9-78bcc9615b2c.jso
 data/recommendations/run_003/recordings/70b5e517-72e2-400d-9e68-c7ac7139c66c.json
 data/recommendations/run_003/recordings/cf3292eb-b0d0-47c5-95b7-acad6f7b3f8c.json
 data/recommendations/run_003/report.json
+docs/architecture.md
+docs/case_study.md
 docs/method.md
 docs/recommendations.md
 docs/research_tools.md

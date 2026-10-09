@@ -2,6 +2,26 @@
 
 This is an offline production-credit demo and work in progress. Public fixtures demonstrate behavior; private research runs supply the aggregates below. Personal inputs/ratings are excluded. Historical live observations cannot be exactly reproduced without private frozen responses; new provider calls are new observations.
 
+## Main findings
+
+The research question is whether contributor credits support useful music
+discovery. The current evidence establishes reproducible score explanations and
+documents retrieval limitations, while leaving recommendation-quality improvement
+unproven.
+
+| Question | Observation | Consequence |
+|---|---|---|
+| Can submitted songs be matched reliably enough for discovery? | 73/100 accepted in the fixed audit; 18 provider failures; 9 no-compatible outcomes | The 90% acceptance target was missed; independent identity precision remains unmeasured. |
+| Is additional credit evidence available? | 31/73 accepted audit inputs had eligible evidence beyond the primary-artist proxy | Many inputs offer little observed contributor context. |
+| Do the current weights improve selection? | Equal/current lists and order were identical on three historical frozen pools | No selection advantage was observed on those pools; preference superiority is unestablished. |
+| Are reviewed suggestions useful discoveries? | One listener reported 8/8 enjoyable but 8/8 familiar | The reviewed panel showed enjoyment without unfamiliar-and-enjoyable discovery. |
+| Can later runs fill a ten-result list? | 4/10, 3/10, and 4/10 delivered; all hit the 35-attempt ceiling | Matching, productive-source coverage, and selection conflicts constrain delivery. |
+
+The constructed offline fixture demonstrates different behavior under equal and
+current weights, but was selected for exposition. It is separate from the
+historical pool comparisons and listener evidence. The [case study](case_study.md)
+connects these findings to design decisions and the next experiments.
+
 ## Metric definitions
 
 | Metric | Definition | Boundary |
@@ -18,7 +38,7 @@ This is an offline production-credit demo and work in progress. Public fixtures 
 
 ## Public illustration and matching
 
-The 39-snapshot, three-favorite illustration returns **5/5 across three assigned groups** (2/2/1). Both methods return five and share two recordings: Jaccard 2/8 = 0.25. This demonstrates weight sensitivity in a selected fixture, without preference evidence. One weighted result has unknown work identity. This smaller constructed fixture remains available through `src.demo`; the main [README](../README.md) displays all 11 actual results from the three later runs.
+The 39-snapshot, three-favorite illustration returns **5/5 across three assigned groups** (2/2/1). Both methods return five and share two recordings: Jaccard 2/8 = 0.25. This demonstrates weight sensitivity in a selected fixture, without preference evidence. One weighted result has unknown work identity. This is the runnable `src.demo` example introduced in the [README](../README.md). The [saved historical results](../data/recommendations/README.md) retain all 11 outputs from three later runs.
 
 The [fixed audit](../reports/mvp_matching_audit.md) froze 100 sampled artist groups (one song each, integer 42) before thirteen bounded fresh batches: **73/100 accepted, 18/100 HTTP 503 failures, 9/100 no-compatible outcomes**. The 90% acceptance target was missed. Additional-credit coverage was **31/73 accepted rows**; 42/73 had no additional evidence. Total complete calls took 205.90 seconds and 187 attempts. Conditional 73/82 among non-failure rows does not replace 73/100.
 

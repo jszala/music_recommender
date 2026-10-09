@@ -13,7 +13,7 @@ import unittest
 from unittest.mock import patch
 
 from src.build_graph import ROOT, load_dataset
-from src.readme_demo import DEFAULT_RUNS, START, END, load_runs, render_list, render_details
+from src.readme_demo import DEFAULT_RUNS, START, END, check_documents, load_runs, render_list, render_details
 from src.recommend_songs import score_song_candidates
 
 
@@ -37,7 +37,7 @@ class ReadmeDemoTests(unittest.TestCase):
         self.assertIn("Happy Friday!", reports[0]["recommendations"][1]["recording"]["title"])
         self.assertIn("Essential Mix", reports[0]["recommendations"][2]["recording"]["title"])
 
-    def test_readme_membership_order_and_ranks_match_saved_outputs_without_mutation(self):
+    def test_documented_membership_order_and_ranks_match_saved_outputs_without_mutation(self):
         reports = load_runs()
         before = deepcopy(reports)
         markdown = render_list(reports)
@@ -45,10 +45,9 @@ class ReadmeDemoTests(unittest.TestCase):
         ids = [re.search(r"musicbrainz.org/recording/([0-9a-f-]{36})", line).group(1) for line in lines]
         self.assertEqual(ids, [row["recording"]["id"] for report in reports for row in report["recommendations"]])
         self.assertEqual([int(line.split(".", 1)[0]) for line in lines], [1, 2, 3, 4, 1, 2, 3, 1, 2, 3, 4])
-        readme = (ROOT / "README.md").read_text()
-        self.assertEqual(readme.split(START)[1].split(END)[0].strip(), markdown)
+        document = (DEFAULT_RUNS / "README.md").read_text()
+        self.assertEqual(document.split(START)[1].split(END)[0].strip(), markdown)
         self.assertEqual(reports, before)
-        self.assertNotIn("![", readme)
         self.assertEqual(markdown.count("[Apple search]"), 11)
 
     def test_all_paths_and_arithmetic_remain_in_linked_evidence(self):
@@ -96,11 +95,30 @@ class ReadmeDemoTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "membership/ranks"):
                 load_runs(dataset)
 
-    def test_cli_json_and_readme_check_work_offline(self):
+    def test_document_check_rejects_missing_reordered_or_duplicate_markers_and_changed_outputs(self):
+        reports = load_runs()
+        markdown, details = render_list(reports), render_details(reports)
+        with tempfile.TemporaryDirectory() as tmp:
+            list_path, evidence_path = Path(tmp) / "README.md", Path(tmp) / "evidence.md"
+            valid = f"{START}\n{markdown}\n{END}\n"
+            evidence_path.write_text(details)
+            for document in (markdown, valid.replace(END, ""), valid + START,
+                             f"{END}\n{markdown}\n{START}", valid.replace("Birthday Boy", "Changed title")):
+                with self.subTest(document=document[:60]):
+                    list_path.write_text(document)
+                    with self.assertRaises(ValueError):
+                        check_documents(reports, list_path=list_path, evidence_path=evidence_path)
+            list_path.write_text(valid)
+            check_documents(reports, list_path=list_path, evidence_path=evidence_path)
+            evidence_path.write_text(details.replace("Birthday Boy", "Changed title"))
+            with self.assertRaisesRegex(ValueError, "evidence differs"):
+                check_documents(reports, list_path=list_path, evidence_path=evidence_path)
+
+    def test_cli_json_and_document_check_work_offline(self):
         result = subprocess.run([sys.executable, "-B", "-m", "src.readme_demo", "--format", "json"],
                                 cwd=ROOT, capture_output=True, text=True, check=True)
         self.assertEqual(json.loads(result.stdout), load_runs())
-        subprocess.run([sys.executable, "-B", "-m", "src.readme_demo", "--check-readme"],
+        subprocess.run([sys.executable, "-B", "-m", "src.readme_demo", "--check-docs"],
                        cwd=ROOT, capture_output=True, text=True, check=True)
 
 
