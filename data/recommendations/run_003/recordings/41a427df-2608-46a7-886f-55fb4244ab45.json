@@ -1,0 +1,61 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "BR",
+        "disambiguation": "brazilian singer",
+        "id": "8ce64b67-8535-45cf-9caf-87734a09b3fd",
+        "name": "Renato Russo",
+        "sort-name": "Russo, Renato",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": " & ",
+      "name": "Renato Russo"
+    },
+    {
+      "artist": {
+        "country": "BR",
+        "disambiguation": "",
+        "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+        "name": "Erasmo Carlos",
+        "sort-name": "Carlos, Erasmo",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Erasmo Carlos"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2003-04",
+  "id": "41a427df-2608-46a7-886f-55fb4244ab45",
+  "length": 240586,
+  "relations": [
+    {
+      "artist": {
+        "country": "BR",
+        "disambiguation": "",
+        "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+        "name": "Erasmo Carlos",
+        "sort-name": "Carlos, Erasmo",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "performer",
+      "type-id": "628a9658-f54c-4142-b0c0-95f031b544da"
+    }
+  ],
+  "title": "A carta",
+  "video": false
+}

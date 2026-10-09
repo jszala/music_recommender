@@ -1,0 +1,814 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "aefba883-dfc2-45ee-bce4-1dd903b13341",
+        "name": "Dorian Electra",
+        "sort-name": "Electra, Dorian",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": " feat. ",
+      "name": "Dorian Electra"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "2b3130ac-2f9f-4dc3-a266-453b25183ddf",
+        "name": "Sega Bodega",
+        "sort-name": "Sega Bodega",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Sega Bodega"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2020-10-16",
+  "id": "06b31de7-72f3-406b-ade8-1efb15658ff0",
+  "isrcs": [
+    "UKQNV2000177"
+  ],
+  "length": 168989,
+  "relations": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "aefba883-dfc2-45ee-bce4-1dd903b13341",
+        "name": "Dorian Electra",
+        "sort-name": "Electra, Dorian",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": "2020",
+      "direction": "backward",
+      "end": "2020",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "phonographic copyright",
+      "type-id": "7fd5fbc0-fbf4-4d04-be23-417d50a4dc30"
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "aefba883-dfc2-45ee-bce4-1dd903b13341",
+            "name": "Dorian Electra",
+            "sort-name": "Electra, Dorian",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Dorian Electra"
+        }
+      ],
+      "barcode": "5060644131435",
+      "country": "XW",
+      "date": "2020-10-16",
+      "disambiguation": "",
+      "id": "ff30605f-41a4-48f2-ae25-05c769fd7906",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2020-10-16"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "My Agenda"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "aefba883-dfc2-45ee-bce4-1dd903b13341",
+            "name": "Dorian Electra",
+            "sort-name": "Electra, Dorian",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Dorian Electra"
+        }
+      ],
+      "barcode": "666449114892",
+      "country": "US",
+      "date": "2021-04-02",
+      "disambiguation": "",
+      "id": "2ebfd7b1-b389-4aef-a83f-7d035d3f3621",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2021-04-02"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "My Agenda"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "aefba883-dfc2-45ee-bce4-1dd903b13341",
+            "name": "Dorian Electra",
+            "sort-name": "Electra, Dorian",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Dorian Electra"
+        }
+      ],
+      "barcode": "",
+      "country": "US",
+      "date": "2021-04",
+      "disambiguation": "neon green & black splatter",
+      "id": "46f41016-6f09-4a31-b522-4b394e93d497",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2021-04"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "My Agenda"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "aefba883-dfc2-45ee-bce4-1dd903b13341",
+            "name": "Dorian Electra",
+            "sort-name": "Electra, Dorian",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Dorian Electra"
+        }
+      ],
+      "barcode": "5060644132708",
+      "country": "XW",
+      "date": "2021-11-05",
+      "disambiguation": "",
+      "id": "cf409daa-2552-456a-9f9c-08a459327d32",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2021-11-05"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "My Agenda (deluxe)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "aefba883-dfc2-45ee-bce4-1dd903b13341",
+            "name": "Dorian Electra",
+            "sort-name": "Electra, Dorian",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Dorian Electra"
+        }
+      ],
+      "barcode": "5060644132746",
+      "country": "XW",
+      "date": "2021-11-05",
+      "disambiguation": "",
+      "id": "fe5b52e8-4f50-44db-b906-603482932da2",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2021-11-05"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "My Agenda (deluxe)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "aefba883-dfc2-45ee-bce4-1dd903b13341",
+            "name": "Dorian Electra",
+            "sort-name": "Electra, Dorian",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Dorian Electra"
+        }
+      ],
+      "barcode": "",
+      "country": "US",
+      "date": "2021",
+      "disambiguation": "clear",
+      "id": "b38513c7-738e-49f9-90b8-c5955742cd33",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2021"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "My Agenda"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "aefba883-dfc2-45ee-bce4-1dd903b13341",
+            "name": "Dorian Electra",
+            "sort-name": "Electra, Dorian",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Dorian Electra"
+        }
+      ],
+      "barcode": "5060644132722",
+      "country": "US",
+      "date": "2022-02-07",
+      "disambiguation": "",
+      "id": "01370d38-910c-45d7-b9b1-b5d5271336d7",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-02-07"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+            "iso-3166-1-codes": [
+              "CA"
+            ],
+            "name": "Canada",
+            "sort-name": "Canada",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-02-10"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-01"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "390b05d4-11ec-3bce-a343-703a366b34a5",
+            "iso-3166-1-codes": [
+              "IE"
+            ],
+            "name": "Ireland",
+            "sort-name": "Ireland",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-04"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc",
+            "iso-3166-1-codes": [
+              "BE"
+            ],
+            "name": "Belgium",
+            "sort-name": "Belgium",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-12"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "ef1b7cc0-cd26-36f4-8ea0-04d9623786c7",
+            "iso-3166-1-codes": [
+              "NL"
+            ],
+            "name": "Netherlands",
+            "sort-name": "Netherlands",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-13"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "08310658-51eb-3801-80de-5a0739207115",
+            "iso-3166-1-codes": [
+              "FR"
+            ],
+            "name": "France",
+            "sort-name": "France",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-14"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+            "iso-3166-1-codes": [
+              "IT"
+            ],
+            "name": "Italy",
+            "sort-name": "Italy",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-16"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
+            "iso-3166-1-codes": [
+              "CH"
+            ],
+            "name": "Switzerland",
+            "sort-name": "Switzerland",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-20"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "51d34c28-61bf-3d21-849f-7492672a9d44",
+            "iso-3166-1-codes": [
+              "CZ"
+            ],
+            "name": "Czechia",
+            "sort-name": "Czechia",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-21"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "eb52ca74-dd11-37a1-a3fa-154430bf2df2",
+            "iso-3166-1-codes": [
+              "SK"
+            ],
+            "name": "Slovakia",
+            "sort-name": "Slovakia",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-23"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "name": "Germany",
+            "sort-name": "Germany",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-25"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "dd7f80c8-f017-3d01-8608-2a8c9c32b954",
+            "iso-3166-1-codes": [
+              "PL"
+            ],
+            "name": "Poland",
+            "sort-name": "Poland",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-26"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+            "iso-3166-1-codes": [
+              "ES"
+            ],
+            "name": "Spain",
+            "sort-name": "Spain",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-06-10"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "My Agenda (deluxe)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "aefba883-dfc2-45ee-bce4-1dd903b13341",
+            "name": "Dorian Electra",
+            "sort-name": "Electra, Dorian",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Dorian Electra"
+        }
+      ],
+      "barcode": "5060644133101",
+      "country": "US",
+      "date": "2022-02-07",
+      "disambiguation": "",
+      "id": "c63b1458-7803-4a95-abd7-c1963ac770db",
+      "packaging": "Keep Case",
+      "packaging-id": "bb14bb17-e8ad-375f-a3c6-b1f82fd2bcc4",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-02-07"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+            "iso-3166-1-codes": [
+              "CA"
+            ],
+            "name": "Canada",
+            "sort-name": "Canada",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-02-10"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-01"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "390b05d4-11ec-3bce-a343-703a366b34a5",
+            "iso-3166-1-codes": [
+              "IE"
+            ],
+            "name": "Ireland",
+            "sort-name": "Ireland",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-04"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "5b8a5ee5-0bb3-34cf-9a75-c27c44e341fc",
+            "iso-3166-1-codes": [
+              "BE"
+            ],
+            "name": "Belgium",
+            "sort-name": "Belgium",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-12"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "ef1b7cc0-cd26-36f4-8ea0-04d9623786c7",
+            "iso-3166-1-codes": [
+              "NL"
+            ],
+            "name": "Netherlands",
+            "sort-name": "Netherlands",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-13"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "08310658-51eb-3801-80de-5a0739207115",
+            "iso-3166-1-codes": [
+              "FR"
+            ],
+            "name": "France",
+            "sort-name": "France",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-14"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+            "iso-3166-1-codes": [
+              "IT"
+            ],
+            "name": "Italy",
+            "sort-name": "Italy",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-16"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "1333ff06-8e3d-3c8e-9f3a-13a2a38b41df",
+            "iso-3166-1-codes": [
+              "CH"
+            ],
+            "name": "Switzerland",
+            "sort-name": "Switzerland",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-20"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "51d34c28-61bf-3d21-849f-7492672a9d44",
+            "iso-3166-1-codes": [
+              "CZ"
+            ],
+            "name": "Czechia",
+            "sort-name": "Czechia",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-21"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "eb52ca74-dd11-37a1-a3fa-154430bf2df2",
+            "iso-3166-1-codes": [
+              "SK"
+            ],
+            "name": "Slovakia",
+            "sort-name": "Slovakia",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-23"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "name": "Germany",
+            "sort-name": "Germany",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-25"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "dd7f80c8-f017-3d01-8608-2a8c9c32b954",
+            "iso-3166-1-codes": [
+              "PL"
+            ],
+            "name": "Poland",
+            "sort-name": "Poland",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-04-26"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "471c46a7-afc5-31c4-923c-d0444f5053a4",
+            "iso-3166-1-codes": [
+              "ES"
+            ],
+            "name": "Spain",
+            "sort-name": "Spain",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2022-06-10"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "My Agenda (deluxe)"
+    }
+  ],
+  "title": "Barbie Boy",
+  "video": false
+}

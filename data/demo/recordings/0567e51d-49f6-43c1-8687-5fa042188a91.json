@@ -1,0 +1,721 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Paul McCartney’s band",
+        "id": "d922d727-240a-4432-9a88-05a7cf9bc403",
+        "name": "Wings",
+        "sort-name": "Wings",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "joinphrase": "",
+      "name": "Paul McCartney and Wings"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2018-12-07",
+  "id": "0567e51d-49f6-43c1-8687-5fa042188a91",
+  "isrcs": [
+    "GBCCS1800104",
+    "GBCCS1800139"
+  ],
+  "length": 200000,
+  "relations": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "9bea300f-ad94-4c0b-b0e2-f41776b53af0",
+        "name": "Glyn Johns",
+        "sort-name": "Johns, Glyn",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": "1972-03",
+      "direction": "backward",
+      "end": "1972-03",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "mix",
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "c20b66ee-5f30-4346-b648-23979ddc61f8",
+        "name": "Denny Laine",
+        "sort-name": "Laine, Denny",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": "1972-03-23",
+      "direction": "backward",
+      "end": "1972-03-23",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "performer",
+      "type-id": "628a9658-f54c-4142-b0c0-95f031b544da"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "10b860bf-f225-4ee0-8c28-e32f1759b4a2",
+        "name": "Linda McCartney",
+        "sort-name": "McCartney, Linda",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": "1972-03-23",
+      "direction": "backward",
+      "end": "1972-03-23",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "performer",
+      "type-id": "628a9658-f54c-4142-b0c0-95f031b544da"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "The Beatles",
+        "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+        "name": "Paul McCartney",
+        "sort-name": "McCartney, Paul",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": "1972-03-23",
+      "direction": "backward",
+      "end": "1972-03-23",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "performer",
+      "type-id": "628a9658-f54c-4142-b0c0-95f031b544da"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Northern Irish guitarist, vocalist and songwriter",
+        "id": "56d62009-9b85-40e6-bd85-430074d02ea3",
+        "name": "Henry McCullough",
+        "sort-name": "McCullough, Henry",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": "1972-03-23",
+      "direction": "backward",
+      "end": "1972-03-23",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "performer",
+      "type-id": "628a9658-f54c-4142-b0c0-95f031b544da"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "US drummer",
+        "id": "3bfcc001-bf66-425b-a7e5-4d9892c07e7b",
+        "name": "Denny Seiwell",
+        "sort-name": "Seiwell, Denny",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": "1972-03-23",
+      "direction": "backward",
+      "end": "1972-03-23",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "performer",
+      "type-id": "628a9658-f54c-4142-b0c0-95f031b544da"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "The Beatles",
+        "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+        "name": "Paul McCartney",
+        "sort-name": "McCartney, Paul",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "1a5c00de-5362-432b-9f12-1c1acd0c29d9",
+        "name": "Phil Ault",
+        "sort-name": "Ault, Phil",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": "1972-03-23",
+      "direction": "backward",
+      "end": "1972-03-23",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "recording",
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "9bea300f-ad94-4c0b-b0e2-f41776b53af0",
+        "name": "Glyn Johns",
+        "sort-name": "Johns, Glyn",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": "1972-03-23",
+      "direction": "backward",
+      "end": "1972-03-23",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "recording",
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": "1972-03-23",
+      "direction": "forward",
+      "end": "1972-03-23",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "a496763e-2f00-4e95-b313-edb4016e4980",
+        "iswcs": [
+          "T-010.061.993-9"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "10b860bf-f225-4ee0-8c28-e32f1759b4a2",
+              "name": "Linda McCartney",
+              "sort-name": "McCartney, Linda",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "The Beatles",
+              "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+              "name": "Paul McCartney",
+              "sort-name": "McCartney, Paul",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "Thank You Darling",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "Paul McCartney’s band",
+            "id": "d922d727-240a-4432-9a88-05a7cf9bc403",
+            "name": "Wings",
+            "sort-name": "Wings",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Paul McCartney and Wings"
+        }
+      ],
+      "barcode": "602567721161",
+      "country": "US",
+      "date": "2018-12-07",
+      "disambiguation": "super deluxe edition",
+      "id": "eb69b8f9-a508-4d44-9fbb-f568b8cf680a",
+      "packaging": "Other",
+      "packaging-id": "815b7785-8284-3926-8f04-e48bc6c4d102",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2018-12-07"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Red Rose Speedway"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "Paul McCartney’s band",
+            "id": "d922d727-240a-4432-9a88-05a7cf9bc403",
+            "name": "Wings",
+            "sort-name": "Wings",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Paul McCartney and Wings"
+        }
+      ],
+      "barcode": "602567474005",
+      "country": "XE",
+      "date": "2018-12-07",
+      "disambiguation": "numbered deluxe limited edition",
+      "id": "118415b0-ffe9-4e68-b384-f28b2dbc7009",
+      "packaging": "Digibook",
+      "packaging-id": "9f2e13bc-f84f-428a-8342-fd86ece7fc4d",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2018-12-07"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2018-12-07"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2018-12-07"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Red Rose Speedway"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "Paul McCartney’s band",
+            "id": "d922d727-240a-4432-9a88-05a7cf9bc403",
+            "name": "Wings",
+            "sort-name": "Wings",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "ポール・マッカートニー&ウイングス"
+        }
+      ],
+      "barcode": "00602577212864",
+      "country": "JP",
+      "date": "2018-12-07",
+      "disambiguation": "",
+      "id": "ec93acf1-070d-4348-9452-71b8cec5c2a5",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2018-12-07"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "mul",
+        "script": "Qaaa"
+      },
+      "title": "Red Rose Speedway (archive collection)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "Paul McCartney’s band",
+            "id": "d922d727-240a-4432-9a88-05a7cf9bc403",
+            "name": "Wings",
+            "sort-name": "Wings",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Paul McCartney & Wings"
+        }
+      ],
+      "barcode": "00602577213458",
+      "country": "JP",
+      "date": "2018-12-07",
+      "disambiguation": "",
+      "id": "442c5efc-4e07-4ea3-8fe2-93f5687055c0",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2018-12-07"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Red Rose Speedway (archive collection)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "Paul McCartney’s band",
+            "id": "d922d727-240a-4432-9a88-05a7cf9bc403",
+            "name": "Wings",
+            "sort-name": "Wings",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Wings"
+        }
+      ],
+      "barcode": "602567721161",
+      "country": "US",
+      "date": "2018-12-07",
+      "disambiguation": "",
+      "id": "36f28505-12ca-4bb5-95e6-94ca5d51dd86",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2018-12-07"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Red Rose Speedway (archive collection)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "Paul McCartney’s band",
+            "id": "d922d727-240a-4432-9a88-05a7cf9bc403",
+            "name": "Wings",
+            "sort-name": "Wings",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Paul McCartney & Wings"
+        }
+      ],
+      "barcode": "602567721161",
+      "country": "XE",
+      "date": "2018-12-07",
+      "disambiguation": "",
+      "id": "1a05f6ff-87ac-4189-86f2-4f54ed8dfcd6",
+      "packaging": "Digipak",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2018-12-07"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Red Rose Speedway (archive collection)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "Paul McCartney’s band",
+            "id": "d922d727-240a-4432-9a88-05a7cf9bc403",
+            "name": "Wings",
+            "sort-name": "Wings",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Paul McCartney & Wings"
+        }
+      ],
+      "barcode": "00602567816539",
+      "country": null,
+      "date": "2018-12-07",
+      "disambiguation": "special edition",
+      "id": "2c9c3540-7297-47c5-94a7-2d90b400b8f8",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": null,
+          "date": "2018-12-07"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Red Rose Speedway (archive collection)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "Paul McCartney’s band",
+            "id": "d922d727-240a-4432-9a88-05a7cf9bc403",
+            "name": "Wings",
+            "sort-name": "Wings",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Paul McCartney and Wings"
+        }
+      ],
+      "barcode": "602567492887",
+      "country": "XW",
+      "date": "2018-12-07",
+      "disambiguation": "",
+      "id": "6251b7a2-0808-47ea-8a69-0f91bd0437e9",
+      "packaging": "Other",
+      "packaging-id": "815b7785-8284-3926-8f04-e48bc6c4d102",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2018-12-07"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Wings 1971–73"
+    }
+  ],
+  "title": "Thank You Darling",
+  "video": false
+}

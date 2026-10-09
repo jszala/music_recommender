@@ -1,0 +1,425 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+        "name": "Shygirl",
+        "sort-name": "Shygirl",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": ", ",
+      "name": "Shygirl"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "Honduran‐American singer",
+        "id": "91cd6a5a-e0db-4329-837e-9b6479d1ed2d",
+        "name": "Empress Of",
+        "sort-name": "Empress Of",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": " & ",
+      "name": "Empress Of"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "NY based DJ/producer Ezra Rubin",
+        "id": "2ae5ac16-1d41-464e-8fac-e856d91dd822",
+        "name": "Kingdom",
+        "sort-name": "Kingdom",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Kingdom"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2024-02-07",
+  "id": "1ed42e00-02e2-46b8-941f-be91517d1818",
+  "isrcs": [
+    "GBMVH2300920"
+  ],
+  "length": 140933,
+  "relations": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "e7d191e4-fd86-42d9-9d84-7643633868a2",
+        "name": "Mark Ralph",
+        "sort-name": "Ralph, Mark",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "mix",
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "NY based DJ/producer Ezra Rubin",
+        "id": "2ae5ac16-1d41-464e-8fac-e856d91dd822",
+        "name": "Kingdom",
+        "sort-name": "Kingdom",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+        "name": "Shygirl",
+        "sort-name": "Shygirl",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "Honduran‐American singer",
+        "id": "91cd6a5a-e0db-4329-837e-9b6479d1ed2d",
+        "name": "Empress Of",
+        "sort-name": "Empress Of",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "lead vocals"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+        "name": "Shygirl",
+        "sort-name": "Shygirl",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "lead vocals"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+            "name": "Shygirl",
+            "sort-name": "Shygirl",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": ", ",
+          "name": "Shygirl"
+        },
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "Honduran‐American singer",
+            "id": "91cd6a5a-e0db-4329-837e-9b6479d1ed2d",
+            "name": "Empress Of",
+            "sort-name": "Empress Of",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " & ",
+          "name": "Empress Of"
+        },
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "NY based DJ/producer Ezra Rubin",
+            "id": "2ae5ac16-1d41-464e-8fac-e856d91dd822",
+            "name": "Kingdom",
+            "sort-name": "Kingdom",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Kingdom"
+        }
+      ],
+      "barcode": "5056556136842",
+      "country": "XW",
+      "date": "2024-02-07",
+      "disambiguation": "",
+      "id": "baaf4009-fde8-4e6c-a40a-e62176d1aa0c",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-02-07"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "4eva"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+            "name": "Shygirl",
+            "sort-name": "Shygirl",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Shygirl"
+        }
+      ],
+      "barcode": "5056556135012",
+      "country": "XW",
+      "date": "2024-02-09",
+      "disambiguation": "",
+      "id": "31284652-8bc0-49de-93f2-b95b0f003dc8",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-02-09"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Club Shy"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+            "name": "Shygirl",
+            "sort-name": "Shygirl",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Shygirl"
+        }
+      ],
+      "barcode": "5056556138013",
+      "country": "XW",
+      "date": "2024-03-01",
+      "disambiguation": "",
+      "id": "51b1f4b5-dd43-4a3f-88a0-c305267eb074",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-03-01"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Club Shy (extended)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+            "name": "Shygirl",
+            "sort-name": "Shygirl",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": ", ",
+          "name": "Shygirl"
+        },
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "Honduran‐American singer",
+            "id": "91cd6a5a-e0db-4329-837e-9b6479d1ed2d",
+            "name": "Empress Of",
+            "sort-name": "Empress Of",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " & ",
+          "name": "Empress Of"
+        },
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "8dcfea05-5ddd-4f1d-8450-ed1751643684",
+            "name": "X-Coast",
+            "sort-name": "X-Coast",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "X-Coast"
+        }
+      ],
+      "barcode": "5056556142461",
+      "country": "XW",
+      "date": "2024-06-06",
+      "disambiguation": "",
+      "id": "658b5132-adcc-4524-8b05-114e076ae48d",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-06-06"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "4eva (X-Coast remix)"
+    }
+  ],
+  "title": "4eva",
+  "video": false
+}

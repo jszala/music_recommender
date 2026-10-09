@@ -1,0 +1,24 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+        "name": "Tim Friese‐Greene",
+        "sort-name": "Friese‐Greene, Tim",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Tim Friese-Greene"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2009-06",
+  "id": "4197143f-fb93-4181-8da9-c9db202fdc9d",
+  "length": 171000,
+  "relations": [],
+  "title": "[untitled]",
+  "video": false
+}

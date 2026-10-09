@@ -1,0 +1,800 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "US rapper",
+        "id": "960afc67-9c21-46dd-9c7f-ff2b509e3150",
+        "name": "Danny Brown",
+        "sort-name": "Brown, Danny",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Danny Brown"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2023-10-17",
+  "id": "00f49f38-1b90-477d-8369-a676c7f7a3db",
+  "isrcs": [
+    "GBBPW2300141"
+  ],
+  "length": 148658,
+  "relations": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "bca7d2e8-ed66-4704-99b4-14717de657c0",
+        "name": "The South Hill Experiment",
+        "sort-name": "The South Hill Experiment",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "bass": "6505f98c-f698-4406-8bf4-8ca43d05c36f"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "bass"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "bca7d2e8-ed66-4704-99b4-14717de657c0",
+        "name": "The South Hill Experiment",
+        "sort-name": "The South Hill Experiment",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "bca7d2e8-ed66-4704-99b4-14717de657c0",
+        "name": "The South Hill Experiment",
+        "sort-name": "The South Hill Experiment",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "guitar"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "92762a95-0762-4604-b5bf-0d4ff3961de3",
+        "name": "Mario Caldato Jr.",
+        "sort-name": "Caldato, Mario Jr.",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "mix",
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "hip hop DJ & producer",
+        "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+        "name": "The Alchemist",
+        "sort-name": "Alchemist, The",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "hip-hop producer from Detroit, Michigan, USA",
+        "id": "ad228a59-98d2-4f63-a104-721c1c9e9fd5",
+        "name": "Raphy",
+        "sort-name": "Raphy",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "recording",
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "US rapper",
+        "id": "960afc67-9c21-46dd-9c7f-ff2b509e3150",
+        "name": "Danny Brown",
+        "sort-name": "Brown, Danny",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "lead vocals"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "44c8d1c7-c9e0-42a1-9ac6-54b608639bcf",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "hip hop DJ & producer",
+              "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+              "name": "The Alchemist",
+              "sort-name": "Alchemist, The",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Alan Maman",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": null,
+              "disambiguation": "singer-songwriter - Baird Acheson",
+              "id": "e8a2f3f0-ffbe-4a41-abae-298bbc3ce0e3",
+              "name": "Baird",
+              "sort-name": "Baird",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Baird Acheson",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "US rapper",
+              "id": "960afc67-9c21-46dd-9c7f-ff2b509e3150",
+              "name": "Danny Brown",
+              "sort-name": "Brown, Danny",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Daniel Dewan Sewell",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": null,
+              "disambiguation": "Music Producer",
+              "id": "f4cd1527-019b-42bf-98db-6ba1524c56f7",
+              "name": "Buck Raines",
+              "sort-name": "Buck Raines",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Ryan Raines",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "singer-songwriter, composer, producer, pianist - Gabe Acheson",
+              "id": "d5fef0de-e227-4021-92d6-6f441a9fd2b8",
+              "name": "Goldwash",
+              "sort-name": "Goldwash",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Gabriel Acheson",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "Tantor",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "US rapper",
+            "id": "960afc67-9c21-46dd-9c7f-ff2b509e3150",
+            "name": "Danny Brown",
+            "sort-name": "Brown, Danny",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Danny Brown"
+        }
+      ],
+      "barcode": "5056614708776",
+      "country": "XW",
+      "date": "2023-10-17",
+      "disambiguation": "",
+      "id": "b93dbf51-8dd2-4758-a4ad-f2027d58d190",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-10-17"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Tantor"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "US rapper",
+            "id": "960afc67-9c21-46dd-9c7f-ff2b509e3150",
+            "name": "Danny Brown",
+            "sort-name": "Brown, Danny",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " feat. ",
+          "name": "Danny Brown"
+        },
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "2d8e57da-b949-4e7f-8ebf-dd907e03119a",
+            "name": "Kassa Overall",
+            "sort-name": "Overall, Kassa",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Kassa Overall"
+        }
+      ],
+      "barcode": "5056614794472",
+      "country": "XW",
+      "date": "2023-11-14",
+      "disambiguation": "",
+      "id": "9d9071eb-7cda-489e-bbfa-148db900b2e6",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-11-14"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Jenn’s Terrific Vacation"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "US rapper",
+            "id": "960afc67-9c21-46dd-9c7f-ff2b509e3150",
+            "name": "Danny Brown",
+            "sort-name": "Brown, Danny",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Danny Brown"
+        }
+      ],
+      "barcode": "5056614708769",
+      "country": "XW",
+      "date": "2023-11-17",
+      "disambiguation": "",
+      "id": "44f02ca2-636d-4bd8-be3a-fc7212d8f0e4",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-11-17"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Quaranta"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": null,
+            "disambiguation": "add compilations to this artist",
+            "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+            "name": "Various Artists",
+            "sort-name": "Various Artists",
+            "type": "Other",
+            "type-id": "ac897045-5043-3294-969b-187360e45d86"
+          },
+          "joinphrase": "",
+          "name": "Various Artists"
+        }
+      ],
+      "barcode": "",
+      "country": "XW",
+      "date": "2023-12-24",
+      "disambiguation": "",
+      "id": "98249b3c-ea49-469b-ae37-13ecaa81c8f4",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-12-24"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Bleep 100 Tracks 2023"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "US rapper",
+            "id": "960afc67-9c21-46dd-9c7f-ff2b509e3150",
+            "name": "Danny Brown",
+            "sort-name": "Brown, Danny",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Danny Brown"
+        }
+      ],
+      "barcode": null,
+      "country": "GB",
+      "date": "2024-01-11",
+      "disambiguation": "black",
+      "id": "89c3f191-c054-41bd-974d-a69e82a7b904",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-01-11"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Quaranta"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "US rapper",
+            "id": "960afc67-9c21-46dd-9c7f-ff2b509e3150",
+            "name": "Danny Brown",
+            "sort-name": "Brown, Danny",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Danny Brown"
+        }
+      ],
+      "barcode": "5056614709124",
+      "country": "GB",
+      "date": "2024-01-19",
+      "disambiguation": "",
+      "id": "534cddc0-781d-4f56-b61b-08dc62a4a0ea",
+      "packaging": "Digipak",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-01-19"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Quaranta"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "US rapper",
+            "id": "960afc67-9c21-46dd-9c7f-ff2b509e3150",
+            "name": "Danny Brown",
+            "sort-name": "Brown, Danny",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Danny Brown"
+        }
+      ],
+      "barcode": null,
+      "country": "GB",
+      "date": "2024-01-19",
+      "disambiguation": "red",
+      "id": "7846ac39-903f-421f-96e4-4b7670704f9b",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-01-19"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Quaranta"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "US rapper",
+            "id": "960afc67-9c21-46dd-9c7f-ff2b509e3150",
+            "name": "Danny Brown",
+            "sort-name": "Brown, Danny",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Danny Brown"
+        }
+      ],
+      "barcode": null,
+      "country": "US",
+      "date": "2024-02",
+      "disambiguation": "transparent orange; VMP exclusive",
+      "id": "1cc34252-1739-428c-8a0a-46a02bdd0d6b",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-02"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Quaranta"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "US rapper",
+            "id": "960afc67-9c21-46dd-9c7f-ff2b509e3150",
+            "name": "Danny Brown",
+            "sort-name": "Brown, Danny",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Danny Brown"
+        }
+      ],
+      "barcode": "5056614799873",
+      "country": "XW",
+      "date": "2024-10-18",
+      "disambiguation": "",
+      "id": "cdd635e3-5b6d-4578-b2f3-bf06ce1f3296",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-10-18"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Quaranta (deluxe)"
+    }
+  ],
+  "title": "Tantor",
+  "video": false
+}

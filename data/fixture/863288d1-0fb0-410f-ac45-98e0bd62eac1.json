@@ -1,0 +1,647 @@
+{
+  "relations": [
+    {
+      "end": null,
+      "attribute-values": {},
+      "attribute-ids": {},
+      "attributes": [],
+      "begin": null,
+      "ended": false,
+      "direction": "backward",
+      "source-credit": "",
+      "artist": {
+        "disambiguation": "UK record producer & engineer",
+        "id": "bca0229a-dbd3-4f4a-84ae-b40d87fbcde3",
+        "type": "Person",
+        "name": "Ken Scott",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Scott, Ken"
+      },
+      "target-credit": "",
+      "type": "engineer",
+      "target-type": "artist",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "target-credit": "",
+      "type": "instrument",
+      "target-type": "artist",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "attribute-credits": {},
+      "end": "1968-09-05",
+      "attribute-ids": {
+        "guest": "b3045913-62ac-433e-9211-ac683cdf6b5c",
+        "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "electric guitar",
+        "guest"
+      ],
+      "ended": true,
+      "begin": "1968-09-05",
+      "direction": "backward",
+      "source-credit": "",
+      "artist": {
+        "disambiguation": "",
+        "id": "618b6900-0618-4f1e-b835-bccb17f84294",
+        "name": "Eric Clapton",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "sort-name": "Clapton, Eric",
+        "type": "Person"
+      }
+    },
+    {
+      "source-credit": "",
+      "direction": "backward",
+      "artist": {
+        "type": "Person",
+        "name": "George Harrison",
+        "sort-name": "Harrison, George",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "42a8f507-8412-4611-854f-926571049fa0",
+        "disambiguation": "The Beatles"
+      },
+      "attribute-ids": {
+        "acoustic guitar": "00beaf8e-a781-431c-8130-7c2871696b7d"
+      },
+      "attribute-values": {},
+      "end": "1968-09-05",
+      "attribute-credits": {},
+      "attributes": [
+        "acoustic guitar"
+      ],
+      "ended": true,
+      "begin": "1968-09-05",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "type": "instrument",
+      "target-credit": "",
+      "target-type": "artist"
+    },
+    {
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "target-type": "artist",
+      "target-credit": "",
+      "type": "instrument",
+      "artist": {
+        "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+        "disambiguation": "The Beatles",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Lennon, John",
+        "name": "John Lennon",
+        "type": "Person"
+      },
+      "direction": "backward",
+      "source-credit": "",
+      "ended": true,
+      "attributes": [
+        "electric guitar"
+      ],
+      "begin": "1968-09-05",
+      "end": "1968-09-05",
+      "attribute-credits": {},
+      "attribute-values": {},
+      "attribute-ids": {
+        "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+      }
+    },
+    {
+      "end": "1968-09-05",
+      "attribute-credits": {},
+      "attribute-ids": {
+        "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "piano"
+      ],
+      "begin": "1968-09-05",
+      "ended": true,
+      "direction": "backward",
+      "source-credit": "",
+      "artist": {
+        "disambiguation": "The Beatles",
+        "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+        "type": "Person",
+        "sort-name": "McCartney, Paul",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "name": "Paul McCartney"
+      },
+      "target-credit": "",
+      "type": "instrument",
+      "target-type": "artist",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "target-type": "artist",
+      "target-credit": "",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "ended": true,
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": "1968-09-05",
+      "attribute-credits": {},
+      "end": "1968-09-05",
+      "attribute-ids": {
+        "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+      },
+      "attribute-values": {},
+      "artist": {
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Starr, Ringo",
+        "name": "Ringo Starr",
+        "type": "Person",
+        "disambiguation": "The Beatles",
+        "id": "300c4c73-33ac-4255-9d57-4e32627f5e13"
+      },
+      "direction": "backward",
+      "source-credit": ""
+    },
+    {
+      "artist": {
+        "id": "42a8f507-8412-4611-854f-926571049fa0",
+        "disambiguation": "The Beatles",
+        "type": "Person",
+        "sort-name": "Harrison, George",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "name": "George Harrison"
+      },
+      "source-credit": "",
+      "direction": "backward",
+      "attributes": [
+        "organ"
+      ],
+      "begin": "1968-09-06",
+      "ended": true,
+      "attribute-ids": {
+        "organ": "55a37f4f-39a4-45a7-851d-586569985519"
+      },
+      "attribute-values": {},
+      "end": "1968-09-06",
+      "attribute-credits": {},
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "target-type": "artist",
+      "type": "instrument",
+      "target-credit": ""
+    },
+    {
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "type": "instrument",
+      "target-credit": "",
+      "target-type": "artist",
+      "source-credit": "",
+      "direction": "backward",
+      "artist": {
+        "id": "42a8f507-8412-4611-854f-926571049fa0",
+        "disambiguation": "The Beatles",
+        "sort-name": "Harrison, George",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "name": "George Harrison",
+        "type": "Person"
+      },
+      "attribute-values": {},
+      "attribute-ids": {
+        "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+      },
+      "attribute-credits": {},
+      "end": "1968-09-06",
+      "begin": "1968-09-06",
+      "attributes": [
+        "bass guitar"
+      ],
+      "ended": true
+    },
+    {
+      "type": "instrument",
+      "target-credit": "",
+      "target-type": "artist",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "attribute-values": {},
+      "attribute-ids": {
+        "castanets": "dd53d958-d4dd-43df-bf61-2e62d4772109"
+      },
+      "attribute-credits": {},
+      "end": "1968-09-06",
+      "begin": "1968-09-06",
+      "attributes": [
+        "castanets"
+      ],
+      "ended": true,
+      "source-credit": "",
+      "direction": "backward",
+      "artist": {
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Starr, Ringo",
+        "name": "Ringo Starr",
+        "type": "Person",
+        "disambiguation": "The Beatles",
+        "id": "300c4c73-33ac-4255-9d57-4e32627f5e13"
+      }
+    },
+    {
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "target-credit": "",
+      "type": "instrument",
+      "target-type": "artist",
+      "direction": "backward",
+      "source-credit": "",
+      "artist": {
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Starr, Ringo",
+        "name": "Ringo Starr",
+        "type": "Person",
+        "id": "300c4c73-33ac-4255-9d57-4e32627f5e13",
+        "disambiguation": "The Beatles"
+      },
+      "end": "1968-09-06",
+      "attribute-credits": {},
+      "attribute-values": {},
+      "attribute-ids": {
+        "tambourine": "4431f7b0-69a4-49ee-b84f-15dda19fb70c"
+      },
+      "attributes": [
+        "tambourine"
+      ],
+      "begin": "1968-09-06",
+      "ended": true
+    },
+    {
+      "begin": null,
+      "attributes": [],
+      "ended": false,
+      "attribute-values": {},
+      "attribute-ids": {},
+      "end": null,
+      "artist": {
+        "id": "26fa8b67-6c7f-406c-ad64-a1d070092df2",
+        "disambiguation": "producer, arranger, composer, conductor, audio engineer, and musician",
+        "name": "George Martin",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Martin, George",
+        "type": "Person"
+      },
+      "source-credit": "",
+      "direction": "backward",
+      "target-type": "artist",
+      "type": "producer",
+      "target-credit": "",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+      "target-type": "artist",
+      "type": "vocal",
+      "target-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "sort-name": "Harrison, George",
+        "name": "George Harrison",
+        "type": "Person",
+        "id": "42a8f507-8412-4611-854f-926571049fa0",
+        "disambiguation": "The Beatles"
+      },
+      "source-credit": "",
+      "direction": "backward",
+      "ended": true,
+      "attributes": [
+        "lead vocals"
+      ],
+      "begin": "1968-09-06",
+      "attribute-ids": {
+        "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+      },
+      "attribute-values": {},
+      "attribute-credits": {},
+      "end": "1968-09-06"
+    },
+    {
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+      "target-credit": "",
+      "type": "vocal",
+      "target-type": "artist",
+      "direction": "backward",
+      "source-credit": "",
+      "artist": {
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "McCartney, Paul",
+        "name": "Paul McCartney",
+        "type": "Person",
+        "disambiguation": "The Beatles",
+        "id": "ba550d0e-adac-4864-b88b-407cab5e76af"
+      },
+      "attribute-credits": {},
+      "end": "1968-09-06",
+      "attribute-values": {},
+      "attribute-ids": {
+        "background vocals": "75052401-7340-4e5b-a71d-ea024a128849"
+      },
+      "begin": "1968-09-06",
+      "attributes": [
+        "background vocals"
+      ],
+      "ended": true
+    },
+    {
+      "attribute-values": {},
+      "attribute-ids": {},
+      "end": "1968-09-06",
+      "ended": true,
+      "attributes": [],
+      "begin": "1968-09-05",
+      "source-credit": "",
+      "direction": "forward",
+      "type": "performance",
+      "target-credit": "",
+      "target-type": "work",
+      "work": {
+        "iswcs": [
+          "T-010.098.629-5",
+          "T-010.724.904-6"
+        ],
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "While My Guitar Gently Weeps",
+        "languages": [
+          "eng"
+        ],
+        "type": "Song",
+        "language": "eng",
+        "relations": [
+          {
+            "source-credit": "",
+            "direction": "backward",
+            "artist": {
+              "id": "42a8f507-8412-4611-854f-926571049fa0",
+              "disambiguation": "The Beatles",
+              "type": "Person",
+              "sort-name": "Harrison, George",
+              "country": "GB",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "name": "George Harrison"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "end": null,
+            "begin": null,
+            "attributes": [],
+            "ended": false,
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+            "type": "composer",
+            "target-credit": "",
+            "target-type": "artist"
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "end": null,
+            "begin": null,
+            "attributes": [],
+            "ended": false,
+            "source-credit": "",
+            "direction": "backward",
+            "artist": {
+              "id": "42a8f507-8412-4611-854f-926571049fa0",
+              "disambiguation": "The Beatles",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "country": "GB",
+              "sort-name": "Harrison, George",
+              "name": "George Harrison",
+              "type": "Person"
+            },
+            "type": "lyricist",
+            "target-credit": "",
+            "target-type": "artist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          },
+          {
+            "direction": "forward",
+            "source-credit": "",
+            "ended": false,
+            "attributes": [],
+            "begin": null,
+            "end": null,
+            "attribute-values": {},
+            "attribute-ids": {},
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "work": {
+              "attributes": [],
+              "id": "27f4b7eb-996d-4397-9bdb-278b0fc9d31f",
+              "disambiguation": "",
+              "language": null,
+              "languages": [],
+              "title": "Undying Love",
+              "type": "Song",
+              "iswcs": [],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            },
+            "target-type": "work",
+            "target-credit": "",
+            "type": "based on"
+          },
+          {
+            "type-id": "c8283596-6f1f-42db-be9c-def66d387e78",
+            "work": {
+              "title": "Agnese",
+              "languages": [],
+              "type": "Song",
+              "iswcs": [],
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "attributes": [],
+              "id": "ec4d891a-09df-421f-be08-b357fa9c0e2a",
+              "disambiguation": "",
+              "language": null
+            },
+            "target-type": "work",
+            "type": "lyrical quotation",
+            "target-credit": "",
+            "source-credit": "",
+            "direction": "backward",
+            "attributes": [],
+            "ended": false,
+            "begin": null,
+            "attribute-values": {},
+            "attribute-ids": {},
+            "end": null
+          },
+          {
+            "direction": "backward",
+            "attribute-ids": {},
+            "ended": false,
+            "work": {
+              "language": null,
+              "attributes": [],
+              "disambiguation": "Stars on 45",
+              "id": "45b0694c-8461-452a-af1b-f0fe960f18a7",
+              "type-id": null,
+              "iswcs": [],
+              "title": "Beatles Medley",
+              "languages": [],
+              "type": null
+            },
+            "type": "medley",
+            "source-credit": "",
+            "end": null,
+            "attribute-values": {},
+            "begin": null,
+            "attributes": [],
+            "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+            "target-credit": "",
+            "target-type": "work",
+            "ordering-key": 24
+          },
+          {
+            "target-credit": "",
+            "type": "other version",
+            "target-type": "work",
+            "work": {
+              "language": null,
+              "id": "8abe51e9-f8c8-3f59-a50e-f3212f82d3cb",
+              "disambiguation": "",
+              "attributes": [],
+              "type-id": null,
+              "iswcs": [],
+              "type": null,
+              "languages": [],
+              "title": "Soi kitara murheissaan"
+            },
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "end": null,
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "ended": false,
+            "begin": null,
+            "direction": "forward",
+            "source-credit": ""
+          },
+          {
+            "work": {
+              "attributes": [],
+              "id": "0ddbd138-06ce-4fe7-840d-c12e3a71cb13",
+              "disambiguation": "Japanese version",
+              "language": null,
+              "languages": [],
+              "title": "While My Guitar Gently Weeps",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "iswcs": []
+            },
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "target-credit": "",
+            "type": "other version",
+            "target-type": "work",
+            "direction": "forward",
+            "source-credit": "",
+            "end": null,
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "ended": false,
+            "attributes": [
+              "translated"
+            ],
+            "begin": null
+          },
+          {
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "language": null,
+              "attributes": [],
+              "disambiguation": "",
+              "id": "09f6a617-321a-4044-86a9-7d4f2118b989",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "iswcs": [],
+              "title": "While My Guitar Gently Weeps (Love version)",
+              "languages": [],
+              "type": "Song"
+            },
+            "target-type": "work",
+            "target-credit": "",
+            "type": "other version",
+            "direction": "forward",
+            "source-credit": "",
+            "begin": null,
+            "attributes": [],
+            "ended": false,
+            "end": null,
+            "attribute-ids": {},
+            "attribute-values": {}
+          },
+          {
+            "target-type": "work",
+            "target-credit": "",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "language": null,
+              "attributes": [],
+              "disambiguation": "",
+              "id": "9f28230b-2432-4182-b34b-6128405e9eda",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "iswcs": [],
+              "languages": [],
+              "title": "Even terug",
+              "type": "Song"
+            },
+            "ended": false,
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "end": null,
+            "attribute-values": {},
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "direction": "forward",
+            "source-credit": ""
+          }
+        ],
+        "attributes": [],
+        "id": "7ddade9b-fd70-35d1-9452-c37f54fdb51b",
+        "disambiguation": ""
+      },
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+    }
+  ],
+  "video": false,
+  "first-release-date": "1968-11-22",
+  "artist-credit": [
+    {
+      "artist": {
+        "name": "The Beatles",
+        "sort-name": "Beatles, The",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "country": "GB",
+        "type": "Group",
+        "disambiguation": "UK rock band, “The Fab Four”",
+        "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
+      },
+      "name": "The Beatles",
+      "joinphrase": ""
+    }
+  ],
+  "id": "863288d1-0fb0-410f-ac45-98e0bd62eac1",
+  "disambiguation": "original mono studio mix",
+  "length": 287920,
+  "title": "While My Guitar Gently Weeps"
+}

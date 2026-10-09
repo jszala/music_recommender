@@ -1,0 +1,381 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+        "name": "Shygirl",
+        "sort-name": "Shygirl",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": " ft. ",
+      "name": "Shygirl"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "NY based DJ/producer Ezra Rubin",
+        "id": "2ae5ac16-1d41-464e-8fac-e856d91dd822",
+        "name": "Kingdom",
+        "sort-name": "Kingdom",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Kingdom"
+    }
+  ],
+  "disambiguation": "extended version",
+  "first-release-date": "2024-03-01",
+  "id": "2960020e-44bd-40a1-a137-db06958c9ebc",
+  "isrcs": [
+    "GBMVH2300790"
+  ],
+  "length": 166000,
+  "relations": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "e7d191e4-fd86-42d9-9d84-7643633868a2",
+        "name": "Mark Ralph",
+        "sort-name": "Ralph, Mark",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "mix",
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "a2be751d-53a5-491b-a565-80c9c3c39304",
+        "name": "Girl Unit",
+        "sort-name": "Girl Unit",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "NY based DJ/producer Ezra Rubin",
+        "id": "2ae5ac16-1d41-464e-8fac-e856d91dd822",
+        "name": "Kingdom",
+        "sort-name": "Kingdom",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+        "name": "Shygirl",
+        "sort-name": "Shygirl",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+        "name": "Shygirl",
+        "sort-name": "Shygirl",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "lead vocals"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+            "name": "Shygirl",
+            "sort-name": "Shygirl",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Shygirl"
+        }
+      ],
+      "barcode": "",
+      "country": "XW",
+      "date": "2024-03-01",
+      "disambiguation": "",
+      "id": "417b7ae3-1570-408c-82b8-44bcd55cc827",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-03-01"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Club Shy (extended)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+            "name": "Shygirl",
+            "sort-name": "Shygirl",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Shygirl"
+        }
+      ],
+      "barcode": "5056556138013",
+      "country": "XW",
+      "date": "2024-03-01",
+      "disambiguation": "",
+      "id": "51b1f4b5-dd43-4a3f-88a0-c305267eb074",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-03-01"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Club Shy (extended)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+            "name": "Shygirl",
+            "sort-name": "Shygirl",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Shygirl"
+        }
+      ],
+      "barcode": "5056556134312",
+      "country": "US",
+      "date": "2024-03-29",
+      "disambiguation": "",
+      "id": "e2fb5419-52c1-40d4-a11a-f95146d520b0",
+      "packaging": "Gatefold Cover",
+      "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-03-29"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Club Shy"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+            "name": "Shygirl",
+            "sort-name": "Shygirl",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": ", ",
+          "name": "Shygirl"
+        },
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "NY based DJ/producer Ezra Rubin",
+            "id": "2ae5ac16-1d41-464e-8fac-e856d91dd822",
+            "name": "Kingdom",
+            "sort-name": "Kingdom",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " & ",
+          "name": "Kingdom"
+        },
+        {
+          "artist": {
+            "country": "DE",
+            "disambiguation": "",
+            "id": "e64e570c-78b3-4483-a7db-aeb0929d87c4",
+            "name": "VTSS",
+            "sort-name": "VTSS",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "VTSS"
+        }
+      ],
+      "barcode": "5056556142478",
+      "country": "XW",
+      "date": "2024-06-06",
+      "disambiguation": "",
+      "id": "e736be92-95ac-4f90-9c5c-bfdbfb362a1c",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-06-06"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "f@k€ (VTSS remix)"
+    }
+  ],
+  "title": "f@k€",
+  "video": false
+}

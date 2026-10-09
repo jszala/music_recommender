@@ -1,0 +1,249 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "2b3130ac-2f9f-4dc3-a266-453b25183ddf",
+        "name": "Sega Bodega",
+        "sort-name": "Sega Bodega",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Sega Bodega"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2024-04-26",
+  "id": "0927e3e5-0664-4a24-89de-b24c3c911b6a",
+  "isrcs": [
+    "UKQNV2400002"
+  ],
+  "length": 188000,
+  "relations": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "mixing engineer and producer",
+        "id": "0e9c251f-0fd9-4742-8dca-7a286e17c311",
+        "name": "James Rand",
+        "sort-name": "Rand, James",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "mix",
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "2b3130ac-2f9f-4dc3-a266-453b25183ddf",
+        "name": "Sega Bodega",
+        "sort-name": "Sega Bodega",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "AU",
+        "disambiguation": "",
+        "id": "a3614a52-01f3-4f9d-999d-4bc650e2f2b1",
+        "name": "Kirin J Callinan",
+        "sort-name": "Callinan, Kirin J",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "additional": "0a5341f8-3b1d-4f99-a0c6-26b7f4e42c7f"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "additional"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "2b3130ac-2f9f-4dc3-a266-453b25183ddf",
+        "name": "Sega Bodega",
+        "sort-name": "Sega Bodega",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "5ba4b3a1-6049-42d6-b018-d7ac2e76cbca",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "aka Sega Bodega",
+              "id": "8a54ab98-486f-4652-80ef-2055057c0382",
+              "name": "Salvador Navarrete",
+              "sort-name": "Navarrete, Salvador",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "aka Sega Bodega",
+              "id": "8a54ab98-486f-4652-80ef-2055057c0382",
+              "name": "Salvador Navarrete",
+              "sort-name": "Navarrete, Salvador",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          }
+        ],
+        "title": "Adulter8",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "2b3130ac-2f9f-4dc3-a266-453b25183ddf",
+            "name": "Sega Bodega",
+            "sort-name": "Sega Bodega",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Sega Bodega"
+        }
+      ],
+      "barcode": "5060644135976",
+      "country": "XW",
+      "date": "2024-04-26",
+      "disambiguation": "",
+      "id": "24b3152e-c746-4aa2-8dec-5cd9979e8e9f",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-04-26"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Dennis"
+    }
+  ],
+  "title": "Adulter8",
+  "video": false
+}

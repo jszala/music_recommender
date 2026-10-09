@@ -1,0 +1,106 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "English singer‐songwriter",
+        "id": "013fa897-86db-41d3-8e9f-386c8a34f4e6",
+        "name": "Morrissey",
+        "sort-name": "Morrissey",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Morrissey"
+    }
+  ],
+  "disambiguation": "live, 1991-06-01: Pacific Amphitheatre, Costa Mesa, CA, USA",
+  "first-release-date": "2020",
+  "id": "cf3292eb-b0d0-47c5-95b7-acad6f7b3f8c",
+  "length": 162000,
+  "relations": [
+    {
+      "attribute-ids": {
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "live"
+      ],
+      "begin": "1991-06-01",
+      "direction": "forward",
+      "end": "1991-06-01",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "f6dd9d46-8ec3-4eb3-858e-f52d23dae3e1",
+        "iswcs": [
+          "T-900.245.728-5"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "f40bd5c0-dd95-4ac2-820f-f9da969cb9ed",
+              "name": "Mark Nevin",
+              "sort-name": "Nevin, Mark",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "English singer‐songwriter",
+              "id": "013fa897-86db-41d3-8e9f-386c8a34f4e6",
+              "name": "Morrissey",
+              "sort-name": "Morrissey",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          }
+        ],
+        "title": "(I’m) the End of the Family Line",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "title": "(I'm) The End of the Family Line",
+  "video": false
+}

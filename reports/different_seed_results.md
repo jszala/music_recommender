@@ -81,6 +81,10 @@ not claimed, especially if the reviewer sees the other lists or explanations.
 
 ## Reproduction and checks
 
+The latest “good list” comment is qualitative feedback. All seven per-recording
+ratings remain pending; the comment does not verify unfamiliarity, complete those
+ratings, or establish superiority to a baseline.
+
 `src.different_seed_experiment` separates `prepare` from `run`. Preparation accepts
 the full input, exactly three original directories, a follow-up directory, and a
 new output directory. Running verifies frozen input, implementation, and reference

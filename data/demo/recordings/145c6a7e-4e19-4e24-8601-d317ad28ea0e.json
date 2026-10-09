@@ -1,0 +1,886 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "e07a111e-4e8a-4651-a849-01ac60551ab2",
+        "name": "Kurt Vile",
+        "sort-name": "Vile, Kurt",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Kurt Vile"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2023-11-17",
+  "id": "145c6a7e-4e19-4e24-8601-d317ad28ea0e",
+  "isrcs": [
+    "USUG12307607"
+  ],
+  "length": 495526,
+  "relations": [
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "97ecc193-ca0f-4671-9691-da65e54f549f",
+        "name": "Gabriel Giammarco",
+        "sort-name": "Giammarco, Gabriel",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": "2023-05",
+      "direction": "backward",
+      "end": "2023-05",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "dc43ca42-a84b-4370-8c4f-0a86c4c73e20",
+        "name": "Adam Langellotti",
+        "sort-name": "Langellotti, Adam",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "additional": "0a5341f8-3b1d-4f99-a0c6-26b7f4e42c7f"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "additional"
+      ],
+      "begin": "2023-05",
+      "direction": "backward",
+      "end": "2023-05",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "11eecb3a-1384-4f11-abf3-4a61d8f55cf8",
+        "name": "Matt Schuessler",
+        "sort-name": "Schuessler, Matt",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "jazz drummer",
+        "id": "a9911d77-a467-4884-93ff-132ed0e5d024",
+        "name": "Mikel Patrick Avery",
+        "sort-name": "Avery, Mikel Patrick",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {
+        "percussion": "curated percussion"
+      },
+      "attribute-ids": {
+        "percussion": "8e9abdf1-0afc-4544-b201-c6fa768d01f4"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "percussion"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "Mikel Patrick Avery",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "162e59b3-05af-455d-a916-062a0bfa7ce8",
+        "name": "Rob Laakso",
+        "sort-name": "Laakso, Rob",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {
+        "electric bass guitar": "Fender bass VI"
+      },
+      "attribute-ids": {
+        "electric bass guitar": "0b9d87fa-93fa-4956-8b6a-a419566cc915"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "electric bass guitar"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "f2393e49-b791-46da-a6d7-1e9e60743405",
+        "name": "Cate Le Bon",
+        "sort-name": "Le Bon, Cate",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "AU",
+        "disambiguation": "",
+        "id": "f578d602-2ed4-4ec4-a0a7-1947cb01ac44",
+        "name": "Stella Mozgawa",
+        "sort-name": "Mozgawa, Stella",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "member of Beachwoods Sparks and All Night Radio",
+        "id": "9bc92ffc-a879-4051-aedd-73e5945afc95",
+        "name": "Farmer Dave Scher",
+        "sort-name": "Scher, Farmer Dave",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {
+        "keyboard": "keys"
+      },
+      "attribute-ids": {
+        "keyboard": "95b0c3d2-9606-4ef5-a019-9b7437f3adda"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "keyboard"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "member of Beachwoods Sparks and All Night Radio",
+        "id": "9bc92ffc-a879-4051-aedd-73e5945afc95",
+        "name": "Farmer Dave Scher",
+        "sort-name": "Scher, Farmer Dave",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "lap steel guitar": "857ff05c-5367-4ba2-9b49-98eefa2badcc"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "lap steel guitar"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "member of Beachwoods Sparks and All Night Radio",
+        "id": "9bc92ffc-a879-4051-aedd-73e5945afc95",
+        "name": "Farmer Dave Scher",
+        "sort-name": "Scher, Farmer Dave",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "melodica": "8ab40df2-106b-4b9b-a50c-0798ee95da8f"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "melodica"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "e07a111e-4e8a-4651-a849-01ac60551ab2",
+        "name": "Kurt Vile",
+        "sort-name": "Vile, Kurt",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "baritone guitar": "31c3f6cc-d49c-4d63-8b85-576a545d33f2"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "baritone guitar"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "e07a111e-4e8a-4651-a849-01ac60551ab2",
+        "name": "Kurt Vile",
+        "sort-name": "Vile, Kurt",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {
+        "clavinet": "cool clav"
+      },
+      "attribute-ids": {
+        "clavinet": "563a9f16-e84b-409a-bda5-2e4ce09d5573"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "clavinet"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "e07a111e-4e8a-4651-a849-01ac60551ab2",
+        "name": "Kurt Vile",
+        "sort-name": "Vile, Kurt",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "electric guitar"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "producer and audio engineer",
+        "id": "e223c819-4a5d-4bd1-b7e6-21888f145b55",
+        "name": "Rob Schnapf",
+        "sort-name": "Schnapf, Rob",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "mix",
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "dc43ca42-a84b-4370-8c4f-0a86c4c73e20",
+        "name": "Adam Langellotti",
+        "sort-name": "Langellotti, Adam",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "f2393e49-b791-46da-a6d7-1e9e60743405",
+        "name": "Cate Le Bon",
+        "sort-name": "Le Bon, Cate",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "e07a111e-4e8a-4651-a849-01ac60551ab2",
+        "name": "Kurt Vile",
+        "sort-name": "Vile, Kurt",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "f2393e49-b791-46da-a6d7-1e9e60743405",
+        "name": "Cate Le Bon",
+        "sort-name": "Le Bon, Cate",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": "2019-10",
+      "direction": "backward",
+      "end": "2019-10",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "recording",
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "a0054416-6fbc-47a4-852c-95405d78e622",
+        "name": "Gabe Wax",
+        "sort-name": "Wax, Gabe",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": "2019-10",
+      "direction": "backward",
+      "end": "2019-10",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "recording",
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "4a9bdac1-0f67-466d-98b8-3b551beb87ac",
+        "name": "Aidan Finn",
+        "sort-name": "Finn, Aidan",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": "2023-05",
+      "direction": "backward",
+      "end": "2023-05",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "recording",
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "11eecb3a-1384-4f11-abf3-4a61d8f55cf8",
+        "name": "Matt Schuessler",
+        "sort-name": "Schuessler, Matt",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "additional": "0a5341f8-3b1d-4f99-a0c6-26b7f4e42c7f"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "additional"
+      ],
+      "begin": "2023-05",
+      "direction": "backward",
+      "end": "2023-05",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "recording",
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "e07a111e-4e8a-4651-a849-01ac60551ab2",
+        "name": "Kurt Vile",
+        "sort-name": "Vile, Kurt",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "4eaf13ce-72c2-4690-af69-b2b036f096dd",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "e07a111e-4e8a-4651-a849-01ac60551ab2",
+              "name": "Kurt Vile",
+              "sort-name": "Vile, Kurt",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "Back to Moon Beach",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "e07a111e-4e8a-4651-a849-01ac60551ab2",
+            "name": "Kurt Vile",
+            "sort-name": "Vile, Kurt",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Kurt Vile"
+        }
+      ],
+      "barcode": "602458615456",
+      "country": "XW",
+      "date": "2023-11-17",
+      "disambiguation": "",
+      "id": "7e2eacc7-4702-4b4d-8057-22485685f559",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-11-17"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Back to Moon Beach"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "e07a111e-4e8a-4651-a849-01ac60551ab2",
+            "name": "Kurt Vile",
+            "sort-name": "Vile, Kurt",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Kurt Vile"
+        }
+      ],
+      "barcode": "602458439021",
+      "country": "US",
+      "date": "2023-11-17",
+      "disambiguation": "",
+      "id": "ae3daa92-cb58-4e12-b079-02df525cacd7",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-11-17"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Back to Moon Beach"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "e07a111e-4e8a-4651-a849-01ac60551ab2",
+            "name": "Kurt Vile",
+            "sort-name": "Vile, Kurt",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Kurt Vile"
+        }
+      ],
+      "barcode": "602458426656",
+      "country": "US",
+      "date": "2023-11-17",
+      "disambiguation": "",
+      "id": "104da344-a941-4552-9531-546bad050b37",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-11-17"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Back to Moon Beach"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "e07a111e-4e8a-4651-a849-01ac60551ab2",
+            "name": "Kurt Vile",
+            "sort-name": "Vile, Kurt",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Kurt Vile"
+        }
+      ],
+      "barcode": "602458428544",
+      "country": "US",
+      "date": "2023-11-17",
+      "disambiguation": "exclusive",
+      "id": "4c75ffdc-57d6-4cb3-afe4-73f9a422ce97",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-11-17"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Back to Moon Beach"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "e07a111e-4e8a-4651-a849-01ac60551ab2",
+            "name": "Kurt Vile",
+            "sort-name": "Vile, Kurt",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Kurt Vile"
+        }
+      ],
+      "barcode": "00602458615463",
+      "country": null,
+      "date": "2023-11-17",
+      "disambiguation": "",
+      "id": "d122f147-4a13-4cc2-a31b-5e638710d4da",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": null,
+          "date": "2023-11-17"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Back to Moon Beach"
+    }
+  ],
+  "title": "Back to Moon Beach",
+  "video": false
+}

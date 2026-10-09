@@ -1,0 +1,359 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+        "name": "Shygirl",
+        "sort-name": "Shygirl",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": " & ",
+      "name": "Shygirl"
+    },
+    {
+      "artist": {
+        "country": "IE",
+        "disambiguation": "",
+        "id": "289cdc5a-5c8e-4932-a032-043cf734dfa2",
+        "name": "Cosha",
+        "sort-name": "Cosha",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Cosha"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2024-06-06",
+  "id": "1602f5b3-59c2-429d-81da-ff7cd31b3ab5",
+  "isrcs": [
+    "GBMVH2400230"
+  ],
+  "length": 286080,
+  "relations": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "e7d191e4-fd86-42d9-9d84-7643633868a2",
+        "name": "Mark Ralph",
+        "sort-name": "Ralph, Mark",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "mix",
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "5b5e7200-9e6b-4cf9-8ee7-68c41f487323",
+        "name": "Karma Kid",
+        "sort-name": "Karma Kid",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "NL",
+        "disambiguation": "",
+        "id": "ffa93e03-f6c5-4d78-b0d5-07d0d6de46aa",
+        "name": "Fedde Le Grand",
+        "sort-name": "Le Grand, Fedde",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "e7d191e4-fd86-42d9-9d84-7643633868a2",
+        "name": "Mark Ralph",
+        "sort-name": "Ralph, Mark",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "2b3130ac-2f9f-4dc3-a266-453b25183ddf",
+        "name": "Sega Bodega",
+        "sort-name": "Sega Bodega",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+        "name": "Shygirl",
+        "sort-name": "Shygirl",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "NL",
+        "disambiguation": "",
+        "id": "ffa93e03-f6c5-4d78-b0d5-07d0d6de46aa",
+        "name": "Fedde Le Grand",
+        "sort-name": "Le Grand, Fedde",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "remixer",
+      "type-id": "7950be4d-13a3-48e7-906b-5af562e39544"
+    },
+    {
+      "artist": {
+        "country": "IE",
+        "disambiguation": "",
+        "id": "289cdc5a-5c8e-4932-a032-043cf734dfa2",
+        "name": "Cosha",
+        "sort-name": "Cosha",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+        "name": "Shygirl",
+        "sort-name": "Shygirl",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+            "name": "Shygirl",
+            "sort-name": "Shygirl",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " & ",
+          "name": "Shygirl"
+        },
+        {
+          "artist": {
+            "country": "IE",
+            "disambiguation": "",
+            "id": "289cdc5a-5c8e-4932-a032-043cf734dfa2",
+            "name": "Cosha",
+            "sort-name": "Cosha",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Cosha"
+        }
+      ],
+      "barcode": "5056556142515",
+      "country": "XW",
+      "date": "2024-06-06",
+      "disambiguation": "",
+      "id": "97ee0438-b1bb-4db5-be2d-d5a212dbc363",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-06-06"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "thicc (Fedde Le Grand remix)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+            "name": "Shygirl",
+            "sort-name": "Shygirl",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Shygirl"
+        }
+      ],
+      "barcode": "5056556142003",
+      "country": "US",
+      "date": "2024-06-07",
+      "disambiguation": "",
+      "id": "27d7f652-6486-4f5c-8647-9f5a862703c6",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-06-07"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "mul",
+        "script": "Latn"
+      },
+      "title": "Club Shy (RMX)"
+    }
+  ],
+  "title": "thicc (Fedde Le Grand remix)",
+  "video": false
+}

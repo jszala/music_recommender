@@ -1,0 +1,1332 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "English heavy metal band",
+        "id": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+        "name": "Black Sabbath",
+        "sort-name": "Black Sabbath",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "joinphrase": "",
+      "name": "Black Sabbath"
+    }
+  ],
+  "disambiguation": "live, 1997‐12‐04–1997‐12‐05: National Exhibition Centre, Birmingham, UK",
+  "first-release-date": "1998-10-19",
+  "id": "10d191bb-c7c6-45ff-842c-21d725f14059",
+  "isrcs": [
+    "USSM19704475"
+  ],
+  "length": 271666,
+  "relations": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "646852f2-af65-472a-afc3-f55e43bfea92",
+        "name": "Andrew Garver",
+        "sort-name": "Garver, Andrew",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "editor",
+      "type-id": "40dff87a-e475-4aa6-b615-9935b564d756"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "b5400dc8-2a28-44fb-8019-9816aa4a1ca6",
+        "name": "John Aguto",
+        "sort-name": "Aguto, John",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "1a5c00de-5362-432b-9f12-1c1acd0c29d9",
+        "name": "Phil Ault",
+        "sort-name": "Ault, Phil",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "d30084b9-8215-430f-9648-29e0d097b7dd",
+        "name": "Barry Clempson",
+        "sort-name": "Clempson, Barry",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "7c585b13-dbcd-42cb-a530-0c52b8ab3ffc",
+        "name": "Greg Hackett",
+        "sort-name": "Hackett, Greg",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "b97b14b0-d318-47aa-804f-1b6b43b1418b",
+        "name": "Thom Panunzio",
+        "sort-name": "Panunzio, Thom",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "Engineer",
+        "id": "6498c773-74b0-4d38-8435-f8cde27fd5a7",
+        "name": "Phil Hopkins",
+        "sort-name": "Phil Hopkins",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4",
+        "name": "Geezer Butler",
+        "sort-name": "Butler, Geezer",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "bass guitar"
+      ],
+      "begin": "1997-12-04",
+      "direction": "backward",
+      "end": "1997-12-05",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "e5fa0175-2e93-4ca7-90c3-33f239381252",
+        "name": "Tony Iommi",
+        "sort-name": "Iommi, Tony",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "guitar"
+      ],
+      "begin": "1997-12-04",
+      "direction": "backward",
+      "end": "1997-12-05",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Black Sabbath drummer",
+        "id": "9082aea0-ee30-4175-8795-6540a8fd3605",
+        "name": "Bill Ward",
+        "sort-name": "Ward, Bill",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": "1997-12-04",
+      "direction": "backward",
+      "end": "1997-12-05",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "7494de94-a805-48bd-a3d8-fbb078207a58",
+        "name": "Bob Marlette",
+        "sort-name": "Marlette, Bob",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "mix",
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "b97b14b0-d318-47aa-804f-1b6b43b1418b",
+        "name": "Thom Panunzio",
+        "sort-name": "Panunzio, Thom",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "8aa5b65a-5b3c-4029-92bf-47a544356934",
+        "name": "Ozzy Osbourne",
+        "sort-name": "Osbourne, Ozzy",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": "1997-12-04",
+      "direction": "backward",
+      "end": "1997-12-05",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "attribute-ids": {
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "live"
+      ],
+      "begin": "1997-12-04",
+      "direction": "forward",
+      "end": "1997-12-05",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "7949591a-49c1-31c3-85a8-33d7e6065698",
+        "iswcs": [
+          "T-070.118.529-6"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4",
+              "name": "Geezer Butler",
+              "sort-name": "Butler, Geezer",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "e5fa0175-2e93-4ca7-90c3-33f239381252",
+              "name": "Tony Iommi",
+              "sort-name": "Iommi, Tony",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "8aa5b65a-5b3c-4029-92bf-47a544356934",
+              "name": "Ozzy Osbourne",
+              "sort-name": "Osbourne, Ozzy",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "Black Sabbath drummer",
+              "id": "9082aea0-ee30-4175-8795-6540a8fd3605",
+              "name": "Bill Ward",
+              "sort-name": "Ward, Bill",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "123814ce-f7f7-44c9-b84d-0088b1e230a4",
+              "name": "Geezer Butler",
+              "sort-name": "Butler, Geezer",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "based on",
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "82934133-002b-4095-9192-040360462165",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Acedecé",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "medley",
+            "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "2ea35707-696a-4ca5-8474-f5e6e8d51f6a",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "I Love Joan Jett",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "916d9d70-2b72-3788-8e0a-475b5829f500",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Polámal se mraveneček",
+              "type": null,
+              "type-id": null
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "1b5e3ca6-ed82-3851-a16c-0740fc835bd9",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Homeless Firecult",
+              "type": null,
+              "type-id": null
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "5e0632d2-2cef-3262-b066-f9923eff5587",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Hullun jenkka",
+              "type": null,
+              "type-id": null
+            }
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "a8713a2f-0ac2-4af8-bdaa-80071a3e7c4d",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Der Hund von Baskerville",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "170f3c81-30a1-4d9c-b40e-625a9c9aa28f",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Pharaoh-noid",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "3rd Strike version",
+              "id": "4701320c-acdb-4146-82c0-b2947e8c0d53",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Paranoid",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "fcfcca09-a140-4922-90f7-ebebf6a55190",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Pair‐a‐Buns",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "4b5e2626-4b33-4ca5-9b92-78f94bc1c10e",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Diô N’arap",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "e71084c3-2722-4ed5-a17d-3e1543cfae63",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Paranoid",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "6e3b43f8-569a-4517-9639-922dd9100296",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Metsän poika",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          }
+        ],
+        "title": "Paranoid",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English heavy metal band",
+            "id": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+            "name": "Black Sabbath",
+            "sort-name": "Black Sabbath",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Black Sabbath"
+        }
+      ],
+      "barcode": "5099749195493",
+      "country": "XE",
+      "date": "1998-10-19",
+      "disambiguation": "",
+      "id": "44a2e3d6-e522-43fa-8def-58bbd5530a92",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1998-10-19"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Reunion"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English heavy metal band",
+            "id": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+            "name": "Black Sabbath",
+            "sort-name": "Black Sabbath",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Black Sabbath"
+        }
+      ],
+      "barcode": "5099749195424",
+      "country": "FR",
+      "date": "1998-10-19",
+      "disambiguation": "",
+      "id": "6ac3a6bb-26f4-4012-a30c-ee8d90ca47f6",
+      "packaging": "Digipak",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "08310658-51eb-3801-80de-5a0739207115",
+            "iso-3166-1-codes": [
+              "FR"
+            ],
+            "name": "France",
+            "sort-name": "France",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1998-10-19"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1998-10-20"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Reunion"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English heavy metal band",
+            "id": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+            "name": "Black Sabbath",
+            "sort-name": "Black Sabbath",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Black Sabbath"
+        }
+      ],
+      "barcode": "9399700058055",
+      "country": "AU",
+      "date": "1998-10-20",
+      "disambiguation": "",
+      "id": "83d236e9-ba7b-4ed9-9879-1837696747c5",
+      "packaging": "Gatefold Cover",
+      "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "106e0bec-b638-3b37-b731-f53d507dc00e",
+            "iso-3166-1-codes": [
+              "AU"
+            ],
+            "name": "Australia",
+            "sort-name": "Australia",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1998-10-20"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Reunion"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English heavy metal band",
+            "id": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+            "name": "Black Sabbath",
+            "sort-name": "Black Sabbath",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Black Sabbath"
+        }
+      ],
+      "barcode": "074646911525",
+      "country": "US",
+      "date": "1998-10-20",
+      "disambiguation": "",
+      "id": "e9525940-9a45-4cf9-b639-6f39129fce5b",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1998-10-20"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Reunion"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English heavy metal band",
+            "id": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+            "name": "Black Sabbath",
+            "sort-name": "Black Sabbath",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Black Sabbath"
+        }
+      ],
+      "barcode": "777495014866",
+      "country": "CA",
+      "date": "1998-10-20",
+      "disambiguation": "",
+      "id": "ec681794-f204-445b-8125-a6a2235979cc",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+            "iso-3166-1-codes": [
+              "CA"
+            ],
+            "name": "Canada",
+            "sort-name": "Canada",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1998-10-20"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Reunion"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English heavy metal band",
+            "id": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+            "name": "Black Sabbath",
+            "sort-name": "Black Sabbath",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Black Sabbath"
+        }
+      ],
+      "barcode": "4988009880792",
+      "country": "JP",
+      "date": "1998-10-28",
+      "disambiguation": "",
+      "id": "7504e7c2-a51c-4247-bf8b-7340ecd788bd",
+      "packaging": "Digipak",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1998-10-28"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Reunion"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English heavy metal band",
+            "id": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+            "name": "Black Sabbath",
+            "sort-name": "Black Sabbath",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Black Sabbath"
+        }
+      ],
+      "barcode": "5099766659923",
+      "country": "XE",
+      "date": "1998",
+      "disambiguation": "",
+      "id": "6318197b-8f5f-4b4a-8585-748bf5e5204d",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1998"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Paranoid"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English heavy metal band",
+            "id": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+            "name": "Black Sabbath",
+            "sort-name": "Black Sabbath",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Black Sabbath"
+        }
+      ],
+      "barcode": "074646968826",
+      "country": "US",
+      "date": "1998",
+      "disambiguation": "",
+      "id": "c4ddd3f1-216e-4ab3-ab5f-9d85108e8ea5",
+      "packaging": "Digipak",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1998"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Reunion"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English heavy metal band",
+            "id": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+            "name": "Black Sabbath",
+            "sort-name": "Black Sabbath",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Black Sabbath"
+        }
+      ],
+      "barcode": "196587146214",
+      "country": "XW",
+      "date": "2023-10-13",
+      "disambiguation": "25th anniversary remaster",
+      "id": "a5d08bdf-b083-49e9-a924-7faafb41e39f",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-10-13"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Reunion"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English heavy metal band",
+            "id": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
+            "name": "Black Sabbath",
+            "sort-name": "Black Sabbath",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Black Sabbath"
+        }
+      ],
+      "barcode": "196871391344",
+      "country": "XW",
+      "date": "2023-10-13",
+      "disambiguation": "25th anniversary expanded edition",
+      "id": "fd0c3afc-f469-45b5-b89b-01888bd96e08",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-10-13"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Reunion"
+    }
+  ],
+  "title": "Paranoid",
+  "video": false
+}

@@ -1,0 +1,1129 @@
+{
+  "format_version": 1,
+  "kind": "frozen_offline_recommendation_run",
+  "run_number": 3,
+  "random_seed": 10,
+  "role_weights": {
+    "musician": 1.0,
+    "producer": 1.0,
+    "songwriter": 1.0,
+    "staff": 0.25
+  },
+  "saturation_k": 5.0,
+  "context_favorite_recording_ids": [
+    "51acd96b-3b6e-48f3-a6db-1f857e708546",
+    "68c4be84-238a-4864-b4c9-78bcc9615b2c",
+    "70b5e517-72e2-400d-9e68-c7ac7139c66c"
+  ],
+  "source_policy": {
+    "algorithm": "deterministic_greedy",
+    "deduplicate_known_works": true,
+    "effective_min_seed_groups": 3,
+    "enabled": true,
+    "max_per_seed": 2,
+    "min_seed_groups": 3
+  },
+  "selection_summary": {
+    "configured_source_target": 3,
+    "distinct_observed_musicians": 5,
+    "effective_source_target": 3,
+    "familiar_collaborations": 1,
+    "known_work_exclusions": 10,
+    "largest_assigned_seed_share": 0.5,
+    "largest_contributor_evidence_share": 0.43478260869565216,
+    "max_familiar_collaborations": 1,
+    "max_songs_per_explanatory_contributor": null,
+    "recommendations_per_source": {
+      "recording:51acd96b-3b6e-48f3-a6db-1f857e708546": 2,
+      "work:25473916-8455-3244-ad71-7685a439b362": 1,
+      "work:885dc4ee-3ec8-403c-928e-7faf0a081888": 1
+    },
+    "repeated_explanatory_contributors": 1,
+    "repeated_observed_musicians": 0,
+    "represented_source_groups": 3,
+    "requested": 10,
+    "returned": 4,
+    "selected_unknown_work_identity": 1,
+    "shortfall": 6,
+    "source_coverage_shortfall": 0,
+    "unique_explanatory_contributors": 3
+  },
+  "recommendations": [
+    {
+      "artist_contributions": [
+        {
+          "artist": {
+            "id": "31200780-d9e5-4c34-a022-064410996ee0",
+            "name": "The Egyptian Lover",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27",
+            "name": "The Smiths",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.13333333333333333
+        },
+        {
+          "artist": {
+            "id": "62c4248e-07a3-4215-8a8d-2255aae9094b",
+            "name": "Discovery Zone",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+            "name": "Erasmo Carlos",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "d201403e-d0ab-4223-b623-6686135a21ed",
+            "name": "Meagre Martin",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "e0675fe9-0288-45cd-a7aa-ba5941a8a052",
+            "name": "Voodoo Jürgens",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        }
+      ],
+      "contributions": [
+        {
+          "artist_influence": 0.16666666666666666,
+          "bounded_pair_affinity": 0.8,
+          "candidate_recording_id": "cf3292eb-b0d0-47c5-95b7-acad6f7b3f8c",
+          "contributors": [
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "013fa897-86db-41d3-8e9f-386c8a34f4e6",
+                    "name": "Morrissey",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "cf3292eb-b0d0-47c5-95b7-acad6f7b3f8c",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/cf3292eb-b0d0-47c5-95b7-acad6f7b3f8c",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "013fa897-86db-41d3-8e9f-386c8a34f4e6",
+                    "name": "Morrissey",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "songwriter",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "cf3292eb-b0d0-47c5-95b7-acad6f7b3f8c",
+                  "relationship_type_id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                  "role": "lyricist",
+                  "scope": "work",
+                  "source_url": "https://musicbrainz.org/work/f6dd9d46-8ec3-4eb3-858e-f52d23dae3e1",
+                  "work_id": "f6dd9d46-8ec3-4eb3-858e-f52d23dae3e1",
+                  "work_link": {
+                    "attributes": [
+                      "live"
+                    ],
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                  },
+                  "work_title": "(I’m) the End of the Family Line"
+                }
+              ],
+              "candidate_role_weight": 2.0,
+              "candidate_roles": [
+                "musician",
+                "songwriter"
+              ],
+              "contributor": {
+                "id": "013fa897-86db-41d3-8e9f-386c8a34f4e6",
+                "name": "Morrissey",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "013fa897-86db-41d3-8e9f-386c8a34f4e6",
+                    "name": "Morrissey",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "70b5e517-72e2-400d-9e68-c7ac7139c66c",
+                  "relationship_type_id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                  "role": "vocal",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/70b5e517-72e2-400d-9e68-c7ac7139c66c",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "013fa897-86db-41d3-8e9f-386c8a34f4e6",
+                    "name": "Morrissey",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "songwriter",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "70b5e517-72e2-400d-9e68-c7ac7139c66c",
+                  "relationship_type_id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                  "role": "lyricist",
+                  "scope": "work",
+                  "source_url": "https://musicbrainz.org/work/25473916-8455-3244-ad71-7685a439b362",
+                  "work_id": "25473916-8455-3244-ad71-7685a439b362",
+                  "work_link": {
+                    "attributes": [],
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                  },
+                  "work_title": "Nowhere Fast"
+                }
+              ],
+              "favorite_role_weight": 2.0,
+              "favorite_roles": [
+                "musician",
+                "songwriter"
+              ],
+              "raw_value": 4.0
+            }
+          ],
+          "distinct_favorites_in_artist_group": 1,
+          "favorite_artist": {
+            "id": "40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27",
+            "name": "The Smiths",
+            "type": "Group"
+          },
+          "favorite_recording_id": "70b5e517-72e2-400d-9e68-c7ac7139c66c",
+          "favorite_recording_title": "Nowhere Fast",
+          "favorite_source_url": "https://musicbrainz.org/recording/70b5e517-72e2-400d-9e68-c7ac7139c66c",
+          "raw_shared_credit_value": 4.0,
+          "value": 0.13333333333333333
+        }
+      ],
+      "contributor_evidence": [
+        {
+          "contributor": {
+            "id": "013fa897-86db-41d3-8e9f-386c8a34f4e6",
+            "name": "Morrissey",
+            "type": "Person"
+          },
+          "value": 0.13333333333333333
+        }
+      ],
+      "eligibility": {
+        "blocked_primary_artist_ids": [],
+        "eligible": true,
+        "familiar_collaboration": false,
+        "familiar_musician_ids": [],
+        "musicians": [
+          {
+            "artist": {
+              "id": "013fa897-86db-41d3-8e9f-386c8a34f4e6",
+              "name": "Morrissey",
+              "type": "Person"
+            },
+            "primary_credit": true,
+            "roles": [
+              "primary artist"
+            ]
+          }
+        ],
+        "reason": "unfamiliar_act",
+        "unfamiliar_primary_artist_ids": [
+          "013fa897-86db-41d3-8e9f-386c8a34f4e6"
+        ]
+      },
+      "primary_seed_song": {
+        "assigned_seed_evidence": 0.13333333333333333,
+        "assignment_reason": "fewest_prior_assignments_then_stronger_source_evidence_then_stable_id",
+        "composition_identity_known": true,
+        "favorite_recording_ids": [
+          "70b5e517-72e2-400d-9e68-c7ac7139c66c"
+        ],
+        "known_work_ids": [
+          "25473916-8455-3244-ad71-7685a439b362"
+        ],
+        "previous_assignments": 0,
+        "source_group_id": "work:25473916-8455-3244-ad71-7685a439b362",
+        "titles": [
+          "Nowhere Fast"
+        ]
+      },
+      "recording": {
+        "artist_credit": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "English singer‐songwriter",
+              "id": "013fa897-86db-41d3-8e9f-386c8a34f4e6",
+              "name": "Morrissey",
+              "sort-name": "Morrissey",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "joinphrase": "",
+            "name": "Morrissey"
+          }
+        ],
+        "disambiguation": "live, 1991-06-01: Pacific Amphitheatre, Costa Mesa, CA, USA",
+        "id": "cf3292eb-b0d0-47c5-95b7-acad6f7b3f8c",
+        "length_ms": 162000,
+        "source_url": "https://musicbrainz.org/recording/cf3292eb-b0d0-47c5-95b7-acad6f7b3f8c",
+        "title": "(I'm) The End of the Family Line"
+      },
+      "score": 0.13333333333333333,
+      "selection_adjustments": [
+        {
+          "contributor": {
+            "id": "013fa897-86db-41d3-8e9f-386c8a34f4e6",
+            "name": "Morrissey",
+            "type": "Person"
+          },
+          "multiplier": 1.0,
+          "previous_selected_appearances": 0,
+          "selection_value": 0.13333333333333333,
+          "value": 0.13333333333333333
+        }
+      ],
+      "selection_rank": 1,
+      "selection_score": 0.13333333333333333,
+      "source_assignment_evidence": {
+        "work:25473916-8455-3244-ad71-7685a439b362": 0.13333333333333333
+      }
+    },
+    {
+      "artist_contributions": [
+        {
+          "artist": {
+            "id": "31200780-d9e5-4c34-a022-064410996ee0",
+            "name": "The Egyptian Lover",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27",
+            "name": "The Smiths",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "62c4248e-07a3-4215-8a8d-2255aae9094b",
+            "name": "Discovery Zone",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+            "name": "Erasmo Carlos",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.08333333333333333
+        },
+        {
+          "artist": {
+            "id": "d201403e-d0ab-4223-b623-6686135a21ed",
+            "name": "Meagre Martin",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "e0675fe9-0288-45cd-a7aa-ba5941a8a052",
+            "name": "Voodoo Jürgens",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        }
+      ],
+      "contributions": [
+        {
+          "artist_influence": 0.16666666666666666,
+          "bounded_pair_affinity": 0.5,
+          "candidate_recording_id": "41a427df-2608-46a7-886f-55fb4244ab45",
+          "contributors": [
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+                    "name": "Erasmo Carlos",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "41a427df-2608-46a7-886f-55fb4244ab45",
+                  "relationship_type_id": "628a9658-f54c-4142-b0c0-95f031b544da",
+                  "role": "performer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/41a427df-2608-46a7-886f-55fb4244ab45",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+                    "name": "Erasmo Carlos",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "41a427df-2608-46a7-886f-55fb4244ab45",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/41a427df-2608-46a7-886f-55fb4244ab45",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "candidate_role_weight": 1.0,
+              "candidate_roles": [
+                "musician"
+              ],
+              "contributor": {
+                "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+                "name": "Erasmo Carlos",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+                    "name": "Erasmo Carlos",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "51acd96b-3b6e-48f3-a6db-1f857e708546",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/51acd96b-3b6e-48f3-a6db-1f857e708546",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "favorite_role_weight": 1.0,
+              "favorite_roles": [
+                "musician"
+              ],
+              "raw_value": 1.0
+            }
+          ],
+          "distinct_favorites_in_artist_group": 1,
+          "favorite_artist": {
+            "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+            "name": "Erasmo Carlos",
+            "type": "Person"
+          },
+          "favorite_recording_id": "51acd96b-3b6e-48f3-a6db-1f857e708546",
+          "favorite_recording_title": "Sorriso dela",
+          "favorite_source_url": "https://musicbrainz.org/recording/51acd96b-3b6e-48f3-a6db-1f857e708546",
+          "raw_shared_credit_value": 1.0,
+          "value": 0.08333333333333333
+        }
+      ],
+      "contributor_evidence": [
+        {
+          "contributor": {
+            "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+            "name": "Erasmo Carlos",
+            "type": "Person"
+          },
+          "value": 0.08333333333333333
+        }
+      ],
+      "eligibility": {
+        "blocked_primary_artist_ids": [
+          "c7c9fa4d-262b-45c1-9477-237849654948"
+        ],
+        "eligible": true,
+        "familiar_collaboration": true,
+        "familiar_musician_ids": [
+          "c7c9fa4d-262b-45c1-9477-237849654948"
+        ],
+        "musicians": [
+          {
+            "artist": {
+              "id": "8ce64b67-8535-45cf-9caf-87734a09b3fd",
+              "name": "Renato Russo",
+              "type": "Person"
+            },
+            "primary_credit": true,
+            "roles": [
+              "primary artist"
+            ]
+          },
+          {
+            "artist": {
+              "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+              "name": "Erasmo Carlos",
+              "type": "Person"
+            },
+            "primary_credit": true,
+            "roles": [
+              "performer",
+              "primary artist"
+            ]
+          }
+        ],
+        "reason": "familiar_collaboration",
+        "unfamiliar_primary_artist_ids": [
+          "8ce64b67-8535-45cf-9caf-87734a09b3fd"
+        ]
+      },
+      "primary_seed_song": {
+        "assigned_seed_evidence": 0.08333333333333333,
+        "assignment_reason": "fewest_prior_assignments_then_stronger_source_evidence_then_stable_id",
+        "composition_identity_known": false,
+        "favorite_recording_ids": [
+          "51acd96b-3b6e-48f3-a6db-1f857e708546"
+        ],
+        "known_work_ids": [],
+        "previous_assignments": 0,
+        "source_group_id": "recording:51acd96b-3b6e-48f3-a6db-1f857e708546",
+        "titles": [
+          "Sorriso dela"
+        ]
+      },
+      "recording": {
+        "artist_credit": [
+          {
+            "artist": {
+              "country": "BR",
+              "disambiguation": "brazilian singer",
+              "id": "8ce64b67-8535-45cf-9caf-87734a09b3fd",
+              "name": "Renato Russo",
+              "sort-name": "Russo, Renato",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "joinphrase": " & ",
+            "name": "Renato Russo"
+          },
+          {
+            "artist": {
+              "country": "BR",
+              "disambiguation": "",
+              "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+              "name": "Erasmo Carlos",
+              "sort-name": "Carlos, Erasmo",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "joinphrase": "",
+            "name": "Erasmo Carlos"
+          }
+        ],
+        "disambiguation": "",
+        "id": "41a427df-2608-46a7-886f-55fb4244ab45",
+        "length_ms": 240586,
+        "source_url": "https://musicbrainz.org/recording/41a427df-2608-46a7-886f-55fb4244ab45",
+        "title": "A carta"
+      },
+      "score": 0.08333333333333333,
+      "selection_adjustments": [
+        {
+          "contributor": {
+            "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+            "name": "Erasmo Carlos",
+            "type": "Person"
+          },
+          "multiplier": 1.0,
+          "previous_selected_appearances": 0,
+          "selection_value": 0.08333333333333333,
+          "value": 0.08333333333333333
+        }
+      ],
+      "selection_rank": 2,
+      "selection_score": 0.08333333333333333,
+      "source_assignment_evidence": {
+        "recording:51acd96b-3b6e-48f3-a6db-1f857e708546": 0.08333333333333333
+      }
+    },
+    {
+      "artist_contributions": [
+        {
+          "artist": {
+            "id": "31200780-d9e5-4c34-a022-064410996ee0",
+            "name": "The Egyptian Lover",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.08333333333333333
+        },
+        {
+          "artist": {
+            "id": "40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27",
+            "name": "The Smiths",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "62c4248e-07a3-4215-8a8d-2255aae9094b",
+            "name": "Discovery Zone",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+            "name": "Erasmo Carlos",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "d201403e-d0ab-4223-b623-6686135a21ed",
+            "name": "Meagre Martin",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "e0675fe9-0288-45cd-a7aa-ba5941a8a052",
+            "name": "Voodoo Jürgens",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        }
+      ],
+      "contributions": [
+        {
+          "artist_influence": 0.16666666666666666,
+          "bounded_pair_affinity": 0.5,
+          "candidate_recording_id": "22b0cc2d-2f57-4ef1-bd49-0f7b367bbf59",
+          "contributors": [
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "31200780-d9e5-4c34-a022-064410996ee0",
+                    "name": "The Egyptian Lover",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "songwriter",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "22b0cc2d-2f57-4ef1-bd49-0f7b367bbf59",
+                  "relationship_type_id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                  "role": "composer",
+                  "scope": "work",
+                  "source_url": "https://musicbrainz.org/work/1e211105-2557-4dc2-8d2b-d607f7f7eb4c",
+                  "work_id": "1e211105-2557-4dc2-8d2b-d607f7f7eb4c",
+                  "work_link": {
+                    "attributes": [],
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                  },
+                  "work_title": "Computer Power"
+                }
+              ],
+              "candidate_role_weight": 1.0,
+              "candidate_roles": [
+                "songwriter"
+              ],
+              "contributor": {
+                "id": "31200780-d9e5-4c34-a022-064410996ee0",
+                "name": "The Egyptian Lover",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "31200780-d9e5-4c34-a022-064410996ee0",
+                    "name": "The Egyptian Lover",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "68c4be84-238a-4864-b4c9-78bcc9615b2c",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/68c4be84-238a-4864-b4c9-78bcc9615b2c",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "favorite_role_weight": 1.0,
+              "favorite_roles": [
+                "musician"
+              ],
+              "raw_value": 1.0
+            }
+          ],
+          "distinct_favorites_in_artist_group": 1,
+          "favorite_artist": {
+            "id": "31200780-d9e5-4c34-a022-064410996ee0",
+            "name": "The Egyptian Lover",
+            "type": "Person"
+          },
+          "favorite_recording_id": "68c4be84-238a-4864-b4c9-78bcc9615b2c",
+          "favorite_recording_title": "I Cry (Night After Night)",
+          "favorite_source_url": "https://musicbrainz.org/recording/68c4be84-238a-4864-b4c9-78bcc9615b2c",
+          "raw_shared_credit_value": 1.0,
+          "value": 0.08333333333333333
+        }
+      ],
+      "contributor_evidence": [
+        {
+          "contributor": {
+            "id": "31200780-d9e5-4c34-a022-064410996ee0",
+            "name": "The Egyptian Lover",
+            "type": "Person"
+          },
+          "value": 0.08333333333333333
+        }
+      ],
+      "eligibility": {
+        "blocked_primary_artist_ids": [],
+        "eligible": true,
+        "familiar_collaboration": false,
+        "familiar_musician_ids": [],
+        "musicians": [
+          {
+            "artist": {
+              "id": "6b837daa-67b2-416f-a4c3-24370ed5ad88",
+              "name": "Jamie Jupitor",
+              "type": "Person"
+            },
+            "primary_credit": true,
+            "roles": [
+              "primary artist"
+            ]
+          }
+        ],
+        "reason": "unfamiliar_act",
+        "unfamiliar_primary_artist_ids": [
+          "6b837daa-67b2-416f-a4c3-24370ed5ad88"
+        ]
+      },
+      "primary_seed_song": {
+        "assigned_seed_evidence": 0.08333333333333333,
+        "assignment_reason": "fewest_prior_assignments_then_stronger_source_evidence_then_stable_id",
+        "composition_identity_known": true,
+        "favorite_recording_ids": [
+          "68c4be84-238a-4864-b4c9-78bcc9615b2c"
+        ],
+        "known_work_ids": [
+          "885dc4ee-3ec8-403c-928e-7faf0a081888"
+        ],
+        "previous_assignments": 0,
+        "source_group_id": "work:885dc4ee-3ec8-403c-928e-7faf0a081888",
+        "titles": [
+          "I Cry (Night After Night)"
+        ]
+      },
+      "recording": {
+        "artist_credit": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "6b837daa-67b2-416f-a4c3-24370ed5ad88",
+              "name": "Jamie Jupitor",
+              "sort-name": "Jupitor, Jamie",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "joinphrase": "",
+            "name": "Jamie Jupitor"
+          }
+        ],
+        "disambiguation": "",
+        "id": "22b0cc2d-2f57-4ef1-bd49-0f7b367bbf59",
+        "length_ms": 419506,
+        "source_url": "https://musicbrainz.org/recording/22b0cc2d-2f57-4ef1-bd49-0f7b367bbf59",
+        "title": "Computer Power"
+      },
+      "score": 0.08333333333333333,
+      "selection_adjustments": [
+        {
+          "contributor": {
+            "id": "31200780-d9e5-4c34-a022-064410996ee0",
+            "name": "The Egyptian Lover",
+            "type": "Person"
+          },
+          "multiplier": 1.0,
+          "previous_selected_appearances": 0,
+          "selection_value": 0.08333333333333333,
+          "value": 0.08333333333333333
+        }
+      ],
+      "selection_rank": 3,
+      "selection_score": 0.08333333333333333,
+      "source_assignment_evidence": {
+        "work:885dc4ee-3ec8-403c-928e-7faf0a081888": 0.08333333333333333
+      }
+    },
+    {
+      "artist_contributions": [
+        {
+          "artist": {
+            "id": "31200780-d9e5-4c34-a022-064410996ee0",
+            "name": "The Egyptian Lover",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27",
+            "name": "The Smiths",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "62c4248e-07a3-4215-8a8d-2255aae9094b",
+            "name": "Discovery Zone",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+            "name": "Erasmo Carlos",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.08333333333333333
+        },
+        {
+          "artist": {
+            "id": "d201403e-d0ab-4223-b623-6686135a21ed",
+            "name": "Meagre Martin",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "e0675fe9-0288-45cd-a7aa-ba5941a8a052",
+            "name": "Voodoo Jürgens",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        }
+      ],
+      "contributions": [
+        {
+          "artist_influence": 0.16666666666666666,
+          "bounded_pair_affinity": 0.5,
+          "candidate_recording_id": "03d27835-ee02-40f9-8daa-aa732b03dd81",
+          "contributors": [
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+                    "name": "Erasmo Carlos",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "songwriter",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "03d27835-ee02-40f9-8daa-aa732b03dd81",
+                  "relationship_type_id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                  "role": "lyricist",
+                  "scope": "work",
+                  "source_url": "https://musicbrainz.org/work/0069b6c1-234d-3b12-9ba5-55ff22edae96",
+                  "work_id": "0069b6c1-234d-3b12-9ba5-55ff22edae96",
+                  "work_link": {
+                    "attributes": [
+                      "cover"
+                    ],
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                  },
+                  "work_title": "Eu sou terrível"
+                }
+              ],
+              "candidate_role_weight": 1.0,
+              "candidate_roles": [
+                "songwriter"
+              ],
+              "contributor": {
+                "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+                "name": "Erasmo Carlos",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+                    "name": "Erasmo Carlos",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "51acd96b-3b6e-48f3-a6db-1f857e708546",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/51acd96b-3b6e-48f3-a6db-1f857e708546",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "favorite_role_weight": 1.0,
+              "favorite_roles": [
+                "musician"
+              ],
+              "raw_value": 1.0
+            }
+          ],
+          "distinct_favorites_in_artist_group": 1,
+          "favorite_artist": {
+            "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+            "name": "Erasmo Carlos",
+            "type": "Person"
+          },
+          "favorite_recording_id": "51acd96b-3b6e-48f3-a6db-1f857e708546",
+          "favorite_recording_title": "Sorriso dela",
+          "favorite_source_url": "https://musicbrainz.org/recording/51acd96b-3b6e-48f3-a6db-1f857e708546",
+          "raw_shared_credit_value": 1.0,
+          "value": 0.08333333333333333
+        }
+      ],
+      "contributor_evidence": [
+        {
+          "contributor": {
+            "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+            "name": "Erasmo Carlos",
+            "type": "Person"
+          },
+          "value": 0.08333333333333333
+        }
+      ],
+      "eligibility": {
+        "blocked_primary_artist_ids": [],
+        "eligible": true,
+        "familiar_collaboration": false,
+        "familiar_musician_ids": [],
+        "musicians": [
+          {
+            "artist": {
+              "id": "8ff1d37b-cc39-4e3d-b690-7674cf6d5016",
+              "name": "Wanderléa",
+              "type": "Person"
+            },
+            "primary_credit": true,
+            "roles": [
+              "primary artist"
+            ]
+          }
+        ],
+        "reason": "unfamiliar_act",
+        "unfamiliar_primary_artist_ids": [
+          "8ff1d37b-cc39-4e3d-b690-7674cf6d5016"
+        ]
+      },
+      "primary_seed_song": {
+        "assigned_seed_evidence": 0.08333333333333333,
+        "assignment_reason": "fewest_prior_assignments_then_stronger_source_evidence_then_stable_id",
+        "composition_identity_known": false,
+        "favorite_recording_ids": [
+          "51acd96b-3b6e-48f3-a6db-1f857e708546"
+        ],
+        "known_work_ids": [],
+        "previous_assignments": 1,
+        "source_group_id": "recording:51acd96b-3b6e-48f3-a6db-1f857e708546",
+        "titles": [
+          "Sorriso dela"
+        ]
+      },
+      "recording": {
+        "artist_credit": [
+          {
+            "artist": {
+              "country": "BR",
+              "disambiguation": "",
+              "id": "8ff1d37b-cc39-4e3d-b690-7674cf6d5016",
+              "name": "Wanderléa",
+              "sort-name": "Wanderléa",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "joinphrase": "",
+            "name": "Wanderléa"
+          }
+        ],
+        "disambiguation": "",
+        "id": "03d27835-ee02-40f9-8daa-aa732b03dd81",
+        "length_ms": 169000,
+        "source_url": "https://musicbrainz.org/recording/03d27835-ee02-40f9-8daa-aa732b03dd81",
+        "title": "Eu sou terrível"
+      },
+      "score": 0.08333333333333333,
+      "selection_adjustments": [
+        {
+          "contributor": {
+            "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+            "name": "Erasmo Carlos",
+            "type": "Person"
+          },
+          "multiplier": 0.5,
+          "previous_selected_appearances": 1,
+          "selection_value": 0.041666666666666664,
+          "value": 0.08333333333333333
+        }
+      ],
+      "selection_rank": 4,
+      "selection_score": 0.041666666666666664,
+      "source_assignment_evidence": {
+        "recording:51acd96b-3b6e-48f3-a6db-1f857e708546": 0.08333333333333333
+      }
+    }
+  ]
+}

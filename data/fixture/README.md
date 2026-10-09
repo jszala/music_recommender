@@ -23,7 +23,7 @@ Harrison, John Lennon, Paul McCartney, and Ringo Starr. Get Back adds Billy Pres
 and Glyn Johns; Don't Let Me Down adds Billy Preston; While My Guitar Gently Weeps
 adds Ken Scott and Eric Clapton. Tears in Heaven includes Clapton and ten artists
 outside the preceding recordings. See the full names and scores in
-[the milestone report](../../reports/results.md).
+[the milestone report](../../reports/graph_fixture.md).
 
 The snapshot retains instrument attributes and dated credit rows. Get Back has
 credits from both January 27 and January 28, 1969. Eric Clapton's guest attribute

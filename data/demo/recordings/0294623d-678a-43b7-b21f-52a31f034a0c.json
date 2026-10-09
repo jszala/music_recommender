@@ -1,0 +1,578 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "fd0c2739-8b21-4f3c-bc9a-df80f1852886",
+        "name": "Sweet Baboo",
+        "sort-name": "Sweet Baboo",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Sweet Baboo"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2023-01-27",
+  "id": "0294623d-678a-43b7-b21f-52a31f034a0c",
+  "isrcs": [
+    "GBG3H2300006"
+  ],
+  "length": 251973,
+  "relations": [
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "Group Listening",
+        "id": "3791638c-4943-4e0d-a21f-f7e7fa0a6dbe",
+        "name": "Paul Jones",
+        "sort-name": "Jones, Paul",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "bass guitar"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "Group Listening",
+        "id": "3791638c-4943-4e0d-a21f-f7e7fa0a6dbe",
+        "name": "Paul Jones",
+        "sort-name": "Jones, Paul",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "bass synthesizer": "e6571d23-5d79-4216-99d6-06e14e737da1"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "bass synthesizer"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "Group Listening",
+        "id": "3791638c-4943-4e0d-a21f-f7e7fa0a6dbe",
+        "name": "Paul Jones",
+        "sort-name": "Jones, Paul",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "organ": "55a37f4f-39a4-45a7-851d-586569985519"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "organ"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "682763f6-4359-475f-8ef7-6a7438989abd",
+        "name": "David Newington",
+        "sort-name": "Newington, David",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "percussion": "8e9abdf1-0afc-4544-b201-c6fa768d01f4"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "percussion"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "David Newington",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "682763f6-4359-475f-8ef7-6a7438989abd",
+        "name": "David Newington",
+        "sort-name": "Newington, David",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "vibraphone": "799af440-c0e7-4d8f-83d5-ecfee8b25787"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "vibraphone"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "David Newington",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "fd0c2739-8b21-4f3c-bc9a-df80f1852886",
+        "name": "Sweet Baboo",
+        "sort-name": "Sweet Baboo",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "alto flute": "c6e576de-0091-48f3-8d61-b846c4b0da69"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "alto flute"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "fd0c2739-8b21-4f3c-bc9a-df80f1852886",
+        "name": "Sweet Baboo",
+        "sort-name": "Sweet Baboo",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "bass clarinet": "b7d71e02-e76c-4483-b394-b29057888131"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "bass clarinet"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "fd0c2739-8b21-4f3c-bc9a-df80f1852886",
+        "name": "Sweet Baboo",
+        "sort-name": "Sweet Baboo",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "drum machine": "ce0eed13-58d8-4744-8ad0-b7d6182a2d0f"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "drum machine"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "fd0c2739-8b21-4f3c-bc9a-df80f1852886",
+        "name": "Sweet Baboo",
+        "sort-name": "Sweet Baboo",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "electric guitar"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "fd0c2739-8b21-4f3c-bc9a-df80f1852886",
+        "name": "Sweet Baboo",
+        "sort-name": "Sweet Baboo",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "organ": "55a37f4f-39a4-45a7-851d-586569985519"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "organ"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "fd0c2739-8b21-4f3c-bc9a-df80f1852886",
+        "name": "Sweet Baboo",
+        "sort-name": "Sweet Baboo",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "synthesizer": "4a29230c-5ab5-4eff-ac59-4a253f3561a0"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "synthesizer"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "d3789f6f-cc8d-4404-a104-103f9daa6bd3",
+        "name": "Stephen Black",
+        "sort-name": "Black, Stephen",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "sound engineer",
+        "id": "5d2d3e6d-308d-4e91-920d-111654c7dab4",
+        "name": "Jimmy Robertson",
+        "sort-name": "Robertson, Jimmy",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "folk harpist from Aberystwyth",
+        "id": "8ddea83b-5eb9-49c4-9692-47570605a32a",
+        "name": "Georgia Ruth",
+        "sort-name": "Ruth, Georgia",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "fd0c2739-8b21-4f3c-bc9a-df80f1852886",
+        "name": "Sweet Baboo",
+        "sort-name": "Sweet Baboo",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "abdc5e5a-245b-4347-be7a-f188ae0484b8",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "d3789f6f-cc8d-4404-a104-103f9daa6bd3",
+              "name": "Stephen Black",
+              "sort-name": "Black, Stephen",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "Herbie",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "fd0c2739-8b21-4f3c-bc9a-df80f1852886",
+            "name": "Sweet Baboo",
+            "sort-name": "Sweet Baboo",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Sweet Baboo"
+        }
+      ],
+      "barcode": "",
+      "country": "XW",
+      "date": "2023-01-27",
+      "disambiguation": "",
+      "id": "edd21037-765c-4bc3-a5f8-aca0aafab28f",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-01-27"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "The Wreckage"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "fd0c2739-8b21-4f3c-bc9a-df80f1852886",
+            "name": "Sweet Baboo",
+            "sort-name": "Sweet Baboo",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Sweet Baboo"
+        }
+      ],
+      "barcode": "5053760096306",
+      "country": "GB",
+      "date": "2023-01-27",
+      "disambiguation": "",
+      "id": "f55f4998-5238-4527-97ee-3d9126c61c32",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-01-27"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "The Wreckage"
+    }
+  ],
+  "title": "Herbie",
+  "video": false
+}

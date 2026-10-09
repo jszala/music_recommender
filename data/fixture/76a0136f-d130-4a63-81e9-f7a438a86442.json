@@ -1,0 +1,391 @@
+{
+  "video": false,
+  "disambiguation": "original mono studio mix",
+  "relations": [
+    {
+      "begin": "1969-01-28",
+      "artist": {
+        "country": "GB",
+        "disambiguation": "The Beatles",
+        "id": "42a8f507-8412-4611-854f-926571049fa0",
+        "name": "George Harrison",
+        "type": "Person",
+        "sort-name": "Harrison, George",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "end": "1969-01-28",
+      "target-credit": "",
+      "attribute-values": {},
+      "attribute-credits": {},
+      "target-type": "artist",
+      "ended": true,
+      "attribute-ids": {
+        "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+      },
+      "direction": "backward",
+      "type": "instrument",
+      "attributes": [
+        "electric guitar"
+      ],
+      "source-credit": ""
+    },
+    {
+      "direction": "backward",
+      "type": "instrument",
+      "attributes": [
+        "electric guitar"
+      ],
+      "source-credit": "",
+      "target-credit": "",
+      "end": "1969-01-28",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "artist": {
+        "country": "GB",
+        "name": "John Lennon",
+        "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+        "disambiguation": "The Beatles",
+        "sort-name": "Lennon, John",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "begin": "1969-01-28",
+      "attribute-credits": {},
+      "attribute-values": {},
+      "attribute-ids": {
+        "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+      },
+      "ended": true,
+      "target-type": "artist"
+    },
+    {
+      "source-credit": "",
+      "attributes": [
+        "electric bass guitar"
+      ],
+      "type": "instrument",
+      "direction": "backward",
+      "ended": true,
+      "attribute-ids": {
+        "electric bass guitar": "0b9d87fa-93fa-4956-8b6a-a419566cc915"
+      },
+      "target-type": "artist",
+      "attribute-credits": {},
+      "attribute-values": {},
+      "target-credit": "",
+      "end": "1969-01-28",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "McCartney, Paul",
+        "disambiguation": "The Beatles",
+        "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+        "name": "Paul McCartney",
+        "country": "GB"
+      },
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "begin": "1969-01-28"
+    },
+    {
+      "direction": "backward",
+      "type": "instrument",
+      "attributes": [
+        "electric piano"
+      ],
+      "source-credit": "",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Preston, Billy",
+        "disambiguation": "",
+        "id": "8a7cf497-dc5c-4523-932d-3fcbc9a69d38",
+        "name": "Billy Preston",
+        "country": "US"
+      },
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "begin": "1969-01-28",
+      "target-credit": "",
+      "end": "1969-01-28",
+      "attribute-values": {},
+      "attribute-credits": {},
+      "target-type": "artist",
+      "ended": true,
+      "attribute-ids": {
+        "electric piano": "75b8297f-d9fe-455d-85cf-d62843f14da5"
+      }
+    },
+    {
+      "direction": "backward",
+      "type": "instrument",
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "source-credit": "",
+      "begin": "1969-01-28",
+      "artist": {
+        "id": "300c4c73-33ac-4255-9d57-4e32627f5e13",
+        "name": "Ringo Starr",
+        "disambiguation": "The Beatles",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Starr, Ringo"
+      },
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "end": "1969-01-28",
+      "target-credit": "",
+      "attribute-values": {},
+      "attribute-credits": {},
+      "target-type": "artist",
+      "attribute-ids": {
+        "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+      },
+      "ended": true
+    },
+    {
+      "type": "producer",
+      "direction": "backward",
+      "source-credit": "",
+      "attributes": [],
+      "target-credit": "",
+      "end": null,
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Martin, George",
+        "type": "Person",
+        "disambiguation": "producer, arranger, composer, conductor, audio engineer, and musician",
+        "name": "George Martin",
+        "id": "26fa8b67-6c7f-406c-ad64-a1d070092df2",
+        "country": "GB"
+      },
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+      "begin": null,
+      "ended": false,
+      "attribute-ids": {},
+      "target-type": "artist",
+      "attribute-values": {}
+    },
+    {
+      "end": "1969-01-28",
+      "target-credit": "",
+      "begin": "1969-01-28",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Harrison, George",
+        "type": "Person",
+        "disambiguation": "The Beatles",
+        "name": "George Harrison",
+        "id": "42a8f507-8412-4611-854f-926571049fa0",
+        "country": "GB"
+      },
+      "attribute-credits": {},
+      "attribute-values": {},
+      "attribute-ids": {
+        "background vocals": "75052401-7340-4e5b-a71d-ea024a128849"
+      },
+      "ended": true,
+      "target-type": "artist",
+      "direction": "backward",
+      "type": "vocal",
+      "attributes": [
+        "background vocals"
+      ],
+      "source-credit": ""
+    },
+    {
+      "target-credit": "",
+      "end": "1969-01-28",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+      "artist": {
+        "disambiguation": "The Beatles",
+        "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+        "name": "John Lennon",
+        "country": "GB",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "sort-name": "Lennon, John"
+      },
+      "begin": "1969-01-28",
+      "attribute-credits": {},
+      "attribute-values": {},
+      "attribute-ids": {
+        "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+      },
+      "ended": true,
+      "target-type": "artist",
+      "direction": "backward",
+      "type": "vocal",
+      "attributes": [
+        "lead vocals"
+      ],
+      "source-credit": ""
+    },
+    {
+      "end": "1969-01-28",
+      "target-credit": "",
+      "begin": "1969-01-28",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+      "artist": {
+        "sort-name": "McCartney, Paul",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "GB",
+        "name": "Paul McCartney",
+        "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+        "disambiguation": "The Beatles"
+      },
+      "attribute-ids": {
+        "background vocals": "75052401-7340-4e5b-a71d-ea024a128849"
+      },
+      "ended": true,
+      "target-type": "artist",
+      "attribute-credits": {},
+      "attribute-values": {},
+      "type": "vocal",
+      "direction": "backward",
+      "source-credit": "",
+      "attributes": [
+        "background vocals"
+      ]
+    },
+    {
+      "attribute-ids": {},
+      "ended": true,
+      "target-type": "work",
+      "work": {
+        "disambiguation": "",
+        "attributes": [],
+        "languages": [
+          "eng"
+        ],
+        "id": "fde0360c-ca61-314a-bc23-ddb08c20a3d2",
+        "relations": [
+          {
+            "attribute-values": {},
+            "attribute-ids": {},
+            "ended": false,
+            "target-type": "artist",
+            "end": null,
+            "target-credit": "",
+            "begin": "1968",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+            "artist": {
+              "country": "GB",
+              "id": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+              "name": "John Lennon",
+              "disambiguation": "The Beatles",
+              "type": "Person",
+              "sort-name": "Lennon, John",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attributes": [],
+            "source-credit": "",
+            "direction": "backward",
+            "type": "writer"
+          },
+          {
+            "type": "writer",
+            "direction": "backward",
+            "source-credit": "",
+            "attributes": [],
+            "end": null,
+            "target-credit": "",
+            "begin": null,
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+            "artist": {
+              "disambiguation": "The Beatles",
+              "id": "ba550d0e-adac-4864-b88b-407cab5e76af",
+              "name": "Paul McCartney",
+              "country": "GB",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "type": "Person",
+              "sort-name": "McCartney, Paul"
+            },
+            "attribute-ids": {},
+            "ended": false,
+            "target-type": "artist",
+            "attribute-values": {}
+          },
+          {
+            "source-credit": "",
+            "attributes": [
+              "translated"
+            ],
+            "type": "other version",
+            "direction": "forward",
+            "target-type": "work",
+            "ended": false,
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "work": {
+              "title": "Laat me niet staan",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "language": null,
+              "iswcs": [],
+              "disambiguation": "",
+              "attributes": [],
+              "languages": [],
+              "id": "315e8a1b-ca00-4213-858e-26626982fb93"
+            },
+            "attribute-values": {},
+            "begin": null,
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "end": null,
+            "target-credit": ""
+          }
+        ],
+        "iswcs": [
+          "T-010.433.988-9"
+        ],
+        "language": "eng",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "title": "Don’t Let Me Down",
+        "type": "Song"
+      },
+      "attribute-values": {},
+      "end": "1969-01-28",
+      "target-credit": "",
+      "begin": "1969-01-28",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "source-credit": "",
+      "attributes": [],
+      "type": "performance",
+      "direction": "forward"
+    }
+  ],
+  "id": "76a0136f-d130-4a63-81e9-f7a438a86442",
+  "title": "Don’t Let Me Down",
+  "first-release-date": "1969-04-11",
+  "artist-credit": [
+    {
+      "name": "The Beatles",
+      "joinphrase": " with ",
+      "artist": {
+        "type": "Group",
+        "sort-name": "Beatles, The",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "country": "GB",
+        "disambiguation": "UK rock band, “The Fab Four”",
+        "id": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+        "name": "The Beatles"
+      }
+    },
+    {
+      "joinphrase": "",
+      "name": "Billy Preston",
+      "artist": {
+        "country": "US",
+        "id": "8a7cf497-dc5c-4523-932d-3fcbc9a69d38",
+        "name": "Billy Preston",
+        "disambiguation": "",
+        "type": "Person",
+        "sort-name": "Preston, Billy",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      }
+    }
+  ],
+  "length": 212920
+}

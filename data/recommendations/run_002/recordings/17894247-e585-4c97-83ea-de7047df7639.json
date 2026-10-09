@@ -1,0 +1,1542 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "272989c8-5535-492d-a25c-9f58803e027f",
+        "name": "SZA",
+        "sort-name": "SZA",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "SZA"
+    }
+  ],
+  "disambiguation": "explicit",
+  "first-release-date": "2022-12-09",
+  "id": "17894247-e585-4c97-83ea-de7047df7639",
+  "isrcs": [
+    "USRC12204585"
+  ],
+  "length": 203733,
+  "relations": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "mastering engineer",
+        "id": "4e9fe79c-923a-40d7-b8a3-f296a2efbb6e",
+        "name": "Dale Becker",
+        "sort-name": "Becker, Dale",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+      },
+      "attribute-values": {
+        "task": "mastering"
+      },
+      "attributes": [
+        "task"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "e01c14e7-ed28-401a-a2ae-8333e76a6a4b",
+        "name": "Rob Bisel",
+        "sort-name": "Bisel, Rob",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "e01c14e7-ed28-401a-a2ae-8333e76a6a4b",
+        "name": "Rob Bisel",
+        "sort-name": "Bisel, Rob",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+      },
+      "attribute-values": {
+        "task": "vocal"
+      },
+      "attributes": [
+        "task"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "2408c03b-3578-4a35-bcee-97c613a946d2",
+        "name": "Rachel Blum",
+        "sort-name": "Blum, Rachel",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "387b4696-0a3d-4192-8e2e-0db8a0c32c3b",
+        "name": "Hayden Duncan",
+        "sort-name": "Duncan, Hayden",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "engineer",
+        "id": "332516ea-6988-42e5-9847-6caa8338801b",
+        "name": "Katie Harvey",
+        "sort-name": "Harvey, Katie",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "ead18ab2-410b-4778-960d-f417f3bb2a40",
+        "name": "Jaycen Joshua",
+        "sort-name": "Joshua, Jaycen",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "task": "39867b3b-0f1e-40d5-b602-4f3936b7f486"
+      },
+      "attribute-values": {
+        "task": "mix"
+      },
+      "attributes": [
+        "task"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "b4e81c09-5647-4642-93f2-e33c477b15a8",
+        "name": "Noah McCorkle",
+        "sort-name": "McCorkle, Noah",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "engineer",
+        "id": "5acf7ca2-de15-4672-a17b-5b7fa56b43db",
+        "name": "Jacob Richards",
+        "sort-name": "Richards, Jacob",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "dd8c0703-2a4f-4306-be21-6b4e8417a745",
+        "name": "DJ Riggins",
+        "sort-name": "Riggins, DJ",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "58371ad0-3f37-452b-8b9e-d2d29c81cc44",
+        "name": "Mike Seaberg",
+        "sort-name": "Seaberg, Mike",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "e01c14e7-ed28-401a-a2ae-8333e76a6a4b",
+        "name": "Rob Bisel",
+        "sort-name": "Bisel, Rob",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "keyboard": "95b0c3d2-9606-4ef5-a019-9b7437f3adda"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "keyboard"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "24d311f8-da82-4068-896b-ca061deaccb6",
+        "name": "Carter Lang",
+        "sort-name": "Lang, Carter",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "keyboard": "95b0c3d2-9606-4ef5-a019-9b7437f3adda"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "keyboard"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "AKA: scummusic, Scumby",
+        "id": "932cc5e0-add3-47d3-be29-516657df92e5",
+        "name": "scum",
+        "sort-name": "scummusic",
+        "type": null,
+        "type-id": null
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "keyboard": "95b0c3d2-9606-4ef5-a019-9b7437f3adda"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "keyboard"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "American producer, singer-songwriter",
+        "id": "f5cef93c-1266-4e61-85d6-3386634e44bb",
+        "name": "ThankGod4Cody",
+        "sort-name": "ThankGod4Cody",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "American producer, singer-songwriter",
+        "id": "f5cef93c-1266-4e61-85d6-3386634e44bb",
+        "name": "ThankGod4Cody",
+        "sort-name": "ThankGod4Cody",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "keyboard": "95b0c3d2-9606-4ef5-a019-9b7437f3adda"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "keyboard"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "e01c14e7-ed28-401a-a2ae-8333e76a6a4b",
+        "name": "Rob Bisel",
+        "sort-name": "Bisel, Rob",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "24d311f8-da82-4068-896b-ca061deaccb6",
+        "name": "Carter Lang",
+        "sort-name": "Lang, Carter",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "US rapper & producer, TDE",
+        "id": "809dad11-6b57-4a7c-b334-44f9f96fd3ea",
+        "name": "Punch",
+        "sort-name": "Punch",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "executive": "e0039285-6667-4f94-80d6-aa6520c6d359"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "executive"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "Terrence “Punch” Henderson",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "AKA: scummusic, Scumby",
+        "id": "932cc5e0-add3-47d3-be29-516657df92e5",
+        "name": "scum",
+        "sort-name": "scummusic",
+        "type": null,
+        "type-id": null
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "American producer, singer-songwriter",
+        "id": "f5cef93c-1266-4e61-85d6-3386634e44bb",
+        "name": "ThankGod4Cody",
+        "sort-name": "ThankGod4Cody",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "0b1b3996-d4e5-4b04-986c-340d57ae8d3b",
+        "name": "Anthony Tiffith",
+        "sort-name": "Tiffith, Anthony",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "executive": "e0039285-6667-4f94-80d6-aa6520c6d359"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "executive"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "Anthony “Top Dawg” Tiffith",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "c5008989-6bab-4daa-9585-01fcac147bd9",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": null,
+              "disambiguation": "",
+              "id": "6f419a54-4e4e-4a0f-bc10-10ef58499d69",
+              "name": "The Antydote",
+              "sort-name": "Antydote, The",
+              "type": null,
+              "type-id": null
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": null,
+              "disambiguation": "",
+              "id": "e01c14e7-ed28-401a-a2ae-8333e76a6a4b",
+              "name": "Rob Bisel",
+              "sort-name": "Bisel, Rob",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "24d311f8-da82-4068-896b-ca061deaccb6",
+              "name": "Carter Lang",
+              "sort-name": "Lang, Carter",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "272989c8-5535-492d-a25c-9f58803e027f",
+              "name": "SZA",
+              "sort-name": "SZA",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Solána Rowe",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "American producer, singer-songwriter",
+              "id": "f5cef93c-1266-4e61-85d6-3386634e44bb",
+              "name": "ThankGod4Cody",
+              "sort-name": "ThankGod4Cody",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Cody Fayne",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "Seek & Destroy",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": "196589564931",
+      "country": null,
+      "date": "2022-12-09",
+      "disambiguation": "explicit",
+      "id": "b82458a3-7d3a-495f-861f-8698731c4dd0",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": null,
+          "date": "2022-12-09"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "SOS"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": "196589564931",
+      "country": null,
+      "date": "2023-01-05",
+      "disambiguation": "cover 2",
+      "id": "b6e42e04-1600-4276-a71f-38e16e6dff14",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": null,
+          "date": "2023-01-05"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "SOS"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": "196589803368",
+      "country": null,
+      "date": "2023-01-05",
+      "disambiguation": "cover 1",
+      "id": "d75783c9-83ca-4c1e-8044-4b70e2945261",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": null,
+          "date": "2023-01-05"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "SOS"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": "196587792121",
+      "country": "US",
+      "date": "2023-05-19",
+      "disambiguation": "",
+      "id": "6b1d5b1a-e915-4451-9b4e-5229d8a7b418",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-05-19"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "SOS"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": "196587792114",
+      "country": "US",
+      "date": "2023-05-19",
+      "disambiguation": "",
+      "id": "79a7b5e6-7edb-489d-9481-63387f7bc197",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-05-19"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": null
+      },
+      "title": "SOS"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": "196587792114",
+      "country": "US",
+      "date": "2023-05-19",
+      "disambiguation": "",
+      "id": "578536db-0438-4d45-a427-4149e55f4bb8",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-05-19"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": null
+      },
+      "title": "SOS"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": "196587792121",
+      "country": "XE",
+      "date": "2023-05-19",
+      "disambiguation": "",
+      "id": "1683708c-e718-4df9-b600-467879ec2ff6",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-05-19"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "SOS"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": "4547366616026",
+      "country": "JP",
+      "date": "2023-05-24",
+      "disambiguation": "",
+      "id": "81510594-e076-4fd0-a8fd-0a1eed48be3b",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-05-24"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "SOS"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": "196587792121",
+      "country": "TW",
+      "date": "2023",
+      "disambiguation": "",
+      "id": "9d414b64-cb31-4cdf-a0f5-e3913e16c36a",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "41637cec-9a4f-389c-86d2-fc6abf3357b5",
+            "iso-3166-1-codes": [
+              "TW"
+            ],
+            "iso-3166-2-codes": [
+              "CN-71"
+            ],
+            "name": "Taiwan",
+            "sort-name": "Taiwan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": null
+      },
+      "title": "愛情警報 SOS"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": "198028920124",
+      "country": "US",
+      "date": "2024-12-20",
+      "disambiguation": "",
+      "id": "1d39bb1e-c342-4eb3-a686-7b12cb84c1ff",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-12-20"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "SOS Deluxe: LANA"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": "196871766890",
+      "country": null,
+      "date": "2024-12-20",
+      "disambiguation": "",
+      "id": "4fe782ec-2737-46bf-8744-f089891a8bf3",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": null,
+          "date": "2024-12-20"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "SOS Deluxe: LANA"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": "198028963220",
+      "country": "US",
+      "date": "2024-12-20",
+      "disambiguation": "",
+      "id": "c86680d8-7c26-4501-88ed-675ceac59574",
+      "packaging": "Cassette Case",
+      "packaging-id": "c70b737a-0114-39a9-88f7-82843e54f906",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-12-20"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "SOS Deluxe: LANA"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": null,
+      "country": "US",
+      "date": "2024-12-25",
+      "disambiguation": "",
+      "id": "3be5ecae-9196-43a7-b308-33283be6d0b7",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-12-25"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "SOS Deluxe: LANA"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": null,
+      "country": "JP",
+      "date": "2024",
+      "disambiguation": "",
+      "id": "8a8bf60c-c5e7-4bbb-940d-8d6ab4c7df85",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": null
+      },
+      "title": "SOS"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": "196872790276",
+      "country": "XW",
+      "date": "2025-02-09",
+      "disambiguation": "explicit",
+      "id": "a2451561-f09d-44f5-85d2-7de353ef52b5",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2025-02-09"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "08310658-51eb-3801-80de-5a0739207115",
+            "iso-3166-1-codes": [
+              "FR"
+            ],
+            "name": "France",
+            "sort-name": "France",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2025-12-09"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "SOS Deluxe: LANA"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": "198028920124",
+      "country": null,
+      "date": "2025-06",
+      "disambiguation": "",
+      "id": "85f15747-0b28-4103-ad89-e1db9c8e35e5",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": null,
+          "date": "2025-06"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": null,
+        "script": null
+      },
+      "title": "SOS Deluxe: Lana"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "sort-name": "SZA",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "SZA"
+        }
+      ],
+      "barcode": "198028920117",
+      "country": "US",
+      "date": "2025-06",
+      "disambiguation": "",
+      "id": "f3140800-8765-4802-bfbb-3516c80fd5db",
+      "packaging": "Gatefold Cover",
+      "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2025-06"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "SOS Deluxe: LANA"
+    }
+  ],
+  "title": "Seek & Destroy",
+  "video": false
+}

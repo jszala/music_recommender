@@ -1,0 +1,62 @@
+{
+  "format_version": 1,
+  "kind": "selected_recording_evidence",
+  "sources": [
+    {
+      "recording_id": "1fd93309-5bcc-4732-9d0a-cf1ce484989c",
+      "source_url": "https://musicbrainz.org/recording/1fd93309-5bcc-4732-9d0a-cf1ce484989c",
+      "query": "https://musicbrainz.org/ws/2/recording/1fd93309-5bcc-4732-9d0a-cf1ce484989c?fmt=json&inc=artist-credits%2Bartist-rels%2Bwork-rels%2Bwork-level-rels%2Breleases%2Bisrcs",
+      "retrieved_at": "2026-10-08T17:33:01.629063+00:00",
+      "sha256": "592010a42d148c12a3555a3030ef4a170a6c2c0faba52bce9924f86d29eaa516",
+      "snapshot_file": "recordings/1fd93309-5bcc-4732-9d0a-cf1ce484989c.json"
+    },
+    {
+      "recording_id": "2aa6d715-53ad-42dc-994b-825638d1b3b6",
+      "source_url": "https://musicbrainz.org/recording/2aa6d715-53ad-42dc-994b-825638d1b3b6",
+      "query": "https://musicbrainz.org/ws/2/recording/2aa6d715-53ad-42dc-994b-825638d1b3b6?fmt=json&inc=artist-credits%2Bartist-rels%2Bwork-rels%2Bwork-level-rels%2Breleases%2Bisrcs",
+      "retrieved_at": "2026-10-08T17:33:08.614121+00:00",
+      "sha256": "f591f5d3b8606a0e2bc5521866462594716f62e83276ae2fb6ed2d341c17198f",
+      "snapshot_file": "recordings/2aa6d715-53ad-42dc-994b-825638d1b3b6.json"
+    },
+    {
+      "recording_id": "31eaf598-a413-4757-8f48-55082acda828",
+      "source_url": "https://musicbrainz.org/recording/31eaf598-a413-4757-8f48-55082acda828",
+      "query": "https://musicbrainz.org/ws/2/recording?fmt=json&inc=artist-credits%2Bartist-rels%2Bwork-rels%2Bwork-level-rels&limit=25&offset=0&work=0643b696-4152-3b0c-a268-482ca8e5bf6a",
+      "retrieved_at": "2026-10-08T17:33:32.439292+00:00",
+      "sha256": "e0bcff1e6fdbd66d93fd98b76620a4e46ee22ad7b5efeb394e947c7f7784ee36",
+      "snapshot_file": "recordings/31eaf598-a413-4757-8f48-55082acda828.json"
+    },
+    {
+      "recording_id": "4197143f-fb93-4181-8da9-c9db202fdc9d",
+      "source_url": "https://musicbrainz.org/recording/4197143f-fb93-4181-8da9-c9db202fdc9d",
+      "query": "https://musicbrainz.org/ws/2/recording?artist=50baacc2-d37c-46c4-8cfa-68d9dee48381&fmt=json&inc=artist-credits%2Bartist-rels%2Bwork-rels%2Bwork-level-rels&limit=25&offset=0",
+      "retrieved_at": "2026-10-08T17:33:25.678178+00:00",
+      "sha256": "87d3e645478f93e5ee6d4cd553128f9e3aa1bb4081499041c8b43ea6b8f6a24a",
+      "snapshot_file": "recordings/4197143f-fb93-4181-8da9-c9db202fdc9d.json"
+    },
+    {
+      "recording_id": "8aa783a8-0931-47b8-a143-3e6f63ea0faf",
+      "source_url": "https://musicbrainz.org/recording/8aa783a8-0931-47b8-a143-3e6f63ea0faf",
+      "query": "https://musicbrainz.org/ws/2/recording?artist=dfac8e50-286a-443a-923f-820997e5794f&fmt=json&inc=artist-credits%2Bartist-rels%2Bwork-rels%2Bwork-level-rels&limit=25&offset=0",
+      "retrieved_at": "2026-10-08T17:33:28.018067+00:00",
+      "sha256": "9c9186f85308f530a706993357e30b6bde46e34cf75b8bd679eddbf11293540a",
+      "snapshot_file": "recordings/8aa783a8-0931-47b8-a143-3e6f63ea0faf.json"
+    },
+    {
+      "recording_id": "d9661ab5-af54-438d-92fe-bb0fa7b9e7db",
+      "source_url": "https://musicbrainz.org/recording/d9661ab5-af54-438d-92fe-bb0fa7b9e7db",
+      "query": "https://musicbrainz.org/ws/2/recording/d9661ab5-af54-438d-92fe-bb0fa7b9e7db?fmt=json&inc=artist-credits%2Bartist-rels%2Bwork-rels%2Bwork-level-rels%2Breleases%2Bisrcs",
+      "retrieved_at": "2026-10-08T17:33:03.520608+00:00",
+      "sha256": "eaccbc0e107b174a91c2f61eb452ac870d4e8da5aff35dc8a06cecac159a65ff",
+      "snapshot_file": "recordings/d9661ab5-af54-438d-92fe-bb0fa7b9e7db.json"
+    },
+    {
+      "recording_id": "e9af0d52-e19a-427b-b53a-7007bb5ad781",
+      "source_url": "https://musicbrainz.org/recording/e9af0d52-e19a-427b-b53a-7007bb5ad781",
+      "query": "https://musicbrainz.org/ws/2/recording?artist=5fc55ebf-21bd-4eda-954c-dd250132331e&fmt=json&inc=artist-credits%2Bartist-rels%2Bwork-rels%2Bwork-level-rels&limit=25&offset=0",
+      "retrieved_at": "2026-10-08T17:33:24.625217+00:00",
+      "sha256": "465ad6b01d2d681aaf6813b99ca55b668b1550e42b2cbc815a7c7b237823a396",
+      "snapshot_file": "recordings/e9af0d52-e19a-427b-b53a-7007bb5ad781.json"
+    }
+  ]
+}

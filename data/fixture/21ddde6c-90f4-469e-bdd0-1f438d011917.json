@@ -1,0 +1,650 @@
+{
+  "length": 273093,
+  "title": "Tears in Heaven",
+  "first-release-date": "1992-01-14",
+  "disambiguation": "",
+  "video": false,
+  "artist-credit": [
+    {
+      "name": "Eric Clapton",
+      "artist": {
+        "sort-name": "Clapton, Eric",
+        "id": "618b6900-0618-4f1e-b835-bccb17f84294",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "name": "Eric Clapton",
+        "type": "Person",
+        "country": "GB",
+        "disambiguation": ""
+      },
+      "joinphrase": ""
+    }
+  ],
+  "id": "21ddde6c-90f4-469e-bdd0-1f438d011917",
+  "relations": [
+    {
+      "type": "instrument",
+      "source-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "attribute-ids": {
+        "drum machine": "ce0eed13-58d8-4744-8ad0-b7d6182a2d0f"
+      },
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "direction": "backward",
+      "artist": {
+        "id": "8091d7d9-fa84-449d-8d6c-5e6565e14eb7",
+        "sort-name": "Bralower, Jimmy",
+        "type": "Person",
+        "name": "Jimmy Bralower",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "disambiguation": ""
+      },
+      "end": null,
+      "attribute-credits": {},
+      "attributes": [
+        "drum machine"
+      ]
+    },
+    {
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "direction": "backward",
+      "attribute-ids": {
+        "percussion": "8e9abdf1-0afc-4544-b201-c6fa768d01f4"
+      },
+      "attribute-credits": {},
+      "attributes": [
+        "percussion"
+      ],
+      "artist": {
+        "sort-name": "Castro, Lenny",
+        "id": "a62f2bf6-2711-4948-a428-e06f626b706a",
+        "name": "Lenny Castro",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "disambiguation": ""
+      },
+      "end": null,
+      "type": "instrument",
+      "target-type": "artist",
+      "source-credit": "",
+      "begin": null
+    },
+    {
+      "begin": null,
+      "source-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "artist": {
+        "disambiguation": "",
+        "country": "GB",
+        "name": "Eric Clapton",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Clapton, Eric",
+        "id": "618b6900-0618-4f1e-b835-bccb17f84294"
+      },
+      "end": null,
+      "attribute-credits": {
+        "resonator guitar": "dobro"
+      },
+      "attributes": [
+        "guitar",
+        "resonator guitar"
+      ],
+      "attribute-ids": {
+        "resonator guitar": "4ffe5341-4d63-4b1f-8b00-b008954bc7a4",
+        "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+      },
+      "ended": false,
+      "attribute-values": {},
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "target-credit": "",
+      "direction": "backward"
+    },
+    {
+      "attribute-credits": {},
+      "attributes": [
+        "bass"
+      ],
+      "end": null,
+      "artist": {
+        "disambiguation": "",
+        "country": "US",
+        "name": "Nathan East",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "aa82f6eb-ded9-4c0b-951d-2e638ca25c76",
+        "sort-name": "East, Nathan"
+      },
+      "direction": "backward",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "attribute-ids": {
+        "bass": "6505f98c-f698-4406-8bf4-8ca43d05c36f"
+      },
+      "target-type": "artist",
+      "source-credit": "",
+      "begin": null,
+      "type": "instrument"
+    },
+    {
+      "attribute-credits": {},
+      "attributes": [
+        "synthesizer"
+      ],
+      "artist": {
+        "name": "Randy Kerber",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Kerber, Randy",
+        "id": "89392c44-35d1-49ef-90f4-9919aa8d67e8",
+        "disambiguation": "",
+        "country": "US"
+      },
+      "end": null,
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "direction": "backward",
+      "attribute-ids": {
+        "synthesizer": "4a29230c-5ab5-4eff-ac59-4a253f3561a0"
+      },
+      "target-type": "artist",
+      "begin": null,
+      "source-credit": "",
+      "type": "instrument"
+    },
+    {
+      "begin": null,
+      "source-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "end": null,
+      "artist": {
+        "id": "ccd1e18b-acfb-4634-a23c-a92fe37cd754",
+        "sort-name": "Levant, Gayle",
+        "type": "Person",
+        "name": "Gayle Levant",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "country": "US",
+        "disambiguation": "American studio musician, harpist"
+      },
+      "attributes": [
+        "Irish harp / clàrsach"
+      ],
+      "attribute-credits": {
+        "Irish harp / clàrsach": "celtic harp"
+      },
+      "attribute-ids": {
+        "Irish harp / clàrsach": "e9b4bcb7-4731-42c3-9464-9d58fb12ec2d"
+      },
+      "direction": "backward",
+      "target-credit": "",
+      "attribute-values": {},
+      "ended": false,
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "direction": "backward",
+      "target-credit": "",
+      "ended": false,
+      "attribute-values": {},
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461",
+      "attribute-ids": {
+        "pedal steel guitar": "4a10b219-65ac-4b6c-950d-acc8461266c7"
+      },
+      "attribute-credits": {},
+      "attributes": [
+        "pedal steel guitar"
+      ],
+      "end": null,
+      "artist": {
+        "id": "a75a07a4-9b95-411f-a1d7-baa06d048081",
+        "sort-name": "Maness, Jay Dee",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "name": "Jay Dee Maness",
+        "type": "Person",
+        "country": "US",
+        "disambiguation": "American pedal steel guitarist"
+      },
+      "type": "instrument",
+      "target-type": "artist",
+      "source-credit": "",
+      "begin": null
+    },
+    {
+      "source-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "type": "mix",
+      "end": null,
+      "artist": {
+        "type": "Person",
+        "name": "Ed Cherney",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "648c474d-ee94-45b9-9809-23e180dd79ce",
+        "sort-name": "Cherney, Ed",
+        "disambiguation": "",
+        "country": "US"
+      },
+      "attributes": [],
+      "attribute-ids": {},
+      "direction": "backward",
+      "target-credit": "",
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+      "attribute-values": {},
+      "ended": false
+    },
+    {
+      "type": "mix",
+      "target-type": "artist",
+      "source-credit": "",
+      "begin": null,
+      "attribute-values": {},
+      "ended": false,
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+      "direction": "backward",
+      "target-credit": "",
+      "attribute-ids": {},
+      "attributes": [],
+      "artist": {
+        "disambiguation": "Trance remixer/producer. Member of Cypher 7",
+        "country": "US",
+        "type": "Person",
+        "name": "Alex Haas",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "sort-name": "Haas, Alex",
+        "id": "074b5b61-d0db-432e-9388-210b181f8574"
+      },
+      "end": null
+    },
+    {
+      "target-type": "artist",
+      "source-credit": "",
+      "begin": null,
+      "type": "producer",
+      "attributes": [],
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "type": "Person",
+        "name": "Russ Titelman",
+        "sort-name": "Titelman, Russ",
+        "id": "1b9ac64d-680f-45c1-93af-fde816cf8091",
+        "disambiguation": "",
+        "country": "US"
+      },
+      "end": null,
+      "attribute-values": {},
+      "ended": false,
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+      "target-credit": "",
+      "direction": "backward",
+      "attribute-ids": {}
+    },
+    {
+      "target-type": "artist",
+      "begin": null,
+      "source-credit": "",
+      "type": "recording",
+      "attributes": [],
+      "artist": {
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "name": "Ed Cherney",
+        "type": "Person",
+        "sort-name": "Cherney, Ed",
+        "id": "648c474d-ee94-45b9-9809-23e180dd79ce",
+        "disambiguation": "",
+        "country": "US"
+      },
+      "end": null,
+      "attribute-values": {},
+      "ended": false,
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926",
+      "target-credit": "",
+      "direction": "backward",
+      "attribute-ids": {}
+    },
+    {
+      "end": null,
+      "artist": {
+        "name": "Jeff DeMorris",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+        "id": "fd41bf20-78ca-49ce-b32c-d125892a1f19",
+        "sort-name": "DeMorris, Jeff",
+        "disambiguation": "",
+        "country": "US"
+      },
+      "attributes": [],
+      "attribute-ids": {},
+      "target-credit": "",
+      "direction": "backward",
+      "ended": false,
+      "attribute-values": {},
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926",
+      "source-credit": "",
+      "begin": null,
+      "target-type": "artist",
+      "type": "recording"
+    },
+    {
+      "ended": false,
+      "attribute-values": {},
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+      "target-credit": "",
+      "direction": "backward",
+      "attribute-ids": {},
+      "attributes": [],
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "618b6900-0618-4f1e-b835-bccb17f84294",
+        "sort-name": "Clapton, Eric",
+        "type": "Person",
+        "name": "Eric Clapton",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "end": null,
+      "type": "vocal",
+      "target-type": "artist",
+      "begin": null,
+      "source-credit": ""
+    },
+    {
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "attribute-values": {},
+      "ended": false,
+      "target-credit": "",
+      "direction": "forward",
+      "attribute-ids": {},
+      "attributes": [],
+      "end": null,
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "title": "Tears in Heaven",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+        "type": "Song",
+        "relations": [
+          {
+            "type": "writer",
+            "source-credit": "",
+            "begin": null,
+            "target-type": "artist",
+            "attribute-ids": {},
+            "ended": false,
+            "attribute-values": {},
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+            "target-credit": "",
+            "direction": "backward",
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "618b6900-0618-4f1e-b835-bccb17f84294",
+              "sort-name": "Clapton, Eric",
+              "name": "Eric Clapton",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "end": null,
+            "attributes": []
+          },
+          {
+            "attributes": [],
+            "artist": {
+              "disambiguation": "",
+              "country": "US",
+              "name": "Will Jennings",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+              "sort-name": "Jennings, Will",
+              "id": "0f35c517-2546-42d6-a42b-fa1b53bf47e6"
+            },
+            "end": null,
+            "attribute-values": {},
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+            "ended": false,
+            "target-credit": "",
+            "direction": "backward",
+            "attribute-ids": {},
+            "target-type": "artist",
+            "source-credit": "",
+            "begin": null,
+            "type": "writer"
+          },
+          {
+            "work": {
+              "languages": [],
+              "id": "45694ac8-431d-359e-a6ae-8a69b965ef34",
+              "iswcs": [],
+              "language": null,
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "title": "Wir sind Deppen",
+              "disambiguation": "",
+              "attributes": []
+            },
+            "end": null,
+            "attributes": [
+              "parody",
+              "translated"
+            ],
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1",
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "target-credit": "",
+            "direction": "forward",
+            "attribute-values": {},
+            "ended": false,
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "begin": null,
+            "source-credit": "",
+            "target-type": "work",
+            "type": "other version"
+          },
+          {
+            "source-credit": "",
+            "begin": null,
+            "target-type": "work",
+            "type": "other version",
+            "end": null,
+            "work": {
+              "disambiguation": "",
+              "attributes": [],
+              "title": "Kuusessa hevon",
+              "type": null,
+              "type-id": null,
+              "languages": [],
+              "iswcs": [],
+              "id": "950c8df8-555b-34bb-9e1e-be10d44bb933",
+              "language": null
+            },
+            "attributes": [
+              "parody",
+              "translated"
+            ],
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1",
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "attribute-values": {},
+            "ended": false,
+            "direction": "forward",
+            "target-credit": ""
+          },
+          {
+            "attribute-values": {},
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "ended": false,
+            "target-credit": "",
+            "direction": "forward",
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attributes": [
+              "translated"
+            ],
+            "work": {
+              "languages": [],
+              "id": "ae8798a7-fdca-3673-bd01-43396d25fbe3",
+              "iswcs": [],
+              "language": null,
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "title": "Llàgrimes al cel",
+              "disambiguation": "",
+              "attributes": []
+            },
+            "end": null,
+            "type": "other version",
+            "target-type": "work",
+            "begin": null,
+            "source-credit": ""
+          },
+          {
+            "type": "other version",
+            "source-credit": "",
+            "begin": null,
+            "target-type": "work",
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "ended": false,
+            "target-credit": "",
+            "direction": "forward",
+            "work": {
+              "disambiguation": "",
+              "attributes": [],
+              "title": "Dick in Heaven",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "languages": [],
+              "language": null,
+              "id": "61093536-845f-408b-a11b-9fb20c385ee0",
+              "iswcs": []
+            },
+            "end": null,
+            "attributes": [
+              "parody"
+            ]
+          },
+          {
+            "type": "other version",
+            "source-credit": "",
+            "begin": null,
+            "target-type": "work",
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "ended": false,
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "direction": "forward",
+            "target-credit": "",
+            "work": {
+              "title": "Dagrau",
+              "disambiguation": "",
+              "attributes": [],
+              "languages": [],
+              "language": null,
+              "iswcs": [],
+              "id": "d4aeb7ab-77d1-4e0f-af9c-00b864006e57",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            },
+            "end": null,
+            "attributes": [
+              "translated"
+            ]
+          },
+          {
+            "type": "other version",
+            "target-type": "work",
+            "begin": null,
+            "source-credit": "",
+            "target-credit": "",
+            "direction": "forward",
+            "ended": false,
+            "attribute-values": {},
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attributes": [
+              "translated"
+            ],
+            "work": {
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6",
+              "type": "Song",
+              "language": null,
+              "id": "9bb00439-f71b-472d-944a-5c116027bec2",
+              "iswcs": [],
+              "languages": [],
+              "attributes": [],
+              "disambiguation": "",
+              "title": "Im Himmel"
+            },
+            "end": null
+          },
+          {
+            "type": "other version",
+            "source-credit": "",
+            "begin": null,
+            "target-type": "work",
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "ended": false,
+            "attribute-values": {},
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "direction": "forward",
+            "target-credit": "",
+            "work": {
+              "title": "Cennetteki Gözyaşları",
+              "disambiguation": "",
+              "attributes": [],
+              "languages": [],
+              "id": "6840cc98-bce2-4482-9b24-53853c280693",
+              "iswcs": [],
+              "language": null,
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            },
+            "end": null,
+            "attributes": [
+              "translated"
+            ]
+          }
+        ],
+        "iswcs": [
+          "T-042.110.741-6",
+          "T-900.247.406-8"
+        ],
+        "id": "b266015b-50f8-3526-933c-06e68e66e5d6",
+        "language": "eng",
+        "languages": [
+          "eng"
+        ]
+      },
+      "type": "performance",
+      "target-type": "work",
+      "source-credit": "",
+      "begin": null
+    }
+  ]
+}

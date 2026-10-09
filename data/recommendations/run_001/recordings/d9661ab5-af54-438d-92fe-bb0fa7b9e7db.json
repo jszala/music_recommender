@@ -1,0 +1,189 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+        "name": "Mariah the Scientist",
+        "sort-name": "Mariah the Scientist",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": " & ",
+      "name": "Mariah the Scientist"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "d0c7656d-8169-4f77-9dbe-b8f24e40105d",
+        "name": "Kali Uchis",
+        "sort-name": "Uchis, Kali",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Kali Uchis"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2025-07-31",
+  "id": "d9661ab5-af54-438d-92fe-bb0fa7b9e7db",
+  "isrcs": [
+    "USSM12502969"
+  ],
+  "length": 181334,
+  "relations": [],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+            "name": "Mariah the Scientist",
+            "sort-name": "Mariah the Scientist",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " & ",
+          "name": "Mariah the Scientist"
+        },
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "d0c7656d-8169-4f77-9dbe-b8f24e40105d",
+            "name": "Kali Uchis",
+            "sort-name": "Uchis, Kali",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Kali Uchis"
+        }
+      ],
+      "barcode": "196873431857",
+      "country": "XW",
+      "date": "2025-07-31",
+      "disambiguation": "",
+      "id": "1e5d3852-dc72-472b-83e6-7f714fc16c27",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2025-07-31"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Is It a Crime"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+            "name": "Mariah the Scientist",
+            "sort-name": "Mariah the Scientist",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Mariah the Scientist"
+        }
+      ],
+      "barcode": "198029449327",
+      "country": "US",
+      "date": "2025-08-22",
+      "disambiguation": "",
+      "id": "349448b6-83eb-4b65-9401-a0264949601c",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2025-08-22"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Hearts Sold Separately"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+            "name": "Mariah the Scientist",
+            "sort-name": "Mariah the Scientist",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Mariah the Scientist"
+        }
+      ],
+      "barcode": "196873376462",
+      "country": null,
+      "date": "2025-08-22",
+      "disambiguation": "",
+      "id": "da367076-de14-40b5-91d9-70e48a911839",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": null,
+          "date": "2025-08-22"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "HEARTS SOLD SEPARATELY"
+    }
+  ],
+  "title": "Is It a Crime",
+  "video": false
+}

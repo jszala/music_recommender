@@ -1,0 +1,310 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "Hit-Boy's father",
+        "id": "a99b8622-9f5f-423b-b3a7-e507130432ce",
+        "name": "Big Hit",
+        "sort-name": "Big Hit",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": ", ",
+      "name": "Big Hit"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "US hip‐hop producer/rapper Chauncey Hollis",
+        "id": "bf314a8f-5dc6-4dc5-8819-d25b4cc38164",
+        "name": "Hit‐Boy",
+        "sort-name": "Hit‐Boy",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": " & ",
+      "name": "Hit‐Boy"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "hip hop DJ & producer",
+        "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+        "name": "The Alchemist",
+        "sort-name": "Alchemist, The",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "The Alchemist"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2024-05-30",
+  "id": "6f59ac75-dce7-4172-8198-928630e47f0e",
+  "length": 97727,
+  "relations": [
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "Korean-American producer/engineer",
+        "id": "58a33d54-3a06-41cb-b877-cbde464a8081",
+        "name": "David Kim",
+        "sort-name": "Kim, David",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "DAVID YUNGIN KIM",
+      "target-type": "artist",
+      "type": "mix",
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "hip hop DJ & producer",
+        "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+        "name": "The Alchemist",
+        "sort-name": "Alchemist, The",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "Recording engineer",
+        "id": "e8f00ef5-6d0f-4cab-8dc4-de311dbca9b1",
+        "name": "Larrence Miller",
+        "sort-name": "Miller Larrence",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "recording",
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "Award nominated engineer and producer",
+        "id": "4ab45053-5c99-43cb-8625-633373ffc249",
+        "name": "Dāvis Strauss",
+        "sort-name": "Strauss, Dāvis",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "recording",
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "hip hop DJ & producer",
+        "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+        "name": "The Alchemist",
+        "sort-name": "Alchemist, The",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "Hit-Boy's father",
+        "id": "a99b8622-9f5f-423b-b3a7-e507130432ce",
+        "name": "Big Hit",
+        "sort-name": "Big Hit",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "US hip‐hop producer/rapper Chauncey Hollis",
+        "id": "bf314a8f-5dc6-4dc5-8819-d25b4cc38164",
+        "name": "Hit‐Boy",
+        "sort-name": "Hit‐Boy",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "036b07fc-2dbf-471a-86e2-89e3b407158d",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "hip hop DJ & producer",
+              "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+              "name": "The Alchemist",
+              "sort-name": "Alchemist, The",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Daniel Alan Maman",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "Hit-Boy's father",
+              "id": "a99b8622-9f5f-423b-b3a7-e507130432ce",
+              "name": "Big Hit",
+              "sort-name": "Big Hit",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Chauncey Alexander Hollis, Sr.",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "US hip‐hop producer/rapper Chauncey Hollis",
+              "id": "bf314a8f-5dc6-4dc5-8819-d25b4cc38164",
+              "name": "Hit‐Boy",
+              "sort-name": "Hit‐Boy",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Chauncey Alexander Hollis, Jr.",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "Temperature Check",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "title": "Temperature Check",
+  "video": false
+}

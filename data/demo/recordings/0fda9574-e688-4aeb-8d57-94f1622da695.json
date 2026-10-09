@@ -1,0 +1,201 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Welsh Folk / Pop composer & performer",
+        "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+        "name": "H. Hawkline",
+        "sort-name": "H. Hawkline",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "H. Hawkline"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2010-12-06",
+  "id": "0fda9574-e688-4aeb-8d57-94f1622da695",
+  "isrcs": [
+    "GBPYT1001303"
+  ],
+  "length": 320000,
+  "relations": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "c8934f86-6dd5-40eb-8349-7546153628e7",
+        "name": "Iwan Morgan",
+        "sort-name": "Morgan, Iwan",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "editor",
+      "type-id": "40dff87a-e475-4aa6-b615-9935b564d756"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "6a1dca48-dd24-448f-8dc9-9216c181475f",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "Welsh Folk / Pop composer & performer",
+              "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+              "name": "H. Hawkline",
+              "sort-name": "H. Hawkline",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "From Her Eyes",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "Welsh Folk / Pop composer & performer",
+            "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+            "name": "H. Hawkline",
+            "sort-name": "H. Hawkline",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "H. Hawkline"
+        }
+      ],
+      "barcode": "",
+      "country": "XW",
+      "date": "2010-12-06",
+      "disambiguation": "",
+      "id": "e6f8f227-9566-4e19-91cd-d0ae16da05f4",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2010-12-06"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "A Cup of Salt"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "Welsh Folk / Pop composer & performer",
+            "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+            "name": "H. Hawkline",
+            "sort-name": "H. Hawkline",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "H. Hawkline"
+        }
+      ],
+      "barcode": null,
+      "country": "GB",
+      "date": "2010-12-06",
+      "disambiguation": "",
+      "id": "8c742131-88d4-4cea-bc4e-11972e7b6d3c",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2010-12-06"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "A Cup Of Salt"
+    }
+  ],
+  "title": "From Her Eyes",
+  "video": false
+}

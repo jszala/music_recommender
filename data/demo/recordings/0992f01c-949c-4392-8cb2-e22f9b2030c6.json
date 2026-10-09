@@ -1,0 +1,25 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "2b3130ac-2f9f-4dc3-a266-453b25183ddf",
+        "name": "Sega Bodega",
+        "sort-name": "Sega Bodega",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Sega Bodega"
+    }
+  ],
+  "disambiguation": "",
+  "id": "0992f01c-949c-4392-8cb2-e22f9b2030c6",
+  "isrcs": [],
+  "length": null,
+  "relations": [],
+  "releases": [],
+  "title": "Ess B",
+  "video": false
+}

@@ -18,6 +18,10 @@ Run `python3 -B -m src.demo` from the repository root. `--method equal` changes
 only role weights; scorer, saturation, candidate snapshots, and hard selection
 policies remain shared with the weighted run and live prototype.
 
+The main [README example](../../README.md) shows all 11 saved results from three
+recent runs. This smaller constructed fixture is retained for scoring/selection
+reproduction and the checked Shygirl/Sega Bodega example in [the method](../../docs/method.md).
+
 The weighted example returns five songs assigned 2/2/1 across source groups.
 The candidate pool is bounded and selected for exposition. This result verifies
 code behavior and traceable explanations, rather than listener usefulness.

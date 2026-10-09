@@ -1,0 +1,123 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "BR",
+        "disambiguation": "",
+        "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+        "name": "Erasmo Carlos",
+        "sort-name": "Carlos, Erasmo",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Erasmo Carlos"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "1972",
+  "id": "51acd96b-3b6e-48f3-a6db-1f857e708546",
+  "isrcs": [],
+  "length": 190000,
+  "relations": [],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "BR",
+            "disambiguation": "",
+            "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+            "name": "Erasmo Carlos",
+            "sort-name": "Carlos, Erasmo",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Erasmo Carlos"
+        }
+      ],
+      "barcode": null,
+      "country": "BR",
+      "date": "1972",
+      "disambiguation": "",
+      "id": "aae2edd6-6cda-4bac-98a7-3fa7f1832f2f",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "f45b47f8-5796-386e-b172-6c31b009a5d8",
+            "iso-3166-1-codes": [
+              "BR"
+            ],
+            "name": "Brazil",
+            "sort-name": "Brazil",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1972"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "por",
+        "script": "Latn"
+      },
+      "title": "Sonhos e memórias 1941 - 1972"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "BR",
+            "disambiguation": "",
+            "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+            "name": "Erasmo Carlos",
+            "sort-name": "Carlos, Erasmo",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Erasmo Carlos"
+        }
+      ],
+      "barcode": "044001740022",
+      "country": "BR",
+      "date": "2002",
+      "disambiguation": "",
+      "id": "26aaa40b-1843-4dce-8f78-15c6273e9509",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "f45b47f8-5796-386e-b172-6c31b009a5d8",
+            "iso-3166-1-codes": [
+              "BR"
+            ],
+            "name": "Brazil",
+            "sort-name": "Brazil",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2002"
+        }
+      ],
+      "status": null,
+      "status-id": null,
+      "text-representation": {
+        "language": null,
+        "script": null
+      },
+      "title": "Mesmo Que Seja Eu"
+    }
+  ],
+  "title": "Sorriso dela",
+  "video": false
+}

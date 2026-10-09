@@ -1,0 +1,336 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Welsh Folk / Pop composer & performer",
+        "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+        "name": "H. Hawkline",
+        "sort-name": "H. Hawkline",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "H. Hawkline"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2013-04-01",
+  "id": "19ecb469-6a83-4ad3-bb05-cdc1c1eb806f",
+  "isrcs": [
+    "GBX9T1301006"
+  ],
+  "length": 326000,
+  "relations": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "c8934f86-6dd5-40eb-8349-7546153628e7",
+        "name": "Iwan Morgan",
+        "sort-name": "Morgan, Iwan",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "8fddc6e9-6eaf-41f0-9efe-59e80d742659",
+        "name": "Robin Edwards",
+        "sort-name": "Edwards, Robin",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "f2393e49-b791-46da-a6d7-1e9e60743405",
+        "name": "Cate Le Bon",
+        "sort-name": "Le Bon, Cate",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "guitar"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "fd0c2739-8b21-4f3c-bc9a-df80f1852886",
+        "name": "Sweet Baboo",
+        "sort-name": "Sweet Baboo",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "bass guitar"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Welsh Folk / Pop composer & performer",
+        "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+        "name": "H. Hawkline",
+        "sort-name": "H. Hawkline",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "lead vocals"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "Huw Evans",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "29a840aa-416c-48de-80b7-94dcad95f501",
+        "iswcs": [],
+        "language": "cym",
+        "languages": [
+          "cym"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "Welsh Folk / Pop composer & performer",
+              "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+              "name": "H. Hawkline",
+              "sort-name": "H. Hawkline",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "Welsh Folk / Pop composer & performer",
+              "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+              "name": "H. Hawkline",
+              "sort-name": "H. Hawkline",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          }
+        ],
+        "title": "Llenwi",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": null,
+            "disambiguation": "add compilations to this artist",
+            "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+            "name": "Various Artists",
+            "sort-name": "Various Artists",
+            "type": "Other",
+            "type-id": "ac897045-5043-3294-969b-187360e45d86"
+          },
+          "joinphrase": "",
+          "name": "Various Artists"
+        }
+      ],
+      "barcode": "196006608170",
+      "country": "XW",
+      "date": "2013-04-01",
+      "disambiguation": "",
+      "id": "a8f245e1-ca65-446c-827c-5883b517b09c",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2013-04-01"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Y Record Las"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": null,
+            "disambiguation": "add compilations to this artist",
+            "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+            "name": "Various Artists",
+            "sort-name": "Various Artists",
+            "type": "Other",
+            "type-id": "ac897045-5043-3294-969b-187360e45d86"
+          },
+          "joinphrase": "",
+          "name": "Various Artists"
+        }
+      ],
+      "barcode": "0793573619624",
+      "country": "GB",
+      "date": "2013",
+      "disambiguation": "",
+      "id": "9a0a6b9e-66cd-4d63-94cc-60a9f167f6ba",
+      "packaging": "Gatefold Cover",
+      "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2013"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "cym",
+        "script": "Latn"
+      },
+      "title": "Y Record Las"
+    }
+  ],
+  "title": "Llenwi",
+  "video": false
+}

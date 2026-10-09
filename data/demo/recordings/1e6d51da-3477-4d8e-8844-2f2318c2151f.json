@@ -1,0 +1,160 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+        "name": "Shygirl",
+        "sort-name": "Shygirl",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": " & ",
+      "name": "Shygirl"
+    },
+    {
+      "artist": {
+        "country": "IE",
+        "disambiguation": "",
+        "id": "289cdc5a-5c8e-4932-a032-043cf734dfa2",
+        "name": "Cosha",
+        "sort-name": "Cosha",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Cosha"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2024-06-06",
+  "id": "1e6d51da-3477-4d8e-8844-2f2318c2151f",
+  "isrcs": [
+    "GBMVH2400360"
+  ],
+  "length": 222347,
+  "relations": [
+    {
+      "artist": {
+        "country": "IE",
+        "disambiguation": "",
+        "id": "289cdc5a-5c8e-4932-a032-043cf734dfa2",
+        "name": "Cosha",
+        "sort-name": "Cosha",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "lead vocals"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+        "name": "Shygirl",
+        "sort-name": "Shygirl",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "lead vocals"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "9385f1a7-8623-4d0c-b171-f1e6e87220c5",
+            "name": "Shygirl",
+            "sort-name": "Shygirl",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " & ",
+          "name": "Shygirl"
+        },
+        {
+          "artist": {
+            "country": "IE",
+            "disambiguation": "",
+            "id": "289cdc5a-5c8e-4932-a032-043cf734dfa2",
+            "name": "Cosha",
+            "sort-name": "Cosha",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Cosha"
+        }
+      ],
+      "barcode": "5056556142515",
+      "country": "XW",
+      "date": "2024-06-06",
+      "disambiguation": "",
+      "id": "97ee0438-b1bb-4db5-be2d-d5a212dbc363",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-06-06"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "thicc (Fedde Le Grand remix)"
+    }
+  ],
+  "title": "thicc (acapella)",
+  "video": false
+}

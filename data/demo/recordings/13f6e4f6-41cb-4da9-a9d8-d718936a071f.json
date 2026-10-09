@@ -1,0 +1,184 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "7c4905d1-ba4f-4d73-886f-0df3b0831dc3",
+        "name": "Euros Childs",
+        "sort-name": "Childs, Euros",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Euros Childs"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2018-12-21",
+  "id": "13f6e4f6-41cb-4da9-a9d8-d718936a071f",
+  "isrcs": [],
+  "length": 174000,
+  "relations": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "d3789f6f-cc8d-4404-a104-103f9daa6bd3",
+        "name": "Stephen Black",
+        "sort-name": "Black, Stephen",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "electric guitar": "7ee8ebf5-3aed-4fc8-8004-49f4a8c45a87"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "electric guitar"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "7c4905d1-ba4f-4d73-886f-0df3b0831dc3",
+        "name": "Euros Childs",
+        "sort-name": "Childs, Euros",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {
+        "keyboard": "keyboards"
+      },
+      "attribute-ids": {
+        "keyboard": "95b0c3d2-9606-4ef5-a019-9b7437f3adda"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "keyboard"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "1f3bdda7-4735-4dbe-a1f0-08c9ab11f3e9",
+        "iswcs": [],
+        "language": null,
+        "languages": [],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "7c4905d1-ba4f-4d73-886f-0df3b0831dc3",
+              "name": "Euros Childs",
+              "sort-name": "Childs, Euros",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          }
+        ],
+        "title": "Lleuad ar Dost",
+        "type": null,
+        "type-id": null
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "7c4905d1-ba4f-4d73-886f-0df3b0831dc3",
+            "name": "Euros Childs",
+            "sort-name": "Childs, Euros",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Euros Childs"
+        }
+      ],
+      "barcode": null,
+      "country": "XW",
+      "date": "2018-12-21",
+      "disambiguation": "",
+      "id": "fa5a555b-d743-42cd-b044-a49565f5534e",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "high",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2018-12-21"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "mul",
+        "script": "Latn"
+      },
+      "title": "Olion"
+    }
+  ],
+  "title": "Lleuad ar Dost",
+  "video": false
+}

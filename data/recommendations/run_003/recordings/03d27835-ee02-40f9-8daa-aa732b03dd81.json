@@ -1,0 +1,104 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "BR",
+        "disambiguation": "",
+        "id": "8ff1d37b-cc39-4e3d-b690-7674cf6d5016",
+        "name": "Wanderléa",
+        "sort-name": "Wanderléa",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Wanderléa"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "1995",
+  "id": "03d27835-ee02-40f9-8daa-aa732b03dd81",
+  "length": 169000,
+  "relations": [
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "0069b6c1-234d-3b12-9ba5-55ff22edae96",
+        "iswcs": [],
+        "language": "por",
+        "languages": [
+          "por"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "BR",
+              "disambiguation": "",
+              "id": "c7c9fa4d-262b-45c1-9477-237849654948",
+              "name": "Erasmo Carlos",
+              "sort-name": "Carlos, Erasmo",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          },
+          {
+            "artist": {
+              "country": "BR",
+              "disambiguation": "Brazilian singer-songwriter, \"King of Latin Music\"",
+              "id": "e43f8c07-2d2e-47fd-8279-dc0e9880882c",
+              "name": "Roberto Carlos",
+              "sort-name": "Roberto Carlos",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          }
+        ],
+        "title": "Eu sou terrível",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "title": "Eu sou terrível",
+  "video": false
+}

@@ -1,0 +1,61 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "US rapper",
+        "id": "800760de-bdf8-43a2-8fe0-44a2401a5515",
+        "name": "Young Thug",
+        "sort-name": "Young Thug",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": " feat. ",
+      "name": "Young Thug"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+        "name": "Mariah the Scientist",
+        "sort-name": "Mariah the Scientist",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Mariah the Scientist"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2025-09-26",
+  "id": "e9af0d52-e19a-427b-b53a-7007bb5ad781",
+  "length": 197733,
+  "relations": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+        "name": "Mariah the Scientist",
+        "sort-name": "Mariah the Scientist",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "performer",
+      "type-id": "628a9658-f54c-4142-b0c0-95f031b544da"
+    }
+  ],
+  "title": "Birthday Boy",
+  "video": false
+}

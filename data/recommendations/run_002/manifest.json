@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "kind": "selected_recording_evidence",
+  "sources": [
+    {
+      "recording_id": "00f49f38-1b90-477d-8369-a676c7f7a3db",
+      "source_url": "https://musicbrainz.org/recording/00f49f38-1b90-477d-8369-a676c7f7a3db",
+      "query": "https://musicbrainz.org/ws/2/recording/00f49f38-1b90-477d-8369-a676c7f7a3db?fmt=json&inc=artist-credits%2Bartist-rels%2Bwork-rels%2Bwork-level-rels%2Breleases%2Bisrcs",
+      "retrieved_at": "2026-10-08T17:34:11.099929+00:00",
+      "sha256": "9b687cb423396bc2cbda64b35f66c41eb52b4ce80630deccab1d4f8c0c3cd4e2",
+      "snapshot_file": "recordings/00f49f38-1b90-477d-8369-a676c7f7a3db.json"
+    },
+    {
+      "recording_id": "042b44d5-b25e-407f-b4e0-eec83b1d9484",
+      "source_url": "https://musicbrainz.org/recording/042b44d5-b25e-407f-b4e0-eec83b1d9484",
+      "query": "https://musicbrainz.org/ws/2/recording/042b44d5-b25e-407f-b4e0-eec83b1d9484?fmt=json&inc=artist-credits%2Bartist-rels%2Bwork-rels%2Bwork-level-rels%2Breleases%2Bisrcs",
+      "retrieved_at": "2026-10-08T17:34:07.852102+00:00",
+      "sha256": "1a9ee6954632eb95b61b9469de24a0c2cadba2e491f3cdec5220df214a8e4065",
+      "snapshot_file": "recordings/042b44d5-b25e-407f-b4e0-eec83b1d9484.json"
+    },
+    {
+      "recording_id": "17894247-e585-4c97-83ea-de7047df7639",
+      "source_url": "https://musicbrainz.org/recording/17894247-e585-4c97-83ea-de7047df7639",
+      "query": "https://musicbrainz.org/ws/2/recording/17894247-e585-4c97-83ea-de7047df7639?fmt=json&inc=artist-credits%2Bartist-rels%2Bwork-rels%2Bwork-level-rels%2Breleases%2Bisrcs",
+      "retrieved_at": "2026-10-08T17:33:40.101095+00:00",
+      "sha256": "e42105a230abae8153bf3804b474892c7c7bf3f5b8bcb6c57bd9b7f89538188c",
+      "snapshot_file": "recordings/17894247-e585-4c97-83ea-de7047df7639.json"
+    },
+    {
+      "recording_id": "6f59ac75-dce7-4172-8198-928630e47f0e",
+      "source_url": "https://musicbrainz.org/recording/6f59ac75-dce7-4172-8198-928630e47f0e",
+      "query": "https://musicbrainz.org/ws/2/recording?fmt=json&inc=artist-credits%2Bartist-rels%2Bwork-rels%2Bwork-level-rels&limit=25&offset=0&work=036b07fc-2dbf-471a-86e2-89e3b407158d",
+      "retrieved_at": "2026-10-08T17:34:05.688807+00:00",
+      "sha256": "901c00fb471e14c7991c7d066b6572f14937d46e1dce7c297223099dd05d33dd",
+      "snapshot_file": "recordings/6f59ac75-dce7-4172-8198-928630e47f0e.json"
+    },
+    {
+      "recording_id": "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+      "source_url": "https://musicbrainz.org/recording/82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+      "query": "https://musicbrainz.org/ws/2/recording/82d91ef9-7eca-4bbc-a0e2-676b7931a8cf?fmt=json&inc=artist-credits%2Bartist-rels%2Bwork-rels%2Bwork-level-rels%2Breleases%2Bisrcs",
+      "retrieved_at": "2026-10-08T17:33:46.844221+00:00",
+      "sha256": "80fc6984f6f1253ff3ea92bc2987bd46e2d6551473783a7f69a7e5ce7edd5c62",
+      "snapshot_file": "recordings/82d91ef9-7eca-4bbc-a0e2-676b7931a8cf.json"
+    }
+  ]
+}

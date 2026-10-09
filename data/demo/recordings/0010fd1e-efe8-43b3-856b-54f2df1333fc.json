@@ -1,0 +1,127 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "United States, multi instrumentalist",
+        "id": "8d941959-2af3-447d-aa39-a215057ae7f5",
+        "name": "John Dwyer",
+        "sort-name": "Dwyer, John",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": ", ",
+      "name": "John Dwyer"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "American drummer",
+        "id": "bf624d0f-a633-4409-8e3f-ef9bb228c462",
+        "name": "Nick Murray",
+        "sort-name": "Murray, Nick",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": ", ",
+      "name": "Nick Murray"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "saxophonist",
+        "id": "c2efc66e-ec3b-4042-a176-00051061fd71",
+        "name": "Brad Caulkins",
+        "sort-name": "Caulkins, Brad",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Brad Caulkins"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2024-09-06",
+  "id": "0010fd1e-efe8-43b3-856b-54f2df1333fc",
+  "isrcs": [],
+  "length": 555421,
+  "relations": [],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "United States, multi instrumentalist",
+            "id": "8d941959-2af3-447d-aa39-a215057ae7f5",
+            "name": "John Dwyer",
+            "sort-name": "Dwyer, John",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": ", ",
+          "name": "John Dwyer"
+        },
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "American drummer",
+            "id": "bf624d0f-a633-4409-8e3f-ef9bb228c462",
+            "name": "Nick Murray",
+            "sort-name": "Murray, Nick",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": ", ",
+          "name": "Nick Murray"
+        },
+        {
+          "artist": {
+            "country": null,
+            "disambiguation": "saxophonist",
+            "id": "c2efc66e-ec3b-4042-a176-00051061fd71",
+            "name": "Brad Caulkins",
+            "sort-name": "Caulkins, Brad",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Brad Caulkins"
+        }
+      ],
+      "barcode": "",
+      "country": "XW",
+      "date": "2024-09-06",
+      "disambiguation": "",
+      "id": "988b331a-976c-4409-a93a-430f1cf8dce6",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-09-06"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "WITCH EGG SESSIONS BONUS ALBUM"
+    }
+  ],
+  "title": "FOUNDATIONAL SACRIFICE",
+  "video": false
+}

@@ -1,0 +1,525 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "f2393e49-b791-46da-a6d7-1e9e60743405",
+        "name": "Cate Le Bon",
+        "sort-name": "Le Bon, Cate",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Cate Le Bon"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2013-11-06",
+  "id": "0a446135-fd84-4f62-b032-48dc25497bfd",
+  "isrcs": [
+    "GBYPZ1300016"
+  ],
+  "length": 261000,
+  "relations": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "d3789f6f-cc8d-4404-a104-103f9daa6bd3",
+        "name": "Stephen Black",
+        "sort-name": "Black, Stephen",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "bass guitar"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Welsh Folk / Pop composer & performer",
+        "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+        "name": "H. Hawkline",
+        "sort-name": "H. Hawkline",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "guitar"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "Huw Gwynfryn Evans",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "American drummer",
+        "id": "bf624d0f-a633-4409-8e3f-ef9bb228c462",
+        "name": "Nick Murray",
+        "sort-name": "Murray, Nick",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "f2393e49-b791-46da-a6d7-1e9e60743405",
+        "name": "Cate Le Bon",
+        "sort-name": "Le Bon, Cate",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "51acb1be-8e5a-4d05-b0b9-d3e4b3ce5d56",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "f2393e49-b791-46da-a6d7-1e9e60743405",
+              "name": "Cate Le Bon",
+              "sort-name": "Le Bon, Cate",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "Are You With Me Now?",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": null,
+            "disambiguation": "add compilations to this artist",
+            "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+            "name": "Various Artists",
+            "sort-name": "Various Artists",
+            "type": "Other",
+            "type-id": "ac897045-5043-3294-969b-187360e45d86"
+          },
+          "joinphrase": "",
+          "name": "Various Artists"
+        }
+      ],
+      "barcode": "",
+      "country": "FR",
+      "date": "2013-11-06",
+      "disambiguation": "",
+      "id": "19fc7899-811a-45f6-8677-bb01ed453b4e",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "08310658-51eb-3801-80de-5a0739207115",
+            "iso-3166-1-codes": [
+              "FR"
+            ],
+            "name": "France",
+            "sort-name": "France",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2013-11-06"
+        }
+      ],
+      "status": "Promotion",
+      "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+      "text-representation": {
+        "language": "mul",
+        "script": "Latn"
+      },
+      "title": "Un automne 2013"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "f2393e49-b791-46da-a6d7-1e9e60743405",
+            "name": "Cate Le Bon",
+            "sort-name": "Le Bon, Cate",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Cate Le Bon"
+        }
+      ],
+      "barcode": "196925292092",
+      "country": "XW",
+      "date": "2013-11-08",
+      "disambiguation": "",
+      "id": "99aa002a-51fa-4075-866a-68c366cf532a",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2013-11-08"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Mug Museum"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "f2393e49-b791-46da-a6d7-1e9e60743405",
+            "name": "Cate Le Bon",
+            "sort-name": "Le Bon, Cate",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Cate Le Bon"
+        }
+      ],
+      "barcode": "5051083073813",
+      "country": "GB",
+      "date": "2013-11-11",
+      "disambiguation": "",
+      "id": "6f07d1bc-d2a2-4d2f-bd83-877fc6c11547",
+      "packaging": "Digipak",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2013-11-11"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Mug Museum"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "f2393e49-b791-46da-a6d7-1e9e60743405",
+            "name": "Cate Le Bon",
+            "sort-name": "Le Bon, Cate",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Cate Le Bon"
+        }
+      ],
+      "barcode": "5055036273909",
+      "country": "US",
+      "date": "2013-11-12",
+      "disambiguation": "",
+      "id": "4d108d3b-72a4-4b0d-ad7f-379be85533b3",
+      "packaging": "Digipak",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2013-11-12"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Mug Museum"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "f2393e49-b791-46da-a6d7-1e9e60743405",
+            "name": "Cate Le Bon",
+            "sort-name": "Le Bon, Cate",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Cate Le Bon"
+        }
+      ],
+      "barcode": null,
+      "country": "US",
+      "date": "2013",
+      "disambiguation": "black vinyl",
+      "id": "caa9fc2e-7a61-427e-8b65-d37dc045eb98",
+      "packaging": "Gatefold Cover",
+      "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2013"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Mug Museum"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": null,
+            "disambiguation": "add compilations to this artist",
+            "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+            "name": "Various Artists",
+            "sort-name": "Various Artists",
+            "type": "Other",
+            "type-id": "ac897045-5043-3294-969b-187360e45d86"
+          },
+          "joinphrase": "",
+          "name": "Various Artists"
+        }
+      ],
+      "barcode": "5050954423627",
+      "country": "GB",
+      "date": "2014",
+      "disambiguation": "",
+      "id": "66a140c3-2668-46b7-82bc-6a180d721efd",
+      "packaging": "Gatefold Cover",
+      "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2014"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "End of the Road Festival 2014"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": null,
+            "disambiguation": "add compilations to this artist",
+            "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+            "name": "Various Artists",
+            "sort-name": "Various Artists",
+            "type": "Other",
+            "type-id": "ac897045-5043-3294-969b-187360e45d86"
+          },
+          "joinphrase": "",
+          "name": "Various Artists"
+        }
+      ],
+      "barcode": "",
+      "country": "GB",
+      "date": "2017-04-24",
+      "disambiguation": "",
+      "id": "937512e7-a8ff-4c9d-9fb3-15a309e8d180",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2017-04-24"
+        }
+      ],
+      "status": "Promotion",
+      "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Fleet Foxes Present ... 15 tracks chosen by Robin Pecknold"
+    }
+  ],
+  "title": "Are You With Me Now?",
+  "video": false
+}

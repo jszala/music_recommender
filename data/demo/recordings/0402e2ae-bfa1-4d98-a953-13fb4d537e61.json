@@ -1,0 +1,65 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "2b3130ac-2f9f-4dc3-a266-453b25183ddf",
+        "name": "Sega Bodega",
+        "sort-name": "Sega Bodega",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Sega Bodega"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2024-01-29",
+  "id": "0402e2ae-bfa1-4d98-a953-13fb4d537e61",
+  "isrcs": [],
+  "length": 231204,
+  "relations": [],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "2b3130ac-2f9f-4dc3-a266-453b25183ddf",
+            "name": "Sega Bodega",
+            "sort-name": "Sega Bodega",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Sega Bodega"
+        }
+      ],
+      "barcode": "5060644135990",
+      "country": null,
+      "date": "2024-01-29",
+      "disambiguation": "",
+      "id": "f8d1374f-542a-4883-9ca3-79063fc90cd9",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": null,
+          "date": "2024-01-29"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "nld",
+        "script": "Latn"
+      },
+      "title": "Deer Teeth"
+    }
+  ],
+  "title": "Deer Teeth",
+  "video": false
+}

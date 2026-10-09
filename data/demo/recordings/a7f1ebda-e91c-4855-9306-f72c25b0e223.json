@@ -1,0 +1,483 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "English post-punk band",
+        "id": "73577e86-4da8-4d76-949d-34c757e053be",
+        "name": "A Certain Ratio",
+        "sort-name": "Certain Ratio, A",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "joinphrase": "",
+      "name": "A Certain Ratio"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "1982-07",
+  "id": "a7f1ebda-e91c-4855-9306-f72c25b0e223",
+  "isrcs": [],
+  "length": 236093,
+  "relations": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "1a5c00de-5362-432b-9f12-1c1acd0c29d9",
+        "name": "Phil Ault",
+        "sort-name": "Ault, Phil",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "English post-punk band",
+        "id": "73577e86-4da8-4d76-949d-34c757e053be",
+        "name": "A Certain Ratio",
+        "sort-name": "Certain Ratio, A",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "phonographic copyright",
+      "type-id": "7fd5fbc0-fbf4-4d04-be23-417d50a4dc30"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "English post-punk band",
+        "id": "73577e86-4da8-4d76-949d-34c757e053be",
+        "name": "A Certain Ratio",
+        "sort-name": "Certain Ratio, A",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "29a819d9-e1d4-3a72-bff2-b5685b7ebede",
+        "iswcs": [],
+        "language": null,
+        "languages": [],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "English post-punk band",
+              "id": "73577e86-4da8-4d76-949d-34c757e053be",
+              "name": "A Certain Ratio",
+              "sort-name": "Certain Ratio, A",
+              "type": "Group",
+              "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          }
+        ],
+        "title": "Lucinda",
+        "type": null,
+        "type-id": null
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English post-punk band",
+            "id": "73577e86-4da8-4d76-949d-34c757e053be",
+            "name": "A Certain Ratio",
+            "sort-name": "Certain Ratio, A",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "A Certain Ratio"
+        }
+      ],
+      "barcode": "",
+      "country": "GB",
+      "date": "1982-07",
+      "disambiguation": "",
+      "id": "e3ae60d9-9b39-4aee-9f9f-90e84a3a2322",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1982-07"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Sextet"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English post-punk band",
+            "id": "73577e86-4da8-4d76-949d-34c757e053be",
+            "name": "A Certain Ratio",
+            "sort-name": "Certain Ratio, A",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "A Certain Ratio"
+        }
+      ],
+      "barcode": "4988001246534",
+      "country": "JP",
+      "date": "1989-02-21",
+      "disambiguation": "",
+      "id": "c7299481-2d9f-4ecd-a3b7-b320c9bb1149",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1989-02-21"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Sextet"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English post-punk band",
+            "id": "73577e86-4da8-4d76-949d-34c757e053be",
+            "name": "A Certain Ratio",
+            "sort-name": "Certain Ratio, A",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "A Certain Ratio"
+        }
+      ],
+      "barcode": "5025006630247",
+      "country": "GB",
+      "date": "1994",
+      "disambiguation": "",
+      "id": "cbad6273-e419-455d-9c73-8a774f0d2681",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1994"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": null
+      },
+      "title": "Sextet"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English post-punk band",
+            "id": "73577e86-4da8-4d76-949d-34c757e053be",
+            "name": "A Certain Ratio",
+            "sort-name": "Certain Ratio, A",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "A Certain Ratio"
+        }
+      ],
+      "barcode": "5026328202211",
+      "country": "GB",
+      "date": "2004-07-12",
+      "disambiguation": "",
+      "id": "11c20930-e47d-3f74-a1a1-de3f8a84b84e",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2004-07-12"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Sextet"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English post-punk band",
+            "id": "73577e86-4da8-4d76-949d-34c757e053be",
+            "name": "A Certain Ratio",
+            "sort-name": "Certain Ratio, A",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "A Certain Ratio"
+        }
+      ],
+      "barcode": "5026328202228",
+      "country": "GB",
+      "date": "2004-07-12",
+      "disambiguation": "",
+      "id": "672fd080-e965-4de7-9614-ff8799b3144c",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2004-07-12"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Sextet"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English post-punk band",
+            "id": "73577e86-4da8-4d76-949d-34c757e053be",
+            "name": "A Certain Ratio",
+            "sort-name": "Certain Ratio, A",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "A Certain Ratio"
+        }
+      ],
+      "barcode": "708527002568",
+      "country": "US",
+      "date": "2014-11-04",
+      "disambiguation": "deluxe remaster",
+      "id": "2765557e-7f82-4a53-aa6c-9e0f2672c3be",
+      "packaging": "Digipak",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2014-11-04"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Sextet"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "English post-punk band",
+            "id": "73577e86-4da8-4d76-949d-34c757e053be",
+            "name": "A Certain Ratio",
+            "sort-name": "Certain Ratio, A",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "A Certain Ratio"
+        }
+      ],
+      "barcode": null,
+      "country": "DE",
+      "date": "2016-09-16",
+      "disambiguation": "",
+      "id": "dad16a53-097a-4ce2-b8dd-647ee54a1a95",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "name": "Germany",
+            "sort-name": "Germany",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2016-09-16"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Sextet"
+    }
+  ],
+  "title": "Lucinda",
+  "video": false
+}

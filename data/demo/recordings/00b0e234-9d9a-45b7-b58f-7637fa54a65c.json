@@ -1,0 +1,1466 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "JM",
+        "disambiguation": "",
+        "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+        "name": "Bob Marley & The Wailers",
+        "sort-name": "Marley, Bob & The Wailers",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "joinphrase": "",
+      "name": "Bob Marley & The Wailers"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "1974-10-25",
+  "id": "00b0e234-9d9a-45b7-b58f-7637fa54a65c",
+  "isrcs": [
+    "GBAAN7500020"
+  ],
+  "length": 405666,
+  "relations": [
+    {
+      "artist": {
+        "country": "JM",
+        "disambiguation": "",
+        "id": "28e5c7e3-233e-4a0b-8143-5666cb282233",
+        "name": "Sid Bucknor",
+        "sort-name": "Bucknor, Sid",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "mix",
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe"
+    },
+    {
+      "artist": {
+        "country": "JM",
+        "disambiguation": "Island Records",
+        "id": "df763897-680f-4ae7-9a20-dc7d07f60ce7",
+        "name": "Chris Blackwell",
+        "sort-name": "Blackwell, Chris",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "JM",
+        "disambiguation": "’60s – ’70s Jamaican reggae band of Wailer, Marley & Tosh",
+        "id": "c9e99d40-4a2c-4ca7-ac5b-e842264ee271",
+        "name": "The Wailers",
+        "sort-name": "Wailers, The",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "1a5c00de-5362-432b-9f12-1c1acd0c29d9",
+        "name": "Phil Ault",
+        "sort-name": "Ault, Phil",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "recording",
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+    },
+    {
+      "artist": {
+        "country": "JM",
+        "disambiguation": "",
+        "id": "b91d74be-36e0-4619-9be8-4044d446cadb",
+        "name": "Sylvan Morris",
+        "sort-name": "Morris, Sylvan",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "recording",
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": "1974",
+      "direction": "forward",
+      "end": "1974",
+      "ended": true,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "82567b5e-337c-38ae-a352-868c7c4748a2",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "JM",
+              "disambiguation": "",
+              "id": "d0fd73f3-4268-4c25-a046-3a812b894b85",
+              "name": "Aston “Family Man” Barrett",
+              "sort-name": "Barrett, Aston “Family Man”",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": null,
+              "disambiguation": "",
+              "id": "7b1cbb83-78fe-4d39-8a52-b4e9b9e9b8c1",
+              "name": "Hugh Peart",
+              "sort-name": "Peart, Hugh",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "Rebel Music (3 O’Clock Roadblock)",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": null,
+      "country": "JM",
+      "date": "1974-10-25",
+      "disambiguation": "",
+      "id": "048fe191-287e-47b2-a1ca-8ce1341fd45d",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2dd47a64-91d5-3b13-bc94-80043ed063d7",
+            "iso-3166-1-codes": [
+              "JM"
+            ],
+            "name": "Jamaica",
+            "sort-name": "Jamaica",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1974-10-25"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Natty Dread"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": null,
+      "country": "US",
+      "date": "1974-10-25",
+      "disambiguation": "",
+      "id": "2d10cf2c-623d-3da4-b39d-412c32ce4c3f",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1974-10-25"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Natty Dread"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": "",
+      "country": "DK",
+      "date": "1974",
+      "disambiguation": "",
+      "id": "a839741a-8b51-4c36-8579-0ee325d41526",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "4757b525-2a60-324a-b060-578765d2c993",
+            "iso-3166-1-codes": [
+              "DK"
+            ],
+            "name": "Denmark",
+            "sort-name": "Denmark",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1974"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "6a264f94-6ff1-30b1-9a81-41f7bfabd616",
+            "iso-3166-1-codes": [
+              "FI"
+            ],
+            "name": "Finland",
+            "sort-name": "Finland",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1974"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "6743d351-6f37-3049-9724-5041161fff4d",
+            "iso-3166-1-codes": [
+              "NO"
+            ],
+            "name": "Norway",
+            "sort-name": "Norway",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1974"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb",
+            "iso-3166-1-codes": [
+              "SE"
+            ],
+            "name": "Sweden",
+            "sort-name": "Sweden",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1974"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Natty Dread"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": null,
+      "country": "DE",
+      "date": "1982",
+      "disambiguation": "",
+      "id": "10ef311d-fd58-45b2-907e-ba7225eb2933",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "name": "Germany",
+            "sort-name": "Germany",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1982"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "The Box Set"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": "075679003720",
+      "country": "US",
+      "date": "1987",
+      "disambiguation": "",
+      "id": "bff0467a-94d8-4c2a-b145-f6b446946449",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1987"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Natty Dread"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": "042284620420",
+      "country": "US",
+      "date": "1990-05-31",
+      "disambiguation": "",
+      "id": "9264f2b4-e0f7-3693-b550-c8c012fb2fa1",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1990-05-31"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Natty Dread"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": "042284620420",
+      "country": "US",
+      "date": "1990-05-31",
+      "disambiguation": "club edition",
+      "id": "0d430966-714d-30ee-b3f4-19b7182aa143",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1990-05-31"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Natty Dread"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": "042284620420",
+      "country": "DE",
+      "date": "1990",
+      "disambiguation": "",
+      "id": "cf527dd5-df6c-4642-a506-8a4c0d3d7750",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "name": "Germany",
+            "sort-name": "Germany",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1990"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Natty Dread"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": "042284620420",
+      "country": "GB",
+      "date": "1990",
+      "disambiguation": "BIEM/MCPS, made in France by PMDC",
+      "id": "a3919356-9c88-3167-8fa6-3c2a33ac7ca3",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1990"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Natty Dread"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": "4007192608485",
+      "country": "DE",
+      "date": "1990",
+      "disambiguation": "",
+      "id": "71e22f9d-c20a-41da-814b-945d97be3022",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "name": "Germany",
+            "sort-name": "Germany",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1990"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Natty Dread"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": null,
+      "country": "XE",
+      "date": "1995",
+      "disambiguation": "",
+      "id": "11eae8a4-24d6-42cb-88af-42c2071c8a01",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1995"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Natty Dread"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": "731454889520",
+      "country": "US",
+      "date": "2001-06-12",
+      "disambiguation": "",
+      "id": "50c00b0e-a0a8-4064-bf13-ffea0f4801d4",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2001-06-12"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Natty Dread"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": "731454889520",
+      "country": "XE",
+      "date": "2001-06-25",
+      "disambiguation": "",
+      "id": "923f47e4-b878-4b09-acf3-3b7ff85a286d",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2001-06-25"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Natty Dread"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": "4988005272416",
+      "country": "JP",
+      "date": "2001-06-29",
+      "disambiguation": "",
+      "id": "6e34dc9d-6ddd-45d2-8e06-e466db9f2b5c",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2001-06-29"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Natty Dread"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": "",
+      "country": "JP",
+      "date": "2001-11-21",
+      "disambiguation": "Limited Edition",
+      "id": "32a42223-2edc-489f-be9c-341a22914c2e",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2001-11-21"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": null
+      },
+      "title": "One Love: The Very Best Of"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": "731458655121",
+      "country": "XE",
+      "date": "2001-11-27",
+      "disambiguation": "remastered",
+      "id": "15bd0a1e-a262-4675-bc63-dc23055b77e7",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2001-11-27"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "One Love: The Very Best Of"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": null,
+      "country": null,
+      "date": "2001",
+      "disambiguation": "",
+      "id": "dce56522-b7e5-462e-aca0-a9efe173dfd6",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": null,
+          "date": "2001"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Rebel Music"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": "602498268308",
+      "country": "US",
+      "date": "2005",
+      "disambiguation": "",
+      "id": "359cd2b2-b5e5-4c91-9519-7ae77793c58f",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2005"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Gold"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": null,
+      "country": "JP",
+      "date": "2006-10-04",
+      "disambiguation": "remastered",
+      "id": "a247aca8-f226-437a-871b-3815c56f227d",
+      "packaging": "Box",
+      "packaging-id": "c1668fc7-8944-4a00-bc3e-46e8d861d211",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2006-10-04"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Catch a Fire"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": "4988005471451",
+      "country": "JP",
+      "date": "2007-05-09",
+      "disambiguation": "The Definitive Remasters",
+      "id": "2763aa81-7125-4a19-96fc-735a0e623f76",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "name": "Japan",
+            "sort-name": "Japan",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2007-05-09"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Natty Dread"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley"
+        }
+      ],
+      "barcode": "2001558850015",
+      "country": "RU",
+      "date": "2007",
+      "disambiguation": "",
+      "id": "a7fbfb94-a52e-46cf-b0fb-4052cc29b730",
+      "packaging": "Digipak",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "1f1fc3a4-9500-39b8-9f10-f0a465557eef",
+            "iso-3166-1-codes": [
+              "RU"
+            ],
+            "name": "Russia",
+            "sort-name": "Russia",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2007"
+        }
+      ],
+      "status": "Bootleg",
+      "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Greatest Hits"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": null,
+            "disambiguation": "add compilations to this artist",
+            "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+            "name": "Various Artists",
+            "sort-name": "Various Artists",
+            "type": "Other",
+            "type-id": "ac897045-5043-3294-969b-187360e45d86"
+          },
+          "joinphrase": "",
+          "name": "Various Artists"
+        }
+      ],
+      "barcode": "",
+      "country": "CA",
+      "date": "2008-04-29",
+      "disambiguation": "content ripped from game CD",
+      "id": "5c80cb3c-3207-439e-98ec-b3fad7ed0e73",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "71bbafaa-e825-3e15-8ca9-017dcad1748b",
+            "iso-3166-1-codes": [
+              "CA"
+            ],
+            "name": "Canada",
+            "sort-name": "Canada",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2008-04-29"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2008-04-29"
+        }
+      ],
+      "status": "Bootleg",
+      "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Grand Theft Auto IV: Tuff Gong Radio"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": "4607147890486",
+      "country": "RU",
+      "date": "2008",
+      "disambiguation": "",
+      "id": "4d6e1acd-b7e8-4ea8-8d32-6c31ac37c029",
+      "packaging": "Digipak",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "1f1fc3a4-9500-39b8-9f10-f0a465557eef",
+            "iso-3166-1-codes": [
+              "RU"
+            ],
+            "name": "Russia",
+            "sort-name": "Russia",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2008"
+        }
+      ],
+      "status": "Bootleg",
+      "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Greatest Hits"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "Jamaican reggae artist",
+            "id": "ed2ac1e9-d51d-4eff-a2c2-85e81abd6360",
+            "name": "Bob Marley",
+            "sort-name": "Marley, Bob",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley"
+        }
+      ],
+      "barcode": null,
+      "country": "RU",
+      "date": "2008",
+      "disambiguation": "",
+      "id": "2cc59580-aeda-443d-b349-a9af6defaa60",
+      "packaging": "Digipak",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "1f1fc3a4-9500-39b8-9f10-f0a465557eef",
+            "iso-3166-1-codes": [
+              "RU"
+            ],
+            "name": "Russia",
+            "sort-name": "Russia",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2008"
+        }
+      ],
+      "status": "Bootleg",
+      "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Greatest Hits"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "JM",
+            "disambiguation": "",
+            "id": "c296e10c-110a-4103-9e77-47bfebb7fb2e",
+            "name": "Bob Marley & The Wailers",
+            "sort-name": "Marley, Bob & The Wailers",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Bob Marley & The Wailers"
+        }
+      ],
+      "barcode": "0602517619487",
+      "country": "XE",
+      "date": "2008",
+      "disambiguation": "",
+      "id": "ef6e0b51-b1f7-41c1-aef9-2840eac7f6bf",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2008"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Reggae Legends"
+    }
+  ],
+  "title": "Rebel Music (3 O’Clock Roadblock)",
+  "video": false
+}

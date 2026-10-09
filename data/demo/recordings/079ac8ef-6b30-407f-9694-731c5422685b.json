@@ -1,0 +1,202 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "029eb615-539f-4f5c-ba0b-ead92f92242c",
+        "name": "Rick Farin",
+        "sort-name": "Farin, Rick",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": " feat. ",
+      "name": "Rick Farin"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "2b3130ac-2f9f-4dc3-a266-453b25183ddf",
+        "name": "Sega Bodega",
+        "sort-name": "Sega Bodega",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Sega Bodega"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2024-09-12",
+  "id": "079ac8ef-6b30-407f-9694-731c5422685b",
+  "isrcs": [
+    "QM7282495719"
+  ],
+  "length": 151698,
+  "relations": [],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "029eb615-539f-4f5c-ba0b-ead92f92242c",
+            "name": "Rick Farin",
+            "sort-name": "Farin, Rick",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " feat. ",
+          "name": "Rick Farin"
+        },
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "2b3130ac-2f9f-4dc3-a266-453b25183ddf",
+            "name": "Sega Bodega",
+            "sort-name": "Sega Bodega",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Sega Bodega"
+        }
+      ],
+      "barcode": "198588930403",
+      "country": "XW",
+      "date": "2024-09-12",
+      "disambiguation": "",
+      "id": "8b2a8982-ad9b-49db-abcb-d83854a29ccd",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-09-12"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Champions"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "029eb615-539f-4f5c-ba0b-ead92f92242c",
+            "name": "Rick Farin",
+            "sort-name": "Farin, Rick",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " feat. ",
+          "name": "Rick Farin"
+        },
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "2b3130ac-2f9f-4dc3-a266-453b25183ddf",
+            "name": "Sega Bodega",
+            "sort-name": "Sega Bodega",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Sega Bodega"
+        }
+      ],
+      "barcode": "198846143835",
+      "country": null,
+      "date": "2024-09-12",
+      "disambiguation": "",
+      "id": "333b9d8e-1e20-46de-b6c0-d67de69976fc",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": null,
+          "date": "2024-09-12"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Champions"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "029eb615-539f-4f5c-ba0b-ead92f92242c",
+            "name": "Rick Farin",
+            "sort-name": "Farin, Rick",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Rick Farin"
+        }
+      ],
+      "barcode": "198846569925",
+      "country": "XW",
+      "date": "2024-11-08",
+      "disambiguation": "",
+      "id": "f5261dd4-a51b-4fbd-84de-9aa09b2f7bb0",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-11-08"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Wretched"
+    }
+  ],
+  "title": "Champions",
+  "video": false
+}

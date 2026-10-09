@@ -1,0 +1,570 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Welsh Folk / Pop composer & performer",
+        "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+        "name": "H. Hawkline",
+        "sort-name": "H. Hawkline",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "H. Hawkline"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2023-01-30",
+  "id": "245feb51-c177-46e7-aae3-52d6cf28cba4",
+  "isrcs": [
+    "GBPVV2003569"
+  ],
+  "length": 181645,
+  "relations": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "d3789f6f-cc8d-4404-a104-103f9daa6bd3",
+        "name": "Stephen Black",
+        "sort-name": "Black, Stephen",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "saxophone": "a9ed16cd-b8cb-4256-9c41-93f5f0458c49"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "saxophone"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Welsh Folk / Pop composer & performer",
+        "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+        "name": "H. Hawkline",
+        "sort-name": "H. Hawkline",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "bass guitar"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Welsh Folk / Pop composer & performer",
+        "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+        "name": "H. Hawkline",
+        "sort-name": "H. Hawkline",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "synthesizer": "4a29230c-5ab5-4eff-ac59-4a253f3561a0"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "synthesizer"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "b2b7ae01-dd5e-41e7-a4e0-93e1ebc666d3",
+        "name": "Euan Hinshelwood",
+        "sort-name": "Hinshelwood, Euan",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "saxophone": "a9ed16cd-b8cb-4256-9c41-93f5f0458c49"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "saxophone"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "Group Listening",
+        "id": "3791638c-4943-4e0d-a21f-f7e7fa0a6dbe",
+        "name": "Paul Jones",
+        "sort-name": "Jones, Paul",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "piano"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "f2393e49-b791-46da-a6d7-1e9e60743405",
+        "name": "Cate Le Bon",
+        "sort-name": "Le Bon, Cate",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "percussion": "8e9abdf1-0afc-4544-b201-c6fa768d01f4"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "percussion"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "adbf04cb-0f22-41c8-afe0-a0a50baad776",
+        "name": "Ken Life",
+        "sort-name": "Life, Ken",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "percussion": "8e9abdf1-0afc-4544-b201-c6fa768d01f4"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "percussion"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "682763f6-4359-475f-8ef7-6a7438989abd",
+        "name": "David Newington",
+        "sort-name": "Newington, David",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "David Newington",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "25f6404b-4738-48a2-b1e0-465b7430fb93",
+        "name": "Tim Presley",
+        "sort-name": "Presley, Tim",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "guitar"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "SE",
+        "disambiguation": "",
+        "id": "ffadf26a-2593-4eaf-8c5d-a54cbc5aedc5",
+        "name": "Patrik Berger",
+        "sort-name": "Berger, Patrik",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "mix",
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Welsh Folk / Pop composer & performer",
+        "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+        "name": "H. Hawkline",
+        "sort-name": "H. Hawkline",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "f2393e49-b791-46da-a6d7-1e9e60743405",
+        "name": "Cate Le Bon",
+        "sort-name": "Le Bon, Cate",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "3cc60ecc-c2a0-4cd9-9e9c-5d7b6128edf4",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "Welsh Folk / Pop composer & performer",
+              "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+              "name": "H. Hawkline",
+              "sort-name": "H. Hawkline",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "Welsh Folk / Pop composer & performer",
+              "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+              "name": "H. Hawkline",
+              "sort-name": "H. Hawkline",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          }
+        ],
+        "title": "Plastic Man",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "Welsh Folk / Pop composer & performer",
+            "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+            "name": "H. Hawkline",
+            "sort-name": "H. Hawkline",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "H. Hawkline"
+        }
+      ],
+      "barcode": "5400863098537",
+      "country": "XW",
+      "date": "2023-01-30",
+      "disambiguation": "",
+      "id": "15e8a0e2-15ed-448e-975e-11e73643f751",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-01-30"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Plastic Man"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "Welsh Folk / Pop composer & performer",
+            "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+            "name": "H. Hawkline",
+            "sort-name": "H. Hawkline",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "H. Hawkline"
+        }
+      ],
+      "barcode": "5400863066871",
+      "country": "US",
+      "date": "2023-03-10",
+      "disambiguation": "",
+      "id": "16ec3cf5-28ac-4429-9362-dcb5aa8f28a7",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-03-10"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Milk for Flowers"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "Welsh Folk / Pop composer & performer",
+            "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+            "name": "H. Hawkline",
+            "sort-name": "H. Hawkline",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "H. Hawkline"
+        }
+      ],
+      "barcode": "5400863066864",
+      "country": "XE",
+      "date": "2023-03-10",
+      "disambiguation": "",
+      "id": "756ea2e0-0e9d-4d44-82e4-ba66b9fcb9a5",
+      "packaging": "Gatefold Cover",
+      "packaging-id": "e724a489-a7e8-30a1-a17c-30dfd6831202",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-03-10"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Milk for Flowers"
+    }
+  ],
+  "title": "Plastic Man",
+  "video": false
+}

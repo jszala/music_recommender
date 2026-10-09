@@ -1,0 +1,124 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "c23d3f55-c1b4-40c6-b191-ebf7177a4656",
+        "name": "Group Listening",
+        "sort-name": "Group Listening",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "joinphrase": "",
+      "name": "Group Listening"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2019-11-01",
+  "id": "2aa6d715-53ad-42dc-994b-825638d1b3b6",
+  "isrcs": [
+    "UK4UM1900013"
+  ],
+  "length": 434000,
+  "relations": [
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "instrumental": "c031ed4f-c9bb-4394-8cf5-e8ce4db512ae"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "instrumental"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "38cf8390-91ee-4e9f-a54a-e5b5003ac367",
+        "iswcs": [],
+        "language": null,
+        "languages": [],
+        "relations": [
+          {
+            "artist": {
+              "country": "NL",
+              "disambiguation": "",
+              "id": "dfac8e50-286a-443a-923f-820997e5794f",
+              "name": "Fatima Yamaha",
+              "sort-name": "Yamaha, Fatima",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "What's a Girl to Do",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "c23d3f55-c1b4-40c6-b191-ebf7177a4656",
+            "name": "Group Listening",
+            "sort-name": "Group Listening",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Group Listening"
+        }
+      ],
+      "barcode": null,
+      "country": null,
+      "date": "2019-11-01",
+      "disambiguation": "",
+      "id": "3213d083-be8b-4125-bddb-022ce3101648",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": null,
+          "date": "2019-11-01"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": null,
+        "script": null
+      },
+      "title": "What's A Girl To Do"
+    }
+  ],
+  "title": "What's A Girl To Do",
+  "video": false
+}

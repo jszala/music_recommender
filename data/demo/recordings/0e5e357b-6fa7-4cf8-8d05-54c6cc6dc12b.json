@@ -1,0 +1,359 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "80s UK punk/alt band",
+        "id": "b6b648c9-985f-4167-a535-be6e651304a4",
+        "name": "The Cheaters",
+        "sort-name": "Cheaters, The",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "joinphrase": "",
+      "name": "The Cheaters"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "1982",
+  "id": "0e5e357b-6fa7-4cf8-8d05-54c6cc6dc12b",
+  "isrcs": [],
+  "length": null,
+  "relations": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "1a5c00de-5362-432b-9f12-1c1acd0c29d9",
+        "name": "Phil Ault",
+        "sort-name": "Ault, Phil",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "cb4f7f91-041a-4cf4-872e-de0ff57d520d",
+        "name": "Neil Brockbank",
+        "sort-name": "Brockbank, Neil",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "1a5c00de-5362-432b-9f12-1c1acd0c29d9",
+        "name": "Phil Ault",
+        "sort-name": "Ault, Phil",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "cb4f7f91-041a-4cf4-872e-de0ff57d520d",
+        "name": "Neil Brockbank",
+        "sort-name": "Brockbank, Neil",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "80s UK punk producer",
+        "id": "8f55611b-d9cb-4b53-8fb2-56c5786a484c",
+        "name": "Andy Mac",
+        "sort-name": "Mac, Andy",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "executive": "e0039285-6667-4f94-80d6-aa6520c6d359"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "executive"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "ab77a037-a58b-3f4e-bef6-838a938185a5",
+        "iswcs": [
+          "T-070.243.887-6"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "8f6ade41-0e4d-477c-9ef7-42591fed1133",
+              "name": "Norman Greenbaum",
+              "sort-name": "Greenbaum, Norman",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "8f6ade41-0e4d-477c-9ef7-42591fed1133",
+              "name": "Norman Greenbaum",
+              "sort-name": "Greenbaum, Norman",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "based on",
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "work": {
+              "attributes": [],
+              "disambiguation": "Nina Hagen's german version of \"Spirit in the Sky\"",
+              "id": "9a26f09a-74f9-4d54-b2a6-e4fe3eea10ff",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Gott im Himmel",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "c8a0cee0-c55e-4d8a-bf01-e599dbeff032",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Spirit Inside",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "4049e835-7fb2-4188-81e5-1bd77c5b2a05",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Woodvale Crematorium",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          }
+        ],
+        "title": "Spirit in the Sky",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "80s UK punk/alt band",
+            "id": "b6b648c9-985f-4167-a535-be6e651304a4",
+            "name": "The Cheaters",
+            "sort-name": "Cheaters, The",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "The Cheaters"
+        }
+      ],
+      "barcode": "",
+      "country": "GB",
+      "date": "1982",
+      "disambiguation": "",
+      "id": "4050ca99-8940-4695-bcab-1c68883600ef",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1982"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit in the Sky"
+    }
+  ],
+  "title": "Spirit in the Sky",
+  "video": false
+}

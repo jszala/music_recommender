@@ -1,0 +1,751 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "2873b450-13c6-4ca1-8ca3-646c25af3202",
+        "name": "NLE Choppa",
+        "sort-name": "NLE Choppa",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "NLE Choppa"
+    }
+  ],
+  "disambiguation": "explicit",
+  "first-release-date": "2023-04-14",
+  "id": "042b44d5-b25e-407f-b4e0-eec83b1d9484",
+  "isrcs": [
+    "USWB12300020"
+  ],
+  "length": 226925,
+  "relations": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "2408c03b-3578-4a35-bcee-97c613a946d2",
+        "name": "Rachel Blum",
+        "sort-name": "Blum, Rachel",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "engineer",
+        "id": "5acf7ca2-de15-4672-a17b-5b7fa56b43db",
+        "name": "Jacob Richards",
+        "sort-name": "Richards, Jacob",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "dd8c0703-2a4f-4306-be21-6b4e8417a745",
+        "name": "DJ Riggins",
+        "sort-name": "Riggins, DJ",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "ead18ab2-410b-4778-960d-f417f3bb2a40",
+        "name": "Jaycen Joshua",
+        "sort-name": "Joshua, Jaycen",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "mix",
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "58371ad0-3f37-452b-8b9e-d2d29c81cc44",
+        "name": "Mike Seaberg",
+        "sort-name": "Seaberg, Mike",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "mix",
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "8e2890b1-ebbd-466d-9a32-b48f71449da7",
+        "name": "Akxen",
+        "sort-name": "Akxen",
+        "type": null,
+        "type-id": null
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "DE",
+        "disambiguation": "producer, composer, programming",
+        "id": "8a1c3e7b-e579-416e-bcce-3a782a33dc72",
+        "name": "Ambezza",
+        "sort-name": "Ambezza",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "2873b450-13c6-4ca1-8ca3-646c25af3202",
+        "name": "NLE Choppa",
+        "sort-name": "NLE Choppa",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "co": "ac6f6b4c-a4ec-4483-a04e-9f425a914573"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "co"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": null,
+        "disambiguation": "",
+        "id": "4dda61d7-9942-464b-aab6-8a901a4cbae5",
+        "name": "Riico",
+        "sort-name": "Riico",
+        "type": null,
+        "type-id": null
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "engineer",
+        "id": "c5e1109c-f95f-4021-af33-dd05ec9b1bb0",
+        "name": "Aaron Mattes",
+        "sort-name": "Mattes, Aaron",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "recording",
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "2873b450-13c6-4ca1-8ca3-646c25af3202",
+        "name": "NLE Choppa",
+        "sort-name": "NLE Choppa",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "lead vocals"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "3fb5b435-e1a3-4dda-aa5d-1a9b140cd36f",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": null,
+              "disambiguation": "",
+              "id": "8e2890b1-ebbd-466d-9a32-b48f71449da7",
+              "name": "Akxen",
+              "sort-name": "Akxen",
+              "type": null,
+              "type-id": null
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Arasb Ghassemi",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "DE",
+              "disambiguation": "producer, composer, programming",
+              "id": "8a1c3e7b-e579-416e-bcce-3a782a33dc72",
+              "name": "Ambezza",
+              "sort-name": "Ambezza",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Mathias Daniel Liyew",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "2873b450-13c6-4ca1-8ca3-646c25af3202",
+              "name": "NLE Choppa",
+              "sort-name": "NLE Choppa",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Bryson Potts",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": null,
+              "disambiguation": "",
+              "id": "5ebe3db8-2937-476d-9bc1-46eed96b9fc3",
+              "name": "Trevor Rich",
+              "sort-name": "Trevor Rich",
+              "type": null,
+              "type-id": null
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "THUG IT OUT",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "2873b450-13c6-4ca1-8ca3-646c25af3202",
+            "name": "NLE Choppa",
+            "sort-name": "NLE Choppa",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "NLE Choppa"
+        }
+      ],
+      "barcode": "093624856726",
+      "country": "XW",
+      "date": "2023-04-14",
+      "disambiguation": "explicit",
+      "id": "44155357-5d59-4360-9ccc-bd7d9937da8c",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-04-14"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Cottonwood 2"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "2873b450-13c6-4ca1-8ca3-646c25af3202",
+            "name": "NLE Choppa",
+            "sort-name": "NLE Choppa",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "NLE Choppa"
+        }
+      ],
+      "barcode": "093624853985",
+      "country": "XW",
+      "date": "2023-04-14",
+      "disambiguation": "",
+      "id": "491019f8-841b-466b-9c8c-9075ab174dbf",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-04-14"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Cottonwood 2 (slowed down)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "2873b450-13c6-4ca1-8ca3-646c25af3202",
+            "name": "NLE Choppa",
+            "sort-name": "NLE Choppa",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "NLE Choppa"
+        }
+      ],
+      "barcode": "093624853978",
+      "country": "XW",
+      "date": "2023-04-16",
+      "disambiguation": "",
+      "id": "da721ea9-c559-46f0-aaed-9c45e7117dc8",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-04-16"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Cottonwood 2 (instrumental)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "2873b450-13c6-4ca1-8ca3-646c25af3202",
+            "name": "NLE Choppa",
+            "sort-name": "NLE Choppa",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "NLE Choppa"
+        }
+      ],
+      "barcode": "093624853992",
+      "country": "XW",
+      "date": "2023-04-16",
+      "disambiguation": "",
+      "id": "47103aec-d945-44a4-b904-8d16448c7711",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-04-16"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Cottonwood 2 (sped up)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "2873b450-13c6-4ca1-8ca3-646c25af3202",
+            "name": "NLE Choppa",
+            "sort-name": "NLE Choppa",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "NLE Choppa"
+        }
+      ],
+      "barcode": "093624854012",
+      "country": "XW",
+      "date": "2023-04-17",
+      "disambiguation": "",
+      "id": "3a715294-f2d0-4baf-86dc-c4166e6c983d",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-04-17"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Cottonwood 2 (deluxe)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "2873b450-13c6-4ca1-8ca3-646c25af3202",
+            "name": "NLE Choppa",
+            "sort-name": "NLE Choppa",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "NLE Choppa"
+        }
+      ],
+      "barcode": "093624847885",
+      "country": "XW",
+      "date": "2023-10-27",
+      "disambiguation": "deluxe 2.0",
+      "id": "706d5055-b387-4ff7-a2cc-fbc32c8181ca",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-10-27"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Cottonwood 2"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "2873b450-13c6-4ca1-8ca3-646c25af3202",
+            "name": "NLE Choppa",
+            "sort-name": "NLE Choppa",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "NLE Choppa"
+        }
+      ],
+      "barcode": "093624856382",
+      "country": null,
+      "date": "2023",
+      "disambiguation": "",
+      "id": "bdedbab0-0c8d-4c72-8a1e-2e58f916fc60",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": null,
+          "date": "2023"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Cottonwood 2"
+    }
+  ],
+  "title": "THUG IT OUT",
+  "video": false
+}

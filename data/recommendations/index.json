@@ -1,0 +1,21 @@
+{
+  "format_version": 1,
+  "kind": "frozen_recommendation_runs",
+  "runs": [
+    {
+      "number": 1,
+      "directory": "run_001",
+      "report_sha256": "36a8ffd83ee30f7c0b41a67ba21ad77cc0118cc8017c514da7ae82ed4e5702f5"
+    },
+    {
+      "number": 2,
+      "directory": "run_002",
+      "report_sha256": "9272baaebf941d313fe7c1142e986e8592679808d5f4bb0f18190a68c066eddf"
+    },
+    {
+      "number": 3,
+      "directory": "run_003",
+      "report_sha256": "486b28737c7c2ad218263ea5056d93515d61663f4842949ca4228d13471724fa"
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "DE",
+        "disambiguation": "indie band from Germany",
+        "id": "ddd3da48-4fba-43e1-9bbd-0aabfaa892ff",
+        "name": "Readymade",
+        "sort-name": "Readymade",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "joinphrase": "",
+      "name": "Readymade"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2002-06",
+  "id": "10011775-2945-4f3f-8c60-8246316efd95",
+  "isrcs": [
+    "DEN120204680"
+  ],
+  "length": 283680,
+  "relations": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "eec7b8c7-1764-4dd2-bb12-7121a190d11a",
+        "name": "Ian Grimble",
+        "sort-name": "Grimble, Ian",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "mix",
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe"
+    },
+    {
+      "artist": {
+        "country": "DE",
+        "disambiguation": "",
+        "id": "8a5c52d1-cd32-40eb-9b9f-5ba06926943d",
+        "name": "Jan Helle",
+        "sort-name": "Helle, Jan",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "mix",
+      "type-id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "eec7b8c7-1764-4dd2-bb12-7121a190d11a",
+        "name": "Ian Grimble",
+        "sort-name": "Grimble, Ian",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "1a5c00de-5362-432b-9f12-1c1acd0c29d9",
+        "name": "Phil Ault",
+        "sort-name": "Ault, Phil",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "recording",
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "eec7b8c7-1764-4dd2-bb12-7121a190d11a",
+        "name": "Ian Grimble",
+        "sort-name": "Grimble, Ian",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "recording",
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "British sound engineer, producer, musician, and songwriter",
+        "id": "4cb8c927-ba66-4e67-8806-4391e9e84b66",
+        "name": "Richard Matthews",
+        "sort-name": "Matthews, Richard",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {
+        "assistant": "8c4196b1-7053-4b16-921a-f22b2898ed44"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "assistant"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "recording",
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "0fbe74ef-9cc8-41c1-990f-c952c33c2c62",
+        "iswcs": [
+          "T-800.534.424-2"
+        ],
+        "language": "deu",
+        "languages": [
+          "deu"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": null,
+              "disambiguation": "",
+              "id": "59aa6b34-c003-4279-a626-9e616c1d31f0",
+              "name": "Christian Adelhütte",
+              "sort-name": "Adelhütte, Christian",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": null,
+              "disambiguation": "",
+              "id": "d1c6c493-a4c6-43a1-8441-f7b1a474dd92",
+              "name": "Steffen Hardt",
+              "sort-name": "Hardt, Steffen",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": null,
+              "disambiguation": "Readymade & Tobacco",
+              "id": "05e7c92b-2eac-4147-bbdb-28c0004ce672",
+              "name": "Zachary Johnson",
+              "sort-name": "Johnson, Zachary",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": null,
+              "disambiguation": "",
+              "id": "06d4c885-35e7-4694-a96a-fbb35d743ee9",
+              "name": "Udo Masshoff",
+              "sort-name": "Masshoff, Udo",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": null,
+              "disambiguation": "Readymade & Tobacco",
+              "id": "05e7c92b-2eac-4147-bbdb-28c0004ce672",
+              "name": "Zachary Johnson",
+              "sort-name": "Johnson, Zachary",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          }
+        ],
+        "title": "My Little Galaxy",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": null,
+            "disambiguation": "add compilations to this artist",
+            "id": "89ad4ac3-39f7-470e-963a-56509c546377",
+            "name": "Various Artists",
+            "sort-name": "Various Artists",
+            "type": "Other",
+            "type-id": "ac897045-5043-3294-969b-187360e45d86"
+          },
+          "joinphrase": "",
+          "name": "Various Artists"
+        }
+      ],
+      "barcode": null,
+      "country": "DE",
+      "date": "2002-06",
+      "disambiguation": "",
+      "id": "6e4810be-21d2-47fb-943f-5afda24865ed",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "name": "Germany",
+            "sort-name": "Germany",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2002-06"
+        }
+      ],
+      "status": "Promotion",
+      "status-id": "518ffc83-5cde-34df-8627-81bff5093d92",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spex CD #19"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "DE",
+            "disambiguation": "indie band from Germany",
+            "id": "ddd3da48-4fba-43e1-9bbd-0aabfaa892ff",
+            "name": "Readymade",
+            "sort-name": "Readymade",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Readymade"
+        }
+      ],
+      "barcode": "731457080320",
+      "country": "DE",
+      "date": "2002-07-01",
+      "disambiguation": "",
+      "id": "5ff9b462-a43c-4b88-8e33-9d90034e5d9b",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "name": "Germany",
+            "sort-name": "Germany",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2002-07-01"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "The Graduate"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "DE",
+            "disambiguation": "indie band from Germany",
+            "id": "ddd3da48-4fba-43e1-9bbd-0aabfaa892ff",
+            "name": "Readymade",
+            "sort-name": "Readymade",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Readymade"
+        }
+      ],
+      "barcode": "731458990420",
+      "country": "DE",
+      "date": "2002-07-22",
+      "disambiguation": "",
+      "id": "b7abf342-4b3f-4e84-bc8c-a94026f2e9b5",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "iso-3166-1-codes": [
+              "DE"
+            ],
+            "name": "Germany",
+            "sort-name": "Germany",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2002-07-22"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "The Feeling Modified"
+    }
+  ],
+  "title": "My Little Galaxy",
+  "video": false
+}

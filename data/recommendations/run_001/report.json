@@ -1,0 +1,1477 @@
+{
+  "format_version": 1,
+  "kind": "frozen_offline_recommendation_run",
+  "run_number": 1,
+  "random_seed": 6,
+  "role_weights": {
+    "musician": 1.0,
+    "producer": 1.0,
+    "songwriter": 1.0,
+    "staff": 0.25
+  },
+  "saturation_k": 5.0,
+  "context_favorite_recording_ids": [
+    "1fd93309-5bcc-4732-9d0a-cf1ce484989c",
+    "2aa6d715-53ad-42dc-994b-825638d1b3b6",
+    "d9661ab5-af54-438d-92fe-bb0fa7b9e7db"
+  ],
+  "source_policy": {
+    "algorithm": "deterministic_greedy",
+    "deduplicate_known_works": true,
+    "effective_min_seed_groups": 3,
+    "enabled": true,
+    "max_per_seed": 2,
+    "min_seed_groups": 3
+  },
+  "selection_summary": {
+    "configured_source_target": 3,
+    "distinct_observed_musicians": 5,
+    "effective_source_target": 3,
+    "familiar_collaborations": 1,
+    "known_work_exclusions": 12,
+    "largest_assigned_seed_share": 0.5,
+    "largest_contributor_evidence_share": 0.4,
+    "max_familiar_collaborations": 1,
+    "max_songs_per_explanatory_contributor": null,
+    "recommendations_per_source": {
+      "recording:d9661ab5-af54-438d-92fe-bb0fa7b9e7db": 1,
+      "work:13d1d8c1-560d-47a6-8048-b17d561f57e0": 2,
+      "work:38cf8390-91ee-4e9f-a54a-e5b5003ac367": 1
+    },
+    "repeated_explanatory_contributors": 1,
+    "repeated_observed_musicians": 0,
+    "represented_source_groups": 3,
+    "requested": 10,
+    "returned": 4,
+    "selected_unknown_work_identity": 3,
+    "shortfall": 6,
+    "source_coverage_shortfall": 0,
+    "unique_explanatory_contributors": 4
+  },
+  "recommendations": [
+    {
+      "artist_contributions": [
+        {
+          "artist": {
+            "id": "46b02238-8b8e-457b-8ff5-56452a1d5842",
+            "name": "Wombo",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+            "name": "Mariah the Scientist",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.08333333333333333
+        },
+        {
+          "artist": {
+            "id": "73577e86-4da8-4d76-949d-34c757e053be",
+            "name": "A Certain Ratio",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "735e3514-a8ae-401f-af3b-6300df1b8d2c",
+            "name": "Caribou",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "b6014a14-a511-4004-b17a-636450edabec",
+            "name": "KNOWER",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "c23d3f55-c1b4-40c6-b191-ebf7177a4656",
+            "name": "Group Listening",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "d0c7656d-8169-4f77-9dbe-b8f24e40105d",
+            "name": "Kali Uchis",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.08333333333333333
+        }
+      ],
+      "contributions": [
+        {
+          "artist_influence": 0.16666666666666666,
+          "bounded_pair_affinity": 0.5,
+          "candidate_recording_id": "e9af0d52-e19a-427b-b53a-7007bb5ad781",
+          "contributors": [
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+                    "name": "Mariah the Scientist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "e9af0d52-e19a-427b-b53a-7007bb5ad781",
+                  "relationship_type_id": "628a9658-f54c-4142-b0c0-95f031b544da",
+                  "role": "performer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/e9af0d52-e19a-427b-b53a-7007bb5ad781",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+                    "name": "Mariah the Scientist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "e9af0d52-e19a-427b-b53a-7007bb5ad781",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/e9af0d52-e19a-427b-b53a-7007bb5ad781",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "candidate_role_weight": 1.0,
+              "candidate_roles": [
+                "musician"
+              ],
+              "contributor": {
+                "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+                "name": "Mariah the Scientist",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+                    "name": "Mariah the Scientist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "d9661ab5-af54-438d-92fe-bb0fa7b9e7db",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/d9661ab5-af54-438d-92fe-bb0fa7b9e7db",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "favorite_role_weight": 1.0,
+              "favorite_roles": [
+                "musician"
+              ],
+              "raw_value": 1.0
+            }
+          ],
+          "distinct_favorites_in_artist_group": 1,
+          "favorite_artist": {
+            "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+            "name": "Mariah the Scientist",
+            "type": "Person"
+          },
+          "favorite_recording_id": "d9661ab5-af54-438d-92fe-bb0fa7b9e7db",
+          "favorite_recording_title": "Is It a Crime",
+          "favorite_source_url": "https://musicbrainz.org/recording/d9661ab5-af54-438d-92fe-bb0fa7b9e7db",
+          "raw_shared_credit_value": 1.0,
+          "value": 0.08333333333333333
+        },
+        {
+          "artist_influence": 0.16666666666666666,
+          "bounded_pair_affinity": 0.5,
+          "candidate_recording_id": "e9af0d52-e19a-427b-b53a-7007bb5ad781",
+          "contributors": [
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+                    "name": "Mariah the Scientist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "e9af0d52-e19a-427b-b53a-7007bb5ad781",
+                  "relationship_type_id": "628a9658-f54c-4142-b0c0-95f031b544da",
+                  "role": "performer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/e9af0d52-e19a-427b-b53a-7007bb5ad781",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+                    "name": "Mariah the Scientist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "e9af0d52-e19a-427b-b53a-7007bb5ad781",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/e9af0d52-e19a-427b-b53a-7007bb5ad781",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "candidate_role_weight": 1.0,
+              "candidate_roles": [
+                "musician"
+              ],
+              "contributor": {
+                "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+                "name": "Mariah the Scientist",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+                    "name": "Mariah the Scientist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "d9661ab5-af54-438d-92fe-bb0fa7b9e7db",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/d9661ab5-af54-438d-92fe-bb0fa7b9e7db",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "favorite_role_weight": 1.0,
+              "favorite_roles": [
+                "musician"
+              ],
+              "raw_value": 1.0
+            }
+          ],
+          "distinct_favorites_in_artist_group": 1,
+          "favorite_artist": {
+            "id": "d0c7656d-8169-4f77-9dbe-b8f24e40105d",
+            "name": "Kali Uchis",
+            "type": "Person"
+          },
+          "favorite_recording_id": "d9661ab5-af54-438d-92fe-bb0fa7b9e7db",
+          "favorite_recording_title": "Is It a Crime",
+          "favorite_source_url": "https://musicbrainz.org/recording/d9661ab5-af54-438d-92fe-bb0fa7b9e7db",
+          "raw_shared_credit_value": 1.0,
+          "value": 0.08333333333333333
+        }
+      ],
+      "contributor_evidence": [
+        {
+          "contributor": {
+            "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+            "name": "Mariah the Scientist",
+            "type": "Person"
+          },
+          "value": 0.16666666666666666
+        }
+      ],
+      "eligibility": {
+        "blocked_primary_artist_ids": [
+          "5fc55ebf-21bd-4eda-954c-dd250132331e"
+        ],
+        "eligible": true,
+        "familiar_collaboration": true,
+        "familiar_musician_ids": [
+          "5fc55ebf-21bd-4eda-954c-dd250132331e"
+        ],
+        "musicians": [
+          {
+            "artist": {
+              "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+              "name": "Mariah the Scientist",
+              "type": "Person"
+            },
+            "primary_credit": true,
+            "roles": [
+              "performer",
+              "primary artist"
+            ]
+          },
+          {
+            "artist": {
+              "id": "800760de-bdf8-43a2-8fe0-44a2401a5515",
+              "name": "Young Thug",
+              "type": "Person"
+            },
+            "primary_credit": true,
+            "roles": [
+              "primary artist"
+            ]
+          }
+        ],
+        "reason": "familiar_collaboration",
+        "unfamiliar_primary_artist_ids": [
+          "800760de-bdf8-43a2-8fe0-44a2401a5515"
+        ]
+      },
+      "primary_seed_song": {
+        "assigned_seed_evidence": 0.16666666666666666,
+        "assignment_reason": "fewest_prior_assignments_then_stronger_source_evidence_then_stable_id",
+        "composition_identity_known": false,
+        "favorite_recording_ids": [
+          "d9661ab5-af54-438d-92fe-bb0fa7b9e7db"
+        ],
+        "known_work_ids": [],
+        "previous_assignments": 0,
+        "source_group_id": "recording:d9661ab5-af54-438d-92fe-bb0fa7b9e7db",
+        "titles": [
+          "Is It a Crime"
+        ]
+      },
+      "recording": {
+        "artist_credit": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "US rapper",
+              "id": "800760de-bdf8-43a2-8fe0-44a2401a5515",
+              "name": "Young Thug",
+              "sort-name": "Young Thug",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "joinphrase": " feat. ",
+            "name": "Young Thug"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+              "name": "Mariah the Scientist",
+              "sort-name": "Mariah the Scientist",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "joinphrase": "",
+            "name": "Mariah the Scientist"
+          }
+        ],
+        "disambiguation": "",
+        "id": "e9af0d52-e19a-427b-b53a-7007bb5ad781",
+        "length_ms": 197733,
+        "source_url": "https://musicbrainz.org/recording/e9af0d52-e19a-427b-b53a-7007bb5ad781",
+        "title": "Birthday Boy"
+      },
+      "score": 0.16666666666666666,
+      "selection_adjustments": [
+        {
+          "contributor": {
+            "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+            "name": "Mariah the Scientist",
+            "type": "Person"
+          },
+          "multiplier": 1.0,
+          "previous_selected_appearances": 0,
+          "selection_value": 0.16666666666666666,
+          "value": 0.16666666666666666
+        }
+      ],
+      "selection_rank": 1,
+      "selection_score": 0.16666666666666666,
+      "source_assignment_evidence": {
+        "recording:d9661ab5-af54-438d-92fe-bb0fa7b9e7db": 0.16666666666666666
+      }
+    },
+    {
+      "artist_contributions": [
+        {
+          "artist": {
+            "id": "46b02238-8b8e-457b-8ff5-56452a1d5842",
+            "name": "Wombo",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+            "name": "Mariah the Scientist",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "73577e86-4da8-4d76-949d-34c757e053be",
+            "name": "A Certain Ratio",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "735e3514-a8ae-401f-af3b-6300df1b8d2c",
+            "name": "Caribou",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.125
+        },
+        {
+          "artist": {
+            "id": "b6014a14-a511-4004-b17a-636450edabec",
+            "name": "KNOWER",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "c23d3f55-c1b4-40c6-b191-ebf7177a4656",
+            "name": "Group Listening",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "d0c7656d-8169-4f77-9dbe-b8f24e40105d",
+            "name": "Kali Uchis",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        }
+      ],
+      "contributions": [
+        {
+          "artist_influence": 0.16666666666666666,
+          "bounded_pair_affinity": 0.75,
+          "candidate_recording_id": "31eaf598-a413-4757-8f48-55082acda828",
+          "contributors": [
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+                    "name": "Tim Friese‐Greene",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "songwriter",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "31eaf598-a413-4757-8f48-55082acda828",
+                  "relationship_type_id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                  "role": "writer",
+                  "scope": "work",
+                  "source_url": "https://musicbrainz.org/work/0643b696-4152-3b0c-a268-482ca8e5bf6a",
+                  "work_id": "0643b696-4152-3b0c-a268-482ca8e5bf6a",
+                  "work_link": {
+                    "attributes": [
+                      "cover",
+                      "live"
+                    ],
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                  },
+                  "work_title": "It’s My Life"
+                }
+              ],
+              "candidate_role_weight": 1.0,
+              "candidate_roles": [
+                "songwriter"
+              ],
+              "contributor": {
+                "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+                "name": "Tim Friese‐Greene",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+                    "name": "Tim Friese‐Greene",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "producer",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "1fd93309-5bcc-4732-9d0a-cf1ce484989c",
+                  "relationship_type_id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                  "role": "producer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/1fd93309-5bcc-4732-9d0a-cf1ce484989c",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+                    "name": "Tim Friese‐Greene",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "songwriter",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "1fd93309-5bcc-4732-9d0a-cf1ce484989c",
+                  "relationship_type_id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                  "role": "writer",
+                  "scope": "work",
+                  "source_url": "https://musicbrainz.org/work/13d1d8c1-560d-47a6-8048-b17d561f57e0",
+                  "work_id": "13d1d8c1-560d-47a6-8048-b17d561f57e0",
+                  "work_link": {
+                    "attributes": [],
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                  },
+                  "work_title": "Inheritance"
+                }
+              ],
+              "favorite_role_weight": 2.0,
+              "favorite_roles": [
+                "producer",
+                "songwriter"
+              ],
+              "raw_value": 2.0
+            },
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "8539cf66-e8e2-41a0-a984-77ba4dcffbc7",
+                    "name": "Mark Hollis",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "songwriter",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "31eaf598-a413-4757-8f48-55082acda828",
+                  "relationship_type_id": "3e48faba-ec01-47fd-8e89-30e81161661c",
+                  "role": "lyricist",
+                  "scope": "work",
+                  "source_url": "https://musicbrainz.org/work/523888cf-0c40-494c-920e-8982940c8b59",
+                  "work_id": "523888cf-0c40-494c-920e-8982940c8b59",
+                  "work_link": {
+                    "attributes": [
+                      "cover",
+                      "live"
+                    ],
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                  },
+                  "work_title": "Talk Talk"
+                },
+                {
+                  "artist": {
+                    "id": "8539cf66-e8e2-41a0-a984-77ba4dcffbc7",
+                    "name": "Mark Hollis",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "songwriter",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "31eaf598-a413-4757-8f48-55082acda828",
+                  "relationship_type_id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                  "role": "writer",
+                  "scope": "work",
+                  "source_url": "https://musicbrainz.org/work/0643b696-4152-3b0c-a268-482ca8e5bf6a",
+                  "work_id": "0643b696-4152-3b0c-a268-482ca8e5bf6a",
+                  "work_link": {
+                    "attributes": [
+                      "cover",
+                      "live"
+                    ],
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                  },
+                  "work_title": "It’s My Life"
+                },
+                {
+                  "artist": {
+                    "id": "8539cf66-e8e2-41a0-a984-77ba4dcffbc7",
+                    "name": "Mark Hollis",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "songwriter",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "31eaf598-a413-4757-8f48-55082acda828",
+                  "relationship_type_id": "d59d99ea-23d4-4a80-b066-edca32ee158f",
+                  "role": "composer",
+                  "scope": "work",
+                  "source_url": "https://musicbrainz.org/work/523888cf-0c40-494c-920e-8982940c8b59",
+                  "work_id": "523888cf-0c40-494c-920e-8982940c8b59",
+                  "work_link": {
+                    "attributes": [
+                      "cover",
+                      "live"
+                    ],
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                  },
+                  "work_title": "Talk Talk"
+                }
+              ],
+              "candidate_role_weight": 1.0,
+              "candidate_roles": [
+                "songwriter"
+              ],
+              "contributor": {
+                "id": "8539cf66-e8e2-41a0-a984-77ba4dcffbc7",
+                "name": "Mark Hollis",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "8539cf66-e8e2-41a0-a984-77ba4dcffbc7",
+                    "name": "Mark Hollis",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "songwriter",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "1fd93309-5bcc-4732-9d0a-cf1ce484989c",
+                  "relationship_type_id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                  "role": "writer",
+                  "scope": "work",
+                  "source_url": "https://musicbrainz.org/work/13d1d8c1-560d-47a6-8048-b17d561f57e0",
+                  "work_id": "13d1d8c1-560d-47a6-8048-b17d561f57e0",
+                  "work_link": {
+                    "attributes": [],
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                  },
+                  "work_title": "Inheritance"
+                }
+              ],
+              "favorite_role_weight": 1.0,
+              "favorite_roles": [
+                "songwriter"
+              ],
+              "raw_value": 1.0
+            }
+          ],
+          "distinct_favorites_in_artist_group": 1,
+          "favorite_artist": {
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "type": "Group"
+          },
+          "favorite_recording_id": "1fd93309-5bcc-4732-9d0a-cf1ce484989c",
+          "favorite_recording_title": "Inheritance",
+          "favorite_source_url": "https://musicbrainz.org/recording/1fd93309-5bcc-4732-9d0a-cf1ce484989c",
+          "raw_shared_credit_value": 3.0,
+          "value": 0.125
+        }
+      ],
+      "contributor_evidence": [
+        {
+          "contributor": {
+            "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+            "name": "Tim Friese‐Greene",
+            "type": "Person"
+          },
+          "value": 0.08333333333333333
+        },
+        {
+          "contributor": {
+            "id": "8539cf66-e8e2-41a0-a984-77ba4dcffbc7",
+            "name": "Mark Hollis",
+            "type": "Person"
+          },
+          "value": 0.041666666666666664
+        }
+      ],
+      "eligibility": {
+        "blocked_primary_artist_ids": [],
+        "eligible": true,
+        "familiar_collaboration": false,
+        "familiar_musician_ids": [],
+        "musicians": [
+          {
+            "artist": {
+              "id": "9eafc354-3937-4348-abe7-e955f97b3d46",
+              "name": "Nalani Proctor",
+              "type": "Person"
+            },
+            "primary_credit": true,
+            "roles": [
+              "performer",
+              "primary artist"
+            ]
+          }
+        ],
+        "reason": "unfamiliar_act",
+        "unfamiliar_primary_artist_ids": [
+          "9eafc354-3937-4348-abe7-e955f97b3d46"
+        ]
+      },
+      "primary_seed_song": {
+        "assigned_seed_evidence": 0.125,
+        "assignment_reason": "fewest_prior_assignments_then_stronger_source_evidence_then_stable_id",
+        "composition_identity_known": true,
+        "favorite_recording_ids": [
+          "1fd93309-5bcc-4732-9d0a-cf1ce484989c"
+        ],
+        "known_work_ids": [
+          "13d1d8c1-560d-47a6-8048-b17d561f57e0"
+        ],
+        "previous_assignments": 0,
+        "source_group_id": "work:13d1d8c1-560d-47a6-8048-b17d561f57e0",
+        "titles": [
+          "Inheritance"
+        ]
+      },
+      "recording": {
+        "artist_credit": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "aka UnfocusedinIA",
+              "id": "9eafc354-3937-4348-abe7-e955f97b3d46",
+              "name": "Nalani Proctor",
+              "sort-name": "Proctor, Nalani",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "joinphrase": "",
+            "name": "Nalani Proctor"
+          }
+        ],
+        "disambiguation": "live, 2025-05-09, Twitch",
+        "id": "31eaf598-a413-4757-8f48-55082acda828",
+        "length_ms": 8967000,
+        "source_url": "https://musicbrainz.org/recording/31eaf598-a413-4757-8f48-55082acda828",
+        "title": "Happy Friday! Playing 80's Music !sl for requests New Ham Merch in the !shop"
+      },
+      "score": 0.125,
+      "selection_adjustments": [
+        {
+          "contributor": {
+            "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+            "name": "Tim Friese‐Greene",
+            "type": "Person"
+          },
+          "multiplier": 1.0,
+          "previous_selected_appearances": 0,
+          "selection_value": 0.08333333333333333,
+          "value": 0.08333333333333333
+        },
+        {
+          "contributor": {
+            "id": "8539cf66-e8e2-41a0-a984-77ba4dcffbc7",
+            "name": "Mark Hollis",
+            "type": "Person"
+          },
+          "multiplier": 1.0,
+          "previous_selected_appearances": 0,
+          "selection_value": 0.041666666666666664,
+          "value": 0.041666666666666664
+        }
+      ],
+      "selection_rank": 2,
+      "selection_score": 0.125,
+      "source_assignment_evidence": {
+        "work:13d1d8c1-560d-47a6-8048-b17d561f57e0": 0.125
+      }
+    },
+    {
+      "artist_contributions": [
+        {
+          "artist": {
+            "id": "46b02238-8b8e-457b-8ff5-56452a1d5842",
+            "name": "Wombo",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+            "name": "Mariah the Scientist",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "73577e86-4da8-4d76-949d-34c757e053be",
+            "name": "A Certain Ratio",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "735e3514-a8ae-401f-af3b-6300df1b8d2c",
+            "name": "Caribou",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "b6014a14-a511-4004-b17a-636450edabec",
+            "name": "KNOWER",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "c23d3f55-c1b4-40c6-b191-ebf7177a4656",
+            "name": "Group Listening",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.08333333333333333
+        },
+        {
+          "artist": {
+            "id": "d0c7656d-8169-4f77-9dbe-b8f24e40105d",
+            "name": "Kali Uchis",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        }
+      ],
+      "contributions": [
+        {
+          "artist_influence": 0.16666666666666666,
+          "bounded_pair_affinity": 0.5,
+          "candidate_recording_id": "8aa783a8-0931-47b8-a143-3e6f63ea0faf",
+          "contributors": [
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "dfac8e50-286a-443a-923f-820997e5794f",
+                    "name": "Fatima Yamaha",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "8aa783a8-0931-47b8-a143-3e6f63ea0faf",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/8aa783a8-0931-47b8-a143-3e6f63ea0faf",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "candidate_role_weight": 1.0,
+              "candidate_roles": [
+                "musician"
+              ],
+              "contributor": {
+                "id": "dfac8e50-286a-443a-923f-820997e5794f",
+                "name": "Fatima Yamaha",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "dfac8e50-286a-443a-923f-820997e5794f",
+                    "name": "Fatima Yamaha",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "songwriter",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "2aa6d715-53ad-42dc-994b-825638d1b3b6",
+                  "relationship_type_id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                  "role": "writer",
+                  "scope": "work",
+                  "source_url": "https://musicbrainz.org/work/38cf8390-91ee-4e9f-a54a-e5b5003ac367",
+                  "work_id": "38cf8390-91ee-4e9f-a54a-e5b5003ac367",
+                  "work_link": {
+                    "attributes": [
+                      "cover",
+                      "instrumental"
+                    ],
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                  },
+                  "work_title": "What's a Girl to Do"
+                }
+              ],
+              "favorite_role_weight": 1.0,
+              "favorite_roles": [
+                "songwriter"
+              ],
+              "raw_value": 1.0
+            }
+          ],
+          "distinct_favorites_in_artist_group": 1,
+          "favorite_artist": {
+            "id": "c23d3f55-c1b4-40c6-b191-ebf7177a4656",
+            "name": "Group Listening",
+            "type": "Group"
+          },
+          "favorite_recording_id": "2aa6d715-53ad-42dc-994b-825638d1b3b6",
+          "favorite_recording_title": "What's A Girl To Do",
+          "favorite_source_url": "https://musicbrainz.org/recording/2aa6d715-53ad-42dc-994b-825638d1b3b6",
+          "raw_shared_credit_value": 1.0,
+          "value": 0.08333333333333333
+        }
+      ],
+      "contributor_evidence": [
+        {
+          "contributor": {
+            "id": "dfac8e50-286a-443a-923f-820997e5794f",
+            "name": "Fatima Yamaha",
+            "type": "Person"
+          },
+          "value": 0.08333333333333333
+        }
+      ],
+      "eligibility": {
+        "blocked_primary_artist_ids": [],
+        "eligible": true,
+        "familiar_collaboration": false,
+        "familiar_musician_ids": [],
+        "musicians": [
+          {
+            "artist": {
+              "id": "dfac8e50-286a-443a-923f-820997e5794f",
+              "name": "Fatima Yamaha",
+              "type": "Person"
+            },
+            "primary_credit": true,
+            "roles": [
+              "primary artist"
+            ]
+          }
+        ],
+        "reason": "unfamiliar_act",
+        "unfamiliar_primary_artist_ids": [
+          "dfac8e50-286a-443a-923f-820997e5794f"
+        ]
+      },
+      "primary_seed_song": {
+        "assigned_seed_evidence": 0.08333333333333333,
+        "assignment_reason": "fewest_prior_assignments_then_stronger_source_evidence_then_stable_id",
+        "composition_identity_known": true,
+        "favorite_recording_ids": [
+          "2aa6d715-53ad-42dc-994b-825638d1b3b6"
+        ],
+        "known_work_ids": [
+          "38cf8390-91ee-4e9f-a54a-e5b5003ac367"
+        ],
+        "previous_assignments": 0,
+        "source_group_id": "work:38cf8390-91ee-4e9f-a54a-e5b5003ac367",
+        "titles": [
+          "What's A Girl To Do"
+        ]
+      },
+      "recording": {
+        "artist_credit": [
+          {
+            "artist": {
+              "country": "NL",
+              "disambiguation": "",
+              "id": "dfac8e50-286a-443a-923f-820997e5794f",
+              "name": "Fatima Yamaha",
+              "sort-name": "Yamaha, Fatima",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "joinphrase": "",
+            "name": "Fatima Yamaha"
+          }
+        ],
+        "disambiguation": "",
+        "id": "8aa783a8-0931-47b8-a143-3e6f63ea0faf",
+        "length_ms": 7200000,
+        "source_url": "https://musicbrainz.org/recording/8aa783a8-0931-47b8-a143-3e6f63ea0faf",
+        "title": "2017-09-09: BBC Radio 1 Essential Mix"
+      },
+      "score": 0.08333333333333333,
+      "selection_adjustments": [
+        {
+          "contributor": {
+            "id": "dfac8e50-286a-443a-923f-820997e5794f",
+            "name": "Fatima Yamaha",
+            "type": "Person"
+          },
+          "multiplier": 1.0,
+          "previous_selected_appearances": 0,
+          "selection_value": 0.08333333333333333,
+          "value": 0.08333333333333333
+        }
+      ],
+      "selection_rank": 3,
+      "selection_score": 0.08333333333333333,
+      "source_assignment_evidence": {
+        "work:38cf8390-91ee-4e9f-a54a-e5b5003ac367": 0.08333333333333333
+      }
+    },
+    {
+      "artist_contributions": [
+        {
+          "artist": {
+            "id": "46b02238-8b8e-457b-8ff5-56452a1d5842",
+            "name": "Wombo",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "5fc55ebf-21bd-4eda-954c-dd250132331e",
+            "name": "Mariah the Scientist",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "73577e86-4da8-4d76-949d-34c757e053be",
+            "name": "A Certain Ratio",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "735e3514-a8ae-401f-af3b-6300df1b8d2c",
+            "name": "Caribou",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.1111111111111111
+        },
+        {
+          "artist": {
+            "id": "b6014a14-a511-4004-b17a-636450edabec",
+            "name": "KNOWER",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "c23d3f55-c1b4-40c6-b191-ebf7177a4656",
+            "name": "Group Listening",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "d0c7656d-8169-4f77-9dbe-b8f24e40105d",
+            "name": "Kali Uchis",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        }
+      ],
+      "contributions": [
+        {
+          "artist_influence": 0.16666666666666666,
+          "bounded_pair_affinity": 0.6666666666666666,
+          "candidate_recording_id": "4197143f-fb93-4181-8da9-c9db202fdc9d",
+          "contributors": [
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+                    "name": "Tim Friese‐Greene",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "4197143f-fb93-4181-8da9-c9db202fdc9d",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/4197143f-fb93-4181-8da9-c9db202fdc9d",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "candidate_role_weight": 1.0,
+              "candidate_roles": [
+                "musician"
+              ],
+              "contributor": {
+                "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+                "name": "Tim Friese‐Greene",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+                    "name": "Tim Friese‐Greene",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "producer",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "1fd93309-5bcc-4732-9d0a-cf1ce484989c",
+                  "relationship_type_id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                  "role": "producer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/1fd93309-5bcc-4732-9d0a-cf1ce484989c",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+                    "name": "Tim Friese‐Greene",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "songwriter",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "1fd93309-5bcc-4732-9d0a-cf1ce484989c",
+                  "relationship_type_id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                  "role": "writer",
+                  "scope": "work",
+                  "source_url": "https://musicbrainz.org/work/13d1d8c1-560d-47a6-8048-b17d561f57e0",
+                  "work_id": "13d1d8c1-560d-47a6-8048-b17d561f57e0",
+                  "work_link": {
+                    "attributes": [],
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                  },
+                  "work_title": "Inheritance"
+                }
+              ],
+              "favorite_role_weight": 2.0,
+              "favorite_roles": [
+                "producer",
+                "songwriter"
+              ],
+              "raw_value": 2.0
+            }
+          ],
+          "distinct_favorites_in_artist_group": 1,
+          "favorite_artist": {
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "type": "Group"
+          },
+          "favorite_recording_id": "1fd93309-5bcc-4732-9d0a-cf1ce484989c",
+          "favorite_recording_title": "Inheritance",
+          "favorite_source_url": "https://musicbrainz.org/recording/1fd93309-5bcc-4732-9d0a-cf1ce484989c",
+          "raw_shared_credit_value": 2.0,
+          "value": 0.1111111111111111
+        }
+      ],
+      "contributor_evidence": [
+        {
+          "contributor": {
+            "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+            "name": "Tim Friese‐Greene",
+            "type": "Person"
+          },
+          "value": 0.1111111111111111
+        }
+      ],
+      "eligibility": {
+        "blocked_primary_artist_ids": [],
+        "eligible": true,
+        "familiar_collaboration": false,
+        "familiar_musician_ids": [],
+        "musicians": [
+          {
+            "artist": {
+              "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+              "name": "Tim Friese‐Greene",
+              "type": "Person"
+            },
+            "primary_credit": true,
+            "roles": [
+              "primary artist"
+            ]
+          }
+        ],
+        "reason": "unfamiliar_act",
+        "unfamiliar_primary_artist_ids": [
+          "50baacc2-d37c-46c4-8cfa-68d9dee48381"
+        ]
+      },
+      "primary_seed_song": {
+        "assigned_seed_evidence": 0.1111111111111111,
+        "assignment_reason": "fewest_prior_assignments_then_stronger_source_evidence_then_stable_id",
+        "composition_identity_known": true,
+        "favorite_recording_ids": [
+          "1fd93309-5bcc-4732-9d0a-cf1ce484989c"
+        ],
+        "known_work_ids": [
+          "13d1d8c1-560d-47a6-8048-b17d561f57e0"
+        ],
+        "previous_assignments": 1,
+        "source_group_id": "work:13d1d8c1-560d-47a6-8048-b17d561f57e0",
+        "titles": [
+          "Inheritance"
+        ]
+      },
+      "recording": {
+        "artist_credit": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+              "name": "Tim Friese‐Greene",
+              "sort-name": "Friese‐Greene, Tim",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "joinphrase": "",
+            "name": "Tim Friese-Greene"
+          }
+        ],
+        "disambiguation": "",
+        "id": "4197143f-fb93-4181-8da9-c9db202fdc9d",
+        "length_ms": 171000,
+        "source_url": "https://musicbrainz.org/recording/4197143f-fb93-4181-8da9-c9db202fdc9d",
+        "title": "[untitled]"
+      },
+      "score": 0.1111111111111111,
+      "selection_adjustments": [
+        {
+          "contributor": {
+            "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+            "name": "Tim Friese‐Greene",
+            "type": "Person"
+          },
+          "multiplier": 0.5,
+          "previous_selected_appearances": 1,
+          "selection_value": 0.05555555555555555,
+          "value": 0.1111111111111111
+        }
+      ],
+      "selection_rank": 4,
+      "selection_score": 0.05555555555555555,
+      "source_assignment_evidence": {
+        "work:13d1d8c1-560d-47a6-8048-b17d561f57e0": 0.1111111111111111
+      }
+    }
+  ]
+}

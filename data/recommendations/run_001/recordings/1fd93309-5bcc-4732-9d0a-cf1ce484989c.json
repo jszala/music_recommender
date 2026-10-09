@@ -1,0 +1,908 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+        "name": "Talk Talk",
+        "sort-name": "Talk Talk",
+        "type": "Group",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+      },
+      "joinphrase": "",
+      "name": "Talk Talk"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "1988-09-16",
+  "id": "1fd93309-5bcc-4732-9d0a-cf1ce484989c",
+  "isrcs": [
+    "GBAYE8800262",
+    "GBAYE9701610"
+  ],
+  "length": 320000,
+  "relations": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "UK engineer",
+        "id": "bc11a8de-0123-424f-b020-54e6975ce22a",
+        "name": "Phill Brown",
+        "sort-name": "Brown, Phill",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "engineer",
+      "type-id": "5dcc52af-7064-4051-8d62-7d80f4c3c907"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+        "name": "Tim Friese‐Greene",
+        "sort-name": "Friese‐Greene, Tim",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "13d1d8c1-560d-47a6-8048-b17d561f57e0",
+        "iswcs": [
+          "T-011.353.137-5"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+              "name": "Tim Friese‐Greene",
+              "sort-name": "Friese‐Greene, Tim",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "8539cf66-e8e2-41a0-a984-77ba4dcffbc7",
+              "name": "Mark Hollis",
+              "sort-name": "Hollis, Mark",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "Inheritance",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "sort-name": "Talk Talk",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Talk Talk"
+        }
+      ],
+      "barcode": "077774697729",
+      "country": "GB",
+      "date": "1988-09-16",
+      "disambiguation": "",
+      "id": "f95a4d58-aeaa-4e5c-b198-5e2145020d61",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1988-09-16"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit of Eden"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "sort-name": "Talk Talk",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Talk Talk"
+        }
+      ],
+      "barcode": "077774697743",
+      "country": "GB",
+      "date": "1988-09",
+      "disambiguation": "",
+      "id": "a2380280-107c-4a79-b21c-b0bc4df0af2e",
+      "packaging": "Cassette Case",
+      "packaging-id": "c70b737a-0114-39a9-88f7-82843e54f906",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1988-09"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit of Eden"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "sort-name": "Talk Talk",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Talk Talk"
+        }
+      ],
+      "barcode": "077774697712",
+      "country": "XE",
+      "date": "1988",
+      "disambiguation": "",
+      "id": "9fd197f7-dbd3-4bb9-b5f2-901dbfb36dd7",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1988"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit of Eden"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "sort-name": "Talk Talk",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Talk Talk"
+        }
+      ],
+      "barcode": "077774697729",
+      "country": "US",
+      "date": "1988",
+      "disambiguation": "",
+      "id": "aa5eda82-6d4b-4629-b92b-a1d7e730ce66",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1988"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit of Eden"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "sort-name": "Talk Talk",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Talk Talk"
+        }
+      ],
+      "barcode": "077774697712",
+      "country": "IT",
+      "date": "1988",
+      "disambiguation": "",
+      "id": "7135ada5-dea1-4d2e-bed7-ad3b4a1e3c69",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "c6500277-9a3d-349b-bf30-41afdbf42add",
+            "iso-3166-1-codes": [
+              "IT"
+            ],
+            "name": "Italy",
+            "sort-name": "Italy",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1988"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit of Eden"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "sort-name": "Talk Talk",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Talk Talk"
+        }
+      ],
+      "barcode": "724385712920",
+      "country": "GB",
+      "date": "1997-09-01",
+      "disambiguation": "",
+      "id": "f9bd145d-7b0e-4440-b572-c21501c9fb74",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1997-09-01"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit of Eden"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "sort-name": "Talk Talk",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Talk Talk"
+        }
+      ],
+      "barcode": "077774697729",
+      "country": "US",
+      "date": "2001",
+      "disambiguation": "",
+      "id": "ecd88e62-59fc-3d99-8947-d0e2b6cc3b4a",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2001"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit of Eden"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "sort-name": "Talk Talk",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Talk Talk"
+        }
+      ],
+      "barcode": "724359145525",
+      "country": "XE",
+      "date": "2003-09-29",
+      "disambiguation": "",
+      "id": "454f50e2-90e7-447a-be2c-7d73ac5c7b4e",
+      "packaging": "Super Jewel Box",
+      "packaging-id": "dfb7da53-866f-4dfd-a016-80bafaeff3db",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2003-09-29"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit of Eden"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "sort-name": "Talk Talk",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Talk Talk"
+        }
+      ],
+      "barcode": "724385712920",
+      "country": "US",
+      "date": "2006-09-26",
+      "disambiguation": "",
+      "id": "36b8b74c-96f4-4082-991b-fcc0401bce8f",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2006-09-26"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit of Eden"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "sort-name": "Talk Talk",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Talk Talk"
+        }
+      ],
+      "barcode": "5099932778717",
+      "country": "GB",
+      "date": "2012-04-16",
+      "disambiguation": "",
+      "id": "31d1bd48-0e4b-4848-9d41-1dc7ac4d9104",
+      "packaging": "Other",
+      "packaging-id": "815b7785-8284-3926-8f04-e48bc6c4d102",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2012-04-16"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit of Eden"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "sort-name": "Talk Talk",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Talk Talk"
+        }
+      ],
+      "barcode": "5099962178723",
+      "country": "XE",
+      "date": "2012-04-17",
+      "disambiguation": "",
+      "id": "0331c46f-b9b6-4bb9-8c96-5d94ecbde08a",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2012-04-17"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit of Eden"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "sort-name": "Talk Talk",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Talk Talk"
+        }
+      ],
+      "barcode": "825646233397",
+      "country": "XW",
+      "date": "2014-03-09",
+      "disambiguation": "File (FLAC, Album, Reissue, Remastered)",
+      "id": "c3fa74c2-4177-4720-88fa-b5af6f7b636d",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2014-03-09"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit of Eden"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "sort-name": "Talk Talk",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Talk Talk"
+        }
+      ],
+      "barcode": "5021732589422",
+      "country": null,
+      "date": "2025-08-22",
+      "disambiguation": "",
+      "id": "adab47c5-20fa-4dbb-a1b2-267061ea63e8",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": null,
+          "date": "2025-08-22"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit of Eden"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "sort-name": "Talk Talk",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Talk Talk"
+        }
+      ],
+      "barcode": "5099962178723",
+      "country": "XE",
+      "date": "",
+      "disambiguation": "post 2013 Warner Music Group reissue",
+      "id": "a2784a73-c7f5-4a99-a6cc-ba5f2088f03f",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "type": null,
+            "type-id": null
+          },
+          "date": ""
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit of Eden"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "sort-name": "Talk Talk",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Talk Talk"
+        }
+      ],
+      "barcode": "0724385712951",
+      "disambiguation": "1997 Remaster",
+      "id": "b7272de5-810e-44ee-89a1-681c6c483b15",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit of Eden"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "",
+            "id": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03",
+            "name": "Talk Talk",
+            "sort-name": "Talk Talk",
+            "type": "Group",
+            "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+          },
+          "joinphrase": "",
+          "name": "Talk Talk"
+        }
+      ],
+      "barcode": "077774697729",
+      "country": "XE",
+      "date": "",
+      "disambiguation": "",
+      "id": "15e097b7-cfaf-48b7-b153-802da102ddbb",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "type": null,
+            "type-id": null
+          },
+          "date": ""
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": ""
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "Spirit of Eden"
+    }
+  ],
+  "title": "Inheritance",
+  "video": false
+}

@@ -1,0 +1,75 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "6b837daa-67b2-416f-a4c3-24370ed5ad88",
+        "name": "Jamie Jupitor",
+        "sort-name": "Jupitor, Jamie",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Jamie Jupitor"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2019-11-22",
+  "id": "22b0cc2d-2f57-4ef1-bd49-0f7b367bbf59",
+  "length": 419506,
+  "relations": [
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "1e211105-2557-4dc2-8d2b-d607f7f7eb4c",
+        "iswcs": [],
+        "language": null,
+        "languages": [],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "31200780-d9e5-4c34-a022-064410996ee0",
+              "name": "The Egyptian Lover",
+              "sort-name": "Egyptian Lover, The",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          }
+        ],
+        "title": "Computer Power",
+        "type": null,
+        "type-id": null
+      }
+    }
+  ],
+  "title": "Computer Power",
+  "video": false
+}

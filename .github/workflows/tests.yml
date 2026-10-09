@@ -21,3 +21,7 @@ jobs:
           python3 -B -m src.demo --format json > /tmp/demo-second.json
           cmp /tmp/demo-first.json /tmp/demo-second.json
           python3 -B -m src.demo --method equal
+          python3 -B -m src.readme_demo --check-readme
+          python3 -B -m src.readme_demo --format json > /tmp/saved-first.json
+          python3 -B -m src.readme_demo --format json > /tmp/saved-second.json
+          cmp /tmp/saved-first.json /tmp/saved-second.json

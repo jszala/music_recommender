@@ -1,4 +1,4 @@
-# Interview MVP results, 2026-10-08
+# Bounded recommendation results, 2026-10-08
 
 Latest checkpoint: the [different favorite-song experiment](different_seed_results.md)
 returned 4/10, 3/10, and 4/10 recordings from three predeclared new cohorts.
@@ -23,7 +23,7 @@ Aggregate matching was 15/24; seven rows had provider failures and two had no co
 
 Assignments were 2/2/1, 1/1/1, and 1/1/1. Each song has one supported assignment. All runs met the three-source target and two-per-source cap, with zero repeated observed performers. Familiar collaborations were 0, 1, and 0. Unknown selected work identities were 2, 0, and 1; composition uniqueness covers observed IDs only.
 
-The earlier seed-3 list contained five versions connected to one composition. The new list has one result assigned to that source and four from two others. This demonstrates constraints on observed data, rather than listening improvement. The seed-4 list illustrates why no additional credits must remain separate from useful retrieval: primary-artist proxies can connect to other roles on candidates. The seed-5 matched Batsumi source had additional credits but no selected result within the budget.
+The earlier seed-3 list contained five versions connected to one composition. The new list has one result assigned to that source and four from two others. This demonstrates constraints on observed data, rather than listening improvement. The seed-4 list illustrates why no additional credits must remain separate from useful retrieval: primary-artist proxies can connect to other roles on candidates. One seed-5 matched source had additional credits but no selected result within the budget.
 
 Private evidence is under `data/private/mvp_recommendations_2026-10-08/`: summary CSV/JSON, readable lists, matching outcomes, per-seed coverage, charged requests, and frozen responses. All three saved lists replayed in the final selector with exactly the same recording order.
 

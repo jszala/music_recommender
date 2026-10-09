@@ -1,0 +1,361 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "8b22acd6-20e6-4463-a75c-c14b5cfdb666",
+        "name": "Earl Sweatshirt",
+        "sort-name": "Earl Sweatshirt",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": " & ",
+      "name": "Earl Sweatshirt"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "hip hop DJ & producer",
+        "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+        "name": "The Alchemist",
+        "sort-name": "Alchemist, The",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "The Alchemist"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2023-08-25",
+  "id": "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+  "isrcs": [
+    "USWB12305054"
+  ],
+  "length": 128000,
+  "relations": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "hip hop DJ & producer",
+        "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+        "name": "The Alchemist",
+        "sort-name": "Alchemist, The",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "8b22acd6-20e6-4463-a75c-c14b5cfdb666",
+        "name": "Earl Sweatshirt",
+        "sort-name": "Earl Sweatshirt",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "vocal",
+      "type-id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "37799c9b-a7c1-4cbb-a3f6-6fe2818598c3",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [],
+        "title": "Mac Deuce",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "8b22acd6-20e6-4463-a75c-c14b5cfdb666",
+            "name": "Earl Sweatshirt",
+            "sort-name": "Earl Sweatshirt",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " & ",
+          "name": "Earl Sweatshirt"
+        },
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "hip hop DJ & producer",
+            "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+            "name": "The Alchemist",
+            "sort-name": "Alchemist, The",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "The Alchemist"
+        }
+      ],
+      "barcode": "",
+      "country": "XW",
+      "date": "2023-08-25",
+      "disambiguation": "",
+      "id": "3b467796-6d65-4ba4-8e03-05530f6b3f36",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-08-25"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "VOIR DIRE"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "8b22acd6-20e6-4463-a75c-c14b5cfdb666",
+            "name": "Earl Sweatshirt",
+            "sort-name": "Earl Sweatshirt",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " & ",
+          "name": "Earl Sweatshirt"
+        },
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "hip hop DJ & producer",
+            "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+            "name": "The Alchemist",
+            "sort-name": "Alchemist, The",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "The Alchemist"
+        }
+      ],
+      "barcode": "",
+      "country": "XW",
+      "date": "2023-09-08",
+      "disambiguation": "",
+      "id": "d7e4ca3a-2573-4a5b-b205-667634b369a0",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-09-08"
+        }
+      ],
+      "status": "Bootleg",
+      "status-id": "1156806e-d06a-38bd-83f0-cf2284a808b9",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "VOIR DIRE (Deluxe)"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "8b22acd6-20e6-4463-a75c-c14b5cfdb666",
+            "name": "Earl Sweatshirt",
+            "sort-name": "Earl Sweatshirt",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " & ",
+          "name": "Earl Sweatshirt"
+        },
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "hip hop DJ & producer",
+            "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+            "name": "The Alchemist",
+            "sort-name": "Alchemist, The",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "The Alchemist"
+        }
+      ],
+      "barcode": "093624849650",
+      "country": "XW",
+      "date": "2023-10-06",
+      "disambiguation": "",
+      "id": "5f0938ce-2f17-4466-9e35-ebe984332c67",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2023-10-06"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "VOIR DIRE"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "8b22acd6-20e6-4463-a75c-c14b5cfdb666",
+            "name": "Earl Sweatshirt",
+            "sort-name": "Earl Sweatshirt",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": " & ",
+          "name": "Earl Sweatshirt"
+        },
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "hip hop DJ & producer",
+            "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+            "name": "The Alchemist",
+            "sort-name": "Alchemist, The",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "The Alchemist"
+        }
+      ],
+      "barcode": "093624849612",
+      "country": "XW",
+      "date": "2024-02-16",
+      "disambiguation": "",
+      "id": "d3e10200-6002-4268-bfe7-dc4bc44a879e",
+      "packaging": "Digipak",
+      "packaging-id": "8f931351-d2e2-310f-afc6-37b89ddba246",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2024-02-16"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "VOIR DIRE"
+    }
+  ],
+  "title": "Mac Deuce",
+  "video": false
+}

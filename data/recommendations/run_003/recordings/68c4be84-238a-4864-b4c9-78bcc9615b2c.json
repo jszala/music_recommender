@@ -1,0 +1,202 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "31200780-d9e5-4c34-a022-064410996ee0",
+        "name": "The Egyptian Lover",
+        "sort-name": "Egyptian Lover, The",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "The Egyptian Lover"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "1984",
+  "id": "68c4be84-238a-4864-b4c9-78bcc9615b2c",
+  "isrcs": [
+    "USLW78466306"
+  ],
+  "length": 304200,
+  "relations": [
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "885dc4ee-3ec8-403c-928e-7faf0a081888",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [],
+        "title": "I Cry (Night After Night)",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "31200780-d9e5-4c34-a022-064410996ee0",
+            "name": "The Egyptian Lover",
+            "sort-name": "Egyptian Lover, The",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "Egyptian Lover, The"
+        }
+      ],
+      "barcode": "032325066324",
+      "country": "US",
+      "date": "1984",
+      "disambiguation": "",
+      "id": "9f3ae7a2-43b4-4852-8ad8-39c2759a576f",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1984"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "On the Nile"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "31200780-d9e5-4c34-a022-064410996ee0",
+            "name": "The Egyptian Lover",
+            "sort-name": "Egyptian Lover, The",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "The Egyptian Lover"
+        }
+      ],
+      "barcode": "032325066324",
+      "country": "US",
+      "date": "1999-12-25",
+      "disambiguation": "",
+      "id": "f725d6bd-fe78-4238-9eeb-a1a46ac2cf66",
+      "packaging": "Jewel Case",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "489ce91b-6658-3307-9877-795b68554c98",
+            "iso-3166-1-codes": [
+              "US"
+            ],
+            "name": "United States",
+            "sort-name": "United States",
+            "type": null,
+            "type-id": null
+          },
+          "date": "1999-12-25"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "On the Nile"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "US",
+            "disambiguation": "",
+            "id": "31200780-d9e5-4c34-a022-064410996ee0",
+            "name": "The Egyptian Lover",
+            "sort-name": "Egyptian Lover, The",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "The Egyptian Lover"
+        }
+      ],
+      "barcode": "032325066324",
+      "country": "XW",
+      "date": "2013-03-10",
+      "disambiguation": "",
+      "id": "ff0439cc-ff13-497d-8d5a-fa058fbbc0d8",
+      "packaging": "None",
+      "packaging-id": "119eba76-b343-3e02-a292-f0f00644bb9b",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "525d4e18-3d00-31b9-a58b-a146a916de8f",
+            "iso-3166-1-codes": [
+              "XW"
+            ],
+            "name": "[Worldwide]",
+            "sort-name": "[Worldwide]",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2013-03-10"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "On the Nile"
+    }
+  ],
+  "title": "I Cry (Night After Night)",
+  "video": false
+}

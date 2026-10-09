@@ -1,0 +1,531 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Welsh Folk / Pop composer & performer",
+        "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+        "name": "H. Hawkline",
+        "sort-name": "H. Hawkline",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "H. Hawkline"
+    }
+  ],
+  "disambiguation": "",
+  "first-release-date": "2017-06-02",
+  "id": "10203a4b-ad7a-4f0d-8b4d-dd82bc27f296",
+  "isrcs": [
+    "GBPVV1601629"
+  ],
+  "length": 363000,
+  "relations": [
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "d3789f6f-cc8d-4404-a104-103f9daa6bd3",
+        "name": "Stephen Black",
+        "sort-name": "Black, Stephen",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "saxophone": "a9ed16cd-b8cb-4256-9c41-93f5f0458c49"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "saxophone"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Welsh Folk / Pop composer & performer",
+        "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+        "name": "H. Hawkline",
+        "sort-name": "H. Hawkline",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "bass guitar"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Welsh Folk / Pop composer & performer",
+        "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+        "name": "H. Hawkline",
+        "sort-name": "H. Hawkline",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "guitar"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Welsh Folk / Pop composer & performer",
+        "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+        "name": "H. Hawkline",
+        "sort-name": "H. Hawkline",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "piano"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Welsh Folk / Pop composer & performer",
+        "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+        "name": "H. Hawkline",
+        "sort-name": "H. Hawkline",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "synthesizer": "4a29230c-5ab5-4eff-ac59-4a253f3561a0"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "synthesizer"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "f2393e49-b791-46da-a6d7-1e9e60743405",
+        "name": "Cate Le Bon",
+        "sort-name": "Le Bon, Cate",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "piano": "b3eac5f9-7859-4416-ac39-7154e2e8d348"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "piano"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "AU",
+        "disambiguation": "",
+        "id": "f578d602-2ed4-4ec4-a0a7-1947cb01ac44",
+        "name": "Stella Mozgawa",
+        "sort-name": "Mozgawa, Stella",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-credits": {},
+      "attribute-ids": {
+        "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "drums (drum set)"
+      ],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "instrument",
+      "type-id": "59054b12-01ac-43ee-a618-285fd397e461"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "Welsh Folk / Pop composer & performer",
+        "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+        "name": "H. Hawkline",
+        "sort-name": "H. Hawkline",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "",
+        "id": "a6f84fad-37f1-4d77-8ab1-38c93cdc81fc",
+        "name": "Samur Khouja",
+        "sort-name": "Khouja, Samur",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "f2393e49-b791-46da-a6d7-1e9e60743405",
+        "name": "Cate Le Bon",
+        "sort-name": "Le Bon, Cate",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "producer",
+      "type-id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0"
+    },
+    {
+      "artist": {
+        "country": "GB",
+        "disambiguation": "",
+        "id": "c8934f86-6dd5-40eb-8349-7546153628e7",
+        "name": "Iwan Morgan",
+        "sort-name": "Morgan, Iwan",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "recording",
+      "type-id": "a01ee869-80a8-45ef-9447-c59e91aa7926"
+    },
+    {
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "cb909649-b8f8-46fc-a190-eccb74063547",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "Welsh Folk / Pop composer & performer",
+              "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+              "name": "H. Hawkline",
+              "sort-name": "H. Hawkline",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Huw Gwynfryn Evans",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "Welsh Folk / Pop composer & performer",
+              "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+              "name": "H. Hawkline",
+              "sort-name": "H. Hawkline",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Huw Gwynfryn Evans",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          }
+        ],
+        "title": "Salt Cleans",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "releases": [
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "Welsh Folk / Pop composer & performer",
+            "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+            "name": "H. Hawkline",
+            "sort-name": "H. Hawkline",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "H. Hawkline"
+        }
+      ],
+      "barcode": null,
+      "country": null,
+      "date": "2017-06-02",
+      "disambiguation": "",
+      "id": "c574afe9-1e1b-4a7e-9975-445e7794243a",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": null,
+          "date": "2017-06-02"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": null,
+        "script": null
+      },
+      "title": "I Romanticize"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "Welsh Folk / Pop composer & performer",
+            "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+            "name": "H. Hawkline",
+            "sort-name": "H. Hawkline",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "H. Hawkline"
+        }
+      ],
+      "barcode": null,
+      "country": null,
+      "date": "2017-06-02",
+      "disambiguation": "",
+      "id": "60043535-48c5-468d-aed5-04c2369dfdee",
+      "packaging": null,
+      "packaging-id": null,
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": null,
+          "date": "2017-06-02"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": null,
+        "script": null
+      },
+      "title": "I Romanticize"
+    },
+    {
+      "artist-credit": [
+        {
+          "artist": {
+            "country": "GB",
+            "disambiguation": "Welsh Folk / Pop composer & performer",
+            "id": "ae41819a-51e2-4f21-aa3c-b37f22b733ae",
+            "name": "H. Hawkline",
+            "sort-name": "H. Hawkline",
+            "type": "Person",
+            "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+          },
+          "joinphrase": "",
+          "name": "H. Hawkline"
+        }
+      ],
+      "barcode": "5414939953354",
+      "country": "XE",
+      "date": "2017-06-02",
+      "disambiguation": "",
+      "id": "051d89d9-0936-4968-9bee-d0c116a5fd3e",
+      "packaging": "Cardboard/Paper Sleeve",
+      "packaging-id": "f7101ce3-0384-39ce-9fde-fbbd0044d35f",
+      "quality": "normal",
+      "release-events": [
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "name": "Europe",
+            "sort-name": "Europe",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2017-06-02"
+        },
+        {
+          "area": {
+            "disambiguation": "",
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "name": "United Kingdom",
+            "sort-name": "United Kingdom",
+            "type": null,
+            "type-id": null
+          },
+          "date": "2017-06-02"
+        }
+      ],
+      "status": "Official",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "title": "I Romanticize"
+    }
+  ],
+  "title": "Salt Cleans",
+  "video": false
+}

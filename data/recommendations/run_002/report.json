@@ -1,0 +1,1698 @@
+{
+  "format_version": 1,
+  "kind": "frozen_offline_recommendation_run",
+  "run_number": 2,
+  "random_seed": 9,
+  "role_weights": {
+    "musician": 1.0,
+    "producer": 1.0,
+    "songwriter": 1.0,
+    "staff": 0.25
+  },
+  "saturation_k": 5.0,
+  "context_favorite_recording_ids": [
+    "17894247-e585-4c97-83ea-de7047df7639",
+    "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf"
+  ],
+  "source_policy": {
+    "algorithm": "deterministic_greedy",
+    "deduplicate_known_works": true,
+    "effective_min_seed_groups": 3,
+    "enabled": true,
+    "max_per_seed": 2,
+    "min_seed_groups": 3
+  },
+  "selection_summary": {
+    "configured_source_target": 3,
+    "distinct_observed_musicians": 6,
+    "effective_source_target": 3,
+    "familiar_collaborations": 1,
+    "known_work_exclusions": 0,
+    "largest_assigned_seed_share": 0.6666666666666666,
+    "largest_contributor_evidence_share": 0.932975871313673,
+    "max_familiar_collaborations": 1,
+    "max_songs_per_explanatory_contributor": null,
+    "recommendations_per_source": {
+      "work:37799c9b-a7c1-4cbb-a3f6-6fe2818598c3": 2,
+      "work:c5008989-6bab-4daa-9585-01fcac147bd9": 1
+    },
+    "repeated_explanatory_contributors": 1,
+    "repeated_observed_musicians": 0,
+    "represented_source_groups": 2,
+    "requested": 10,
+    "returned": 3,
+    "selected_unknown_work_identity": 0,
+    "shortfall": 7,
+    "source_coverage_shortfall": 1,
+    "unique_explanatory_contributors": 6
+  },
+  "recommendations": [
+    {
+      "artist_contributions": [
+        {
+          "artist": {
+            "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+            "name": "The Alchemist",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.14285714285714285
+        },
+        {
+          "artist": {
+            "id": "18ecd940-bd4b-48de-93cd-aada50b9f0e8",
+            "name": "Messer",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "25ab7547-a4d2-480b-b028-c7f3497bc858",
+            "name": "Men I Trust",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "5e9adbe9-5721-4d66-88e4-0e3ff7129f1c",
+            "name": "Mild High Club",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "8b22acd6-20e6-4463-a75c-c14b5cfdb666",
+            "name": "Earl Sweatshirt",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.14285714285714285
+        },
+        {
+          "artist": {
+            "id": "f58384a4-2ad2-4f24-89c5-c7b74ae1cce7",
+            "name": "King Gizzard & the Lizard Wizard",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        }
+      ],
+      "contributions": [
+        {
+          "artist_influence": 0.16666666666666666,
+          "bounded_pair_affinity": 0.8571428571428571,
+          "candidate_recording_id": "6f59ac75-dce7-4172-8198-928630e47f0e",
+          "contributors": [
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "6f59ac75-dce7-4172-8198-928630e47f0e",
+                  "relationship_type_id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                  "role": "vocal",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/6f59ac75-dce7-4172-8198-928630e47f0e",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "6f59ac75-dce7-4172-8198-928630e47f0e",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/6f59ac75-dce7-4172-8198-928630e47f0e",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "producer",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "6f59ac75-dce7-4172-8198-928630e47f0e",
+                  "relationship_type_id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                  "role": "producer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/6f59ac75-dce7-4172-8198-928630e47f0e",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "songwriter",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "6f59ac75-dce7-4172-8198-928630e47f0e",
+                  "relationship_type_id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                  "role": "writer",
+                  "scope": "work",
+                  "source_url": "https://musicbrainz.org/work/036b07fc-2dbf-471a-86e2-89e3b407158d",
+                  "work_id": "036b07fc-2dbf-471a-86e2-89e3b407158d",
+                  "work_link": {
+                    "attributes": [],
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                  },
+                  "work_title": "Temperature Check"
+                }
+              ],
+              "candidate_role_weight": 3.0,
+              "candidate_roles": [
+                "musician",
+                "producer",
+                "songwriter"
+              ],
+              "contributor": {
+                "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                "name": "The Alchemist",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "producer",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+                  "relationship_type_id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                  "role": "producer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "favorite_role_weight": 2.0,
+              "favorite_roles": [
+                "musician",
+                "producer"
+              ],
+              "raw_value": 6.0
+            }
+          ],
+          "distinct_favorites_in_artist_group": 1,
+          "favorite_artist": {
+            "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+            "name": "The Alchemist",
+            "type": "Person"
+          },
+          "favorite_recording_id": "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+          "favorite_recording_title": "Mac Deuce",
+          "favorite_source_url": "https://musicbrainz.org/recording/82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+          "raw_shared_credit_value": 6.0,
+          "value": 0.14285714285714285
+        },
+        {
+          "artist_influence": 0.16666666666666666,
+          "bounded_pair_affinity": 0.8571428571428571,
+          "candidate_recording_id": "6f59ac75-dce7-4172-8198-928630e47f0e",
+          "contributors": [
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "6f59ac75-dce7-4172-8198-928630e47f0e",
+                  "relationship_type_id": "0fdbe3c6-7700-4a31-ae54-b53f06ae1cfa",
+                  "role": "vocal",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/6f59ac75-dce7-4172-8198-928630e47f0e",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "6f59ac75-dce7-4172-8198-928630e47f0e",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/6f59ac75-dce7-4172-8198-928630e47f0e",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "producer",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "6f59ac75-dce7-4172-8198-928630e47f0e",
+                  "relationship_type_id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                  "role": "producer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/6f59ac75-dce7-4172-8198-928630e47f0e",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "songwriter",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "6f59ac75-dce7-4172-8198-928630e47f0e",
+                  "relationship_type_id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                  "role": "writer",
+                  "scope": "work",
+                  "source_url": "https://musicbrainz.org/work/036b07fc-2dbf-471a-86e2-89e3b407158d",
+                  "work_id": "036b07fc-2dbf-471a-86e2-89e3b407158d",
+                  "work_link": {
+                    "attributes": [],
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                  },
+                  "work_title": "Temperature Check"
+                }
+              ],
+              "candidate_role_weight": 3.0,
+              "candidate_roles": [
+                "musician",
+                "producer",
+                "songwriter"
+              ],
+              "contributor": {
+                "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                "name": "The Alchemist",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "producer",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+                  "relationship_type_id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                  "role": "producer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "favorite_role_weight": 2.0,
+              "favorite_roles": [
+                "musician",
+                "producer"
+              ],
+              "raw_value": 6.0
+            }
+          ],
+          "distinct_favorites_in_artist_group": 1,
+          "favorite_artist": {
+            "id": "8b22acd6-20e6-4463-a75c-c14b5cfdb666",
+            "name": "Earl Sweatshirt",
+            "type": "Person"
+          },
+          "favorite_recording_id": "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+          "favorite_recording_title": "Mac Deuce",
+          "favorite_source_url": "https://musicbrainz.org/recording/82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+          "raw_shared_credit_value": 6.0,
+          "value": 0.14285714285714285
+        }
+      ],
+      "contributor_evidence": [
+        {
+          "contributor": {
+            "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+            "name": "The Alchemist",
+            "type": "Person"
+          },
+          "value": 0.2857142857142857
+        }
+      ],
+      "eligibility": {
+        "blocked_primary_artist_ids": [
+          "03f3deb7-0419-4bf9-a1e7-511946385717"
+        ],
+        "eligible": true,
+        "familiar_collaboration": true,
+        "familiar_musician_ids": [
+          "03f3deb7-0419-4bf9-a1e7-511946385717"
+        ],
+        "musicians": [
+          {
+            "artist": {
+              "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+              "name": "The Alchemist",
+              "type": "Person"
+            },
+            "primary_credit": true,
+            "roles": [
+              "primary artist",
+              "vocal"
+            ]
+          },
+          {
+            "artist": {
+              "id": "a99b8622-9f5f-423b-b3a7-e507130432ce",
+              "name": "Big Hit",
+              "type": "Person"
+            },
+            "primary_credit": true,
+            "roles": [
+              "primary artist",
+              "vocal"
+            ]
+          },
+          {
+            "artist": {
+              "id": "bf314a8f-5dc6-4dc5-8819-d25b4cc38164",
+              "name": "Hit‐Boy",
+              "type": "Person"
+            },
+            "primary_credit": true,
+            "roles": [
+              "primary artist",
+              "vocal"
+            ]
+          }
+        ],
+        "reason": "familiar_collaboration",
+        "unfamiliar_primary_artist_ids": [
+          "a99b8622-9f5f-423b-b3a7-e507130432ce",
+          "bf314a8f-5dc6-4dc5-8819-d25b4cc38164"
+        ]
+      },
+      "primary_seed_song": {
+        "assigned_seed_evidence": 0.2857142857142857,
+        "assignment_reason": "fewest_prior_assignments_then_stronger_source_evidence_then_stable_id",
+        "composition_identity_known": true,
+        "favorite_recording_ids": [
+          "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf"
+        ],
+        "known_work_ids": [
+          "37799c9b-a7c1-4cbb-a3f6-6fe2818598c3"
+        ],
+        "previous_assignments": 0,
+        "source_group_id": "work:37799c9b-a7c1-4cbb-a3f6-6fe2818598c3",
+        "titles": [
+          "Mac Deuce"
+        ]
+      },
+      "recording": {
+        "artist_credit": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "Hit-Boy's father",
+              "id": "a99b8622-9f5f-423b-b3a7-e507130432ce",
+              "name": "Big Hit",
+              "sort-name": "Big Hit",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "joinphrase": ", ",
+            "name": "Big Hit"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "US hip‐hop producer/rapper Chauncey Hollis",
+              "id": "bf314a8f-5dc6-4dc5-8819-d25b4cc38164",
+              "name": "Hit‐Boy",
+              "sort-name": "Hit‐Boy",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "joinphrase": " & ",
+            "name": "Hit‐Boy"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "hip hop DJ & producer",
+              "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+              "name": "The Alchemist",
+              "sort-name": "Alchemist, The",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "joinphrase": "",
+            "name": "The Alchemist"
+          }
+        ],
+        "disambiguation": "",
+        "id": "6f59ac75-dce7-4172-8198-928630e47f0e",
+        "length_ms": 97727,
+        "source_url": "https://musicbrainz.org/recording/6f59ac75-dce7-4172-8198-928630e47f0e",
+        "title": "Temperature Check"
+      },
+      "score": 0.2857142857142857,
+      "selection_adjustments": [
+        {
+          "contributor": {
+            "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+            "name": "The Alchemist",
+            "type": "Person"
+          },
+          "multiplier": 1.0,
+          "previous_selected_appearances": 0,
+          "selection_value": 0.2857142857142857,
+          "value": 0.2857142857142857
+        }
+      ],
+      "selection_rank": 1,
+      "selection_score": 0.2857142857142857,
+      "source_assignment_evidence": {
+        "work:37799c9b-a7c1-4cbb-a3f6-6fe2818598c3": 0.2857142857142857
+      }
+    },
+    {
+      "artist_contributions": [
+        {
+          "artist": {
+            "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+            "name": "The Alchemist",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "18ecd940-bd4b-48de-93cd-aada50b9f0e8",
+            "name": "Messer",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "25ab7547-a4d2-480b-b028-c7f3497bc858",
+            "name": "Men I Trust",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.03968253968253968
+        },
+        {
+          "artist": {
+            "id": "5e9adbe9-5721-4d66-88e4-0e3ff7129f1c",
+            "name": "Mild High Club",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "8b22acd6-20e6-4463-a75c-c14b5cfdb666",
+            "name": "Earl Sweatshirt",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "f58384a4-2ad2-4f24-89c5-c7b74ae1cce7",
+            "name": "King Gizzard & the Lizard Wizard",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        }
+      ],
+      "contributions": [
+        {
+          "artist_influence": 0.16666666666666666,
+          "bounded_pair_affinity": 0.23809523809523808,
+          "candidate_recording_id": "042b44d5-b25e-407f-b4e0-eec83b1d9484",
+          "contributors": [
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "2408c03b-3578-4a35-bcee-97c613a946d2",
+                    "name": "Rachel Blum",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [
+                    "assistant"
+                  ],
+                  "begin": null,
+                  "category": "staff",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "042b44d5-b25e-407f-b4e0-eec83b1d9484",
+                  "relationship_type_id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                  "role": "engineer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/042b44d5-b25e-407f-b4e0-eec83b1d9484",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "candidate_role_weight": 0.25,
+              "candidate_roles": [
+                "staff"
+              ],
+              "contributor": {
+                "id": "2408c03b-3578-4a35-bcee-97c613a946d2",
+                "name": "Rachel Blum",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "2408c03b-3578-4a35-bcee-97c613a946d2",
+                    "name": "Rachel Blum",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [
+                    "assistant"
+                  ],
+                  "begin": null,
+                  "category": "staff",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "17894247-e585-4c97-83ea-de7047df7639",
+                  "relationship_type_id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                  "role": "engineer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/17894247-e585-4c97-83ea-de7047df7639",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "favorite_role_weight": 0.25,
+              "favorite_roles": [
+                "staff"
+              ],
+              "raw_value": 0.0625
+            },
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "58371ad0-3f37-452b-8b9e-d2d29c81cc44",
+                    "name": "Mike Seaberg",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "staff",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "042b44d5-b25e-407f-b4e0-eec83b1d9484",
+                  "relationship_type_id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                  "role": "mix",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/042b44d5-b25e-407f-b4e0-eec83b1d9484",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "candidate_role_weight": 0.25,
+              "candidate_roles": [
+                "staff"
+              ],
+              "contributor": {
+                "id": "58371ad0-3f37-452b-8b9e-d2d29c81cc44",
+                "name": "Mike Seaberg",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "58371ad0-3f37-452b-8b9e-d2d29c81cc44",
+                    "name": "Mike Seaberg",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [
+                    "assistant"
+                  ],
+                  "begin": null,
+                  "category": "staff",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "17894247-e585-4c97-83ea-de7047df7639",
+                  "relationship_type_id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                  "role": "engineer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/17894247-e585-4c97-83ea-de7047df7639",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "favorite_role_weight": 0.25,
+              "favorite_roles": [
+                "staff"
+              ],
+              "raw_value": 0.0625
+            },
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "5acf7ca2-de15-4672-a17b-5b7fa56b43db",
+                    "name": "Jacob Richards",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [
+                    "assistant"
+                  ],
+                  "begin": null,
+                  "category": "staff",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "042b44d5-b25e-407f-b4e0-eec83b1d9484",
+                  "relationship_type_id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                  "role": "engineer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/042b44d5-b25e-407f-b4e0-eec83b1d9484",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "candidate_role_weight": 0.25,
+              "candidate_roles": [
+                "staff"
+              ],
+              "contributor": {
+                "id": "5acf7ca2-de15-4672-a17b-5b7fa56b43db",
+                "name": "Jacob Richards",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "5acf7ca2-de15-4672-a17b-5b7fa56b43db",
+                    "name": "Jacob Richards",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [
+                    "assistant"
+                  ],
+                  "begin": null,
+                  "category": "staff",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "17894247-e585-4c97-83ea-de7047df7639",
+                  "relationship_type_id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                  "role": "engineer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/17894247-e585-4c97-83ea-de7047df7639",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "favorite_role_weight": 0.25,
+              "favorite_roles": [
+                "staff"
+              ],
+              "raw_value": 0.0625
+            },
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "dd8c0703-2a4f-4306-be21-6b4e8417a745",
+                    "name": "DJ Riggins",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [
+                    "assistant"
+                  ],
+                  "begin": null,
+                  "category": "staff",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "042b44d5-b25e-407f-b4e0-eec83b1d9484",
+                  "relationship_type_id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                  "role": "engineer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/042b44d5-b25e-407f-b4e0-eec83b1d9484",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "candidate_role_weight": 0.25,
+              "candidate_roles": [
+                "staff"
+              ],
+              "contributor": {
+                "id": "dd8c0703-2a4f-4306-be21-6b4e8417a745",
+                "name": "DJ Riggins",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "dd8c0703-2a4f-4306-be21-6b4e8417a745",
+                    "name": "DJ Riggins",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [
+                    "assistant"
+                  ],
+                  "begin": null,
+                  "category": "staff",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "17894247-e585-4c97-83ea-de7047df7639",
+                  "relationship_type_id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                  "role": "engineer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/17894247-e585-4c97-83ea-de7047df7639",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "favorite_role_weight": 0.25,
+              "favorite_roles": [
+                "staff"
+              ],
+              "raw_value": 0.0625
+            },
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "ead18ab2-410b-4778-960d-f417f3bb2a40",
+                    "name": "Jaycen Joshua",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "staff",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "042b44d5-b25e-407f-b4e0-eec83b1d9484",
+                  "relationship_type_id": "3e3102e1-1896-4f50-b5b2-dd9824e46efe",
+                  "role": "mix",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/042b44d5-b25e-407f-b4e0-eec83b1d9484",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "candidate_role_weight": 0.25,
+              "candidate_roles": [
+                "staff"
+              ],
+              "contributor": {
+                "id": "ead18ab2-410b-4778-960d-f417f3bb2a40",
+                "name": "Jaycen Joshua",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "ead18ab2-410b-4778-960d-f417f3bb2a40",
+                    "name": "Jaycen Joshua",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {
+                    "task": "mix"
+                  },
+                  "attributes": [
+                    "task"
+                  ],
+                  "begin": null,
+                  "category": "staff",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "17894247-e585-4c97-83ea-de7047df7639",
+                  "relationship_type_id": "5dcc52af-7064-4051-8d62-7d80f4c3c907",
+                  "role": "engineer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/17894247-e585-4c97-83ea-de7047df7639",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "favorite_role_weight": 0.25,
+              "favorite_roles": [
+                "staff"
+              ],
+              "raw_value": 0.0625
+            }
+          ],
+          "distinct_favorites_in_artist_group": 1,
+          "favorite_artist": {
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "type": "Person"
+          },
+          "favorite_recording_id": "17894247-e585-4c97-83ea-de7047df7639",
+          "favorite_recording_title": "Seek & Destroy",
+          "favorite_source_url": "https://musicbrainz.org/recording/17894247-e585-4c97-83ea-de7047df7639",
+          "raw_shared_credit_value": 0.3125,
+          "value": 0.03968253968253968
+        }
+      ],
+      "contributor_evidence": [
+        {
+          "contributor": {
+            "id": "2408c03b-3578-4a35-bcee-97c613a946d2",
+            "name": "Rachel Blum",
+            "type": "Person"
+          },
+          "value": 0.007936507936507936
+        },
+        {
+          "contributor": {
+            "id": "58371ad0-3f37-452b-8b9e-d2d29c81cc44",
+            "name": "Mike Seaberg",
+            "type": "Person"
+          },
+          "value": 0.007936507936507936
+        },
+        {
+          "contributor": {
+            "id": "5acf7ca2-de15-4672-a17b-5b7fa56b43db",
+            "name": "Jacob Richards",
+            "type": "Person"
+          },
+          "value": 0.007936507936507936
+        },
+        {
+          "contributor": {
+            "id": "dd8c0703-2a4f-4306-be21-6b4e8417a745",
+            "name": "DJ Riggins",
+            "type": "Person"
+          },
+          "value": 0.007936507936507936
+        },
+        {
+          "contributor": {
+            "id": "ead18ab2-410b-4778-960d-f417f3bb2a40",
+            "name": "Jaycen Joshua",
+            "type": "Person"
+          },
+          "value": 0.007936507936507936
+        }
+      ],
+      "eligibility": {
+        "blocked_primary_artist_ids": [],
+        "eligible": true,
+        "familiar_collaboration": false,
+        "familiar_musician_ids": [],
+        "musicians": [
+          {
+            "artist": {
+              "id": "2873b450-13c6-4ca1-8ca3-646c25af3202",
+              "name": "NLE Choppa",
+              "type": "Person"
+            },
+            "primary_credit": true,
+            "roles": [
+              "primary artist",
+              "vocal"
+            ]
+          }
+        ],
+        "reason": "unfamiliar_act",
+        "unfamiliar_primary_artist_ids": [
+          "2873b450-13c6-4ca1-8ca3-646c25af3202"
+        ]
+      },
+      "primary_seed_song": {
+        "assigned_seed_evidence": 0.03968253968253968,
+        "assignment_reason": "fewest_prior_assignments_then_stronger_source_evidence_then_stable_id",
+        "composition_identity_known": true,
+        "favorite_recording_ids": [
+          "17894247-e585-4c97-83ea-de7047df7639"
+        ],
+        "known_work_ids": [
+          "c5008989-6bab-4daa-9585-01fcac147bd9"
+        ],
+        "previous_assignments": 0,
+        "source_group_id": "work:c5008989-6bab-4daa-9585-01fcac147bd9",
+        "titles": [
+          "Seek & Destroy"
+        ]
+      },
+      "recording": {
+        "artist_credit": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "2873b450-13c6-4ca1-8ca3-646c25af3202",
+              "name": "NLE Choppa",
+              "sort-name": "NLE Choppa",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "joinphrase": "",
+            "name": "NLE Choppa"
+          }
+        ],
+        "disambiguation": "explicit",
+        "id": "042b44d5-b25e-407f-b4e0-eec83b1d9484",
+        "length_ms": 226925,
+        "source_url": "https://musicbrainz.org/recording/042b44d5-b25e-407f-b4e0-eec83b1d9484",
+        "title": "THUG IT OUT"
+      },
+      "score": 0.03968253968253968,
+      "selection_adjustments": [
+        {
+          "contributor": {
+            "id": "2408c03b-3578-4a35-bcee-97c613a946d2",
+            "name": "Rachel Blum",
+            "type": "Person"
+          },
+          "multiplier": 1.0,
+          "previous_selected_appearances": 0,
+          "selection_value": 0.007936507936507936,
+          "value": 0.007936507936507936
+        },
+        {
+          "contributor": {
+            "id": "58371ad0-3f37-452b-8b9e-d2d29c81cc44",
+            "name": "Mike Seaberg",
+            "type": "Person"
+          },
+          "multiplier": 1.0,
+          "previous_selected_appearances": 0,
+          "selection_value": 0.007936507936507936,
+          "value": 0.007936507936507936
+        },
+        {
+          "contributor": {
+            "id": "5acf7ca2-de15-4672-a17b-5b7fa56b43db",
+            "name": "Jacob Richards",
+            "type": "Person"
+          },
+          "multiplier": 1.0,
+          "previous_selected_appearances": 0,
+          "selection_value": 0.007936507936507936,
+          "value": 0.007936507936507936
+        },
+        {
+          "contributor": {
+            "id": "dd8c0703-2a4f-4306-be21-6b4e8417a745",
+            "name": "DJ Riggins",
+            "type": "Person"
+          },
+          "multiplier": 1.0,
+          "previous_selected_appearances": 0,
+          "selection_value": 0.007936507936507936,
+          "value": 0.007936507936507936
+        },
+        {
+          "contributor": {
+            "id": "ead18ab2-410b-4778-960d-f417f3bb2a40",
+            "name": "Jaycen Joshua",
+            "type": "Person"
+          },
+          "multiplier": 1.0,
+          "previous_selected_appearances": 0,
+          "selection_value": 0.007936507936507936,
+          "value": 0.007936507936507936
+        }
+      ],
+      "selection_rank": 2,
+      "selection_score": 0.03968253968253968,
+      "source_assignment_evidence": {
+        "work:c5008989-6bab-4daa-9585-01fcac147bd9": 0.03968253968253968
+      }
+    },
+    {
+      "artist_contributions": [
+        {
+          "artist": {
+            "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+            "name": "The Alchemist",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.13333333333333333
+        },
+        {
+          "artist": {
+            "id": "18ecd940-bd4b-48de-93cd-aada50b9f0e8",
+            "name": "Messer",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "25ab7547-a4d2-480b-b028-c7f3497bc858",
+            "name": "Men I Trust",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "272989c8-5535-492d-a25c-9f58803e027f",
+            "name": "SZA",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "5e9adbe9-5721-4d66-88e4-0e3ff7129f1c",
+            "name": "Mild High Club",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        },
+        {
+          "artist": {
+            "id": "8b22acd6-20e6-4463-a75c-c14b5cfdb666",
+            "name": "Earl Sweatshirt",
+            "type": "Person"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.13333333333333333
+        },
+        {
+          "artist": {
+            "id": "f58384a4-2ad2-4f24-89c5-c7b74ae1cce7",
+            "name": "King Gizzard & the Lizard Wizard",
+            "type": "Group"
+          },
+          "distinct_favorites": 1,
+          "influence": 0.16666666666666666,
+          "score": 0.0
+        }
+      ],
+      "contributions": [
+        {
+          "artist_influence": 0.16666666666666666,
+          "bounded_pair_affinity": 0.8,
+          "candidate_recording_id": "00f49f38-1b90-477d-8369-a676c7f7a3db",
+          "contributors": [
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "producer",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "00f49f38-1b90-477d-8369-a676c7f7a3db",
+                  "relationship_type_id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                  "role": "producer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/00f49f38-1b90-477d-8369-a676c7f7a3db",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "songwriter",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "00f49f38-1b90-477d-8369-a676c7f7a3db",
+                  "relationship_type_id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                  "role": "writer",
+                  "scope": "work",
+                  "source_url": "https://musicbrainz.org/work/44c8d1c7-c9e0-42a1-9ac6-54b608639bcf",
+                  "work_id": "44c8d1c7-c9e0-42a1-9ac6-54b608639bcf",
+                  "work_link": {
+                    "attributes": [],
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                  },
+                  "work_title": "Tantor"
+                }
+              ],
+              "candidate_role_weight": 2.0,
+              "candidate_roles": [
+                "producer",
+                "songwriter"
+              ],
+              "contributor": {
+                "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                "name": "The Alchemist",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "producer",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+                  "relationship_type_id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                  "role": "producer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "favorite_role_weight": 2.0,
+              "favorite_roles": [
+                "musician",
+                "producer"
+              ],
+              "raw_value": 4.0
+            }
+          ],
+          "distinct_favorites_in_artist_group": 1,
+          "favorite_artist": {
+            "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+            "name": "The Alchemist",
+            "type": "Person"
+          },
+          "favorite_recording_id": "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+          "favorite_recording_title": "Mac Deuce",
+          "favorite_source_url": "https://musicbrainz.org/recording/82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+          "raw_shared_credit_value": 4.0,
+          "value": 0.13333333333333333
+        },
+        {
+          "artist_influence": 0.16666666666666666,
+          "bounded_pair_affinity": 0.8,
+          "candidate_recording_id": "00f49f38-1b90-477d-8369-a676c7f7a3db",
+          "contributors": [
+            {
+              "candidate_credits": [
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "producer",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "00f49f38-1b90-477d-8369-a676c7f7a3db",
+                  "relationship_type_id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                  "role": "producer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/00f49f38-1b90-477d-8369-a676c7f7a3db",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "songwriter",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "00f49f38-1b90-477d-8369-a676c7f7a3db",
+                  "relationship_type_id": "a255bca1-b157-4518-9108-7b147dc3fc68",
+                  "role": "writer",
+                  "scope": "work",
+                  "source_url": "https://musicbrainz.org/work/44c8d1c7-c9e0-42a1-9ac6-54b608639bcf",
+                  "work_id": "44c8d1c7-c9e0-42a1-9ac6-54b608639bcf",
+                  "work_link": {
+                    "attributes": [],
+                    "type": "performance",
+                    "type-id": "a3005666-a872-32c3-ad06-98af558e99b0"
+                  },
+                  "work_title": "Tantor"
+                }
+              ],
+              "candidate_role_weight": 2.0,
+              "candidate_roles": [
+                "producer",
+                "songwriter"
+              ],
+              "contributor": {
+                "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                "name": "The Alchemist",
+                "type": "Person"
+              },
+              "favorite_credits": [
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "musician",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": true,
+                  "recording_id": "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+                  "relationship_type_id": null,
+                  "role": "primary artist",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                },
+                {
+                  "artist": {
+                    "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+                    "name": "The Alchemist",
+                    "type": "Person"
+                  },
+                  "attribute_credits": {},
+                  "attribute_values": {},
+                  "attributes": [],
+                  "begin": null,
+                  "category": "producer",
+                  "classification_note": null,
+                  "end": null,
+                  "primary_artist": false,
+                  "recording_id": "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+                  "relationship_type_id": "5c0ceac3-feb4-41f0-868d-dc06f6e27fc0",
+                  "role": "producer",
+                  "scope": "recording",
+                  "source_url": "https://musicbrainz.org/recording/82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+                  "work_id": null,
+                  "work_link": null,
+                  "work_title": null
+                }
+              ],
+              "favorite_role_weight": 2.0,
+              "favorite_roles": [
+                "musician",
+                "producer"
+              ],
+              "raw_value": 4.0
+            }
+          ],
+          "distinct_favorites_in_artist_group": 1,
+          "favorite_artist": {
+            "id": "8b22acd6-20e6-4463-a75c-c14b5cfdb666",
+            "name": "Earl Sweatshirt",
+            "type": "Person"
+          },
+          "favorite_recording_id": "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+          "favorite_recording_title": "Mac Deuce",
+          "favorite_source_url": "https://musicbrainz.org/recording/82d91ef9-7eca-4bbc-a0e2-676b7931a8cf",
+          "raw_shared_credit_value": 4.0,
+          "value": 0.13333333333333333
+        }
+      ],
+      "contributor_evidence": [
+        {
+          "contributor": {
+            "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+            "name": "The Alchemist",
+            "type": "Person"
+          },
+          "value": 0.26666666666666666
+        }
+      ],
+      "eligibility": {
+        "blocked_primary_artist_ids": [],
+        "eligible": true,
+        "familiar_collaboration": false,
+        "familiar_musician_ids": [],
+        "musicians": [
+          {
+            "artist": {
+              "id": "960afc67-9c21-46dd-9c7f-ff2b509e3150",
+              "name": "Danny Brown",
+              "type": "Person"
+            },
+            "primary_credit": true,
+            "roles": [
+              "primary artist",
+              "vocal"
+            ]
+          },
+          {
+            "artist": {
+              "id": "bca7d2e8-ed66-4704-99b4-14717de657c0",
+              "name": "The South Hill Experiment",
+              "type": "Group"
+            },
+            "primary_credit": false,
+            "roles": [
+              "instrument"
+            ]
+          }
+        ],
+        "reason": "unfamiliar_act",
+        "unfamiliar_primary_artist_ids": [
+          "960afc67-9c21-46dd-9c7f-ff2b509e3150"
+        ]
+      },
+      "primary_seed_song": {
+        "assigned_seed_evidence": 0.26666666666666666,
+        "assignment_reason": "fewest_prior_assignments_then_stronger_source_evidence_then_stable_id",
+        "composition_identity_known": true,
+        "favorite_recording_ids": [
+          "82d91ef9-7eca-4bbc-a0e2-676b7931a8cf"
+        ],
+        "known_work_ids": [
+          "37799c9b-a7c1-4cbb-a3f6-6fe2818598c3"
+        ],
+        "previous_assignments": 1,
+        "source_group_id": "work:37799c9b-a7c1-4cbb-a3f6-6fe2818598c3",
+        "titles": [
+          "Mac Deuce"
+        ]
+      },
+      "recording": {
+        "artist_credit": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "US rapper",
+              "id": "960afc67-9c21-46dd-9c7f-ff2b509e3150",
+              "name": "Danny Brown",
+              "sort-name": "Brown, Danny",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "joinphrase": "",
+            "name": "Danny Brown"
+          }
+        ],
+        "disambiguation": "",
+        "id": "00f49f38-1b90-477d-8369-a676c7f7a3db",
+        "length_ms": 148658,
+        "source_url": "https://musicbrainz.org/recording/00f49f38-1b90-477d-8369-a676c7f7a3db",
+        "title": "Tantor"
+      },
+      "score": 0.26666666666666666,
+      "selection_adjustments": [
+        {
+          "contributor": {
+            "id": "03f3deb7-0419-4bf9-a1e7-511946385717",
+            "name": "The Alchemist",
+            "type": "Person"
+          },
+          "multiplier": 0.5,
+          "previous_selected_appearances": 1,
+          "selection_value": 0.13333333333333333,
+          "value": 0.26666666666666666
+        }
+      ],
+      "selection_rank": 3,
+      "selection_score": 0.13333333333333333,
+      "source_assignment_evidence": {
+        "work:37799c9b-a7c1-4cbb-a3f6-6fe2818598c3": 0.26666666666666666
+      }
+    }
+  ]
+}

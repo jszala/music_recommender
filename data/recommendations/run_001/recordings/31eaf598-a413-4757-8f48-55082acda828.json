@@ -1,0 +1,4322 @@
+{
+  "artist-credit": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "aka UnfocusedinIA",
+        "id": "9eafc354-3937-4348-abe7-e955f97b3d46",
+        "name": "Nalani Proctor",
+        "sort-name": "Proctor, Nalani",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "joinphrase": "",
+      "name": "Nalani Proctor"
+    }
+  ],
+  "disambiguation": "live, 2025-05-09, Twitch",
+  "first-release-date": "2025-05-17",
+  "id": "31eaf598-a413-4757-8f48-55082acda828",
+  "length": 8967000,
+  "relations": [
+    {
+      "artist": {
+        "country": "US",
+        "disambiguation": "aka UnfocusedinIA",
+        "id": "9eafc354-3937-4348-abe7-e955f97b3d46",
+        "name": "Nalani Proctor",
+        "sort-name": "Proctor, Nalani",
+        "type": "Person",
+        "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+      },
+      "attribute-ids": {},
+      "attribute-values": {},
+      "attributes": [],
+      "begin": null,
+      "direction": "backward",
+      "end": null,
+      "ended": false,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "artist",
+      "type": "performer",
+      "type-id": "628a9658-f54c-4142-b0c0-95f031b544da"
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": "2025-05-09",
+      "direction": "forward",
+      "end": "2025-05-09",
+      "ended": true,
+      "ordering-key": 1,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "bb3c4ac9-bf9f-3c9c-b22e-ac4ad89a988c",
+        "iswcs": [
+          "T-010.307.876-7",
+          "T-072.612.299-1"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "UK guitarist, vocalist and songwriter for The Cure",
+              "id": "7d1a1624-784b-4f89-8ff9-b9b493cd059d",
+              "name": "Robert Smith",
+              "sort-name": "Smith, Robert",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "UK guitarist, vocalist and songwriter for The Cure",
+              "id": "7d1a1624-784b-4f89-8ff9-b9b493cd059d",
+              "name": "Robert Smith",
+              "sort-name": "Smith, Robert",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "arrangement",
+            "type-id": "51975ed8-bbfa-486b-9f28-5947f4370299",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "b4ad4914-b37e-4afd-b665-2261a7aaf8cb",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "So Deep",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "055aa32e-25a9-472b-9c00-fa11843880f2",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Close to Me",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          }
+        ],
+        "title": "Close to Me",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": "2025-05-09",
+      "direction": "forward",
+      "end": "2025-05-09",
+      "ended": true,
+      "ordering-key": 2,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "2aeb701d-357b-3112-9853-45358e781502",
+        "iswcs": [
+          "T-010.095.403-7"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "6202014c-9c05-45a4-a23f-21d27abcb0df",
+              "name": "Perry Bamonte",
+              "sort-name": "Bamonte, Perry",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Perry Bamonte",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "48555d10-ded8-4172-a737-33bffc0125d5",
+              "name": "Simon Gallup",
+              "sort-name": "Gallup, Simon",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Simon Gallup",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "UK guitarist, vocalist and songwriter for The Cure",
+              "id": "7d1a1624-784b-4f89-8ff9-b9b493cd059d",
+              "name": "Robert Smith",
+              "sort-name": "Smith, Robert",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Robert J. Smith",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "2b2a7e94-fdc6-4c2e-859c-441faa4089cd",
+              "name": "Porl Thompson",
+              "sort-name": "Thompson, Porl",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Paul S. Thompson",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "e8c7f193-0db6-4175-a469-ebce1c340429",
+              "name": "Boris Williams",
+              "sort-name": "Williams, Boris",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Boris Williams",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "UK guitarist, vocalist and songwriter for The Cure",
+              "id": "7d1a1624-784b-4f89-8ff9-b9b493cd059d",
+              "name": "Robert Smith",
+              "sort-name": "Smith, Robert",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Robert J. Smith",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14",
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody",
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "3e005faf-cdab-42a3-9c56-244e98f37be1",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Perjantaina humpassa",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          }
+        ],
+        "title": "Friday I’m in Love",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": "2025-05-09",
+      "direction": "forward",
+      "end": "2025-05-09",
+      "ended": true,
+      "ordering-key": 3,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "40137fca-0beb-39df-99c7-2444935927b8",
+        "iswcs": [
+          "T-070.186.522-6"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "songwriter",
+              "id": "3ecdd624-0fa0-4dfe-9498-5a4801724d3b",
+              "name": "Tom Kelly",
+              "sort-name": "Kelly, Tom",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Tom Kelly",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "a98cd83c-4f9d-4c16-a3f2-3759df41df82",
+              "name": "Billy Steinberg",
+              "sort-name": "Steinberg, Billy",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "True Colors",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 4,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "bd10ce02-8562-3a3d-b8d4-f5467b828e3d",
+        "iswcs": [
+          "T-801.459.843-8",
+          "T-900.020.222-2"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "DE",
+              "disambiguation": "",
+              "id": "6d3f97d6-ad37-4bb6-a881-baaf26e091d2",
+              "name": "Jörn‐Uwe Fahrenkrog‐Petersen",
+              "sort-name": "Fahrenkrog‐Petersen, Jörn‐Uwe",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": "1982",
+            "direction": "backward",
+            "end": "1982",
+            "ended": true,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "DE",
+              "disambiguation": "",
+              "id": "6f85403b-9979-497f-ad51-0c62a457ec1f",
+              "name": "Carlo Karges",
+              "sort-name": "Karges, Carlo",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": "1982",
+            "direction": "backward",
+            "end": "1982",
+            "ended": true,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          },
+          {
+            "artist": {
+              "country": null,
+              "disambiguation": "",
+              "id": "184e59b0-aa48-4e62-9566-192d49600b44",
+              "name": "Kevin McAlea",
+              "sort-name": "McAlea, Kevin",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": "1983",
+            "direction": "backward",
+            "end": "1983",
+            "ended": true,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "translator",
+            "type-id": "da6c5d8a-ce13-474d-9375-61feb29039a5"
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "medley",
+            "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "559e8c1c-2f21-423f-a5cc-319830fcb6c5",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "99 Red Balloons + Take On Me Mashup",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "0a2fe097-6a8a-3edb-a34b-8b6d4ea76108",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "99 Luftballons",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "revision of",
+            "type-id": "4d0d6491-3c41-42c6-883f-d6c7e825b052",
+            "work": {
+              "attributes": [],
+              "disambiguation": "Goldfinger English/German version",
+              "id": "ba3b7bfd-6ee2-4872-b5b2-ed3a4e15f5e5",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "99 Red Balloons",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          }
+        ],
+        "title": "99 Red Balloons",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 12,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "58145e40-04a8-3419-89b0-2ebed39e101c",
+        "iswcs": [
+          "T-010.478.517-2"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "8b5c1c9a-c528-4161-ab2c-256d5787bd5f",
+              "name": "Kevin Adams",
+              "sort-name": "Adams, Kevin",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "3728997e-e29b-41f7-ab19-b6f1b1e09f21",
+              "name": "Jimmy Paterson",
+              "sort-name": "Paterson, Jimmy",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "James Mitchell Paterson",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "UK singer and songwriter, in Dexy’s Midnight Runners",
+              "id": "d80cf5fe-3135-4315-8f04-78ff87da525c",
+              "name": "Kevin Rowland",
+              "sort-name": "Rowland, Kevin",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "based on",
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "work": {
+              "attributes": [],
+              "disambiguation": "4-4-2 football song",
+              "id": "e2372674-1c21-4bf5-bc09-8d5248dd9912",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Come On England",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "lyrical quotation",
+            "type-id": "c8283596-6f1f-42db-be9c-def66d387e78",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "9c14c871-debc-3421-adff-a368337ace7d",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Kom igen Lena!",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "musical quotation",
+            "type-id": "c5decae0-535c-4730-aa5f-ab78eadd98ba",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "f322e3c2-f476-457d-8a94-c04308e39422",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Come on England",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "d4019500-8b5e-4aab-9c28-932bfbc7c61c",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Vamos Eileen",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "6dec78af-1d3e-4328-b4a8-9c7273f4a5f7",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Get ’em Off, Irene",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          }
+        ],
+        "title": "Come On Eileen",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 13,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "English version",
+        "id": "4d21e5bd-7a33-4f16-8f18-8ba89708c1d5",
+        "iswcs": [
+          "T-010.741.570-2",
+          "T-011.056.422-1"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "AT",
+              "disambiguation": "",
+              "id": "349b47ea-507d-4613-a547-db60f47e9dfa",
+              "name": "Robert Ponger",
+              "sort-name": "Ponger, Robert",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "AT",
+              "disambiguation": "Austrian pop & rock musician",
+              "id": "dcd95aa4-f3ff-492d-a621-8518ada0f58b",
+              "name": "Falco",
+              "sort-name": "Falco",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Johann Hölzel",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "5fd3330e-dae7-4b9e-9862-38c3e746b3b2",
+              "name": "Andy Piercy",
+              "sort-name": "Piercy, Andy",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "translator",
+            "type-id": "da6c5d8a-ce13-474d-9375-61feb29039a5"
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "cbabd6f5-9ccd-31f2-980e-68bfccf7ecf3",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Der Kommissar",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          }
+        ],
+        "title": "Der Kommissar",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 19,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "2aeb701d-357b-3112-9853-45358e781502",
+        "iswcs": [
+          "T-010.095.403-7"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "6202014c-9c05-45a4-a23f-21d27abcb0df",
+              "name": "Perry Bamonte",
+              "sort-name": "Bamonte, Perry",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Perry Bamonte",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "48555d10-ded8-4172-a737-33bffc0125d5",
+              "name": "Simon Gallup",
+              "sort-name": "Gallup, Simon",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Simon Gallup",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "UK guitarist, vocalist and songwriter for The Cure",
+              "id": "7d1a1624-784b-4f89-8ff9-b9b493cd059d",
+              "name": "Robert Smith",
+              "sort-name": "Smith, Robert",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Robert J. Smith",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "2b2a7e94-fdc6-4c2e-859c-441faa4089cd",
+              "name": "Porl Thompson",
+              "sort-name": "Thompson, Porl",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Paul S. Thompson",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "e8c7f193-0db6-4175-a469-ebce1c340429",
+              "name": "Boris Williams",
+              "sort-name": "Williams, Boris",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Boris Williams",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "UK guitarist, vocalist and songwriter for The Cure",
+              "id": "7d1a1624-784b-4f89-8ff9-b9b493cd059d",
+              "name": "Robert Smith",
+              "sort-name": "Smith, Robert",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Robert J. Smith",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14",
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody",
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "3e005faf-cdab-42a3-9c56-244e98f37be1",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Perjantaina humpassa",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          }
+        ],
+        "title": "Friday I’m in Love",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 16,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "From \"Lilo & Stitch\"",
+        "id": "5af7924b-c1da-4b9e-b8f8-4a47f113bdd4",
+        "iswcs": [
+          "T-071.879.780-8"
+        ],
+        "language": "mul",
+        "languages": [
+          "haw",
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "86391210-b8d8-4955-9ab0-95d43e7c781f",
+              "name": "Mark Kealiʻi Hoʻomalu",
+              "sort-name": "Hoʻomalu, Mark Kealiʻi",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "US score composer",
+              "id": "f4c53778-e48d-4da4-9ddd-cc007f715d64",
+              "name": "Alan Silvestri",
+              "sort-name": "Silvestri, Alan",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "Hawaiian Roller Coaster Ride",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 11,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "b3729976-b29e-3303-b178-9edb71a2bc62",
+        "iswcs": [
+          "T-070.077.112-5"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "2e229823-0fc2-438b-aacb-5de02bd0b9b7",
+              "name": "Deborah Harry",
+              "sort-name": "Harry, Deborah",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "7e6ac2a1-a462-4b63-b536-cff0c0ae4cc7",
+              "name": "Chris Stein",
+              "sort-name": "Stein, Chris",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "based on",
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "97df5807-5726-4d93-9d88-ccdae7b91e09",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "My Life",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "ordering-key": 8,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "medley",
+            "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "4a2f258e-15c4-4ce4-8610-473816424be2",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Studio 54",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "7126a6c7-855a-4d4b-a6a8-2a962540a331",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "硝子の心 ～Heart of Glass～",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14",
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody",
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "6427adc8-1411-42a2-b2c5-d9354ffb043d",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Corazón de vaso",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "Japanese version",
+              "id": "63c934c5-b976-4d0f-8f19-fe54a93a71c1",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Heart of Glass",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "e8db7b50-ea32-4981-95ec-8fc72f0933f1",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Uummati Attanarsimat",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "b6aa85ab-aa48-4f18-b175-a8582e08d408",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Once I Had a Love",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          }
+        ],
+        "title": "Heart of Glass",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 10,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "c42391bf-1a76-3a71-854d-76dceef73497",
+        "iswcs": [
+          "T-070.240.333-5"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "80e7cb60-3ed8-46dd-8eec-9052606306f2",
+              "name": "Jim Steinman",
+              "sort-name": "Steinman, Jim",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "bb65dc2d-9556-4f07-94fa-e75f49ecfaca",
+              "name": "Dean Pitchford",
+              "sort-name": "Pitchford, Dean",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "based on",
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "work": {
+              "attributes": [],
+              "disambiguation": "My Little Pony: Friendship Is Magic, “The Show Stoppers”",
+              "id": "9d1b4864-7395-4506-b334-5f117601fe85",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Cutie Mark Crusaders Theme Song",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "based on",
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "work": {
+              "attributes": [],
+              "disambiguation": "bardcore version",
+              "id": "5b80d135-2792-4807-8cde-e5313634b359",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Holding Out for a Hero",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "based on",
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "79348fbd-6afd-434e-acd4-17286cd37a4c",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Stark Raving Love",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "2f678613-5430-400d-acd6-1632f9a542f5",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "ヒーロー HOLDING OUT FOR A HERO",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "Turkish version",
+              "id": "9f5a79c7-bbbf-41fa-a666-94839d961501",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "O Benim Dünyam",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "23558e2a-71cf-490d-81cd-1bf360c25517",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "I schoit mei Hirn o",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "e988e49f-ae75-4484-b81e-e57c69ac2e2c",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Festival Heroes",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          }
+        ],
+        "title": "Holding Out for a Hero",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 18,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "113c25ec-0550-3221-83ac-a7529a2ca1e3",
+        "iswcs": [],
+        "language": null,
+        "languages": [],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "487964e9-17d4-4c02-938b-65d21eed3d14",
+              "name": "Leslie Fish",
+              "sort-name": "Fish, Leslie",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": "1975",
+            "direction": "backward",
+            "end": "1975",
+            "ended": true,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "487964e9-17d4-4c02-938b-65d21eed3d14",
+              "name": "Leslie Fish",
+              "sort-name": "Fish, Leslie",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": "1975",
+            "direction": "backward",
+            "end": "1975",
+            "ended": true,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          }
+        ],
+        "title": "Hope Eyrie",
+        "type": null,
+        "type-id": null
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 14,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "6ae6b4ca-885a-3926-aae0-8f5dda00e5df",
+        "iswcs": [
+          "T-010.478.540-1"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "singer for Duran Duran",
+              "id": "c53f2749-4c19-48fa-b99b-5f4c11297b2c",
+              "name": "Simon Le Bon",
+              "sort-name": "Le Bon, Simon",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "72935855-cfc9-4e02-a6cc-249fc9d09044",
+              "name": "Nick Rhodes",
+              "sort-name": "Rhodes, Nick",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "of Duran Duran",
+              "id": "bcdcfdc7-0b3c-4f95-9224-f4a8cd71bb61",
+              "name": "Andy Taylor",
+              "sort-name": "Taylor, Andy",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "UK bassist for Duran Duran",
+              "id": "11433f50-a7da-4dc2-8ca8-84b5d160e20e",
+              "name": "John Taylor",
+              "sort-name": "Taylor, John",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "Duran Duran drummer",
+              "id": "f2b7fc94-1e8d-4f4d-9a3f-620c1a5ac564",
+              "name": "Roger Taylor",
+              "sort-name": "Taylor, Roger",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "adaptation",
+            "type-id": "d98af3e2-147c-4746-90f7-c334165b64d2",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "2db96303-45d7-4412-8992-53680ed5e178",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Hungry Like a Pig",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "based on",
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "83cabd39-4b49-3719-a93f-26c2323ffe8c",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Your Only Friends Are Make Believe",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "01868cb0-edcb-4812-be95-06fb367c7ea6",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Hundred Nineteenth Psalm",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "0519cf2f-cd3d-4896-a79f-7395ba37e3ef",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Angry Like the Worf",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          }
+        ],
+        "title": "Hungry Like the Wolf",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 22,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "74868efb-2452-4c3f-a6f6-87c045c23e69",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "US video game music composer",
+              "id": "a7e3c900-1c91-444c-9fce-77d230e5791b",
+              "name": "Darren Korb",
+              "sort-name": "Korb, Darren",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "I Am Gonna Claw (Out Your Eyes Then Drown You to Death)",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 5,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "90c6b1c5-88e5-369f-93c7-3cf9f6a790e2",
+        "iswcs": [
+          "T-010.319.214-8",
+          "T-901.652.121-4"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": null,
+              "disambiguation": "",
+              "id": "56cf3acc-350f-4750-af10-6fb3d631b33a",
+              "name": "Charlie Reid",
+              "sort-name": "Reid, Charlie",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": null,
+              "disambiguation": "",
+              "id": "2812ba81-4d6e-48ee-8e96-a2b6c1fa5416",
+              "name": "Craig Reid",
+              "sort-name": "Reid, Craig",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "based on",
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "4775afcc-0b0c-4dc8-9c5d-9d14d2da3833",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "I’m Gonna Be (79 Miles)",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "medley",
+            "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "4eeac5d1-dd65-4cf6-b06f-fe37b32d3e6d",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Every Breath You Take + 500 Miles Mashup",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "ordering-key": 6,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "medley",
+            "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "8384fd36-b9dc-42db-b029-ce33665ef83a",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Medley: Something to Talk About / Weather With You / No Rain / Don’t Know Much About Love / North Country / I’m Gonna Be (500 Miles)",
+              "type": null,
+              "type-id": null
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "f40dbcf2-2654-4a05-836a-b5a84677ffb3",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "I'm Gonna Feed (500 Mouths)",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "8a9696aa-08a3-4172-82f5-4dc857bba3e4",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "500 Miles",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "a0895987-3830-47b8-b571-20f3db8f7803",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "1,000 FuMPs",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "bd26cc42-8c9e-4050-8354-ddb7aef9d067",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "500 Chunks",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14",
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody",
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "dd7e1ed2-7b58-4a1a-a212-995bdc1a7864",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Fische",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          }
+        ],
+        "title": "I’m Gonna Be (500 Miles)",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 25,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "Adventure Time",
+        "id": "2c5c51dd-0cbb-40c3-a9ff-fb6645777f6c",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "10587e37-c76a-4530-ac32-86203752cd5e",
+              "name": "Rebecca Sugar",
+              "sort-name": "Sugar, Rebecca",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "parts",
+            "type-id": "ca8d3642-ce5f-49f8-91f2-125d72524e6a",
+            "work": {
+              "attributes": [],
+              "disambiguation": "TV soundtrack",
+              "id": "2e6a5df9-5a42-4223-97ea-1d4f359ee62b",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Adventure Time",
+              "type": "Soundtrack",
+              "type-id": "66d7962b-6377-364f-a0b4-b200febc510e"
+            }
+          }
+        ],
+        "title": "I’m Just Your Problem",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 7,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "0643b696-4152-3b0c-a268-482ca8e5bf6a",
+        "iswcs": [
+          "T-010.094.660-8",
+          "T-011.325.274-6"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "50baacc2-d37c-46c4-8cfa-68d9dee48381",
+              "name": "Tim Friese‐Greene",
+              "sort-name": "Friese‐Greene, Tim",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "8539cf66-e8e2-41a0-a984-77ba4dcffbc7",
+              "name": "Mark Hollis",
+              "sort-name": "Hollis, Mark",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "It’s My Life",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 26,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "670818b5-eaf5-322f-9c8b-5f9b3e61d312",
+        "iswcs": [
+          "T-011.368.773-2"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "48555d10-ded8-4172-a737-33bffc0125d5",
+              "name": "Simon Gallup",
+              "sort-name": "Gallup, Simon",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Simon Gallup",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "23ac4aa8-5af1-4890-b7b9-2c6553b75de3",
+              "name": "Roger O’Donnell",
+              "sort-name": "O’Donnell, Roger",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Roger O’Donnell",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "UK guitarist, vocalist and songwriter for The Cure",
+              "id": "7d1a1624-784b-4f89-8ff9-b9b493cd059d",
+              "name": "Robert Smith",
+              "sort-name": "Smith, Robert",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Robert J. Smith",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "2b2a7e94-fdc6-4c2e-859c-441faa4089cd",
+              "name": "Porl Thompson",
+              "sort-name": "Thompson, Porl",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Paul S. Thompson",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "d7557f83-02a4-47c4-b48e-ac9d49f9c92c",
+              "name": "Lol Tolhurst",
+              "sort-name": "Tolhurst, Lol",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Laurence Tolhurst",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "e8c7f193-0db6-4175-a469-ebce1c340429",
+              "name": "Boris Williams",
+              "sort-name": "Williams, Boris",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Boris Williams",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "UK guitarist, vocalist and songwriter for The Cure",
+              "id": "7d1a1624-784b-4f89-8ff9-b9b493cd059d",
+              "name": "Robert Smith",
+              "sort-name": "Smith, Robert",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Robert J. Smith",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "adaptation",
+            "type-id": "d98af3e2-147c-4746-90f7-c334165b64d2",
+            "work": {
+              "attributes": [],
+              "disambiguation": "Chanson d’amour (lovesong)",
+              "id": "2171a3c6-d58b-4ad6-bc6d-cdd53bdfb470",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Chanson d’amour",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14",
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody",
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "49592723-8bdb-4de8-89e4-a707ccf03a99",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Kumbia Dark",
+              "type": null,
+              "type-id": null
+            }
+          }
+        ],
+        "title": "Lovesong",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 9,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "Transistor",
+        "id": "72e15cea-8245-4b3e-b7e3-b6c4d1247481",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "US video game music composer",
+              "id": "a7e3c900-1c91-444c-9fce-77d230e5791b",
+              "name": "Darren Korb",
+              "sort-name": "Korb, Darren",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "US video game music composer",
+              "id": "a7e3c900-1c91-444c-9fce-77d230e5791b",
+              "name": "Darren Korb",
+              "sort-name": "Korb, Darren",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "parts",
+            "type-id": "ca8d3642-ce5f-49f8-91f2-125d72524e6a",
+            "work": {
+              "attributes": [],
+              "disambiguation": "video game soundtrack",
+              "id": "03a89ef0-41f5-4133-bfb9-84082de2fcbb",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Transistor",
+              "type": "Soundtrack",
+              "type-id": "66d7962b-6377-364f-a0b4-b200febc510e"
+            }
+          }
+        ],
+        "title": "Paper Boats",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 21,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "Weezer",
+        "id": "15ee3791-7c4a-3c99-b5b9-9c6431aa59e0",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "US singer, guitarist & songwriter of Weezer",
+              "id": "87b6344f-c874-49ce-a8b3-e467ed6e05d0",
+              "name": "Rivers Cuomo",
+              "sort-name": "Cuomo, Rivers",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "US singer, guitarist & songwriter of Weezer",
+              "id": "87b6344f-c874-49ce-a8b3-e467ed6e05d0",
+              "name": "Rivers Cuomo",
+              "sort-name": "Cuomo, Rivers",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "American rock band",
+              "id": "6fe07aa5-fec0-4eca-a456-f29bff451b04",
+              "name": "Weezer",
+              "sort-name": "Weezer",
+              "type": "Group",
+              "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "premiere",
+            "type-id": "5cc8cfb5-cca0-4395-a44b-b7d3c1777608"
+          }
+        ],
+        "title": "Say It Ain’t So",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 24,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "096aa22f-c4c7-487f-b0ee-5f11faf375db",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "aka UnfocusedinIA",
+              "id": "9eafc354-3937-4348-abe7-e955f97b3d46",
+              "name": "Nalani Proctor",
+              "sort-name": "Proctor, Nalani",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "Solidago",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 6,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "Talk Talk",
+        "id": "523888cf-0c40-494c-920e-8982940c8b59",
+        "iswcs": [
+          "T-010.467.583-3"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "British songwriter and producer",
+              "id": "316bfa6d-834e-45e9-84a4-60add28b37f3",
+              "name": "Ed Hollis",
+              "sort-name": "Hollis, Ed",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "8539cf66-e8e2-41a0-a984-77ba4dcffbc7",
+              "name": "Mark Hollis",
+              "sort-name": "Hollis, Mark",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "British songwriter and producer",
+              "id": "316bfa6d-834e-45e9-84a4-60add28b37f3",
+              "name": "Ed Hollis",
+              "sort-name": "Hollis, Ed",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "8539cf66-e8e2-41a0-a984-77ba4dcffbc7",
+              "name": "Mark Hollis",
+              "sort-name": "Hollis, Mark",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          }
+        ],
+        "title": "Talk Talk",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 20,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "aafbf37a-c1ab-3168-bfdd-8211cf063026",
+        "iswcs": [
+          "T-911.386.711-1"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "Wheatus singer/guitarist",
+              "id": "080fd68b-bdfc-4277-aa20-9e0f4b24fc75",
+              "name": "Brendan B. Brown",
+              "sort-name": "Brown, Brendan B.",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "Wheatus singer/guitarist",
+              "id": "080fd68b-bdfc-4277-aa20-9e0f4b24fc75",
+              "name": "Brendan B. Brown",
+              "sort-name": "Brown, Brendan B.",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "based on",
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "22ca33cf-06fa-4d4a-965a-9884c4414d69",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Christmas Dirtbag",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "1cfa5e4c-4906-4481-9b9c-fc10d37336be",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Shitty Teammate",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "c43a0dd8-1421-41e2-a15a-427c09c20e0f",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Teenage Nazi",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14",
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody",
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "0ca190e3-2eeb-4b5d-8944-26af5e50301c",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Shirt weg",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          }
+        ],
+        "title": "Teenage Dirtbag",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 23,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "3f60eaa6-bf96-4806-95b4-5e5b9d1ed271",
+        "iswcs": [],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "220d49ac-cc27-431f-988f-0b5629cda6b1",
+              "name": "Micky Billingham",
+              "sort-name": "Billingham, Micky",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "ebd6c658-2347-452f-921f-c14fc0d4675a",
+              "name": "Ranking Roger",
+              "sort-name": "Ranking Roger",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Roger Charlery",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "6356a56d-ce24-48aa-9d40-48613627bad1",
+              "name": "Dave Wakeling",
+              "sort-name": "Wakeling, Dave",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          }
+        ],
+        "title": "Tenderness",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 17,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "60b16917-06de-3b85-ac8f-d17bb142fb17",
+        "iswcs": [
+          "T-070.247.363-9"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "ac3a43db-8437-44c5-b8b8-740a7211dde9",
+              "name": "Rob Hyman",
+              "sort-name": "Hyman, Rob",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "7bd9e20e-74b9-446a-a2ed-a223f82a36e7",
+              "name": "Cyndi Lauper",
+              "sort-name": "Lauper, Cyndi",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "3b7ba063-98df-4ae5-ac33-14dfa1e2891d",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Var inte rädd",
+              "type": null,
+              "type-id": null
+            }
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "031cff1b-24ba-4661-82a5-efbbb149d056",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Dej zpátky čas",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "666c6e46-20fb-4c02-a20e-d5f0329f021e",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "一次又一次",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "ee9bf856-5590-462d-99cb-627aaba71638",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "タイム・アフター・タイム ～時の果てまで～",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {
+              "translated": "ed11fcb1-5a18-4e1d-b12c-633ed19c8ee1"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "translated"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "9b5b5417-a061-4712-a33c-0f94329e907e",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Taimangalimaaq",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          }
+        ],
+        "title": "Time After Time",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 15,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "0a763f89-b349-3904-a4c2-a56360da09aa",
+        "iswcs": [
+          "T-070.196.116-1"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "02ae4963-c9e3-4ba7-b2b1-d5bf943a20d1",
+              "name": "Michael Hausman",
+              "sort-name": "Hausman, Michael",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "guitarist, member of 'Til Tuesday",
+              "id": "2cdcdb76-dfa6-4b10-856f-e6f2f5cbb282",
+              "name": "Robert Holmes",
+              "sort-name": "Holmes, Robert",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "db3c0a20-bf05-4b30-ac22-f294aea24172",
+              "name": "Aimee Mann",
+              "sort-name": "Mann, Aimee",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": null,
+              "disambiguation": "",
+              "id": "7875b0ab-0504-4b0b-b9a3-9d7685ed4330",
+              "name": "Joey Pesce",
+              "sort-name": "Pesce, Joey",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "composer",
+            "type-id": "d59d99ea-23d4-4a80-b066-edca32ee158f"
+          },
+          {
+            "artist": {
+              "country": "US",
+              "disambiguation": "",
+              "id": "db3c0a20-bf05-4b30-ac22-f294aea24172",
+              "name": "Aimee Mann",
+              "sort-name": "Mann, Aimee",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "lyricist",
+            "type-id": "3e48faba-ec01-47fd-8e89-30e81161661c"
+          },
+          {
+            "attribute-ids": {
+              "parody": "d73de9d3-934b-419c-8c83-2e48a5773b14"
+            },
+            "attribute-values": {},
+            "attributes": [
+              "parody"
+            ],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "other version",
+            "type-id": "7440b539-19ab-4243-8c03-4f5942ca2218",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "25bee667-1f99-45a9-8c34-50ede5a57d76",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Boys Are Scary",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          }
+        ],
+        "title": "Voices Carry",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    },
+    {
+      "attribute-ids": {
+        "cover": "1e8536bd-6eda-3822-8e78-1c0f4d3d2113",
+        "live": "70007db6-a8bc-46d7-a770-80e6a0bb551a"
+      },
+      "attribute-values": {},
+      "attributes": [
+        "cover",
+        "live"
+      ],
+      "begin": null,
+      "direction": "forward",
+      "end": null,
+      "ended": false,
+      "ordering-key": 8,
+      "source-credit": "",
+      "target-credit": "",
+      "target-type": "work",
+      "type": "performance",
+      "type-id": "a3005666-a872-32c3-ad06-98af558e99b0",
+      "work": {
+        "attributes": [],
+        "disambiguation": "",
+        "id": "d9513f04-d3a5-3ae4-9310-2062c3b5b47b",
+        "iswcs": [
+          "T-010.885.622-9",
+          "T-011.295.945-1"
+        ],
+        "language": "eng",
+        "languages": [
+          "eng"
+        ],
+        "relations": [
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "2860cfc9-33a7-4058-997f-7fc520f4b629",
+              "name": "Terry Britten",
+              "sort-name": "Britten, Terry",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "Terence Ernest Britten",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "artist": {
+              "country": "GB",
+              "disambiguation": "",
+              "id": "f415133c-bf28-43c0-b781-24c5997833dd",
+              "name": "Graham Lyle",
+              "sort-name": "Lyle, Graham",
+              "type": "Person",
+              "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "artist",
+            "type": "writer",
+            "type-id": "a255bca1-b157-4518-9108-7b147dc3fc68"
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "based on",
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "work": {
+              "attributes": [],
+              "disambiguation": "Kygo version",
+              "id": "5303786b-6f9a-47d1-9712-f87e03b33865",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "What’s Love Got to Do With It",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "based on",
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "d2ae348d-4d7a-4a4f-b7cd-43b2b8d0a029",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "What’s Luv?",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "forward",
+            "end": null,
+            "ended": false,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "based on",
+            "type-id": "6bb1df6b-57f3-434d-8a39-5dc363d2eb78",
+            "work": {
+              "attributes": [],
+              "disambiguation": "Warren G song",
+              "id": "836a10ca-3e1a-4746-8d10-4384f171ca8d",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "What’s Love Got to Do With It",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          },
+          {
+            "attribute-ids": {},
+            "attribute-values": {},
+            "attributes": [],
+            "begin": null,
+            "direction": "backward",
+            "end": null,
+            "ended": false,
+            "ordering-key": 4,
+            "source-credit": "",
+            "target-credit": "",
+            "target-type": "work",
+            "type": "medley",
+            "type-id": "c1dca2cd-194c-36dd-93f8-6a359167e992",
+            "work": {
+              "attributes": [],
+              "disambiguation": "",
+              "id": "82962b2e-8e15-42d4-889b-b164ee3b893c",
+              "iswcs": [],
+              "language": null,
+              "languages": [],
+              "title": "Hooked on Polkas",
+              "type": "Song",
+              "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+            }
+          }
+        ],
+        "title": "What’s Love Got to Do With It",
+        "type": "Song",
+        "type-id": "f061270a-2fd6-32f1-a641-f0f8676d14e6"
+      }
+    }
+  ],
+  "title": "Happy Friday! Playing 80's Music !sl for requests New Ham Merch in the !shop",
+  "video": true
+}
